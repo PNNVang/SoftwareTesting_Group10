@@ -1,0 +1,1667 @@
+{
+  "test_suite": {
+    "id": "Test Suite 1",
+    "name": "Test Suite 1 - Trello Label and Checklist Management",
+    "description": "Comprehensive test suite for Trello board functionality including label management, checklist operations, and checklist item handling",
+    "version": "1.0",
+    "created_date": "2024-11-24",
+    "test_environment": {
+      "application": "Trello Web Application",
+      "base_url": "https://trello.com/vi",
+      "authentication_method": "Google OAuth",
+      "testing_tool": "Katalon Studio",
+      "browser": "Chrome (default)"
+    },
+    "test_execution_order": "Sequential",
+    "total_test_cases": 13,
+    "test_cases": [
+      {
+        "id": "TC_LOGIN",
+        "name": "TC_LOGIN",
+        "sequence": 1,
+        "category": "Authentication",
+        "type": "Utility/Prerequisite",
+        "priority": "Critical",
+        "description": "Base login functionality using Google OAuth authentication",
+        "preconditions": [
+          "Valid Google account credentials available",
+          "Browser is installed and accessible",
+          "Internet connection is stable"
+        ],
+        "test_data": {
+          "email": "22130322@st.hcmuaf.edu.vn",
+          "password": "aFcaGm1Wb65TLkh1BB+eyg== (encrypted)"
+        },
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "open_browser",
+            "description": "Open browser instance",
+            "parameters": {
+              "url": ""
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "navigate_to_url",
+            "description": "Navigate to Trello homepage",
+            "parameters": {
+              "url": "https://trello.com/vi"
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Click login button",
+            "parameters": {
+              "object": "Object Repository/Page_Ghi li, sp xp v gii quyt vic cn lm t b_870fc3/a_ng nhp"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Select Google authentication option",
+            "parameters": {
+              "object": "Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/button_Google"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "set_text",
+            "description": "Enter email address",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "text": "22130322@st.hcmuaf.edu.vn"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "execute_javascript",
+            "description": "Click Next button using JavaScript executor",
+            "parameters": {
+              "script": "arguments[0].click()",
+              "elements": [
+                {
+                  "object": "Object Repository/Page_Sign in - Google Accounts/div_Forgot email_VfPpkd-RLmnJb"
+                }
+              ]
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "set_encrypted_text",
+            "description": "Enter encrypted password",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "text": "aFcaGm1Wb65TLkh1BB+eyg=="
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "execute_javascript",
+            "description": "Click Sign In button using JavaScript executor",
+            "parameters": {
+              "script": "arguments[0].click()",
+              "elements": [
+                {
+                  "object": "Object Repository/Page_Welcome/Button_DangNhap"
+                }
+              ]
+            }
+          }
+        ],
+        "expected_result": "User successfully logged into Trello dashboard",
+        "variables": {},
+        "dependencies": []
+      },
+      {
+        "id": "TC_LABEL_ADD_01",
+        "name": "TC_LABEL_ADD_01",
+        "sequence": 2,
+        "category": "Label Management",
+        "type": "Positive",
+        "priority": "High",
+        "description": "Verify label creation with custom title and color selection",
+        "preconditions": [
+          "User is logged in",
+          "Test board exists and is accessible"
+        ],
+        "test_data": {
+          "label_title": "Nhắc Nhở",
+          "label_color": "Sky"
+        },
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "call_test_case",
+            "description": "Execute login test case",
+            "parameters": {
+              "test_case": "TC_LOGIN",
+              "failure_handling": "STOP_ON_FAILURE"
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "delay",
+            "description": "Wait for page to load completely",
+            "parameters": {
+              "seconds": 15
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Navigate to Test Board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards  Trello/Test_Board"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Open board menu",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/Menu_Button"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "click",
+            "description": "Click Labels menu option",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/button_Labels"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "click",
+            "description": "Click Create a new label button",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/button_Create a new label"
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "set_text",
+            "description": "Enter label title",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/input_Title_edit-label-title-input",
+              "text": "Nhắc Nhở"
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "click",
+            "description": "Select Sky color",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/button_Select a color_Sky"
+            }
+          },
+          {
+            "step_number": 9,
+            "action": "click",
+            "description": "Click Create button",
+            "parameters": {
+              "object": "Page_Software Testing  Trello/button_Create"
+            }
+          },
+          {
+            "step_number": 10,
+            "action": "mouse_over",
+            "description": "Hover over created label",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/span_Nhc Nh"
+            }
+          },
+          {
+            "step_number": 11,
+            "action": "verify_element_present",
+            "description": "Verify label exists with correct color and title",
+            "parameters": {
+              "object": {
+                "name": "dynamicSkyLabel",
+                "properties": {
+                  "xpath": "//span[@data-color='sky' and contains(@aria-label, 'Nhắc Nhở')]"
+                }
+              },
+              "timeout": 10
+            }
+          },
+          {
+            "step_number": 12,
+            "action": "close_browser",
+            "description": "Close browser and end test",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "Label 'Nhắc Nhở' created successfully with Sky color attribute",
+        "verification_method": "XPath element presence check",
+        "variables": {
+          "title": "Nhắc Nhở"
+        },
+        "dependencies": ["TC_LOGIN"]
+      },
+      {
+        "id": "TC_LABEL_ADD_02",
+        "name": "TC_LABEL_ADD_02",
+        "sequence": 3,
+        "category": "Label Management",
+        "type": "Positive",
+        "priority": "Medium",
+        "description": "Verify label creation without title (empty title field)",
+        "preconditions": [
+          "User is logged in",
+          "Test board exists and is accessible"
+        ],
+        "test_data": {
+          "label_title": "",
+          "label_color": "Sky"
+        },
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "call_test_case",
+            "description": "Execute login test case",
+            "parameters": {
+              "test_case": "TC_LOGIN",
+              "failure_handling": "STOP_ON_FAILURE"
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "delay",
+            "description": "Wait for page to load",
+            "parameters": {
+              "seconds": 10
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Navigate to Test Board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards  Trello/Test_Board"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Open board menu",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/Menu_Button"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "click",
+            "description": "Click Labels menu option",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/button_Labels"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "click",
+            "description": "Click Create a new label button",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/button_Create a new label"
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "set_text",
+            "description": "Leave title field empty",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/input_Title_edit-label-title-input",
+              "text": ""
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "click",
+            "description": "Select Sky color",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/button_Select a color_Sky"
+            }
+          },
+          {
+            "step_number": 9,
+            "action": "click",
+            "description": "Click Create button",
+            "parameters": {
+              "object": "Page_Software Testing  Trello/button_Create"
+            }
+          },
+          {
+            "step_number": 10,
+            "action": "verify_element_present",
+            "description": "Verify label created with 'none' title",
+            "parameters": {
+              "object": {
+                "name": "dynamicTooltip",
+                "properties": {
+                  "xpath": "//*[@aria-label='Color: sky, title: none']"
+                }
+              },
+              "timeout": 10
+            }
+          },
+          {
+            "step_number": 11,
+            "action": "close_browser",
+            "description": "Close browser and end test",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "Label created successfully with aria-label showing 'Color: sky, title: none'",
+        "verification_method": "Aria-label attribute verification",
+        "variables": {},
+        "dependencies": ["TC_LOGIN"]
+      },
+      {
+        "id": "TC_LABEL_EDIT_01",
+        "name": "TC_LABEL_EDIT_01",
+        "sequence": 4,
+        "category": "Label Management",
+        "type": "Positive",
+        "priority": "High",
+        "description": "Verify label title and color can be modified",
+        "preconditions": [
+          "User is logged in",
+          "Test board exists",
+          "Label with ID 6911e8d43093ccdef262932f exists"
+        ],
+        "test_data": {
+          "label_id": "6911e8d43093ccdef262932f",
+          "new_title": "Cập Nhật",
+          "new_color": "Red"
+        },
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "call_test_case",
+            "description": "Execute login test case",
+            "parameters": {
+              "test_case": "TC_LOGIN",
+              "failure_handling": "STOP_ON_FAILURE"
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "delay",
+            "description": "Wait for page to load",
+            "parameters": {
+              "seconds": 10
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Navigate to Test Board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards  Trello/Test_Board"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Open board menu",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/Menu_Button"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "click",
+            "description": "Click Labels menu option",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/button_Labels"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "click",
+            "description": "Click specific label to edit",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/button_Labels_6911e8d43093ccdef262932f"
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "set_text",
+            "description": "Update label title",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/input_Title_edit-label-title-input",
+              "text": "Cập Nhật"
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "click",
+            "description": "Change color to Red",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/button_Select a color_red"
+            }
+          },
+          {
+            "step_number": 9,
+            "action": "click",
+            "description": "Click Save button",
+            "parameters": {
+              "object": "Page_Software Testing  Trello/button_Save_Edit_Labels"
+            }
+          },
+          {
+            "step_number": 10,
+            "action": "verify_element_present",
+            "description": "Verify updated label properties",
+            "parameters": {
+              "object": {
+                "name": "dynamicSkyLabel",
+                "properties": {
+                  "xpath": "//span[@data-color='red' and contains(@aria-label, 'Cập Nhật')]"
+                }
+              },
+              "timeout": 10
+            }
+          },
+          {
+            "step_number": 11,
+            "action": "close_browser",
+            "description": "Close browser and end test",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "Label displays with Red color and title 'Cập Nhật'",
+        "verification_method": "XPath verification for color and aria-label attributes",
+        "variables": {
+          "title": "Cập Nhật"
+        },
+        "dependencies": ["TC_LOGIN"]
+      },
+      {
+        "id": "TC_LABEL_EDIT_02",
+        "name": "TC_LABEL_EDIT_02",
+        "sequence": 5,
+        "category": "Label Management",
+        "type": "Boundary",
+        "priority": "Medium",
+        "description": "Verify system behavior when creating duplicate label names with different colors",
+        "preconditions": [
+          "User is logged in",
+          "Test board exists",
+          "Label 'Nhắc Nhở' with Sky color already exists",
+          "Label with ID 6911e8d43093ccdef262932f exists"
+        ],
+        "test_data": {
+          "label_name": "Nhắc Nhở",
+          "existing_color": "Sky",
+          "new_color": "Red"
+        },
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "call_test_case",
+            "description": "Execute login test case",
+            "parameters": {
+              "test_case": "TC_LOGIN",
+              "failure_handling": "STOP_ON_FAILURE"
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "delay",
+            "description": "Wait for page to load",
+            "parameters": {
+              "seconds": 10
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Navigate to Test Board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards  Trello/Test_Board"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Open board menu",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/Menu_Button"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "click",
+            "description": "Click Labels menu option",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/button_Labels"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "click",
+            "description": "Click specific label to edit",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/button_Labels_6911e8d43093ccdef262932f"
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "set_text",
+            "description": "Set duplicate label name",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/input_Title_edit-label-title-input",
+              "text": "Nhắc Nhở"
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "click",
+            "description": "Click Save button",
+            "parameters": {
+              "object": "Page_Software Testing  Trello/button_Save_Edit_Labels"
+            }
+          },
+          {
+            "step_number": 9,
+            "action": "verify_element_present",
+            "description": "Verify edited label with Red color exists",
+            "parameters": {
+              "object": {
+                "name": "editedLabel",
+                "properties": {
+                  "xpath": "//span[contains(@aria-label, 'Nhắc Nhở') and @data-color='red']"
+                }
+              },
+              "timeout": 10
+            }
+          },
+          {
+            "step_number": 10,
+            "action": "verify_element_present",
+            "description": "Verify existing label with Sky color still exists",
+            "parameters": {
+              "object": {
+                "name": "existingLabel",
+                "properties": {
+                  "xpath": "//span[contains(@aria-label, 'Nhắc Nhở') and @data-color='sky']"
+                }
+              },
+              "timeout": 10
+            }
+          },
+          {
+            "step_number": 11,
+            "action": "close_browser",
+            "description": "Close browser and end test",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "System allows duplicate label names with different colors - both Red and Sky 'Nhắc Nhở' labels exist",
+        "verification_method": "Dual XPath verification for both label instances",
+        "variables": {
+          "labelName": "Nhắc Nhở"
+        },
+        "dependencies": ["TC_LOGIN", "TC_LABEL_ADD_01"]
+      },
+      {
+        "id": "TC_CHECKLIST_ADD_01",
+        "name": "TC_CHECKLIST_ADD_01",
+        "sequence": 6,
+        "category": "Checklist Management",
+        "type": "Positive",
+        "priority": "High",
+        "description": "Verify checklist creation with custom name",
+        "preconditions": [
+          "User is logged in",
+          "Test board exists",
+          "Card exists in the board"
+        ],
+        "test_data": {
+          "checklist_name": "Danh Mục Mới"
+        },
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "call_test_case",
+            "description": "Execute login test case",
+            "parameters": {
+              "test_case": "TC_LOGIN",
+              "failure_handling": "STOP_ON_FAILURE"
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "delay",
+            "description": "Wait for page to load",
+            "parameters": {
+              "seconds": 10
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Navigate to Test Board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards  Trello/Test_Board"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Open card",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/div_card"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "click",
+            "description": "Click Checklist button",
+            "parameters": {
+              "object": "Object Repository/Page_New test on Software Testing  Trello/button_Checklist"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "set_text",
+            "description": "Enter custom checklist name",
+            "parameters": {
+              "object": "Object Repository/Page_New test on Software Testing  Trello/input_Title_id-checklist",
+              "text": "Danh Mục Mới"
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "click",
+            "description": "Click Add button",
+            "parameters": {
+              "object": "Object Repository/Page_New test on Software Testing  Trello/button_Checklist_Add"
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "verify_element_present",
+            "description": "Verify checklist appears with custom name",
+            "parameters": {
+              "object": {
+                "name": "dynamicChecklist",
+                "properties": {
+                  "xpath": "//*[contains(text(), 'Danh Mục Mới')]"
+                }
+              },
+              "timeout": 10
+            }
+          },
+          {
+            "step_number": 9,
+            "action": "close_browser",
+            "description": "Close browser and end test",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "Checklist 'Danh Mục Mới' visible in card",
+        "verification_method": "Text content verification via XPath",
+        "variables": {
+          "labelName": "Danh Mục Mới"
+        },
+        "dependencies": ["TC_LOGIN"]
+      },
+      {
+        "id": "TC_CHECKLIST_ADD_02",
+        "name": "TC_CHECKLIST_ADD_02",
+        "sequence": 7,
+        "category": "Checklist Management",
+        "type": "Positive",
+        "priority": "Medium",
+        "description": "Verify checklist creation without custom name (default name)",
+        "preconditions": [
+          "User is logged in",
+          "Test board exists",
+          "Card exists in the board"
+        ],
+        "test_data": {
+          "checklist_name": "",
+          "default_name": "Checklist"
+        },
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "call_test_case",
+            "description": "Execute login test case",
+            "parameters": {
+              "test_case": "TC_LOGIN",
+              "failure_handling": "STOP_ON_FAILURE"
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "delay",
+            "description": "Wait for page to load",
+            "parameters": {
+              "seconds": 10
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Navigate to Test Board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards  Trello/Test_Board"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Open card",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/div_card"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "click",
+            "description": "Click Checklist button",
+            "parameters": {
+              "object": "Object Repository/Page_New test on Software Testing  Trello/button_Checklist"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "set_text",
+            "description": "Leave title field empty",
+            "parameters": {
+              "object": "Object Repository/Page_New test on Software Testing  Trello/input_Title_id-checklist",
+              "text": ""
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "click",
+            "description": "Click Add button",
+            "parameters": {
+              "object": "Object Repository/Page_New test on Software Testing  Trello/button_Checklist_Add"
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "verify_element_present",
+            "description": "Verify checklist created with default name",
+            "parameters": {
+              "object": {
+                "name": "defaultChecklist",
+                "properties": {
+                  "xpath": "//h3[contains(text(), 'Checklist')]"
+                }
+              },
+              "timeout": 10
+            }
+          },
+          {
+            "step_number": 9,
+            "action": "close_browser",
+            "description": "Close browser and end test",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "Checklist created with default title 'Checklist'",
+        "verification_method": "H3 element text verification",
+        "variables": {},
+        "dependencies": ["TC_LOGIN"]
+      },
+      {
+        "id": "TC_CHECKLIST_EDIT_01",
+        "name": "TC_CHECKLIST_EDIT_01",
+        "sequence": 8,
+        "category": "Checklist Management",
+        "type": "Positive",
+        "priority": "High",
+        "description": "Verify checklist name can be successfully modified",
+        "preconditions": [
+          "User is logged in",
+          "Test board exists",
+          "Card with existing checklist is available"
+        ],
+        "test_data": {
+          "new_checklist_name": "Danh Mục Cập Nhật"
+        },
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "call_test_case",
+            "description": "Execute login test case",
+            "parameters": {
+              "test_case": "TC_LOGIN",
+              "failure_handling": "STOP_ON_FAILURE"
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "delay",
+            "description": "Wait for page to load",
+            "parameters": {
+              "seconds": 10
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Navigate to Test Board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards  Trello/Test_Board"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Open card with checklist",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/div_card"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "wait_for_element_clickable",
+            "description": "Wait for checklist title to be clickable",
+            "parameters": {
+              "object": {
+                "name": "checklistH3",
+                "properties": {
+                  "xpath": "//h3[@data-testid='checklist-title']"
+                }
+              },
+              "timeout": 10
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "click",
+            "description": "Click checklist title to edit",
+            "parameters": {
+              "object": {
+                "name": "checklistH3",
+                "properties": {
+                  "xpath": "//h3[@data-testid='checklist-title']"
+                }
+              }
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "delay",
+            "description": "Wait for edit mode to activate",
+            "parameters": {
+              "seconds": 3
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "wait_for_element_visible",
+            "description": "Wait for edit input field to appear",
+            "parameters": {
+              "object": {
+                "name": "checklistEditInput",
+                "properties": {
+                  "xpath": "//textarea[@data-testid='checklist-edit-name-input']"
+                }
+              },
+              "timeout": 15
+            }
+          },
+          {
+            "step_number": 9,
+            "action": "send_keys",
+            "description": "Enter new checklist name and press Enter",
+            "parameters": {
+              "object": {
+                "name": "checklistEditInput",
+                "properties": {
+                  "xpath": "//textarea[@data-testid='checklist-edit-name-input']"
+                }
+              },
+              "keys": "Danh Mục Cập Nhật + ENTER"
+            }
+          },
+          {
+            "step_number": 10,
+            "action": "delay",
+            "description": "Wait for update to process",
+            "parameters": {
+              "seconds": 1
+            }
+          },
+          {
+            "step_number": 11,
+            "action": "wait_for_element_visible",
+            "description": "Wait for updated title to display",
+            "parameters": {
+              "object": {
+                "name": "updatedChecklistTitle",
+                "properties": {
+                  "xpath": "//h3[@data-testid='checklist-title']"
+                }
+              },
+              "timeout": 10
+            }
+          },
+          {
+            "step_number": 12,
+            "action": "get_text",
+            "description": "Retrieve updated checklist title",
+            "parameters": {
+              "object": {
+                "name": "updatedChecklistTitle",
+                "properties": {
+                  "xpath": "//h3[@data-testid='checklist-title']"
+                }
+              },
+              "variable_name": "actualName"
+            }
+          },
+          {
+            "step_number": 13,
+            "action": "verify_equal",
+            "description": "Verify name changed successfully",
+            "parameters": {
+              "actual": "actualName",
+              "expected": "Danh Mục Cập Nhật"
+            }
+          },
+          {
+            "step_number": 14,
+            "action": "close_browser",
+            "description": "Close browser and end test",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "Checklist title updated to 'Danh Mục Cập Nhật'",
+        "verification_method": "Text comparison of H3 element",
+        "variables": {
+          "newName": "Danh Mục Cập Nhật",
+          "actualName": ""
+        },
+        "dependencies": ["TC_LOGIN"]
+      },
+      {
+        "id": "TC_CHECKLIST_EDIT_02",
+        "name": "TC_CHECKLIST_EDIT_02",
+        "sequence": 9,
+        "category": "Checklist Management",
+        "type": "Negative",
+        "priority": "Medium",
+        "description": "Verify system prevents empty checklist names and retains original name",
+        "preconditions": [
+          "User is logged in",
+          "Test board exists",
+          "Card with existing checklist is available"
+        ],
+        "test_data": {
+          "empty_name": ""
+        },
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "call_test_case",
+            "description": "Execute login test case",
+            "parameters": {
+              "test_case": "TC_LOGIN",
+              "failure_handling": "STOP_ON_FAILURE"
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "delay",
+            "description": "Wait for page to load",
+            "parameters": {
+              "seconds": 10
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Navigate to Test Board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards  Trello/Test_Board"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Open card with checklist",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/div_card"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "wait_for_element_clickable",
+            "description": "Wait for checklist title to be clickable",
+            "parameters": {
+              "object": {
+                "name": "checklistH3",
+                "properties": {
+                  "xpath": "//h3[@data-testid='checklist-title']"
+                }
+              },
+              "timeout": 10
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "wait_for_element_visible",
+            "description": "Wait for checklist title to be visible",
+            "parameters": {
+              "object": {
+                "name": "checklistTitle",
+                "properties": {
+                  "xpath": "//h3[@data-testid='checklist-title']"
+                }
+              },
+              "timeout": 10
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "get_text",
+            "description": "Capture original checklist name",
+            "parameters": {
+              "object": {
+                "name": "checklistTitle",
+                "properties": {
+                  "xpath": "//h3[@data-testid='checklist-title']"
+                }
+              },
+              "variable_name": "oldName",
+              "comment": "Tên checklist ban đầu: "
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "click",
+            "description": "Click checklist title to edit",
+            "parameters": {
+              "object": {
+                "name": "checklistH3",
+                "properties": {
+                  "xpath": "//h3[@data-testid='checklist-title']"
+                }
+              }
+            }
+          },
+          {
+            "step_number": 9,
+            "action": "delay",
+            "description": "Wait for edit mode",
+            "parameters": {
+              "seconds": 1
+            }
+          },
+          {
+            "step_number": 10,
+            "action": "wait_for_element_visible",
+            "description": "Wait for edit input field",
+            "parameters": {
+              "object": {
+                "name": "checklistEditInput",
+                "properties": {
+                  "xpath": "//textarea[@data-testid='checklist-edit-name-input']"
+                }
+              },
+              "timeout": 10
+            }
+          },
+          {
+            "step_number": 11,
+            "action": "send_keys",
+            "description": "Clear field and press Enter (empty name)",
+            "parameters": {
+              "object": {
+                "name": "checklistEditInput",
+                "properties": {
+                  "xpath": "//textarea[@data-testid='checklist-edit-name-input']"
+                }
+              },
+              "keys": " + ENTER"
+            }
+          },
+          {
+            "step_number": 12,
+            "action": "delay",
+            "description": "Wait for system response",
+            "parameters": {
+              "seconds": 1
+            }
+          },
+          {
+            "step_number": 13,
+            "action": "get_text",
+            "description": "Retrieve checklist name after empty save attempt",
+            "parameters": {
+              "object": {
+                "name": "checklistTitle",
+                "properties": {
+                  "xpath": "//h3[@data-testid='checklist-title']"
+                }
+              },
+              "variable_name": "updatedName",
+              "comment": "Tên checklist sau khi cập nhật rỗng: "
+            }
+          },
+          {
+            "step_number": 14,
+            "action": "conditional_check",
+            "description": "Verify empty name was rejected",
+            "parameters": {
+              "condition": "updatedName == oldName",
+              "true_message": "✅ Checklist tên rỗng không được chấp nhận, giữ nguyên tên cũ.",
+              "false_conditions": [
+                {
+                  "condition": "updatedName == ''",
+                  "message": "❌ Checklist tên rỗng được chấp nhận (không mong muốn)."
+                },
+                {
+                  "condition": "else",
+                  "message": "❌ Kết quả không mong đợi"
+                }
+              ]
+            }
+          },
+          {
+            "step_number": 15,
+            "action": "verify_equal",
+            "description": "Assert original name preserved",
+            "parameters": {
+              "actual": "updatedName",
+              "expected": "oldName"
+            }
+          },
+          {
+            "step_number": 16,
+            "action": "close_browser",
+            "description": "Close browser and end test",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "Checklist retains original name; empty name rejected",
+        "verification_method": "Text comparison before and after",
+        "variables": {
+          "oldName": "",
+          "updatedName": ""
+        },
+        "dependencies": ["TC_LOGIN"]
+      },
+      {
+        "id": "TC_CHECKLIST_DELETE_01",
+        "name": "TC_CHECKLIST_DELETE_01",
+        "sequence": 10,
+        "category": "Checklist Management",
+        "type": "Positive",
+        "priority": "High",
+        "description": "Verify checklist deletion with confirmation",
+        "preconditions": [
+          "User is logged in",
+          "Test board exists",
+          "Card with checklist is available"
+        ],
+        "test_data": {},
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "call_test_case",
+            "description": "Execute login test case",
+            "parameters": {
+              "test_case": "TC_LOGIN",
+              "failure_handling": "STOP_ON_FAILURE"
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "delay",
+            "description": "Wait for page to load",
+            "parameters": {
+              "seconds": 10
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Navigate to Test Board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards  Trello/Test_Board"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Open card with checklist",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/div_card"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "click",
+            "description": "Click Delete button",
+            "parameters": {
+              "object": "Object Repository/Page_New test on Software Testing  Trello/button_Delete"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "click",
+            "description": "Confirm deletion",
+            "parameters": {
+              "object": "Object Repository/Page_New test on Software Testing  Trello/button_Delete checklist"
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "close_browser",
+            "description": "Close browser and end test",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "Checklist removed from card successfully",
+        "verification_method": "Manual verification - checklist no longer visible",
+        "variables": {},
+        "dependencies": ["TC_LOGIN"]
+      },
+      {
+        "id": "TC_CHECKLIST_DELETE_02",
+        "name": "TC_CHECKLIST_DELETE_02",
+        "sequence": 11,
+        "category": "Checklist Management",
+        "type": "Negative",
+        "priority": "Medium",
+        "description": "Verify checklist deletion can be cancelled",
+        "preconditions": [
+          "User is logged in",
+          "Test board exists",
+          "Card with checklist is available"
+        ],
+        "test_data": {},
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "call_test_case",
+            "description": "Execute login test case",
+            "parameters": {
+              "test_case": "TC_LOGIN",
+              "failure_handling": "STOP_ON_FAILURE"
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "delay",
+            "description": "Wait for page to load",
+            "parameters": {
+              "seconds": 10
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Navigate to Test Board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards  Trello/Test_Board"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Open card with checklist",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/div_card"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "click",
+            "description": "Click Delete button",
+            "parameters": {
+              "object": "Object Repository/Page_New test on Software Testing  Trello/button_Delete"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "click",
+            "description": "Click close/cancel button",
+            "parameters": {
+              "object": "Object Repository/Page_New test on Software Testing  Trello/button_Delete Checklist_Close_Popup"
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "close_browser",
+            "description": "Close browser and end test",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "Checklist remains intact; deletion cancelled",
+        "verification_method": "Manual verification - checklist still visible",
+        "variables": {},
+        "dependencies": ["TC_LOGIN"]
+      },
+      {
+        "id": "TC_CHECKLIST_ITEM_ADD_01",
+        "name": "TC_CHECKLIST_ITEM_ADD_01",
+        "sequence": 12,
+        "category": "Checklist Items",
+        "type": "Positive",
+        "priority": "High",
+        "description": "Verify checklist item creation with text content",
+        "preconditions": [
+          "User is logged in",
+          "Test board exists",
+          "Card with checklist is available"
+        ],
+        "test_data": {
+          "item_title": "Danh mục 1"
+        },
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "call_test_case",
+            "description": "Execute login test case",
+            "parameters": {
+              "test_case": "TC_LOGIN",
+              "failure_handling": "STOP_ON_FAILURE"
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "delay",
+            "description": "Wait for page to load",
+            "parameters": {
+              "seconds": 10
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Navigate to Test Board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards  Trello/Test_Board"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Open card with checklist",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/div_card"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "click",
+            "description": "Click Add an item button",
+            "parameters": {
+              "object": "Object Repository/Page_New test on Software Testing  Trello/button_Add an item"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "conditional_verify_and_set_text",
+            "description": "Enter item text if textarea found",
+            "parameters": {
+              "object": {
+                "name": "dynamicTextarea",
+                "properties": {
+                  "xpath": "//textarea[contains(@placeholder, 'Add an item')]"
+                }
+              },
+              "timeout": 10,
+              "failure_handling": "OPTIONAL",
+              "text": "Danh mục 1",
+              "failure_action": "mark_failed_and_stop",
+              "failure_message": "Không tìm thấy textarea theo XPATH dynamic."
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "click",
+            "description": "Click Add button to save item",
+            "parameters": {
+              "object": "Object Repository/Page_New test on Software Testing  Trello/button_Add_Item_Checklist"
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "verify_element_present",
+            "description": "Verify item appears in checklist",
+            "parameters": {
+              "object": {
+                "name": "dynamicLabel",
+                "properties": {
+                  "xpath": "//div[contains(@aria-label, 'Danh mục 1')]"
+                }
+              },
+              "timeout": 10
+            }
+          },
+          {
+            "step_number": 9,
+            "action": "close_browser",
+            "description": "Close browser and end test",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "Checklist item 'Danh mục 1' visible in checklist",
+        "verification_method": "Aria-label attribute verification",
+        "variables": {
+          "title": "Danh mục 1"
+        },
+        "dependencies": ["TC_LOGIN"]
+      },
+      {
+        "id": "TC_CHECKLIST_ITEM_ADD_02",
+        "name": "TC_CHECKLIST_ITEM_ADD_02",
+        "sequence": 13,
+        "category": "Checklist Items",
+        "type": "Negative",
+        "priority": "Medium",
+        "description": "Verify system prevents adding empty checklist items",
+        "preconditions": [
+          "User is logged in",
+          "Test board exists",
+          "Card with checklist containing at least one item"
+        ],
+        "test_data": {
+          "item_text": ""
+        },
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "call_test_case",
+            "description": "Execute login test case",
+            "parameters": {
+              "test_case": "TC_LOGIN",
+              "failure_handling": "STOP_ON_FAILURE"
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "delay",
+            "description": "Wait for page to load",
+            "parameters": {
+              "seconds": 10
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Navigate to Test Board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards  Trello/Test_Board"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Open card with checklist",
+            "parameters": {
+              "object": "Object Repository/Page_Software Testing  Trello/div_card"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "click",
+            "description": "Click Add an item button (after existing items)",
+            "parameters": {
+              "object": "Object Repository/Page_New test on Software Testing  Trello/button_Add an item_After_Have_Item"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "count_elements",
+            "description": "Count existing checklist items before adding",
+            "parameters": {
+              "object": {
+                "name": "allChecklistItems",
+                "properties": {
+                  "xpath": "//span[contains(@class, 'checklist-item-details-text')]"
+                }
+              },
+              "timeout": 5,
+              "variable_name": "beforeCount",
+              "comment": "Số lượng item trước khi add: "
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "conditional_verify_and_set_text",
+            "description": "Leave textarea empty",
+            "parameters": {
+              "object": {
+                "name": "dynamicTextarea",
+                "properties": {
+                  "xpath": "//textarea[contains(@placeholder, 'Add an item')]"
+                }
+              },
+              "timeout": 10,
+              "failure_handling": "OPTIONAL",
+              "text": "",
+              "failure_action": "mark_failed_and_stop",
+              "failure_message": "Không tìm thấy textarea theo XPATH dynamic."
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "click",
+            "description": "Click Add button with empty text",
+            "parameters": {
+              "object": "Object Repository/Page_New test on Software Testing  Trello/button_Add_Item_Checklist"
+            }
+          },
+          {
+            "step_number": 9,
+            "action": "delay",
+            "description": "Wait for system response",
+            "parameters": {
+              "seconds": 2
+            }
+          },
+          {
+            "step_number": 10,
+            "action": "count_elements",
+            "description": "Count checklist items after add attempt",
+            "parameters": {
+              "object": {
+                "name": "allChecklistItems",
+                "properties": {
+                  "xpath": "//span[contains(@class, 'checklist-item-details-text')]"
+                }
+              },
+              "timeout": 5,
+              "variable_name": "afterCount",
+              "comment": "Số lượng item sau khi add: "
+            }
+          },
+          {
+            "step_number": 11,
+            "action": "verify_equal",
+            "description": "Verify item count unchanged",
+            "parameters": {
+              "actual": "afterCount",
+              "expected": "beforeCount"
+            }
+          },
+          {
+            "step_number": 12,
+            "action": "close_browser",
+            "description": "Close browser and end test",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "Item count unchanged; empty item rejected",
+        "verification_method": "Element count comparison",
+        "variables": {
+          "beforeCount": 0,
+          "afterCount": 0
+        },
+        "dependencies": ["TC_LOGIN", "TC_CHECKLIST_ITEM_ADD_01"]
+      }
+    ],
+    "test_summary": {
+      "total_cases": 13,
+      "by_category": {
+        "Authentication": 1,
+        "Label Management": 4,
+        "Checklist Management": 4,
+        "Checklist Items": 2
+      },
+      "by_type": {
+        "Utility": 1,
+        "Positive": 8,
+        "Negative": 3,
+        "Boundary": 1
+      },
+      "by_priority": {
+        "Critical": 1,
+        "High": 6,
+        "Medium": 6
+      }
+    },
+    "common_imports": [
+      "com.kms.katalon.core.checkpoint.CheckpointFactory",
+      "com.kms.katalon.core.testcase.TestCaseFactory",
+      "com.kms.katalon.core.testdata.TestDataFactory",
+      "com.kms.katalon.core.testobject.ObjectRepository",
+      "com.kms.katalon.core.checkpoint.Checkpoint",
+      "com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords",
+      "com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords",
+      "com.kms.katalon.core.model.FailureHandling",
+      "com.kms.katalon.core.testcase.TestCase",
+      "com.kms.katalon.core.testdata.TestData",
+      "com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords",
+      "com.kms.katalon.core.testobject.TestObject",
+      "com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords",
+      "com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords",
+      "com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords",
+      "internal.GlobalVariable",
+      "org.openqa.selenium.Keys",
+      "com.kms.katalon.core.testobject.ConditionType",
+      "com.kms.katalon.core.util.KeywordUtil"
+    ],
+    "execution_notes": {
+      "timing_considerations": {
+        "login_delay": "10-15 seconds for OAuth authentication flow",
+        "page_load_delay": "10 seconds for board/card rendering",
+        "action_delays": "1-3 seconds for UI updates and state changes"
+      },
+      "failure_handling": {
+        "login_dependency": "STOP_ON_FAILURE - All tests depend on successful login",
+        "optional_verifications": "OPTIONAL - Used for conditional element checks",
+        "custom_messages": "Implemented for validation failures"
+      },
+      "browser_management": {
+        "cleanup": "All test cases close browser in final step",
+        "state": "Clean state maintained between executions"
+      }
+    },
+  }
+}
