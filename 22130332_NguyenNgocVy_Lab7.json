@@ -1,0 +1,890 @@
+{
+  "test_suite": {
+    "suite_name": "Trello Card Management Test Suite",
+    "suite_id": "TS_TRELLO_001",
+    "description": "Comprehensive test suite for Trello card and description management functionality",
+    "author": "Nguyen Ngoc Vy",
+    "student_id": "22130332",
+    "created_date": "2024",
+    "tool": "Katalon Studio",
+    "target_application": "Trello",
+    "base_url": "https://trello.com/",
+    "test_environment": {
+      "login_credentials": {
+        "email": "nguyenvy310804@gmail.com",
+        "password_encrypted": "aZi2sxaWmGoqEKxBwh9bCg=="
+      },
+      "test_board": "Test Board",
+      "test_list": "Kiểm thử trello"
+    },
+    "total_test_cases": 10,
+    "test_categories": [
+      "Card Creation",
+      "Card Management",
+      "Description Management"
+    ],
+    "test_cases": [
+      {
+        "test_case_id": "TC_CARD_ADD01",
+        "test_case_name": "Add New Card to Trello List",
+        "category": "Card Creation",
+        "priority": "High",
+        "description": "Verify that user can successfully create a new card in Trello list",
+        "preconditions": [
+          "User must be logged in to Trello",
+          "Target board and list must exist"
+        ],
+        "test_data": {
+          "list_name": "Kiểm thử trello",
+          "card_name": "Card test tự động"
+        },
+        "expected_result": "New card is created successfully in the specified list",
+        "total_steps": 16,
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "Open browser",
+            "expected": "Browser opens successfully"
+          },
+          {
+            "step_number": 2,
+            "action": "Navigate to Trello homepage",
+            "url": "https://trello.com/",
+            "expected": "Trello homepage loads"
+          },
+          {
+            "step_number": 3,
+            "action": "Click Login button",
+            "expected": "Login page appears"
+          },
+          {
+            "step_number": 4,
+            "action": "Enter email",
+            "data": "nguyenvy310804@gmail.com",
+            "expected": "Email is entered"
+          },
+          {
+            "step_number": 5,
+            "action": "Click remember me checkbox",
+            "expected": "Checkbox is selected"
+          },
+          {
+            "step_number": 6,
+            "action": "Enter encrypted password",
+            "expected": "Password is entered"
+          },
+          {
+            "step_number": 7,
+            "action": "Click Login/Continue button",
+            "expected": "User is logged in successfully"
+          },
+          {
+            "step_number": 8,
+            "action": "Open target board",
+            "expected": "Board page loads"
+          },
+          {
+            "step_number": 9,
+            "action": "Create TestObject for Add card button",
+            "xpath": "//h2[@data-testid='list-name'][.='Kiểm thử trello']/ancestor::div[@data-testid='list']//button[@data-testid='list-add-card-button']",
+            "expected": "TestObject created"
+          },
+          {
+            "step_number": 10,
+            "action": "Click Add card button",
+            "expected": "Card input form appears"
+          },
+          {
+            "step_number": 11,
+            "action": "Create TestObject for card input",
+            "xpath": "//textarea[@data-testid='list-card-composer-textarea']",
+            "expected": "TestObject created"
+          },
+          {
+            "step_number": 12,
+            "action": "Enter card name",
+            "data": "Card test tự động",
+            "expected": "Card name is entered"
+          },
+          {
+            "step_number": 13,
+            "action": "Create TestObject for Add button",
+            "xpath": "//button[@data-testid='list-add-card-button']",
+            "expected": "TestObject created"
+          },
+          {
+            "step_number": 14,
+            "action": "Click Add button",
+            "expected": "Card is created"
+          },
+          {
+            "step_number": 15,
+            "action": "Wait 3 seconds",
+            "expected": "System saves the card"
+          },
+          {
+            "step_number": 16,
+            "action": "Close browser",
+            "expected": "Browser closes"
+          }
+        ]
+      },
+      {
+        "test_case_id": "TC_CARD_COPY01",
+        "test_case_name": "Copy Existing Card",
+        "category": "Card Management",
+        "priority": "Medium",
+        "description": "Verify that user can successfully copy an existing card",
+        "preconditions": [
+          "User must be logged in to Trello",
+          "Source card 'Card test tự động' must exist"
+        ],
+        "test_data": {
+          "source_card": "Card test tự động",
+          "new_card_name": "Đây là thẻ copy"
+        },
+        "expected_result": "Card is copied successfully with new name",
+        "total_steps": 20,
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "Open browser",
+            "expected": "Browser opens successfully"
+          },
+          {
+            "step_number": 2,
+            "action": "Navigate to Trello",
+            "url": "https://trello.com/",
+            "expected": "Trello page loads"
+          },
+          {
+            "step_number": 3,
+            "action": "Click Login button",
+            "expected": "Login page appears"
+          },
+          {
+            "step_number": 4,
+            "action": "Enter email",
+            "expected": "Email entered"
+          },
+          {
+            "step_number": 5,
+            "action": "Click remember me",
+            "expected": "Checkbox selected"
+          },
+          {
+            "step_number": 6,
+            "action": "Enter password",
+            "expected": "Password entered"
+          },
+          {
+            "step_number": 7,
+            "action": "Click Login",
+            "expected": "Logged in successfully"
+          },
+          {
+            "step_number": 8,
+            "action": "Open board",
+            "expected": "Board opens"
+          },
+          {
+            "step_number": 9,
+            "action": "Wait for board to load",
+            "duration": 2,
+            "expected": "Board fully loaded"
+          },
+          {
+            "step_number": 10,
+            "action": "Create TestObject for source card",
+            "xpath": "//h2[@data-testid='list-name'][.='Kiểm thử trello']/ancestor::div[@data-testid='list']//a[@data-testid='card-name' and text()='Card test tự động']",
+            "expected": "TestObject created"
+          },
+          {
+            "step_number": 11,
+            "action": "Wait and click source card",
+            "timeout": 10,
+            "expected": "Card detail opens"
+          },
+          {
+            "step_number": 12,
+            "action": "Create TestObject for Actions button",
+            "xpath": "//button[@data-testid='card-back-actions-button']",
+            "expected": "TestObject created"
+          },
+          {
+            "step_number": 13,
+            "action": "Click Actions button",
+            "expected": "Actions menu opens"
+          },
+          {
+            "step_number": 14,
+            "action": "Create TestObject for Copy button",
+            "xpath": "//button[@data-testid='card-back-copy-card-button']",
+            "expected": "TestObject created"
+          },
+          {
+            "step_number": 15,
+            "action": "Click Copy button",
+            "expected": "Copy dialog opens"
+          },
+          {
+            "step_number": 16,
+            "action": "Create TestObject for name textarea",
+            "xpath": "//textarea[@data-testid='card-copy-textarea']",
+            "expected": "TestObject created"
+          },
+          {
+            "step_number": 17,
+            "action": "Clear and enter new card name",
+            "data": "Đây là thẻ copy",
+            "expected": "New name entered"
+          },
+          {
+            "step_number": 18,
+            "action": "Create TestObject for Create button",
+            "xpath": "//button[@data-testid='move-card-popover-move-button']",
+            "expected": "TestObject created"
+          },
+          {
+            "step_number": 19,
+            "action": "Click Create button",
+            "expected": "Card copied successfully"
+          },
+          {
+            "step_number": 20,
+            "action": "Close browser",
+            "expected": "Browser closes"
+          }
+        ]
+      },
+      {
+        "test_case_id": "TC_CARD_DELETE01",
+        "test_case_name": "Delete Card",
+        "category": "Card Management",
+        "priority": "High",
+        "description": "Verify that user can delete a card through Archive and Delete process",
+        "preconditions": [
+          "User must be logged in",
+          "Card 'Đây là thẻ copy' must exist"
+        ],
+        "test_data": {
+          "card_to_delete": "Đây là thẻ copy"
+        },
+        "expected_result": "Card is permanently deleted",
+        "delete_process": "Archive → Delete → Confirm",
+        "total_steps": 20,
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "Open browser",
+            "expected": "Browser opens"
+          },
+          {
+            "step_number": 2,
+            "action": "Navigate to Trello",
+            "expected": "Page loads"
+          },
+          {
+            "step_number": 3,
+            "action": "Login process (steps 3-7)",
+            "expected": "Logged in"
+          },
+          {
+            "step_number": 8,
+            "action": "Open board",
+            "expected": "Board opens"
+          },
+          {
+            "step_number": 9,
+            "action": "Declare card name variable",
+            "variable": "cardToDelete = 'Đây là thẻ copy'",
+            "expected": "Variable declared"
+          },
+          {
+            "step_number": 10,
+            "action": "Create TestObject for card to delete",
+            "xpath": "//h2[@data-testid='list-name'][.='Kiểm thử trello']/ancestor::div[@data-testid='list']//a[@data-testid='card-name' and text()='Đây là thẻ copy']",
+            "expected": "TestObject created"
+          },
+          {
+            "step_number": 11,
+            "action": "Wait and click card",
+            "expected": "Card opens"
+          },
+          {
+            "step_number": 12,
+            "action": "Create TestObject for Actions button",
+            "expected": "TestObject created"
+          },
+          {
+            "step_number": 13,
+            "action": "Click Actions",
+            "expected": "Menu opens"
+          },
+          {
+            "step_number": 14,
+            "action": "Create TestObject for Archive button",
+            "expected": "TestObject created"
+          },
+          {
+            "step_number": 15,
+            "action": "Click Archive",
+            "expected": "Card archived"
+          },
+          {
+            "step_number": 16,
+            "action": "Create TestObject for Delete button",
+            "expected": "TestObject created"
+          },
+          {
+            "step_number": 17,
+            "action": "Click Delete",
+            "expected": "Confirm dialog appears"
+          },
+          {
+            "step_number": 18,
+            "action": "Create TestObject for Confirm button",
+            "expected": "TestObject created"
+          },
+          {
+            "step_number": 19,
+            "action": "Click Confirm",
+            "expected": "Card deleted permanently"
+          },
+          {
+            "step_number": 20,
+            "action": "Close browser",
+            "expected": "Browser closes"
+          }
+        ]
+      },
+      {
+        "test_case_id": "TC_CARD_TITLE_EMPTY01",
+        "test_case_name": "Create Card with Empty Title",
+        "category": "Card Creation",
+        "priority": "Medium",
+        "description": "Verify system behavior when attempting to create card without title",
+        "preconditions": [
+          "User must be logged in"
+        ],
+        "test_data": {
+          "card_name": ""
+        },
+        "expected_result": "System should handle empty card creation appropriately",
+        "total_steps": 13,
+        "special_note": "This test creates a card without entering card name",
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "Open browser",
+            "expected": "Browser opens"
+          },
+          {
+            "step_number": 2,
+            "action": "Navigate to Trello",
+            "expected": "Page loads"
+          },
+          {
+            "step_number": 3,
+            "action": "Complete login (steps 3-8)",
+            "expected": "Logged in and board opened"
+          },
+          {
+            "step_number": 9,
+            "action": "Create TestObject for Add card button",
+            "expected": "TestObject created"
+          },
+          {
+            "step_number": 10,
+            "action": "Click Add card button",
+            "expected": "Input form appears"
+          },
+          {
+            "step_number": 11,
+            "action": "Create TestObject for Add button",
+            "expected": "TestObject created"
+          },
+          {
+            "step_number": 12,
+            "action": "Click Add without entering name",
+            "expected": "System response captured"
+          },
+          {
+            "step_number": 13,
+            "action": "Close browser",
+            "expected": "Browser closes"
+          }
+        ]
+      },
+      {
+        "test_case_id": "TC_CARD_EDIT01",
+        "test_case_name": "Edit Card Title",
+        "category": "Card Management",
+        "priority": "High",
+        "description": "Verify that user can successfully edit card title",
+        "preconditions": [
+          "Card 'Card test tự động' must exist"
+        ],
+        "test_data": {
+          "old_title": "Card test tự động",
+          "new_title": "Sửa tiêu đề thẻ"
+        },
+        "expected_result": "Card title is updated successfully",
+        "total_steps": 16,
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "Login and navigate to board",
+            "expected": "Board page loaded"
+          },
+          {
+            "step_number": 9,
+            "action": "Declare old title variable",
+            "expected": "Variable set"
+          },
+          {
+            "step_number": 10,
+            "action": "Create TestObject for target card",
+            "expected": "TestObject created"
+          },
+          {
+            "step_number": 11,
+            "action": "Wait and click card",
+            "expected": "Card detail opens"
+          },
+          {
+            "step_number": 12,
+            "action": "Create TestObject for title textarea",
+            "expected": "TestObject created"
+          },
+          {
+            "step_number": 13,
+            "action": "Wait, click, clear and enter new title",
+            "data": "Sửa tiêu đề thẻ",
+            "expected": "New title entered"
+          },
+          {
+            "step_number": 14,
+            "action": "Create TestObject for Close button",
+            "expected": "TestObject created"
+          },
+          {
+            "step_number": 15,
+            "action": "Wait and click Close",
+            "expected": "Changes saved"
+          },
+          {
+            "step_number": 16,
+            "action": "Close browser",
+            "expected": "Browser closes"
+          }
+        ]
+      },
+      {
+        "test_case_id": "TC_DESC_ADD01",
+        "test_case_name": "Add Description to Card",
+        "category": "Description Management",
+        "priority": "High",
+        "description": "Verify that user can add description to a card",
+        "preconditions": [
+          "Card 'Thẻ này để test phần mô tả' must exist"
+        ],
+        "test_data": {
+          "card_name": "Thẻ này để test phần mô tả",
+          "description": "Mô tả của thẻ này đã được thêm"
+        },
+        "expected_result": "Description is added successfully",
+        "total_steps": 20,
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "Login and open board",
+            "expected": "Ready to work"
+          },
+          {
+            "step_number": 10,
+            "action": "Create and click card TestObject",
+            "expected": "Card opens"
+          },
+          {
+            "step_number": 12,
+            "action": "Create TestObject for Add description button",
+            "expected": "TestObject ready"
+          },
+          {
+            "step_number": 13,
+            "action": "Click Add description",
+            "expected": "Editor opens"
+          },
+          {
+            "step_number": 14,
+            "action": "Create TestObject for description editor",
+            "expected": "TestObject ready"
+          },
+          {
+            "step_number": 15,
+            "action": "Click editor and enter description",
+            "data": "Mô tả của thẻ này đã được thêm",
+            "expected": "Description entered"
+          },
+          {
+            "step_number": 16,
+            "action": "Create TestObject for Save button",
+            "expected": "TestObject ready"
+          },
+          {
+            "step_number": 17,
+            "action": "Click Save if visible",
+            "note": "Using OPTIONAL failure handling",
+            "expected": "Description saved"
+          },
+          {
+            "step_number": 18,
+            "action": "Create TestObject for Close button",
+            "expected": "TestObject ready"
+          },
+          {
+            "step_number": 19,
+            "action": "Click Close",
+            "expected": "Card detail closes"
+          },
+          {
+            "step_number": 20,
+            "action": "Close browser",
+            "expected": "Browser closes"
+          }
+        ]
+      },
+      {
+        "test_case_id": "TC_DESC_EDIT01",
+        "test_case_name": "Edit Card Description",
+        "category": "Description Management",
+        "priority": "High",
+        "description": "Verify that user can edit existing card description",
+        "preconditions": [
+          "Card with existing description must exist"
+        ],
+        "test_data": {
+          "card_name": "Thẻ này để test phần mô tả",
+          "old_description": "Mô tả của thẻ này đã được thêm",
+          "new_description": "Mô tả mới của thẻ đã được cập nhật thật tuyệt vời"
+        },
+        "expected_result": "Description is updated successfully",
+        "total_steps": 22,
+        "special_features": [
+          "Uses Edit button instead of Add",
+          "Uses Ctrl+A + Backspace for quick clear",
+          "Has delay after save to ensure data persistence"
+        ],
+        "steps": [
+          {
+            "step_number": 11,
+            "action": "Open target card",
+            "expected": "Card detail visible"
+          },
+          {
+            "step_number": 12,
+            "action": "Create TestObject for Edit button",
+            "expected": "TestObject ready"
+          },
+          {
+            "step_number": 13,
+            "action": "Click Edit to open editor",
+            "expected": "Editor opens"
+          },
+          {
+            "step_number": 14,
+            "action": "Create TestObject for editor",
+            "expected": "TestObject ready"
+          },
+          {
+            "step_number": 15,
+            "action": "Click editor",
+            "expected": "Editor focused"
+          },
+          {
+            "step_number": 16,
+            "action": "Clear all content with Ctrl+A + Backspace",
+            "expected": "Content cleared"
+          },
+          {
+            "step_number": 17,
+            "action": "Enter new description",
+            "data": "Mô tả mới của thẻ đã được cập nhật thật tuyệt vời",
+            "expected": "New description entered"
+          },
+          {
+            "step_number": 18,
+            "action": "Create TestObject for Save",
+            "expected": "TestObject ready"
+          },
+          {
+            "step_number": 19,
+            "action": "Click Save if visible",
+            "expected": "Changes saved"
+          },
+          {
+            "step_number": 20,
+            "action": "Create TestObject for Close",
+            "expected": "TestObject ready"
+          },
+          {
+            "step_number": 21,
+            "action": "Click Close",
+            "expected": "Card closes"
+          },
+          {
+            "step_number": 22,
+            "action": "Close browser",
+            "expected": "Browser closes"
+          }
+        ]
+      },
+      {
+        "test_case_id": "TC_DESC_CANCEL01",
+        "test_case_name": "Cancel Description Edit",
+        "category": "Description Management",
+        "priority": "Medium",
+        "description": "Verify that user can cancel description editing without saving changes",
+        "test_type": "Negative Test",
+        "preconditions": [
+          "Card with existing description must exist"
+        ],
+        "test_data": {
+          "card_name": "Thẻ này để test phần mô tả",
+          "entered_text": "Nội dung mô tả thay đổi nhưng không lưu mà hủy thay đổi"
+        },
+        "expected_result": "Description remains unchanged after cancel",
+        "total_steps": 23,
+        "special_features": [
+          "Tests cancel functionality",
+          "Uses Cancel button instead of Save",
+          "Verifies rollback behavior",
+          "Part 3 of description test sequence"
+        ],
+        "steps": [
+          {
+            "step_number": 11,
+            "action": "Open target card",
+            "expected": "Card opens"
+          },
+          {
+            "step_number": 13,
+            "action": "Click Edit to open editor",
+            "expected": "Editor opens"
+          },
+          {
+            "step_number": 15,
+            "action": "Click editor",
+            "expected": "Editor focused"
+          },
+          {
+            "step_number": 16,
+            "action": "Clear old content",
+            "expected": "Content cleared"
+          },
+          {
+            "step_number": 17,
+            "action": "Enter new content (will not be saved)",
+            "data": "Nội dung mô tả thay đổi nhưng không lưu mà hủy thay đổi",
+            "expected": "Content entered"
+          },
+          {
+            "step_number": 18,
+            "action": "Create TestObject for Cancel button",
+            "expected": "TestObject ready"
+          },
+          {
+            "step_number": 19,
+            "action": "Click Cancel to discard changes",
+            "expected": "Changes discarded"
+          },
+          {
+            "step_number": 20,
+            "action": "Wait 2 seconds after cancel",
+            "expected": "UI updated"
+          },
+          {
+            "step_number": 21,
+            "action": "Create TestObject for Close",
+            "expected": "TestObject ready"
+          },
+          {
+            "step_number": 22,
+            "action": "Click Close",
+            "expected": "Card closes"
+          },
+          {
+            "step_number": 23,
+            "action": "Close browser",
+            "expected": "Browser closes"
+          }
+        ]
+      },
+      {
+        "test_case_id": "TC_DESC_DELETE01",
+        "test_case_name": "Delete Card Description",
+        "category": "Description Management",
+        "priority": "Medium",
+        "description": "Verify that user can completely remove description from card",
+        "preconditions": [
+          "Card with description must exist"
+        ],
+        "test_data": {
+          "card_name": "Thẻ này để test phần mô tả"
+        },
+        "expected_result": "Card has no description after deletion",
+        "operation_flow": "Select card → Edit description → Clear content → Save empty → Close",
+        "total_steps": 21,
+        "special_features": [
+          "Deletes description from card",
+          "Uses Ctrl+A + Backspace for quick clear",
+          "Saves empty description",
+          "Final part of complete description lifecycle"
+        ],
+        "test_sequence_completion": {
+          "step_1": "Add description first time",
+          "step_2": "Edit and save description",
+          "step_3": "Edit and cancel description",
+          "step_4": "Delete description completely",
+          "status": "Complete description test cycle"
+        },
+        "steps": [
+          {
+            "step_number": 11,
+            "action": "Open target card",
+            "expected": "Card opens"
+          },
+          {
+            "step_number": 13,
+            "action": "Click Edit",
+            "expected": "Editor opens"
+          },
+          {
+            "step_number": 15,
+            "action": "Click editor",
+            "expected": "Editor focused"
+          },
+          {
+            "step_number": 16,
+            "action": "Clear all content with keyboard shortcut",
+            "expected": "All content deleted"
+          },
+          {
+            "step_number": 17,
+            "action": "Create TestObject for Save",
+            "expected": "TestObject ready"
+          },
+          {
+            "step_number": 18,
+            "action": "Click Save to save empty description",
+            "expected": "Empty description saved"
+          },
+          {
+            "step_number": 19,
+            "action": "Create TestObject for Close",
+            "expected": "TestObject ready"
+          },
+          {
+            "step_number": 20,
+            "action": "Click Close",
+            "expected": "Card closes"
+          },
+          {
+            "step_number": 21,
+            "action": "Close browser",
+            "expected": "Browser closes"
+          }
+        ]
+      },
+      {
+        "test_case_id": "TC_DESC_FORMAT01",
+        "test_case_name": "Add Description with Special Characters",
+        "category": "Description Management",
+        "priority": "Medium",
+        "description": "Verify system handles special characters and formatting in description",
+        "test_type": "Special Character Test",
+        "preconditions": [
+          "Card must exist for adding formatted description"
+        ],
+        "test_data": {
+          "card_name": "Thẻ này để test phần mô tả",
+          "description_line_1": "Công việc 1:  $ % ^Hoàn thành",
+          "description_line_2": "Công việc 2:   * @ #Chưa xong",
+          "special_chars": ["$", "%", "^", "*", "@", "#"],
+          "formatting": "Multi-line with line breaks"
+        },
+        "expected_result": "System correctly handles special characters and multi-line text",
+        "purpose": "Test special character handling and text formatting capability",
+        "total_steps": 20,
+        "special_features": [
+          "Tests special character handling",
+          "Uses multi-line string with special chars",
+          "Content includes: $, %, ^, *, @, #",
+          "Tests line break formatting",
+          "Validates system's special character processing"
+        ],
+        "steps": [
+          {
+            "step_number": 11,
+            "action": "Open target card",
+            "expected": "Card opens"
+          },
+          {
+            "step_number": 13,
+            "action": "Click Add description",
+            "expected": "Editor appears"
+          },
+          {
+            "step_number": 15,
+            "action": "Enter multi-line description with special characters",
+            "data": "Công việc 1:  $ % ^Hoàn thành\nCông việc 2:   * @ #Chưa xong",
+            "expected": "Special characters and line breaks handled correctly"
+          },
+          {
+            "step_number": 17,
+            "action": "Click Save if visible",
+            "expected": "Description with special chars saved"
+          },
+          {
+            "step_number": 19,
+            "action": "Click Close",
+            "expected": "Card closes"
+          },
+          {
+            "step_number": 20,
+            "action": "Close browser",
+            "expected": "Browser closes"
+          }
+        ]
+      }
+    ],
+    "test_execution_summary": {
+      "card_operations": {
+        "creation_tests": 2,
+        "management_tests": 3,
+        "description_tests": 5
+      },
+      "priority_breakdown": {
+        "high": 6,
+        "medium": 4
+      },
+      "test_coverage": [
+        "Card creation (normal and empty)",
+        "Card copy functionality",
+        "Card deletion process",
+        "Card title editing",
+        "Description CRUD operations",
+        "Special character handling",
+        "Cancel/Rollback functionality"
+      ],
+      "automation_approach": {
+        "tool": "Katalon Studio",
+        "framework": "WebUI Keywords",
+        "dynamic_object_creation": "XPath-based TestObject creation",
+        "wait_strategy": "Explicit waits with timeouts",
+        "error_handling": "FailureHandling.OPTIONAL for flexible elements"
+      }
+    }
+  }
+}
