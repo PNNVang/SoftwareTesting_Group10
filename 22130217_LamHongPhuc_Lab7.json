@@ -1,0 +1,2571 @@
+{
+  "test_suites": [
+    {
+      "id": "TS_WorkSpaceManagement",
+      "name": "Test Suite 1 - Trello WorkSpace Management",
+      "description": "Comprehensive test suite for Trello Workspace functionality",
+      "version": "1.0",
+      "created_date": "2025-11-28",
+      "test_environment": {
+        "application": "Trello Web Application",
+        "base_url": "https://trello.com/",
+        "testing_tool": "Katalon Studio",
+        "browser": "Chrome (Custom Profile 2)",
+        "configuration": "Debug Port 9222, No Sandbox"
+      },
+      "total_test_cases": 16,
+      "test_cases": [
+        {
+          "id": "TC_WORKSPACE_ADD_01",
+          "name": "Create New Workspace",
+          "sequence": 1,
+          "category": "Workspace Management",
+          "type": "Positive",
+          "priority": "Critical",
+          "description": "Verify user can create a new workspace successfully using existing Chrome Profile",
+          "preconditions": [
+            "Chrome Driver is updated",
+            "User Data Directory exists (D:\\ChromeTest)",
+            "Chrome Profile 2 is configured and logged in",
+            "Port 9222 is available"
+          ],
+          "test_data": {
+            "wsName": "abcs",
+            "des": ""
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "configure_driver",
+              "description": "Initialize ChromeDriver with Custom Options (Profile 2, Debug Port)",
+              "parameters": {
+                "profile": "Profile 2",
+                "user_data_dir": "D:\\ChromeTest",
+                "arguments": [
+                  "--no-sandbox",
+                  "--disable-dev-shm-usage",
+                  "--remote-debugging-port=9222"
+                ]
+              }
+            },
+            {
+              "step_number": 2,
+              "action": "navigate_to_url",
+              "description": "Navigate to Trello homepage",
+              "parameters": {
+                "url": "https://trello.com/"
+              }
+            },
+            {
+              "step_number": 3,
+              "action": "click",
+              "description": "Click Header Account Avatar",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Header_Account",
+                "xpath": "//span[@id='header-member-menu-avatar']/div/span"
+              }
+            },
+            {
+              "step_number": 4,
+              "action": "click",
+              "description": "Click Create button in menu",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Header_Create",
+                "xpath": "//div[@id='account-menu-popover-content']/div[3]/div/ul/li[2]/button/span/span"
+              }
+            },
+            {
+              "step_number": 5,
+              "action": "set_text",
+              "description": "Enter Workspace Name",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/input_Workspace_Name",
+                "xpath": "//input[contains(@id, 'create-team-org-display-name')]",
+                "text": "abcs"
+              }
+            },
+            {
+              "step_number": 6,
+              "action": "click",
+              "description": "Click Workspace Type dropdown",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/ddl_Workspace_Type_Trigger",
+                "xpath": "//div[@id='layer-manager-overlay']/div/div/div/div/div/form/div/div/div/div/div[2]/div/span/span"
+              }
+            },
+            {
+              "step_number": 7,
+              "action": "click",
+              "description": "Select 'Other' from type options",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/opt_Workspace_Type_Item",
+                "xpath": "//div[contains(@class, 'menu')]//*[normalize-space(text())='Other']"
+              }
+            },
+            {
+              "step_number": 8,
+              "action": "set_text",
+              "description": "Enter Workspace Description",
+              "parameters": {
+                "object": "Page_Home  Trello/textarea_Workspace_Description",
+                "xpath": "//textarea[contains(@id,create-team-org-description)]",
+                "text": ""
+              }
+            },
+            {
+              "step_number": 9,
+              "action": "click",
+              "description": "Click Continue/Submit button",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Submit_CreateWorkspace",
+                "xpath": "//*[@type = 'submit' and (text() = 'Continue' or . = 'Continue')]"
+              }
+            },
+            {
+              "step_number": 10,
+              "action": "click",
+              "description": "Click Invite Members link (Verification step)",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/link_Invite_Members",
+                "xpath": "//div[@id='layer-manager-overlay']/div/div/div/div/div/a"
+              }
+            },
+            {
+              "step_number": 11,
+              "action": "close_browser",
+              "description": "Close browser instance",
+              "parameters": {}
+            }
+          ],
+          "expected_result": "Workspace 'abcs' created successfully and user is navigated to invite members screen",
+          "variables": {
+            "wsName": "abcs",
+            "des": ""
+          }
+        },
+        {
+          "id": "TC_WORKSPACE_ADD_02",
+          "name": "TC_WORKSPACE_ADD_02",
+          "sequence": 2,
+          "category": "Workspace Management",
+          "type": "Negative",
+          "priority": "Medium",
+          "description": "Verify Create Workspace button remains disabled when Workspace Name is empty, even if Description is filled and Workspace Type is selected",
+          "preconditions": [
+            "Local Environment: Folder 'D:\\ChromeTest' must exist",
+            "Browser State: Chrome Profile 'Profile 2' is configured and explicitly logged into Trello",
+            "System: Debugging Port 9222 must be free",
+            "Driver: ChromeDriver matches Chrome version"
+          ],
+          "test_data": {
+            "wsName": "",
+            "des": "abcs"
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "configure_driver",
+              "description": "Initialize ChromeDriver with Custom Options",
+              "parameters": {
+                "profile": "Profile 2",
+                "user_data_dir": "D:\\ChromeTest",
+                "arguments": [
+                  "--no-sandbox",
+                  "--disable-dev-shm-usage",
+                  "--remote-debugging-port=9222"
+                ]
+              }
+            },
+            {
+              "step_number": 2,
+              "action": "navigate_to_url",
+              "description": "Navigate to Trello homepage",
+              "parameters": {
+                "url": "https://trello.com/"
+              }
+            },
+            {
+              "step_number": 3,
+              "action": "click",
+              "description": "Click Header Account Avatar",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Header_Account",
+                "xpath": "//span[@id='header-member-menu-avatar']/div/span"
+              }
+            },
+            {
+              "step_number": 4,
+              "action": "click",
+              "description": "Click Create button in menu",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Header_Create",
+                "xpath": "//div[@id='account-menu-popover-content']/div[3]/div/ul/li[2]/button/span/span"
+              }
+            },
+            {
+              "step_number": 5,
+              "action": "set_text",
+              "description": "Leave Workspace Name empty",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/input_Workspace_Name",
+                "xpath": "//input[contains(@id, 'create-team-org-display-name')]",
+                "text": ""
+              }
+            },
+            {
+              "step_number": 6,
+              "action": "click",
+              "description": "Click Workspace Type dropdown",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/ddl_Workspace_Type_Trigger",
+                "xpath": "//div[@id='layer-manager-overlay']/div/div/div/div/div/form/div/div/div/div/div[2]/div/span/span"
+              }
+            },
+            {
+              "step_number": 7,
+              "action": "click",
+              "description": "Select 'Other' from type options",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/opt_Workspace_Type_Item",
+                "xpath": "//div[contains(@class, 'menu')]//*[normalize-space(text())='Other']"
+              }
+            },
+            {
+              "step_number": 8,
+              "action": "set_text",
+              "description": "Enter Workspace Description (Valid data)",
+              "parameters": {
+                "object": "Page_Home  Trello/textarea_Workspace_Description",
+                "xpath": "//textarea[contains(@id,create-team-org-description)]",
+                "text": "abcs"
+              }
+            },
+            {
+              "step_number": 9,
+              "action": "verify_element_not_clickable",
+              "description": "Verify Create button is disabled (Crucial Step: Failure due to empty Name)",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Submit_CreateWorkspace",
+                "xpath": "//*[@type = 'submit' and (text() = 'Continue' or . = 'Continue')]"
+              }
+            },
+            {
+              "step_number": 10,
+              "action": "delay",
+              "description": "Wait for 2 seconds",
+              "parameters": {
+                "seconds": 2
+              }
+            },
+            {
+              "step_number": 11,
+              "action": "close_browser",
+              "description": "Close browser instance",
+              "parameters": {}
+            }
+          ],
+          "expected_result": "Create button remains disabled because Workspace Name is mandatory, regardless of Description or Type content",
+          "verification_method": "WebUI.verifyElementNotClickable",
+          "variables": {
+            "wsName": "",
+            "des": "abcs"
+          }
+        },
+        {
+          "id": "TC_WORKSPACE_ADD_03",
+          "name": "TC_WORKSPACE_ADD_03",
+          "sequence": 3,
+          "category": "Workspace Management",
+          "type": "Negative",
+          "priority": "Medium",
+          "description": "Verify Create Workspace button is disabled when 'Workspace Type' is not selected",
+          "preconditions": [
+            "Local Environment: Folder 'D:\\ChromeTest' must exist",
+            "Browser State: Chrome Profile 'Profile 2' is configured and explicitly logged into Trello",
+            "System: Debugging Port 9222 must be free (no conflicting Chrome instances)",
+            "Network: Stable internet connection to access trello.com",
+            "Driver: ChromeDriver version matches the installed Chrome browser version"
+          ],
+          "test_data": {
+            "wsname": "a2",
+            "des": "abc"
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "configure_driver",
+              "description": "Initialize ChromeDriver with Custom Options",
+              "parameters": {
+                "profile": "Profile 2",
+                "user_data_dir": "D:\\ChromeTest",
+                "arguments": [
+                  "--no-sandbox",
+                  "--disable-dev-shm-usage",
+                  "--remote-debugging-port=9222"
+                ]
+              }
+            },
+            {
+              "step_number": 2,
+              "action": "navigate_to_url",
+              "description": "Navigate to Trello homepage",
+              "parameters": {
+                "url": "https://trello.com/"
+              }
+            },
+            {
+              "step_number": 3,
+              "action": "click",
+              "description": "Click Header Account Avatar",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Header_Account",
+                "xpath": "//span[@id='header-member-menu-avatar']/div/span"
+              }
+            },
+            {
+              "step_number": 4,
+              "action": "click",
+              "description": "Click Create button in menu",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Header_Create",
+                "xpath": "//div[@id='account-menu-popover-content']/div[3]/div/ul/li[2]/button/span/span"
+              }
+            },
+            {
+              "step_number": 5,
+              "action": "set_text",
+              "description": "Enter Workspace Name",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/input_Workspace_Name",
+                "xpath": "//input[contains(@id, 'create-team-org-display-name')]",
+                "text": "a2"
+              }
+            },
+            {
+              "step_number": 6,
+              "action": "set_text",
+              "description": "Enter Workspace Description (Skipping Workspace Type selection)",
+              "parameters": {
+                "object": "Page_Home  Trello/textarea_Workspace_Description",
+                "xpath": "//textarea[contains(@id,create-team-org-description)]",
+                "text": "abc"
+              }
+            },
+            {
+              "step_number": 7,
+              "action": "verify_element_not_clickable",
+              "description": "Verify Create button remains disabled due to missing Workspace Type",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Submit_CreateWorkspace",
+                "xpath": "//*[@type = 'submit' and (text() = 'Continue' or . = 'Continue')]"
+              }
+            },
+            {
+              "step_number": 8,
+              "action": "close_browser",
+              "description": "Close browser instance",
+              "parameters": {}
+            }
+          ],
+          "expected_result": "User cannot create workspace without selecting a Workspace Type",
+          "verification_method": "WebUI.verifyElementNotClickable",
+          "variables": {
+            "wsname": "a2",
+            "des": "abc"
+          }
+        },
+        {
+          "id": "TC_WORKSPACE_ADD_04",
+          "name": "TC_WORKSPACE_ADD_04",
+          "sequence": 4,
+          "category": "Workspace Management",
+          "type": "Positive",
+          "priority": "High",
+          "description": "Verify successful workspace creation with valid name and empty description",
+          "preconditions": [
+            "Local Environment: Folder 'D:\\ChromeTest' must exist",
+            "Browser State: Chrome Profile 'Profile 2' is configured and explicitly logged into Trello",
+            "System: Debugging Port 9222 must be free (no conflicting Chrome instances)",
+            "Network: Stable internet connection to access trello.com",
+            "Driver: ChromeDriver version matches the installed Chrome browser version"
+          ],
+          "test_data": {
+            "wsname": "abc2",
+            "des": ""
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "configure_driver",
+              "description": "Initialize ChromeDriver with Custom Options",
+              "parameters": {
+                "profile": "Profile 2",
+                "user_data_dir": "D:\\ChromeTest",
+                "arguments": [
+                  "--no-sandbox",
+                  "--disable-dev-shm-usage",
+                  "--remote-debugging-port=9222"
+                ]
+              }
+            },
+            {
+              "step_number": 2,
+              "action": "navigate_to_url",
+              "description": "Navigate to Trello homepage",
+              "parameters": {
+                "url": "https://trello.com/"
+              }
+            },
+            {
+              "step_number": 3,
+              "action": "click",
+              "description": "Click Header Account Avatar",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Header_Account",
+                "xpath": "//span[@id='header-member-menu-avatar']/div/span"
+              }
+            },
+            {
+              "step_number": 4,
+              "action": "click",
+              "description": "Click Create button in menu",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Header_Create",
+                "xpath": "//div[@id='account-menu-popover-content']/div[3]/div/ul/li[2]/button/span/span"
+              }
+            },
+            {
+              "step_number": 5,
+              "action": "set_text",
+              "description": "Enter Workspace Name",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/input_Workspace_Name",
+                "xpath": "//input[contains(@id, 'create-team-org-display-name')]",
+                "text": "abc2"
+              }
+            },
+            {
+              "step_number": 6,
+              "action": "click",
+              "description": "Click Workspace Type dropdown",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/ddl_Workspace_Type_Trigger",
+                "xpath": "//div[@id='layer-manager-overlay']/div/div/div/div/div/form/div/div/div/div/div[2]/div/span/span"
+              }
+            },
+            {
+              "step_number": 7,
+              "action": "click",
+              "description": "Select 'Other' from type options",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/opt_Workspace_Type_Item",
+                "xpath": "//div[contains(@class, 'menu')]//*[normalize-space(text())='Other']"
+              }
+            },
+            {
+              "step_number": 8,
+              "action": "set_text",
+              "description": "Enter Workspace Description (Empty)",
+              "parameters": {
+                "object": "Page_Home  Trello/textarea_Workspace_Description",
+                "xpath": "//textarea[contains(@id,create-team-org-description)]",
+                "text": ""
+              }
+            },
+            {
+              "step_number": 9,
+              "action": "click",
+              "description": "Click Submit/Continue button",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Submit_CreateWorkspace",
+                "xpath": "//*[@type = 'submit' and (text() = 'Continue' or . = 'Continue')]"
+              }
+            },
+            {
+              "step_number": 10,
+              "action": "click",
+              "description": "Click Invite Members link (Verification of success)",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/link_Invite_Members",
+                "xpath": "//div[@id='layer-manager-overlay']/div/div/div/div/div/a"
+              }
+            },
+            {
+              "step_number": 11,
+              "action": "close_browser",
+              "description": "Close browser instance",
+              "parameters": {}
+            }
+          ],
+          "expected_result": "Workspace 'abc2' created successfully and user is navigated to invite screen",
+          "verification_method": "Successful navigation to Invite Members screen",
+          "variables": {
+            "wsname": "abc2",
+            "des": ""
+          }
+        },
+        {
+          "id": "TC_WORKSPACE_ADD_05",
+          "name": "TC_WORKSPACE_ADD_05",
+          "sequence": 5,
+          "category": "Workspace Management",
+          "type": "Negative",
+          "priority": "Medium",
+          "description": "Verify Create Workspace button is disabled when Workspace Name is empty",
+          "preconditions": [
+            "Local Environment: Folder 'D:\\ChromeTest' must exist",
+            "Browser State: Chrome Profile 'Profile 2' is configured and explicitly logged into Trello",
+            "System: Debugging Port 9222 must be free (no conflicting Chrome instances)",
+            "Network: Stable internet connection to access trello.com",
+            "Driver: ChromeDriver version matches the installed Chrome browser version"
+          ],
+          "test_data": {
+            "wsname": "",
+            "des": "abc"
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "configure_driver",
+              "description": "Initialize ChromeDriver with Custom Options",
+              "parameters": {
+                "profile": "Profile 2",
+                "user_data_dir": "D:\\ChromeTest",
+                "arguments": [
+                  "--no-sandbox",
+                  "--disable-dev-shm-usage",
+                  "--remote-debugging-port=9222"
+                ]
+              }
+            },
+            {
+              "step_number": 2,
+              "action": "navigate_to_url",
+              "description": "Navigate to Trello homepage",
+              "parameters": {
+                "url": "https://trello.com/"
+              }
+            },
+            {
+              "step_number": 3,
+              "action": "click",
+              "description": "Click Header Account Avatar",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Header_Account",
+                "xpath": "//span[@id='header-member-menu-avatar']/div/span"
+              }
+            },
+            {
+              "step_number": 4,
+              "action": "click",
+              "description": "Click Create button in menu",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Header_Create",
+                "xpath": "//div[@id='account-menu-popover-content']/div[3]/div/ul/li[2]/button/span/span"
+              }
+            },
+            {
+              "step_number": 5,
+              "action": "set_text",
+              "description": "Leave Workspace Name empty",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/input_Workspace_Name",
+                "xpath": "//input[contains(@id, 'create-team-org-display-name')]",
+                "text": ""
+              }
+            },
+            {
+              "step_number": 6,
+              "action": "set_text",
+              "description": "Enter Workspace Description",
+              "parameters": {
+                "object": "Page_Home  Trello/textarea_Workspace_Description",
+                "xpath": "//textarea[contains(@id,create-team-org-description)]",
+                "text": "abc"
+              }
+            },
+            {
+              "step_number": 7,
+              "action": "verify_element_not_clickable",
+              "description": "Verify Create button is disabled due to empty Name",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Submit_CreateWorkspace",
+                "xpath": "//*[@type = 'submit' and (text() = 'Continue' or . = 'Continue')]"
+              }
+            },
+            {
+              "step_number": 8,
+              "action": "close_browser",
+              "description": "Close browser instance",
+              "parameters": {}
+            }
+          ],
+          "expected_result": "User cannot create workspace without entering a Workspace Name",
+          "verification_method": "WebUI.verifyElementNotClickable",
+          "variables": {
+            "wsname": "",
+            "des": "abc"
+          }
+        },
+        {
+          "id": "TC_WORKSPACE_ADD_06",
+          "name": "TC_WORKSPACE_ADD_06",
+          "sequence": 6,
+          "category": "Workspace Management",
+          "type": "Negative",
+          "priority": "Medium",
+          "description": "Verify Create Workspace button remains disabled when Workspace Name is empty, even if Workspace Type is selected",
+          "preconditions": [
+            "Local Environment: Folder 'D:\\ChromeTest' must exist",
+            "Browser State: Chrome Profile 'Profile 2' is configured and explicitly logged into Trello",
+            "System: Debugging Port 9222 must be free (no conflicting Chrome instances)",
+            "Network: Stable internet connection to access trello.com",
+            "Driver: ChromeDriver version matches the installed Chrome browser version"
+          ],
+          "test_data": {
+            "wsName": "",
+            "des": ""
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "configure_driver",
+              "description": "Initialize ChromeDriver with Custom Options",
+              "parameters": {
+                "profile": "Profile 2",
+                "user_data_dir": "D:\\ChromeTest",
+                "arguments": [
+                  "--no-sandbox",
+                  "--disable-dev-shm-usage",
+                  "--remote-debugging-port=9222"
+                ]
+              }
+            },
+            {
+              "step_number": 2,
+              "action": "navigate_to_url",
+              "description": "Navigate to Trello homepage",
+              "parameters": {
+                "url": "https://trello.com/"
+              }
+            },
+            {
+              "step_number": 3,
+              "action": "click",
+              "description": "Click Header Account Avatar",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Header_Account",
+                "xpath": "//span[@id='header-member-menu-avatar']/div/span"
+              }
+            },
+            {
+              "step_number": 4,
+              "action": "click",
+              "description": "Click Create button in menu",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Header_Create",
+                "xpath": "//div[@id='account-menu-popover-content']/div[3]/div/ul/li[2]/button/span/span"
+              }
+            },
+            {
+              "step_number": 5,
+              "action": "set_text",
+              "description": "Leave Workspace Name empty",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/input_Workspace_Name",
+                "xpath": "//input[contains(@id, 'create-team-org-display-name')]",
+                "text": ""
+              }
+            },
+            {
+              "step_number": 6,
+              "action": "click",
+              "description": "Click Workspace Type dropdown",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/ddl_Workspace_Type_Trigger",
+                "xpath": "//div[@id='layer-manager-overlay']/div/div/div/div/div/form/div/div/div/div/div[2]/div/span/span"
+              }
+            },
+            {
+              "step_number": 7,
+              "action": "click",
+              "description": "Select 'Other' from type options",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/opt_Workspace_Type_Item",
+                "xpath": "//div[contains(@class, 'menu')]//*[normalize-space(text())='Other']"
+              }
+            },
+            {
+              "step_number": 8,
+              "action": "set_text",
+              "description": "Enter Workspace Description (Empty)",
+              "parameters": {
+                "object": "Page_Home  Trello/textarea_Workspace_Description",
+                "xpath": "//textarea[contains(@id,create-team-org-description)]",
+                "text": ""
+              }
+            },
+            {
+              "step_number": 9,
+              "action": "verify_element_not_clickable",
+              "description": "Verify Create button is disabled due to empty Name",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Submit_CreateWorkspace",
+                "xpath": "//*[@type = 'submit' and (text() = 'Continue' or . = 'Continue')]"
+              }
+            },
+            {
+              "step_number": 10,
+              "action": "close_browser",
+              "description": "Close browser instance",
+              "parameters": {}
+            }
+          ],
+          "expected_result": "Create button remains unclickable when Name is missing, despite Type being selected",
+          "verification_method": "WebUI.verifyElementNotClickable",
+          "variables": {
+            "wsName": "",
+            "des": ""
+          }
+        },
+        {
+          "id": "TC_WORKSPACE_ADD_07",
+          "name": "TC_WORKSPACE_ADD_07",
+          "sequence": 7,
+          "category": "Workspace Management",
+          "type": "Negative",
+          "priority": "Medium",
+          "description": "Verify Create Workspace button remains disabled when Workspace Name is valid but Workspace Type is missing (Description empty)",
+          "preconditions": [
+            "Local Environment: Folder 'D:\\ChromeTest' must exist",
+            "Browser State: Chrome Profile 'Profile 2' is configured and explicitly logged into Trello",
+            "System: Debugging Port 9222 must be free (no conflicting Chrome instances)",
+            "Network: Stable internet connection to access trello.com",
+            "Driver: ChromeDriver version matches the installed Chrome browser version"
+          ],
+          "test_data": {
+            "wsName": "abcs",
+            "des": ""
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "configure_driver",
+              "description": "Initialize ChromeDriver with Custom Options",
+              "parameters": {
+                "profile": "Profile 2",
+                "user_data_dir": "D:\\ChromeTest",
+                "arguments": [
+                  "--no-sandbox",
+                  "--disable-dev-shm-usage",
+                  "--remote-debugging-port=9222"
+                ]
+              }
+            },
+            {
+              "step_number": 2,
+              "action": "navigate_to_url",
+              "description": "Navigate to Trello homepage",
+              "parameters": {
+                "url": "https://trello.com/"
+              }
+            },
+            {
+              "step_number": 3,
+              "action": "click",
+              "description": "Click Header Account Avatar",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Header_Account",
+                "xpath": "//span[@id='header-member-menu-avatar']/div/span"
+              }
+            },
+            {
+              "step_number": 4,
+              "action": "click",
+              "description": "Click Create button in menu",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Header_Create",
+                "xpath": "//div[@id='account-menu-popover-content']/div[3]/div/ul/li[2]/button/span/span"
+              }
+            },
+            {
+              "step_number": 5,
+              "action": "set_text",
+              "description": "Enter Workspace Name",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/input_Workspace_Name",
+                "xpath": "//input[contains(@id, 'create-team-org-display-name')]",
+                "text": "abcs"
+              }
+            },
+            {
+              "step_number": 6,
+              "action": "set_text",
+              "description": "Enter Workspace Description (Empty) - Skipping Workspace Type",
+              "parameters": {
+                "object": "Page_Home  Trello/textarea_Workspace_Description",
+                "xpath": "//textarea[contains(@id,create-team-org-description)]",
+                "text": ""
+              }
+            },
+            {
+              "step_number": 7,
+              "action": "verify_element_not_clickable",
+              "description": "Verify Create button is disabled due to missing Workspace Type",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Submit_CreateWorkspace",
+                "xpath": "//*[@type = 'submit' and (text() = 'Continue' or . = 'Continue')]"
+              }
+            },
+            {
+              "step_number": 8,
+              "action": "close_browser",
+              "description": "Close browser instance",
+              "parameters": {}
+            }
+          ],
+          "expected_result": "Create button remains disabled because Workspace Type is mandatory",
+          "verification_method": "WebUI.verifyElementNotClickable",
+          "variables": {
+            "wsName": "abcs",
+            "des": ""
+          }
+        },
+        {
+          "id": "TC_WORKSPACE_ADD_08",
+          "name": "TC_WORKSPACE_ADD_08",
+          "sequence": 8,
+          "category": "Workspace Management",
+          "type": "Negative",
+          "priority": "Medium",
+          "description": "Verify system prevents workspace creation when Workspace Name exceeds character limit (100+ chars)",
+          "preconditions": [
+            "Local Environment: Folder 'D:\\ChromeTest' must exist",
+            "Browser State: Chrome Profile 'Profile 2' is configured and explicitly logged into Trello",
+            "System: Debugging Port 9222 must be free (no conflicting Chrome instances)",
+            "Network: Stable internet connection to access trello.com",
+            "Driver: ChromeDriver version matches the installed Chrome browser version"
+          ],
+          "test_data": {
+            "wsName": "ThisIsAVeryLongTestNameCreatedForTestingPurposeToCheckIfTheSystemCanHandleMoreThanOneHundredCharactersWithoutAnyUnexpectedErrorsOrCrashes",
+            "des": ""
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "configure_driver",
+              "description": "Initialize ChromeDriver with Custom Options",
+              "parameters": {
+                "profile": "Profile 2",
+                "user_data_dir": "D:\\ChromeTest",
+                "arguments": [
+                  "--no-sandbox",
+                  "--disable-dev-shm-usage",
+                  "--remote-debugging-port=9222"
+                ]
+              }
+            },
+            {
+              "step_number": 2,
+              "action": "navigate_to_url",
+              "description": "Navigate to Trello homepage",
+              "parameters": {
+                "url": "https://trello.com/"
+              }
+            },
+            {
+              "step_number": 3,
+              "action": "click",
+              "description": "Click Header Account Avatar",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Header_Account",
+                "xpath": "//span[@id='header-member-menu-avatar']/div/span"
+              }
+            },
+            {
+              "step_number": 4,
+              "action": "click",
+              "description": "Click Create button in menu",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Header_Create",
+                "xpath": "//div[@id='account-menu-popover-content']/div[3]/div/ul/li[2]/button/span/span"
+              }
+            },
+            {
+              "step_number": 5,
+              "action": "set_text",
+              "description": "Enter excessively long Workspace Name (>100 chars)",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/input_Workspace_Name",
+                "xpath": "//input[contains(@id, 'create-team-org-display-name')]",
+                "text": "ThisIsAVeryLongTestNameCreatedForTestingPurposeToCheckIfTheSystemCanHandleMoreThanOneHundredCharactersWithoutAnyUnexpectedErrorsOrCrashes"
+              }
+            },
+            {
+              "step_number": 6,
+              "action": "click",
+              "description": "Click Workspace Type dropdown",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/ddl_Workspace_Type_Trigger",
+                "xpath": "//div[@id='layer-manager-overlay']/div/div/div/div/div/form/div/div/div/div/div[2]/div/span/span"
+              }
+            },
+            {
+              "step_number": 7,
+              "action": "click",
+              "description": "Select 'Other' from type options",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/opt_Workspace_Type_Item",
+                "xpath": "//div[contains(@class, 'menu')]//*[normalize-space(text())='Other']"
+              }
+            },
+            {
+              "step_number": 8,
+              "action": "set_text",
+              "description": "Enter Workspace Description (Empty)",
+              "parameters": {
+                "object": "Page_Home  Trello/textarea_Workspace_Description",
+                "xpath": "//textarea[contains(@id,create-team-org-description)]",
+                "text": ""
+              }
+            },
+            {
+              "step_number": 9,
+              "action": "verify_element_not_clickable",
+              "description": "Verify Create button is disabled due to invalid name length",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Submit_CreateWorkspace",
+                "xpath": "//*[@type = 'submit' and (text() = 'Continue' or . = 'Continue')]",
+                "failure_handling": "STOP_ON_FAILURE"
+              }
+            },
+            {
+              "step_number": 10,
+              "action": "close_browser",
+              "description": "Close browser instance (via Finally block)",
+              "parameters": {}
+            }
+          ],
+          "expected_result": "Create button remains disabled when workspace name exceeds allowed character limit",
+          "verification_method": "WebUI.verifyElementNotClickable",
+          "variables": {
+            "wsName": "ThisIsAVeryLongTestNameCreatedForTestingPurpose...",
+            "des": ""
+          }
+        },
+        {
+          "id": "TC_WORKSPACE_ADD_09",
+          "name": "TC_WORKSPACE_ADD_09",
+          "sequence": 9,
+          "category": "Workspace Management",
+          "type": "Negative",
+          "priority": "Medium",
+          "description": "Verify system prevents workspace creation when Workspace Name consists only of whitespace characters",
+          "preconditions": [
+            "Local Environment: Folder 'D:\\ChromeTest' must exist",
+            "Browser State: Chrome Profile 'Profile 2' is configured and explicitly logged into Trello",
+            "System: Debugging Port 9222 must be free (no conflicting Chrome instances)",
+            "Network: Stable internet connection to access trello.com",
+            "Driver: ChromeDriver version matches the installed Chrome browser version"
+          ],
+          "test_data": {
+            "wsName": "  ",
+            "des": "abccc"
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "configure_driver",
+              "description": "Initialize ChromeDriver with Custom Options",
+              "parameters": {
+                "profile": "Profile 2",
+                "user_data_dir": "D:\\ChromeTest",
+                "arguments": [
+                  "--no-sandbox",
+                  "--disable-dev-shm-usage",
+                  "--remote-debugging-port=9222"
+                ]
+              }
+            },
+            {
+              "step_number": 2,
+              "action": "navigate_to_url",
+              "description": "Navigate to Trello homepage",
+              "parameters": {
+                "url": "https://trello.com/"
+              }
+            },
+            {
+              "step_number": 3,
+              "action": "click",
+              "description": "Click Header Account Avatar",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Header_Account",
+                "xpath": "//span[@id='header-member-menu-avatar']/div/span"
+              }
+            },
+            {
+              "step_number": 4,
+              "action": "click",
+              "description": "Click Create button in menu",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Header_Create",
+                "xpath": "//div[@id='account-menu-popover-content']/div[3]/div/ul/li[2]/button/span/span"
+              }
+            },
+            {
+              "step_number": 5,
+              "action": "set_text",
+              "description": "Enter whitespace-only Workspace Name",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/input_Workspace_Name",
+                "xpath": "//input[contains(@id, 'create-team-org-display-name')]",
+                "text": "  "
+              }
+            },
+            {
+              "step_number": 6,
+              "action": "click",
+              "description": "Click Workspace Type dropdown",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/ddl_Workspace_Type_Trigger",
+                "xpath": "//div[@id='layer-manager-overlay']/div/div/div/div/div/form/div/div/div/div/div[2]/div/span/span"
+              }
+            },
+            {
+              "step_number": 7,
+              "action": "click",
+              "description": "Select 'Other' from type options",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/opt_Workspace_Type_Item",
+                "xpath": "//div[contains(@class, 'menu')]//*[normalize-space(text())='Other']"
+              }
+            },
+            {
+              "step_number": 8,
+              "action": "set_text",
+              "description": "Enter Workspace Description",
+              "parameters": {
+                "object": "Page_Home  Trello/textarea_Workspace_Description",
+                "xpath": "//textarea[contains(@id,create-team-org-description)]",
+                "text": "abccc"
+              }
+            },
+            {
+              "step_number": 9,
+              "action": "verify_element_not_clickable",
+              "description": "Verify Create button is disabled due to invalid name format (whitespace)",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/btn_Submit_CreateWorkspace",
+                "xpath": "//*[@type = 'submit' and (text() = 'Continue' or . = 'Continue')]",
+                "failure_handling": "STOP_ON_FAILURE"
+              }
+            },
+            {
+              "step_number": 10,
+              "action": "close_browser",
+              "description": "Close browser instance (via Finally block)",
+              "parameters": {}
+            }
+          ],
+          "expected_result": "Create button remains disabled because a name consisting only of spaces is treated as empty/invalid",
+          "verification_method": "WebUI.verifyElementNotClickable",
+          "variables": {
+            "wsName": "  ",
+            "des": "abccc"
+          }
+        },
+        {
+          "id": "TC_WORKSPACE_EDIT_01",
+          "name": "Edit Workspace Name",
+          "sequence": 10,
+          "category": "Workspace Management",
+          "type": "Positive",
+          "priority": "High",
+          "description": "Verify user can rename an existing workspace successfully",
+          "preconditions": [
+            "Browser State: Chrome Profile 'Profile 2' is configured and explicitly logged into Trello",
+            "Chrome Driver is updated",
+            "User Data Directory exists (D:\\ChromeTest)",
+            "Workspace 'Edit 1' exists"
+          ],
+          "test_data": {
+            "currentWorkspaceName": "Edit 1",
+            "newWorkspaceName": "fa"
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "configure_driver",
+              "description": "Initialize ChromeDriver with Custom Options (Profile 2, Debug Port)",
+              "parameters": {
+                "profile": "Profile 2",
+                "user_data_dir": "D:\\ChromeTest",
+                "arguments": [
+                  "--no-sandbox",
+                  "--disable-dev-shm-usage",
+                  "--remote-debugging-port=9222"
+                ]
+              }
+            },
+            {
+              "step_number": 2,
+              "action": "navigate_to_url",
+              "description": "Navigate to Trello homepage",
+              "parameters": {
+                "url": "https://trello.com/"
+              }
+            },
+            {
+              "step_number": 3,
+              "action": "click",
+              "description": "Select Workspace 'Edit 1' from sidebar",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/tWorkspace",
+                "xpath": "//li[.//span[@data-testid='home-team-tab-name' and normalize-space(text())='Edit 1']]//a",
+                "variable": "workspaceName = 'Edit 1'"
+              }
+            },
+            {
+              "step_number": 4,
+              "action": "click",
+              "description": "Click Settings tab of the Workspace",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/tTabSettings",
+                "xpath": "//li[.//span[@data-testid='home-team-tab-name' and normalize-space(text())='Edit 1']]//a[@data-testid='home-team-settings-tab']",
+                "variable": "workspaceName = 'Edit 1'"
+              }
+            },
+            {
+              "step_number": 5,
+              "action": "click",
+              "description": "Click Edit Workspace button (Pencil icon)",
+              "parameters": {
+                "object": "Object Repository/Page_a  Settings  Trello/btn_edit_workspace",
+                "xpath": "//div[@id='content']/div/div/main/main/div/div/div/div[2]/h2/button/span/span"
+              }
+            },
+            {
+              "step_number": 6,
+              "action": "set_text",
+              "description": "Enter new workspace name",
+              "parameters": {
+                "object": "Object Repository/Page_a  Settings  Trello/input_name",
+                "xpath": "//input[@id='displayName']",
+                "text": "fa"
+              }
+            },
+            {
+              "step_number": 7,
+              "action": "click",
+              "description": "Click Save button",
+              "parameters": {
+                "object": "Object Repository/Page_a  Settings  Trello/btn_save_edit_workspace",
+                "xpath": "//button[@type='submit' and text()='Save']"
+              }
+            },
+            {
+              "step_number": 8,
+              "action": "close_browser",
+              "description": "Close browser instance",
+              "parameters": {}
+            }
+          ],
+          "expected_result": "Workspace renamed from 'Edit 1' to 'fa' successfully",
+          "variables": {
+            "ws": "Edit 1",
+            "newnameWs": "fa"
+          }
+        },
+        {
+          "id": "TC_WORKSPACE_EDIT_02",
+          "name": "Change Workspace Visibility to Public",
+          "sequence": 11,
+          "category": "Workspace Management",
+          "type": "Positive",
+          "priority": "High",
+          "description": "Verify user can change workspace visibility settings from Private/Work to Public",
+          "preconditions": [
+            "Browser State: Chrome Profile 'Profile 2' is configured and explicitly logged into Trello",
+            "Chrome Driver is updated",
+            "Chrome Profile 2 is configured",
+            "Workspace 'Edit 2' exists"
+          ],
+          "test_data": {
+            "workspace_name": "Edit 2",
+            "target_visibility": "Public"
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "configure_driver",
+              "description": "Initialize ChromeDriver with Custom Options (Profile 2, Debug Port)",
+              "parameters": {
+                "profile": "Profile 2",
+                "user_data_dir": "D:\\ChromeTest",
+                "arguments": [
+                  "--no-sandbox",
+                  "--disable-dev-shm-usage",
+                  "--remote-debugging-port=9222"
+                ]
+              }
+            },
+            {
+              "step_number": 2,
+              "action": "navigate_to_url",
+              "description": "Navigate to Trello homepage",
+              "parameters": {
+                "url": "https://trello.com/"
+              }
+            },
+            {
+              "step_number": 3,
+              "action": "click",
+              "description": "Select Workspace 'Edit 2' from sidebar",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/tWorkspace",
+                "xpath": "//li[.//span[@data-testid='home-team-tab-name' and normalize-space(text())='Edit 2']]//a",
+                "variable": "workspaceName = 'Edit 2'"
+              }
+            },
+            {
+              "step_number": 4,
+              "action": "click",
+              "description": "Click Settings tab of the Workspace",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/tTabSettings",
+                "xpath": "//li[.//span[@data-testid='home-team-tab-name' and normalize-space(text())='Edit 2']]//a[@data-testid='home-team-settings-tab']",
+                "variable": "workspaceName = 'Edit 2'"
+              }
+            },
+            {
+              "step_number": 5,
+              "action": "click",
+              "description": "Click Current Visibility button",
+              "parameters": {
+                "object": "Object Repository/Page_a  Settings  Trello/btn_CurrentVisibility",
+                "xpath": "//button[@data-testid='workspace-settings-visibility-button']"
+              }
+            },
+            {
+              "step_number": 6,
+              "action": "click",
+              "description": "Select 'Public' visibility option",
+              "parameters": {
+                "object": "Object Repository/Page_a  Settings  Trello/div_visibility_public",
+                "xpath": "(.//*[normalize-space(text()) and normalize-space(.)='Public'])[1]/following::div[1]"
+              }
+            },
+            {
+              "step_number": 7,
+              "action": "delay",
+              "description": "Wait for setting to apply",
+              "parameters": {
+                "seconds": 2
+              }
+            },
+            {
+              "step_number": 8,
+              "action": "close_browser",
+              "description": "Close browser instance",
+              "parameters": {}
+            }
+          ],
+          "expected_result": "Workspace visibility is successfully updated to Public",
+          "variables": {
+            "ws": "Edit 2"
+          }
+        },
+        {
+          "id": "TC_WORKSPACE_EDIT_03",
+          "name": "Rename Workspace - Boundary Value (Long Name)",
+          "sequence": 12,
+          "category": "Workspace Management",
+          "type": "Boundary",
+          "priority": "Medium",
+          "description": "Verify system behavior and Save button state when renaming workspace with an excessively long name (100+ characters)",
+          "preconditions": [
+            "Chrome Driver is updated",
+            "Browser State: Chrome Profile 'Profile 2' is configured and explicitly logged into Trello",
+            "Workspace 'Edit 3' exists"
+          ],
+          "test_data": {
+            "workspace_name": "Edit 3",
+            "new_long_name": "ThisIsAVeryLongTestNameCreatedForTestingPurposeToCheckIfTheSystemCanHandleMoreThanOneHundredCharactersWithoutAnyUnexpectedErrorsOrCrashes"
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "configure_driver",
+              "description": "Initialize ChromeDriver with Custom Options (Profile 2, Debug Port)",
+              "parameters": {
+                "profile": "Profile 2",
+                "user_data_dir": "D:\\ChromeTest",
+                "arguments": [
+                  "--no-sandbox",
+                  "--disable-dev-shm-usage",
+                  "--remote-debugging-port=9222"
+                ]
+              }
+            },
+            {
+              "step_number": 2,
+              "action": "navigate_to_url",
+              "description": "Navigate to Trello homepage",
+              "parameters": {
+                "url": "https://trello.com/"
+              }
+            },
+            {
+              "step_number": 3,
+              "action": "click",
+              "description": "Select Workspace 'Edit 3' from sidebar",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/tWorkspace",
+                "xpath": "//li[.//span[@data-testid='home-team-tab-name' and normalize-space(text())='Edit 3']]//a",
+                "variable": "workspaceName = 'Edit 3'"
+              }
+            },
+            {
+              "step_number": 4,
+              "action": "click",
+              "description": "Click Settings tab of the Workspace",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/tTabSettings",
+                "xpath": "//li[.//span[@data-testid='home-team-tab-name' and normalize-space(text())='Edit 3']]//a[@data-testid='home-team-settings-tab']",
+                "variable": "workspaceName = 'Edit 3'"
+              }
+            },
+            {
+              "step_number": 5,
+              "action": "click",
+              "description": "Click Edit Workspace button (Pencil icon)",
+              "parameters": {
+                "object": "Object Repository/Page_a  Settings  Trello/btn_edit_workspace",
+                "xpath": "//div[@id='content']/div/div/main/main/div/div/div/div[2]/h2/button/span/span"
+              }
+            },
+            {
+              "step_number": 6,
+              "action": "set_text",
+              "description": "Enter excessively long name",
+              "parameters": {
+                "object": "Object Repository/Page_a  Settings  Trello/input_name",
+                "xpath": "//input[@id='displayName']",
+                "text": "ThisIsAVeryLongTestNameCreatedForTestingPurposeToCheckIfTheSystemCanHandleMoreThanOneHundredCharactersWithoutAnyUnexpectedErrorsOrCrashes"
+              }
+            },
+            {
+              "step_number": 7,
+              "action": "verify_element_clickable",
+              "description": "Verify if Save button remains clickable",
+              "parameters": {
+                "object": "Object Repository/Page_a  Settings  Trello/btn_save_edit_workspace",
+                "xpath": "//button[@type='submit' and text()='Save']",
+                "failure_handling": "OPTIONAL"
+              }
+            },
+            {
+              "step_number": 8,
+              "action": "close_browser",
+              "description": "Close browser instance",
+              "parameters": {}
+            }
+          ],
+          "expected_result": "System should handle the long input (Save button clickable/unclickable based on business rule)",
+          "variables": {
+            "ws": "Edit 3"
+          }
+        },
+        {
+          "id": "TC_WORKSPACE_EDIT_04",
+          "name": "Rename Workspace - Invalid Input (Whitespace)",
+          "sequence": 13,
+          "category": "Workspace Management",
+          "type": "Negative",
+          "priority": "Medium",
+          "description": "Verify that the Save button is disabled when attempting to rename a workspace with only whitespace characters",
+          "preconditions": [
+            "Chrome Driver is updated",
+            "Browser State: Chrome Profile 'Profile 2' is configured and explicitly logged into Trello",
+            "Workspace 'Edit 4' exists"
+          ],
+          "test_data": {
+            "workspace_name": "Edit 4",
+            "invalid_name": "     "
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "configure_driver",
+              "description": "Initialize ChromeDriver with Custom Options (Profile 2, Debug Port)",
+              "parameters": {
+                "profile": "Profile 2",
+                "user_data_dir": "D:\\ChromeTest",
+                "arguments": [
+                  "--no-sandbox",
+                  "--disable-dev-shm-usage",
+                  "--remote-debugging-port=9222"
+                ]
+              }
+            },
+            {
+              "step_number": 2,
+              "action": "navigate_to_url",
+              "description": "Navigate to Trello homepage",
+              "parameters": {
+                "url": "https://trello.com/"
+              }
+            },
+            {
+              "step_number": 3,
+              "action": "click",
+              "description": "Select Workspace 'Edit 4' from sidebar",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/tWorkspace",
+                "xpath": "//li[.//span[@data-testid='home-team-tab-name' and normalize-space(text())='Edit 4']]//a",
+                "variable": "workspaceName = 'Edit 4'"
+              }
+            },
+            {
+              "step_number": 4,
+              "action": "click",
+              "description": "Click Settings tab of the Workspace",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/tTabSettings",
+                "xpath": "//li[.//span[@data-testid='home-team-tab-name' and normalize-space(text())='Edit 4']]//a[@data-testid='home-team-settings-tab']",
+                "variable": "workspaceName = 'Edit 4'"
+              }
+            },
+            {
+              "step_number": 5,
+              "action": "click",
+              "description": "Click Edit Workspace button (Pencil icon)",
+              "parameters": {
+                "object": "Object Repository/Page_a  Settings  Trello/btn_edit_workspace",
+                "xpath": "//div[@id='content']/div/div/main/main/div/div/div/div[2]/h2/button/span/span"
+              }
+            },
+            {
+              "step_number": 6,
+              "action": "set_text",
+              "description": "Enter string containing only spaces",
+              "parameters": {
+                "object": "Object Repository/Page_a  Settings  Trello/input_name",
+                "xpath": "//input[@id='displayName']",
+                "text": "     "
+              }
+            },
+            {
+              "step_number": 7,
+              "action": "verify_element_not_clickable",
+              "description": "Verify Save button is disabled/not clickable",
+              "parameters": {
+                "object": "Object Repository/Page_a  Settings  Trello/btn_save_edit_workspace",
+                "xpath": "//button[@type='submit' and text()='Save']"
+              }
+            },
+            {
+              "step_number": 8,
+              "action": "close_browser",
+              "description": "Close browser instance",
+              "parameters": {}
+            }
+          ],
+          "expected_result": "Save button is not clickable, preventing the user from saving an empty name",
+          "variables": {
+            "ws": "Edit 4",
+            "newName": "     "
+          }
+        },
+        {
+          "id": "TC_WORKSPACE_EDIT_05",
+          "name": "Rename Workspace - Invalid Input (Empty Name)",
+          "sequence": 14,
+          "category": "Workspace Management",
+          "type": "Negative",
+          "priority": "Medium",
+          "description": "Verify that the Save button is disabled when attempting to clear the workspace name (empty input)",
+          "preconditions": [
+            "Chrome Driver is updated",
+            "Browser State: Chrome Profile 'Profile 2' is configured and explicitly logged into Trello",
+            "Workspace 'Edit 5' exists"
+          ],
+          "test_data": {
+            "workspace_name": "Edit 5",
+            "new_name": ""
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "configure_driver",
+              "description": "Initialize ChromeDriver with Custom Options (Profile 2, Debug Port)",
+              "parameters": {
+                "profile": "Profile 2",
+                "user_data_dir": "D:\\ChromeTest",
+                "arguments": [
+                  "--no-sandbox",
+                  "--disable-dev-shm-usage",
+                  "--remote-debugging-port=9222"
+                ]
+              }
+            },
+            {
+              "step_number": 2,
+              "action": "navigate_to_url",
+              "description": "Navigate to Trello homepage",
+              "parameters": {
+                "url": "https://trello.com/"
+              }
+            },
+            {
+              "step_number": 3,
+              "action": "click",
+              "description": "Select Workspace 'Edit 5' from sidebar",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/tWorkspace",
+                "xpath": "//li[.//span[@data-testid='home-team-tab-name' and normalize-space(text())='Edit 5']]//a",
+                "variable": "workspaceName = 'Edit 5'"
+              }
+            },
+            {
+              "step_number": 4,
+              "action": "click",
+              "description": "Click Settings tab of the Workspace",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/tTabSettings",
+                "xpath": "//li[.//span[@data-testid='home-team-tab-name' and normalize-space(text())='Edit 5']]//a[@data-testid='home-team-settings-tab']",
+                "variable": "workspaceName = 'Edit 5'"
+              }
+            },
+            {
+              "step_number": 5,
+              "action": "click",
+              "description": "Click Edit Workspace button (Pencil icon)",
+              "parameters": {
+                "object": "Object Repository/Page_a  Settings  Trello/btn_edit_workspace",
+                "xpath": "//div[@id='content']/div/div/main/main/div/div/div/div[2]/h2/button/span/span"
+              }
+            },
+            {
+              "step_number": 6,
+              "action": "set_text",
+              "description": "Clear the workspace name (enter empty string)",
+              "parameters": {
+                "object": "Object Repository/Page_a  Settings  Trello/input_name",
+                "xpath": "//input[@id='displayName']",
+                "text": ""
+              }
+            },
+            {
+              "step_number": 7,
+              "action": "verify_element_not_clickable",
+              "description": "Verify Save button is disabled/not clickable",
+              "parameters": {
+                "object": "Object Repository/Page_a  Settings  Trello/btn_save_edit_workspace",
+                "xpath": "//button[@type='submit' and text()='Save']",
+                "failure_handling": "OPTIONAL"
+              }
+            },
+            {
+              "step_number": 8,
+              "action": "close_browser",
+              "description": "Close browser instance",
+              "parameters": {}
+            }
+          ],
+          "expected_result": "Save button is not clickable when name field is empty",
+          "variables": {
+            "ws": "Edit 5",
+            "newName": ""
+          }
+        },
+        {
+          "id": "TC_WORKSPACE_DELETE_01",
+          "name": "Delete Workspace - Positive Case",
+          "sequence": 15,
+          "category": "Workspace Management",
+          "type": "Positive",
+          "priority": "Critical",
+          "description": "Verify user can successfully delete an existing workspace by entering the workspace name for confirmation",
+          "preconditions": [
+            "Chrome Driver is updated",
+            "Browser State: Chrome Profile 'Profile 2' is configured and explicitly logged into Trello",
+            "Workspace 'Delete 1' exists"
+          ],
+          "test_data": {
+            "workspace_name": "Delete 1"
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "configure_driver",
+              "description": "Initialize ChromeDriver with Custom Options (Profile 2, Debug Port)",
+              "parameters": {
+                "profile": "Profile 2",
+                "user_data_dir": "D:\\ChromeTest",
+                "arguments": [
+                  "--no-sandbox",
+                  "--disable-dev-shm-usage",
+                  "--remote-debugging-port=9222"
+                ]
+              }
+            },
+            {
+              "step_number": 2,
+              "action": "navigate_to_url",
+              "description": "Navigate to Trello homepage",
+              "parameters": {
+                "url": "https://trello.com/"
+              }
+            },
+            {
+              "step_number": 3,
+              "action": "click",
+              "description": "Select Workspace 'Delete 1' from sidebar",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/tWorkspace",
+                "xpath": "//li[.//span[@data-testid='home-team-tab-name' and normalize-space(text())='Delete 1']]//a",
+                "variable": "workspaceName = 'Delete 1'"
+              }
+            },
+            {
+              "step_number": 4,
+              "action": "delay",
+              "description": "Wait for workspace details to load",
+              "parameters": {
+                "seconds": 2
+              }
+            },
+            {
+              "step_number": 5,
+              "action": "click",
+              "description": "Click Settings tab of the Workspace",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/tTabSettings",
+                "xpath": "//li[.//span[@data-testid='home-team-tab-name' and normalize-space(text())='Delete 1']]//a[@data-testid='home-team-settings-tab']",
+                "variable": "workspaceName = 'Delete 1'"
+              }
+            },
+            {
+              "step_number": 6,
+              "action": "wait_for_element_present",
+              "description": "Wait for Delete Workspace section to appear",
+              "parameters": {
+                "object": "Object Repository/Page_abcs  Settings  Trello/h3_text_delete_ws",
+                "xpath": "//button[@data-testid='delete-workspace-button']",
+                "timeout": 10
+              }
+            },
+            {
+              "step_number": 7,
+              "action": "scroll_to_element",
+              "description": "Scroll down to Delete button",
+              "parameters": {
+                "object": "Object Repository/Page_abcs  Settings  Trello/h3_text_delete_ws",
+                "xpath": "//button[@data-testid='delete-workspace-button']",
+                "timeout": 5
+              }
+            },
+            {
+              "step_number": 8,
+              "action": "click",
+              "description": "Click Delete Workspace button",
+              "parameters": {
+                "object": "Object Repository/Page_abcs  Settings  Trello/h3_text_delete_ws",
+                "xpath": "//button[@data-testid='delete-workspace-button']"
+              }
+            },
+            {
+              "step_number": 9,
+              "action": "set_text",
+              "description": "Enter workspace name to confirm deletion",
+              "parameters": {
+                "object": "Object Repository/Page_abcs  Settings  Trello/input_enter_repeat_name_ws",
+                "xpath": "//input[@id='confirmWorkspaceName']",
+                "text": "Delete 1"
+              }
+            },
+            {
+              "step_number": 10,
+              "action": "click",
+              "description": "Click Confirm Delete button",
+              "parameters": {
+                "object": "Object Repository/Page_abcs  Settings  Trello/button_confirm_delele_ws",
+                "xpath": "(//button[@type='button'])[12]"
+              }
+            },
+            {
+              "step_number": 11,
+              "action": "click",
+              "description": "Dismiss success notification/toast",
+              "parameters": {
+                "object": "Object Repository/Page_Boards  Trello/show_delete_success",
+                "xpath": "//div[@id='FlagGroup']/div/div/div/div/button/span"
+              }
+            },
+            {
+              "step_number": 12,
+              "action": "close_browser",
+              "description": "Close browser instance",
+              "parameters": {}
+            }
+          ],
+          "expected_result": "Workspace 'Delete 1' is permanently deleted and success message is displayed",
+          "variables": {
+            "ws": "Delete 1"
+          }
+        },
+        {
+          "id": "TC_WORKSPACE_DELETE_02",
+          "name": "Delete Workspace - Invalid Confirmation Name",
+          "sequence": 16,
+          "category": "Workspace Management",
+          "type": "Negative",
+          "priority": "Medium",
+          "description": "Verify that the Confirm Delete button remains disabled when the user enters an incorrect workspace name",
+          "preconditions": [
+            "Chrome Driver is updated",
+            "Chrome Profile 2 is configured",
+            "Workspace 'Delete 2' exists"
+          ],
+          "test_data": {
+            "workspace_name": "Delete 2",
+            "invalid_confirmation_input": "addDelete 2"
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "configure_driver",
+              "description": "Initialize ChromeDriver with Custom Options (Profile 2, Debug Port)",
+              "parameters": {
+                "profile": "Profile 2",
+                "user_data_dir": "D:\\ChromeTest",
+                "arguments": [
+                  "--no-sandbox",
+                  "--disable-dev-shm-usage",
+                  "--remote-debugging-port=9222"
+                ]
+              }
+            },
+            {
+              "step_number": 2,
+              "action": "navigate_to_url",
+              "description": "Navigate to Trello homepage",
+              "parameters": {
+                "url": "https://trello.com/"
+              }
+            },
+            {
+              "step_number": 3,
+              "action": "click",
+              "description": "Select Workspace 'Delete 2' from sidebar",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/tWorkspace",
+                "xpath": "//li[.//span[@data-testid='home-team-tab-name' and normalize-space(text())='Delete 2']]//a",
+                "variable": "workspaceName = 'Delete 2'"
+              }
+            },
+            {
+              "step_number": 4,
+              "action": "delay",
+              "description": "Wait for page load",
+              "parameters": {
+                "seconds": 2
+              }
+            },
+            {
+              "step_number": 5,
+              "action": "click",
+              "description": "Click Settings tab of the Workspace",
+              "parameters": {
+                "object": "Object Repository/Page_Home  Trello/tTabSettings",
+                "xpath": "//li[.//span[@data-testid='home-team-tab-name' and normalize-space(text())='Delete 2']]//a[@data-testid='home-team-settings-tab']",
+                "variable": "workspaceName = 'Delete 2'"
+              }
+            },
+            {
+              "step_number": 6,
+              "action": "wait_for_element_present",
+              "description": "Wait for Delete Workspace section",
+              "parameters": {
+                "object": "Object Repository/Page_abcs  Settings  Trello/h3_text_delete_ws",
+                "xpath": "//button[@data-testid='delete-workspace-button']",
+                "timeout": 10
+              }
+            },
+            {
+              "step_number": 7,
+              "action": "scroll_to_element",
+              "description": "Scroll down to Delete button",
+              "parameters": {
+                "object": "Object Repository/Page_abcs  Settings  Trello/h3_text_delete_ws",
+                "xpath": "//button[@data-testid='delete-workspace-button']",
+                "timeout": 5
+              }
+            },
+            {
+              "step_number": 8,
+              "action": "click",
+              "description": "Click Delete Workspace button",
+              "parameters": {
+                "object": "Object Repository/Page_abcs  Settings  Trello/h3_text_delete_ws",
+                "xpath": "//button[@data-testid='delete-workspace-button']"
+              }
+            },
+            {
+              "step_number": 9,
+              "action": "set_text",
+              "description": "Enter INCORRECT workspace name ('addDelete 2')",
+              "parameters": {
+                "object": "Object Repository/Page_abcs  Settings  Trello/input_enter_repeat_name_ws",
+                "xpath": "//input[@id='confirmWorkspaceName']",
+                "text": "addDelete 2"
+              }
+            },
+            {
+              "step_number": 10,
+              "action": "verify_element_not_clickable",
+              "description": "Verify Confirm Delete button is disabled",
+              "parameters": {
+                "object": "Object Repository/Page_abcs  Settings  Trello/button_confirm_delele_ws",
+                "xpath": "(//button[@type='button'])[12]"
+              }
+            },
+            {
+              "step_number": 11,
+              "action": "close_browser",
+              "description": "Close browser instance",
+              "parameters": {}
+            }
+          ],
+          "expected_result": "Delete button remains unclickable due to mismatched confirmation name",
+          "variables": {
+            "ws": "Delete 2",
+            "input": "addDelete 2"
+          }
+        }
+      ],
+      "test_summary": {
+        "total_cases": 16,
+        "by_category": {
+          "Workspace Management": 16
+        },
+        "by_type": {
+          "Positive": 11,
+          "Negative": 4,
+          "Boundary": 1
+        },
+        "by_priority": {
+          "Critical": 4,
+          "High": 8,
+          "Medium": 4
+        },
+        "result": {
+          "pass": 14,
+          "fail": 2
+        }
+      },
+      "execution_notes": {
+        "environment_setup": "Requires pre-configured Chrome Profile 2 at D:\\ChromeTest with port 9222 enabled",
+        "dependencies": "Check internet connection and Trello availability before execution",
+        "cleanup": "Browser is closed after each test case, but state (created workspaces) may persist if delete tests fail"
+      },
+      "common_imports": [
+        "import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint",
+        "import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase",
+        "import static com.kms.katalon.core.testdata.TestDataFactory.findTestData",
+        "import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject",
+        "import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject",
+        "import com.kms.katalon.core.checkpoint.Checkpoint",
+        "import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW",
+        "import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile",
+        "import com.kms.katalon.core.model.FailureHandling",
+        "import com.kms.katalon.core.testcase.TestCase",
+        "import com.kms.katalon.core.testdata.TestData",
+        "import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW",
+        "import com.kms.katalon.core.testobject.TestObject",
+        "import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS",
+        "import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI",
+        "import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows",
+        "import com.kms.katalon.core.util.KeywordUtil",
+        "import internal.GlobalVariable",
+        "import org.openqa.selenium.Keys",
+        "import org.openqa.selenium.WebDriver",
+        "import org.openqa.selenium.chrome.ChromeDriver",
+        "import org.openqa.selenium.chrome.ChromeOptions",
+        "import com.kms.katalon.core.webui.driver.DriverFactory"
+      ]
+    },
+    {
+      "id": "TS_CARDFILTER_02",
+      "name": "Test Suite 2 - Card Search and Filter Functionality",
+      "description": "Test suite focusing on filtering cards by labels, members, due dates, and keywords within a board",
+      "version": "1.0",
+      "created_date": "2025-11-28",
+      "test_environment": {
+        "application": "Trello Web Application",
+        "base_url": "https://trello.com/",
+        "testing_tool": "Katalon Studio",
+        "browser": "Chrome (Custom Profile 2)",
+        "configuration": "Debug Port 9222, No Sandbox"
+      },
+      "total_test_cases": 6,
+      "test_cases": [
+        {
+          "id": "TC_CARDFILTER_SEARCH_01",
+          "name": "Filter Cards by Keyword",
+          "sequence": 1,
+          "category": "Card Filtering",
+          "type": "Positive",
+          "priority": "High",
+          "description": "Verify user can filter cards on the board by entering a specific keyword",
+          "preconditions": [
+            "Chrome Driver is updated",
+            "Chrome Profile 2 is configured",
+            "A recent board exists",
+            "Cards containing the keyword 'Plan' exist"
+          ],
+          "test_data": {
+            "keyword": "Plan"
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "configure_driver",
+              "description": "Initialize ChromeDriver with Custom Options (Profile 2, Debug Port)",
+              "parameters": {
+                "profile": "Profile 2",
+                "user_data_dir": "D:\\ChromeTest",
+                "arguments": [
+                  "--no-sandbox",
+                  "--disable-dev-shm-usage",
+                  "--remote-debugging-port=9222"
+                ]
+              }
+            },
+            {
+              "step_number": 2,
+              "action": "navigate_to_url",
+              "description": "Navigate to Trello homepage",
+              "parameters": {
+                "url": "https://trello.com/"
+              }
+            },
+            {
+              "step_number": 3,
+              "action": "click",
+              "description": "Click to open the most recent board",
+              "parameters": {
+                "object": "Object Repository/Page_Boards  Trello/div_recent_board",
+                "xpath": "//div[@id='content']/div/div/div/main/div/div[3]/div/div[2]/div/a/div/div/div"
+              }
+            },
+            {
+              "step_number": 4,
+              "action": "click_if_visible",
+              "description": "Clear existing filters if the 'Clear filter' button is visible",
+              "parameters": {
+                "object": "Object Repository/btn_clear_filter",
+                "xpath": "//button[@data-testid='filter-popover-button-x']",
+                "timeout": 2,
+                "failure_handling": "OPTIONAL"
+              }
+            },
+            {
+              "step_number": 5,
+              "action": "click",
+              "description": "Click Filter button in the board header",
+              "parameters": {
+                "object": "Object Repository/Page_Chat_App  Trello/span_filter",
+                "xpath": "//div[@id='trello-board-root']/div/div/div/div/div/span[2]/span/button/span"
+              }
+            },
+            {
+              "step_number": 6,
+              "action": "set_text",
+              "description": "Enter keyword into the filter input field",
+              "parameters": {
+                "object": "Object Repository/Page_Chat_App  Trello/input_textfield_filter",
+                "xpath": "//input[@placeholder='Enter a keyword…']",
+                "text": "Plan"
+              }
+            },
+            {
+              "step_number": 7,
+              "action": "delay",
+              "description": "Wait for filter results to update",
+              "parameters": {
+                "seconds": 1
+              }
+            },
+            {
+              "step_number": 8,
+              "action": "close_browser",
+              "description": "Close browser instance",
+              "parameters": {}
+            }
+          ],
+          "expected_result": "Board view updates to show only cards containing the keyword 'Plan'",
+          "variables": {
+            "key": "Plan"
+          }
+        },
+        {
+          "id": "TC_CARDFILTER_SEARCH_02",
+          "name": "Filter Cards - Whitespace Keyword",
+          "sequence": 2,
+          "category": "Card Filtering",
+          "type": "Negative",
+          "priority": "Medium",
+          "description": "Verify system behavior when filtering cards using a string consisting only of whitespace characters",
+          "preconditions": [
+            "Chrome Driver is updated",
+            "Chrome Profile 2 is configured",
+            "A recent board exists"
+          ],
+          "test_data": {
+            "keyword": "                                      "
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "configure_driver",
+              "description": "Initialize ChromeDriver with Custom Options (Profile 2, Debug Port)",
+              "parameters": {
+                "profile": "Profile 2",
+                "user_data_dir": "D:\\ChromeTest",
+                "arguments": [
+                  "--no-sandbox",
+                  "--disable-dev-shm-usage",
+                  "--remote-debugging-port=9222"
+                ]
+              }
+            },
+            {
+              "step_number": 2,
+              "action": "navigate_to_url",
+              "description": "Navigate to Trello homepage",
+              "parameters": {
+                "url": "https://trello.com/"
+              }
+            },
+            {
+              "step_number": 3,
+              "action": "click",
+              "description": "Click to open the most recent board",
+              "parameters": {
+                "object": "Object Repository/Page_Boards  Trello/div_recent_board",
+                "xpath": "//div[@id='content']/div/div/div/main/div/div[3]/div/div[2]/div/a/div/div/div"
+              }
+            },
+            {
+              "step_number": 4,
+              "action": "click_if_visible",
+              "description": "Clear existing filters if the 'Clear filter' button is visible",
+              "parameters": {
+                "object": "Object Repository/btn_clear_filter",
+                "xpath": "//button[@data-testid='filter-popover-button-x']",
+                "timeout": 2,
+                "failure_handling": "OPTIONAL"
+              }
+            },
+            {
+              "step_number": 5,
+              "action": "click",
+              "description": "Click Filter button in the board header",
+              "parameters": {
+                "object": "Object Repository/Page_Chat_App  Trello/span_filter",
+                "xpath": "//div[@id='trello-board-root']/div/div/div/div/div/span[2]/span/button/span"
+              }
+            },
+            {
+              "step_number": 6,
+              "action": "set_text",
+              "description": "Enter whitespace string into filter input",
+              "parameters": {
+                "object": "Object Repository/Page_Chat_App  Trello/input_textfield_filter",
+                "xpath": "//input[@placeholder='Enter a keyword…']",
+                "text": "                                      "
+              }
+            },
+            {
+              "step_number": 7,
+              "action": "delay",
+              "description": "Wait for filter results to update",
+              "parameters": {
+                "seconds": 1
+              }
+            },
+            {
+              "step_number": 8,
+              "action": "close_browser",
+              "description": "Close browser instance",
+              "parameters": {}
+            }
+          ],
+          "expected_result": "System should handle whitespace input gracefully (typically showing no results or ignoring the whitespace)",
+          "variables": {
+            "key": "                                      "
+          }
+        },
+        {
+          "id": "TC_CARDFILTER_SEARCH_03",
+          "name": "Filter Cards - Non-existent Keyword",
+          "sequence": 3,
+          "category": "Card Filtering",
+          "type": "Negative",
+          "priority": "Medium",
+          "description": "Verify system behavior when filtering by a keyword that matches no cards ('Abcdefgh')",
+          "preconditions": [
+            "Chrome Driver is updated",
+            "Chrome Profile 2 is configured",
+            "A recent board exists"
+          ],
+          "test_data": {
+            "keyword": "Abcdefgh"
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "configure_driver",
+              "description": "Initialize ChromeDriver with Custom Options (Profile 2, Debug Port)",
+              "parameters": {
+                "profile": "Profile 2",
+                "user_data_dir": "D:\\ChromeTest",
+                "arguments": [
+                  "--no-sandbox",
+                  "--disable-dev-shm-usage",
+                  "--remote-debugging-port=9222"
+                ]
+              }
+            },
+            {
+              "step_number": 2,
+              "action": "navigate_to_url",
+              "description": "Navigate to Trello homepage",
+              "parameters": {
+                "url": "https://trello.com/"
+              }
+            },
+            {
+              "step_number": 3,
+              "action": "click",
+              "description": "Click to open the most recent board",
+              "parameters": {
+                "object": "Object Repository/Page_Boards  Trello/div_recent_board",
+                "xpath": "//div[@id='content']/div/div/div/main/div/div[3]/div/div[2]/div/a/div/div/div"
+              }
+            },
+            {
+              "step_number": 4,
+              "action": "click_if_visible",
+              "description": "Clear existing filters if the 'Clear filter' button is visible",
+              "parameters": {
+                "object": "Object Repository/btn_clear_filter",
+                "xpath": "//button[@data-testid='filter-popover-button-x']",
+                "timeout": 2,
+                "failure_handling": "OPTIONAL"
+              }
+            },
+            {
+              "step_number": 5,
+              "action": "click",
+              "description": "Click Filter button in the board header",
+              "parameters": {
+                "object": "Object Repository/Page_Chat_App  Trello/span_filter",
+                "xpath": "//div[@id='trello-board-root']/div/div/div/div/div/span[2]/span/button/span"
+              }
+            },
+            {
+              "step_number": 6,
+              "action": "set_text",
+              "description": "Enter non-existent keyword",
+              "parameters": {
+                "object": "Object Repository/Page_Chat_App  Trello/input_textfield_filter",
+                "xpath": "//input[@placeholder='Enter a keyword…']",
+                "text": "Abcdefgh"
+              }
+            },
+            {
+              "step_number": 7,
+              "action": "delay",
+              "description": "Wait for filter results to update",
+              "parameters": {
+                "seconds": 1
+              }
+            },
+            {
+              "step_number": 8,
+              "action": "close_browser",
+              "description": "Close browser instance",
+              "parameters": {}
+            }
+          ],
+          "expected_result": "No cards should be displayed matching the random keyword",
+          "variables": {
+            "key": "Abcdefgh"
+          }
+        },
+        {
+          "id": "TC_CARDFILTER_FILTER_01",
+          "name": "Filter Cards - Assigned to Me",
+          "sequence": 4,
+          "category": "Card Filtering",
+          "type": "Positive",
+          "priority": "High",
+          "description": "Verify user can filter to see only cards assigned to themselves",
+          "preconditions": [
+            "Chrome Driver is updated",
+            "Chrome Profile 2 is configured",
+            "A recent board exists",
+            "Cards assigned to the current user exist"
+          ],
+          "test_data": {
+            "filter_criteria": "Assigned to me"
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "configure_driver",
+              "description": "Initialize ChromeDriver with Custom Options (Profile 2, Debug Port)",
+              "parameters": {
+                "profile": "Profile 2",
+                "user_data_dir": "D:\\ChromeTest",
+                "arguments": [
+                  "--no-sandbox",
+                  "--disable-dev-shm-usage",
+                  "--remote-debugging-port=9222"
+                ]
+              }
+            },
+            {
+              "step_number": 2,
+              "action": "navigate_to_url",
+              "description": "Navigate to Trello homepage",
+              "parameters": {
+                "url": "https://trello.com/"
+              }
+            },
+            {
+              "step_number": 3,
+              "action": "click",
+              "description": "Click to open the most recent board",
+              "parameters": {
+                "object": "Object Repository/Page_Boards  Trello/div_recent_board",
+                "xpath": "//div[@id='content']/div/div/div/main/div/div[3]/div/div[2]/div/a/div/div/div"
+              }
+            },
+            {
+              "step_number": 4,
+              "action": "click_if_visible",
+              "description": "Clear existing filters if the 'Clear filter' button is visible",
+              "parameters": {
+                "object": "Object Repository/btn_clear_filter",
+                "xpath": "//button[@data-testid='filter-popover-button-x']",
+                "timeout": 2,
+                "failure_handling": "OPTIONAL"
+              }
+            },
+            {
+              "step_number": 5,
+              "action": "click",
+              "description": "Click Filter button in the board header",
+              "parameters": {
+                "object": "Object Repository/Page_Chat_App  Trello/span_filter",
+                "xpath": "//div[@id='trello-board-root']/div/div/div/div/div/span[2]/span/button/span"
+              }
+            },
+            {
+              "step_number": 6,
+              "action": "click",
+              "description": "Select 'Cards assigned to me' checkbox",
+              "parameters": {
+                "object": "Object Repository/Page_Chat_App  Trello/checkbox_assigned_to_me",
+                "xpath": "(.//*[normalize-space(text()) and normalize-space(.)='No members'])[1]/following::*[name()='svg'][1]"
+              }
+            },
+            {
+              "step_number": 7,
+              "action": "delay",
+              "description": "Wait for filter results to update",
+              "parameters": {
+                "seconds": 1
+              }
+            },
+            {
+              "step_number": 8,
+              "action": "close_browser",
+              "description": "Close browser instance",
+              "parameters": {}
+            }
+          ],
+          "expected_result": "Board view updates to show only cards assigned to the logged-in user",
+          "variables": {}
+        },
+        {
+          "id": "TC_CARDFILTER_FILTER_02",
+          "name": "Filter Cards - Multiple Criteria (Assigned & Incomplete)",
+          "sequence": 5,
+          "category": "Card Filtering",
+          "type": "Positive",
+          "priority": "High",
+          "description": "Verify user can apply multiple filter criteria simultaneously (Assigned to me AND Not marked as complete)",
+          "preconditions": [
+            "Chrome Driver is updated",
+            "Chrome Profile 2 is configured",
+            "A recent board exists",
+            "Cards meeting the filter criteria exist"
+          ],
+          "test_data": {
+            "filter_1": "Assigned to me",
+            "filter_2": "Not marked as complete"
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "configure_driver",
+              "description": "Initialize ChromeDriver with Custom Options (Profile 2, Debug Port)",
+              "parameters": {
+                "profile": "Profile 2",
+                "user_data_dir": "D:\\ChromeTest",
+                "arguments": [
+                  "--no-sandbox",
+                  "--disable-dev-shm-usage",
+                  "--remote-debugging-port=9222"
+                ]
+              }
+            },
+            {
+              "step_number": 2,
+              "action": "navigate_to_url",
+              "description": "Navigate to Trello homepage",
+              "parameters": {
+                "url": "https://trello.com/"
+              }
+            },
+            {
+              "step_number": 3,
+              "action": "click",
+              "description": "Click to open the most recent board",
+              "parameters": {
+                "object": "Object Repository/Page_Boards  Trello/div_recent_board",
+                "xpath": "//div[@id='content']/div/div/div/main/div/div[3]/div/div[2]/div/a/div/div/div"
+              }
+            },
+            {
+              "step_number": 4,
+              "action": "click_if_visible",
+              "description": "Clear existing filters if the 'Clear filter' button is visible",
+              "parameters": {
+                "object": "Object Repository/btn_clear_filter",
+                "xpath": "//button[@data-testid='filter-popover-button-x']",
+                "timeout": 2,
+                "failure_handling": "OPTIONAL"
+              }
+            },
+            {
+              "step_number": 5,
+              "action": "click",
+              "description": "Click Filter button in the board header",
+              "parameters": {
+                "object": "Object Repository/Page_Chat_App  Trello/span_filter",
+                "xpath": "//div[@id='trello-board-root']/div/div/div/div/div/span[2]/span/button/span"
+              }
+            },
+            {
+              "step_number": 6,
+              "action": "click",
+              "description": "Select 'Cards assigned to me' checkbox",
+              "parameters": {
+                "object": "Object Repository/Page_Chat_App  Trello/checkbox_assigned_to_me",
+                "xpath": "(.//*[normalize-space(text()) and normalize-space(.)='No members'])[1]/following::*[name()='svg'][1]"
+              }
+            },
+            {
+              "step_number": 7,
+              "action": "click",
+              "description": "Select 'Not marked as complete' checkbox",
+              "parameters": {
+                "object": "Object Repository/checkbox_not_marked_complete",
+                "xpath": "//div[@title='Not marked as complete']/ancestor::label"
+              }
+            },
+            {
+              "step_number": 8,
+              "action": "delay",
+              "description": "Wait for filter results to update",
+              "parameters": {
+                "seconds": 1
+              }
+            },
+            {
+              "step_number": 9,
+              "action": "close_browser",
+              "description": "Close browser instance",
+              "parameters": {}
+            }
+          ],
+          "expected_result": "Board view updates to show only cards that are both assigned to the user AND not marked as complete",
+          "variables": {}
+        },
+        {
+          "id": "TC_CARDFILTER_COMBINE_01",
+          "name": "Filter Cards - Combine Overdue & Keyword",
+          "sequence": 6,
+          "category": "Card Filtering",
+          "type": "Positive",
+          "priority": "High",
+          "description": "Verify user can filter cards using a combination of 'Overdue' status and a specific keyword ('Implement')",
+          "preconditions": [
+            "Chrome Driver is updated",
+            "Chrome Profile 2 is configured",
+            "A recent board exists",
+            "Cards with 'Overdue' status and keyword 'Implement' exist"
+          ],
+          "test_data": {
+            "filter_status": "Overdue",
+            "keyword": "Implement"
+          },
+          "steps": [
+            {
+              "step_number": 1,
+              "action": "configure_driver",
+              "description": "Initialize ChromeDriver with Custom Options (Profile 2, Debug Port)",
+              "parameters": {
+                "profile": "Profile 2",
+                "user_data_dir": "D:\\ChromeTest",
+                "arguments": [
+                  "--no-sandbox",
+                  "--disable-dev-shm-usage",
+                  "--remote-debugging-port=9222"
+                ]
+              }
+            },
+            {
+              "step_number": 2,
+              "action": "navigate_to_url",
+              "description": "Navigate to Trello homepage",
+              "parameters": {
+                "url": "https://trello.com/"
+              }
+            },
+            {
+              "step_number": 3,
+              "action": "click",
+              "description": "Click to open the most recent board",
+              "parameters": {
+                "object": "Object Repository/Page_Boards  Trello/div_recent_board",
+                "xpath": "//div[@id='content']/div/div/div/main/div/div[3]/div/div[2]/div/a/div/div/div"
+              }
+            },
+            {
+              "step_number": 4,
+              "action": "click_if_visible",
+              "description": "Clear existing filters if the 'Clear filter' button is visible",
+              "parameters": {
+                "object": "Object Repository/btn_clear_filter",
+                "xpath": "//button[@data-testid='filter-popover-button-x']",
+                "timeout": 2,
+                "failure_handling": "OPTIONAL"
+              }
+            },
+            {
+              "step_number": 5,
+              "action": "click",
+              "description": "Click Filter button in the board header",
+              "parameters": {
+                "object": "Object Repository/Page_Chat_App  Trello/span_filter",
+                "xpath": "//div[@id='trello-board-root']/div/div/div/div/div/span[2]/span/button/span"
+              }
+            },
+            {
+              "step_number": 6,
+              "action": "click",
+              "description": "Select 'Overdue' checkbox",
+              "parameters": {
+                "object": "Object Repository/checkbox_overdue",
+                "xpath": "//div[@title='Overdue']/ancestor::label"
+              }
+            },
+            {
+              "step_number": 7,
+              "action": "set_text",
+              "description": "Enter keyword into the filter input field",
+              "parameters": {
+                "object": "Object Repository/Page_Chat_App  Trello/input_textfield_filter",
+                "xpath": "//input[@placeholder='Enter a keyword…']",
+                "text": "Implement"
+              }
+            },
+            {
+              "step_number": 8,
+              "action": "delay",
+              "description": "Wait for filter results to update",
+              "parameters": {
+                "seconds": 1
+              }
+            },
+            {
+              "step_number": 9,
+              "action": "close_browser",
+              "description": "Close browser instance",
+              "parameters": {}
+            }
+          ],
+          "expected_result": "Board view updates to show only cards that are Overdue AND contain the keyword 'Implement'",
+          "variables": {
+            "key": "Implement"
+          }
+        }
+      ],
+      "test_summary": {
+        "total_cases": 6,
+        "by_category": {
+          "Card Filtering": 6
+        },
+        "by_type": {
+          "Positive": 4,
+          "Negative": 2
+        },
+        "by_priority": {
+          "High": 4,
+          "Medium": 2
+        },
+        "result": {
+          "pass": 6,
+          "fail": 0
+        }
+      },
+      "common_imports": [
+        "import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint",
+        "import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase",
+        "import static com.kms.katalon.core.testdata.TestDataFactory.findTestData",
+        "import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject",
+        "import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject",
+        "import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint",
+        "import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW",
+        "import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile",
+        "import com.kms.katalon.core.model.FailureHandling as FailureHandling",
+        "import com.kms.katalon.core.testcase.TestCase as TestCase",
+        "import com.kms.katalon.core.testdata.TestData as TestData",
+        "import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW",
+        "import com.kms.katalon.core.testobject.TestObject as TestObject",
+        "import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS",
+        "import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI",
+        "import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows",
+        "import internal.GlobalVariable as GlobalVariable",
+        "import org.openqa.selenium.Keys as Keys",
+        "import org.openqa.selenium.WebDriver as WebDriver",
+        "import org.openqa.selenium.chrome.ChromeDriver as ChromeDriver",
+        "import org.openqa.selenium.chrome.ChromeOptions as ChromeOptions",
+        "import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory",
+        "import com.kms.katalon.core.util.KeywordUtil as KeywordUtil"
+      ],
+      "execution_notes": {
+        "environment_setup": "Requires pre-configured Chrome Profile 2 at D:\\ChromeTest with port 9222 enabled",
+        "dependencies": "Target board must contain cards with specific labels, members, and due dates for filtering verification"
+      }
+    }
+  ]
+}
