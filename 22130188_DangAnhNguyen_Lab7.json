@@ -1,10 +1,10 @@
 {
   "test_suite": {
-    "id": "Test Suite 6",
-    "name": "Test Suite 6 - Trello Power-Up and Attachment Management",
+    "id": "Test Suite 2",
+    "name": "Test Suite 2 - Trello Power-Up and Attachment Management",
     "description": "Comprehensive test suite for Trello board functionality including Power-Up add/delete/edit/search operations and attachment handling",
     "version": "1.0",
-    "created_date": "2025-11-24",
+    "created_date": "2025-11-28",
     "test_environment": {
       "application": "Trello Web Application",
       "base_url": "https://trello.com/vi",
@@ -30,7 +30,7 @@
         ],
         "test_data": {
           "email": "22130188@st.hcmuaf.edu.vn",
-          "password": "Nguyenidol123."
+          "password": "74aGk+CJTjePLhCojrePTQ=="
         },
         "steps": [
           {
@@ -93,11 +93,11 @@
           },
           {
             "step_number": 8,
-            "action": "set_text",
-            "description": "Enter password",
+            "action": "set_encrypted_text",
+            "description": "Enter encrypted password",
             "parameters": {
               "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
-              "text": "Nguyenidol123."
+              "text": "74aGk+CJTjePLhCojrePTQ=="
             }
           },
           {
@@ -261,11 +261,11 @@
           },
           {
             "step_number": 8,
-            "action": "set_text",
-            "description": "Enter password",
+            "action": "set_encrypted_text",
+            "description": "Enter encrypted password",
             "parameters": {
               "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
-              "text": "Nguyenidol123."
+              "text": "74aGk+CJTjePLhCojrePTQ=="
             }
           },
           {
@@ -550,7 +550,7 @@
         ],
         "test_data": {
           "email": "22130188@st.hcmuaf.edu.vn",
-          "password": "Nguyenidol123."
+          "password": "74aGk+CJTjePLhCojrePTQ=="
         },
         "steps": [
           {
@@ -612,11 +612,11 @@
           },
           {
             "step_number": 8,
-            "action": "set_text",
-            "description": "Enter password",
+            "action": "set_encrypted_text",
+            "description": "Enter encrypted password",
             "parameters": {
               "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
-              "text": "Nguyenidol123."
+              "text": "74aGk+CJTjePLhCojrePTQ=="
             }
           },
           {
