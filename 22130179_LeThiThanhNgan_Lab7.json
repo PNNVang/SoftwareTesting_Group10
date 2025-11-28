@@ -1,0 +1,1768 @@
+{
+  "test_case_id": "TC_MEM_ADD01",
+  "test_case_name": "Assign Member to Trello Card",
+  "category": "Member Management",
+  "priority": "High",
+  "description": "Verify that the user can assign a member to a Trello card successfully",
+  "preconditions": [
+    "User must be logged in to Trello",
+    "Board 'My Trello board' must exist",
+    "List 'Today' must exist",
+    "Card 'test' must exist"
+  ],
+  "test_data": {
+    "email": "ktv.thanhngan@gmail.com",
+    "password_encrypted": "h3YAgS6cNwIolJvH95hWIQ==",
+    "board_name": "My Trello board",
+    "list_name": "Today",
+    "card_name": "test",
+    "member_name": "Lê Thị Thanh Ngân"
+  },
+  "expected_result": "Member is successfully assigned to the specified card",
+  "total_steps": 23,
+  "steps": [
+    {
+      "step_number": 1,
+      "action": "Open browser",
+      "expected": "Browser opened"
+    },
+    {
+      "step_number": 2,
+      "action": "Navigate to URL",
+      "url": "https://trello.com/",
+      "expected": "Homepage loaded"
+    },
+    {
+      "step_number": 3,
+      "action": "Click Login button",
+      "test_object": "Page_Capture/a_Log in",
+      "expected": "Login page displayed"
+    },
+    {
+      "step_number": 4,
+      "action": "Enter email",
+      "data": "ktv.thanhngan@gmail.com",
+      "test_object": "Page_Log in/input_Email",
+      "expected": "Email entered"
+    },
+    {
+      "step_number": 5,
+      "action": "Click Continue",
+      "test_object": "Page_Log in/span_Continue",
+      "expected": "Password field appears"
+    },
+    {
+      "step_number": 6,
+      "action": "Click Continue again (Atlassian redirect)",
+      "expected": "Redirect successful"
+    },
+    {
+      "step_number": 7,
+      "action": "Enter encrypted password",
+      "test_object": "Page_Log in/input_Password",
+      "data": "h3YAgS6cNwIolJvH95hWIQ==",
+      "expected": "Password entered"
+    },
+    {
+      "step_number": 8,
+      "action": "Click Log in",
+      "expected": "User logged in"
+    },
+    {
+      "step_number": 9,
+      "action": "Delay 2 seconds",
+      "expected": "Page fully loaded"
+    },
+    {
+      "step_number": 10,
+      "action": "Create TestObject for board tile",
+      "xpath": "//span[text()='My Trello board']/ancestor::a",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 11,
+      "action": "Wait and click board tile",
+      "expected": "Board page opened"
+    },
+    {
+      "step_number": 12,
+      "action": "Create TestObject for card link",
+      "xpath": "//h2[@data-testid='list-name'][.='Today']/ancestor::div[@data-testid='list']//a[@data-testid='card-name' and text()='test']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 13,
+      "action": "Wait and click card",
+      "expected": "Card detail opened"
+    },
+    {
+      "step_number": 14,
+      "action": "Create TestObject for Add button",
+      "xpath": "//button[@data-testid='card-back-add-to-card-button']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 15,
+      "action": "Click Add button",
+      "expected": "More options displayed"
+    },
+    {
+      "step_number": 16,
+      "action": "Create TestObject for Assign members option",
+      "xpath": "//span[text()='Assign members']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 17,
+      "action": "Click Assign members option",
+      "expected": "Member selection menu displayed"
+    },
+    {
+      "step_number": 18,
+      "action": "Create TestObject for member popover",
+      "xpath": "//*[@id='card-back-add-members']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 19,
+      "action": "Click member popover",
+      "expected": "Member list visible"
+    },
+    {
+      "step_number": 20,
+      "action": "Create TestObject for choosing member",
+      "xpath": "//button[@data-testid='choose-member-item-add-member-button']//div[text()='Lê Thị Thanh Ngân']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 21,
+      "action": "Click to select member",
+      "expected": "Member assigned successfully"
+    },
+    {
+      "step_number": 22,
+      "action": "Create TestObject for close popover button",
+      "xpath": "//button[@aria-label='Close popover']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 23,
+      "action": "Click to close popover",
+      "expected": "Popover closed"
+    }
+  ]
+}
+{
+  "test_case_id": "TC_MEM_ADD02",
+  "test_case_name": "Assign Member and Verify Member Avatar in Card",
+  "category": "Member Management",
+  "priority": "High",
+  "description": "Verify that user can assign a member to a Trello card and member avatar appears in the card detail section.",
+  "preconditions": [
+    "User must be logged in to Trello",
+    "Board 'My Trello board' must exist",
+    "List 'Today' must exist",
+    "Card named 'test' must exist",
+    "Member 'Lê Thị Thanh Ngân' must be an available member in workspace"
+  ],
+  "test_data": {
+    "email": "ktv.thanhngan@gmail.com",
+    "password_encrypted": "h3YAgS6cNwIolJvH95hWIQ==",
+    "board_name": "My Trello board",
+    "list_name": "Today",
+    "card_name": "test",
+    "member_name": "Lê Thị Thanh Ngân",
+    "member_title": "Lê Thị Thanh Ngân (leththanhngan4)"
+  },
+  "expected_result": "Member is assigned successfully and member avatar appears inside the card detail view.",
+  "total_steps": 29,
+  "steps": [
+    {
+      "step_number": 1,
+      "action": "Open browser",
+      "expected": "Browser opened"
+    },
+    {
+      "step_number": 2,
+      "action": "Navigate to Trello homepage",
+      "url": "https://trello.com/",
+      "expected": "Homepage loaded"
+    },
+    {
+      "step_number": 3,
+      "action": "Click Login button",
+      "test_object": "Page_Capture/a_Log in",
+      "expected": "Login page displayed"
+    },
+    {
+      "step_number": 4,
+      "action": "Enter email",
+      "data": "ktv.thanhngan@gmail.com",
+      "test_object": "Page_Log in/input_Email",
+      "expected": "Email entered"
+    },
+    {
+      "step_number": 5,
+      "action": "Click Continue",
+      "test_object": "Page_Log in/span_Continue",
+      "expected": "Redirect to password screen"
+    },
+    {
+      "step_number": 6,
+      "action": "Click Continue again (Atlassian redirect)",
+      "expected": "Password field visible"
+    },
+    {
+      "step_number": 7,
+      "action": "Enter encrypted password",
+      "data": "h3YAgS6cNwIolJvH95hWIQ==",
+      "test_object": "Page_Log in/input_Password",
+      "expected": "Password entered"
+    },
+    {
+      "step_number": 8,
+      "action": "Click Log in",
+      "expected": "User logged in"
+    },
+    {
+      "step_number": 9,
+      "action": "Delay 2 seconds",
+      "expected": "Dashboard loaded"
+    },
+    {
+      "step_number": 10,
+      "action": "Create TestObject for board tile",
+      "xpath": "//span[text()='My Trello board']/ancestor::a",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 11,
+      "action": "Wait and click board",
+      "expected": "Board opened"
+    },
+    {
+      "step_number": 12,
+      "action": "Create TestObject for card",
+      "xpath": "//h2[@data-testid='list-name'][.='Today']/ancestor::div[@data-testid='list']//a[@data-testid='card-name' and text()='test']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 13,
+      "action": "Wait and click card",
+      "expected": "Card detail opened"
+    },
+    {
+      "step_number": 14,
+      "action": "Create TestObject for Add button",
+      "xpath": "//button[@data-testid='card-back-add-to-card-button']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 15,
+      "action": "Click Add button",
+      "expected": "Options menu displayed"
+    },
+    {
+      "step_number": 16,
+      "action": "Create TestObject for 'Assign members'",
+      "xpath": "//span[text()='Assign members']",
+      "expected": "TestObject ready"
+    },
+    {
+      "step_number": 17,
+      "action": "Click Assign members",
+      "expected": "Member popover opened"
+    },
+    {
+      "step_number": 18,
+      "action": "Create TestObject for member popover",
+      "xpath": "//*[@id='card-back-add-members']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 19,
+      "action": "Click member popover",
+      "expected": "Member list shown"
+    },
+    {
+      "step_number": 20,
+      "action": "Create TestObject for target member",
+      "xpath": "//button[@data-testid='choose-member-item-add-member-button']//div[text()='Lê Thị Thanh Ngân']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 21,
+      "action": "Select member",
+      "expected": "Member assigned to card"
+    },
+    {
+      "step_number": 22,
+      "action": "Create TestObject for Close popover",
+      "xpath": "//button[@aria-label='Close popover']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 23,
+      "action": "Click Close popover",
+      "expected": "Popover closed"
+    },
+    {
+      "step_number": 24,
+      "action": "Create TestObject for member avatar",
+      "xpath": "//section[h3='Members']//button[@title='Lê Thị Thanh Ngân (leththanhngan4)']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 25,
+      "action": "Wait for member avatar visible",
+      "expected": "Avatar displayed"
+    },
+    {
+      "step_number": 26,
+      "action": "Wait for avatar clickable",
+      "expected": "Avatar ready for click"
+    },
+    {
+      "step_number": 27,
+      "action": "Click avatar",
+      "expected": "Member detail popup opened"
+    },
+    {
+      "step_number": 28,
+      "action": "Delay 2 seconds",
+      "expected": "Popup fully rendered"
+    },
+    {
+      "step_number": 29,
+      "action": "End of test case",
+      "expected": "Test completed"
+    }
+  ]
+}
+{
+  "test_case_id": "TC_MEM_REMOVE01",
+  "test_case_name": "Remove Member from Trello Card",
+  "category": "Member Management",
+  "priority": "High",
+  "description": "Verify that user can remove an assigned member from a Trello card successfully.",
+  "preconditions": [
+    "User must be logged in to Trello",
+    "Board 'My Trello board' must exist",
+    "List 'Today' must exist",
+    "Card 'test' must exist",
+    "Member 'Lê Thị Thanh Ngân' must already be assigned to this card"
+  ],
+  "test_data": {
+    "email": "ktv.thanhngan@gmail.com",
+    "password_encrypted": "h3YAgS6cNwIolJvH95hWIQ==",
+    "board_name": "My Trello board",
+    "list_name": "Today",
+    "card_name": "test",
+    "member_name": "Lê Thị Thanh Ngân"
+  },
+  "expected_result": "Assigned member is removed from the card and avatar no longer appears in the card detail.",
+  "total_steps": 24,
+  "steps": [
+    {
+      "step_number": 1,
+      "action": "Open browser",
+      "expected": "Browser opened"
+    },
+    {
+      "step_number": 2,
+      "action": "Navigate to Trello homepage",
+      "url": "https://trello.com/",
+      "expected": "Homepage loaded"
+    },
+    {
+      "step_number": 3,
+      "action": "Click Login button",
+      "test_object": "Page_Capture/a_Log in",
+      "expected": "Login page displayed"
+    },
+    {
+      "step_number": 4,
+      "action": "Enter email",
+      "data": "ktv.thanhngan@gmail.com",
+      "expected": "Email entered"
+    },
+    {
+      "step_number": 5,
+      "action": "Click Continue",
+      "expected": "Password field displayed"
+    },
+    {
+      "step_number": 6,
+      "action": "Click Continue again (Atlassian redirect)",
+      "expected": "Password screen loaded"
+    },
+    {
+      "step_number": 7,
+      "action": "Enter encrypted password",
+      "data": "h3YAgS6cNwIolJvH95hWIQ==",
+      "expected": "Password entered"
+    },
+    {
+      "step_number": 8,
+      "action": "Click Log in",
+      "expected": "User logged in"
+    },
+    {
+      "step_number": 9,
+      "action": "Delay 2 seconds",
+      "expected": "Dashboard loaded"
+    },
+    {
+      "step_number": 10,
+      "action": "Create TestObject for board tile",
+      "xpath": "//span[text()='My Trello board']/ancestor::a",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 11,
+      "action": "Click board tile",
+      "expected": "Board opened"
+    },
+    {
+      "step_number": 12,
+      "action": "Create TestObject for card link",
+      "xpath": "//h2[@data-testid='list-name'][.='Today']/ancestor::div[@data-testid='list']//a[@data-testid='card-name' and text()='test']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 13,
+      "action": "Click card to open detail",
+      "expected": "Card detail opened"
+    },
+    {
+      "step_number": 14,
+      "action": "Create TestObject for member avatar",
+      "xpath": "//button[@data-testid='card-back-member-avatar' and contains(@title, 'Lê Thị Thanh Ngân')]",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 15,
+      "action": "Click member avatar",
+      "expected": "Member detail popup opened"
+    },
+    {
+      "step_number": 16,
+      "action": "Delay 1 second",
+      "expected": "Popup ready"
+    },
+    {
+      "step_number": 17,
+      "action": "Create TestObject for Remove Member option",
+      "xpath": "//li[@data-testid='remove-from-card']//button",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 18,
+      "action": "Click Remove Member",
+      "expected": "Member removed from card"
+    },
+    {
+      "step_number": 19,
+      "action": "Delay 1 second",
+      "expected": "UI updated"
+    },
+    {
+      "step_number": 20,
+      "action": "Create TestObject for removed member avatar",
+      "xpath": "//button[@data-testid='card-back-member-avatar' and contains(@title, 'Lê Thị Thanh Ngân')]",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 21,
+      "action": "Verify avatar not present",
+      "expected": "Avatar not found (member removed)"
+    },
+    {
+      "step_number": 22,
+      "action": "End of test",
+      "expected": "Test completed"
+    }
+  ]
+}
+{
+  "test_case_id": "TC_MEM_SEARCH01",
+  "test_case_name": "Search and Select Member in Trello Card",
+  "category": "Member Management",
+  "priority": "Medium",
+  "description": "Verify that user can search for a member inside the 'Assign Members' popup and successfully select that member.",
+  "preconditions": [
+    "User must be logged in to Trello",
+    "Board 'My Trello board' must exist",
+    "List 'Today' must exist",
+    "Card 'test' must exist",
+    "Member 'Lê Thị Thanh Ngân' must exist in workspace"
+  ],
+  "test_data": {
+    "email": "ktv.thanhngan@gmail.com",
+    "password_encrypted": "h3YAgS6cNwIolJvH95hWIQ==",
+    "board_name": "My Trello board",
+    "list_name": "Today",
+    "card_name": "test",
+    "member_name": "Lê Thị Thanh Ngân"
+  },
+  "expected_result": "User can search and select the member successfully inside Assign Members popup.",
+  "total_steps": 27,
+  "steps": [
+    {
+      "step_number": 1,
+      "action": "Open browser",
+      "expected": "Browser opened"
+    },
+    {
+      "step_number": 2,
+      "action": "Navigate to Trello homepage",
+      "url": "https://trello.com/",
+      "expected": "Homepage loaded"
+    },
+    {
+      "step_number": 3,
+      "action": "Click Login button",
+      "expected": "Login page displayed"
+    },
+    {
+      "step_number": 4,
+      "action": "Enter email",
+      "data": "ktv.thanhngan@gmail.com",
+      "expected": "Email entered"
+    },
+    {
+      "step_number": 5,
+      "action": "Click Continue",
+      "expected": "Password page displayed"
+    },
+    {
+      "step_number": 6,
+      "action": "Click Continue again (Atlassian redirect)",
+      "expected": "Password form shown"
+    },
+    {
+      "step_number": 7,
+      "action": "Enter encrypted password",
+      "data": "h3YAgS6cNwIolJvH95hWIQ==",
+      "expected": "Password entered"
+    },
+    {
+      "step_number": 8,
+      "action": "Click Log in",
+      "expected": "User logged in"
+    },
+    {
+      "step_number": 9,
+      "action": "Delay 2 seconds",
+      "expected": "Dashboard stabilized"
+    },
+    {
+      "step_number": 10,
+      "action": "Create TestObject for board tile",
+      "xpath": "//span[text()='My Trello board']/ancestor::a",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 11,
+      "action": "Click board tile",
+      "expected": "Board opened"
+    },
+    {
+      "step_number": 12,
+      "action": "Create TestObject for card link",
+      "xpath": "//h2[@data-testid='list-name'][.='Today']/ancestor::div[@data-testid='list']//a[@data-testid='card-name' and text()='test']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 13,
+      "action": "Click card to open detail",
+      "expected": "Card detail opened"
+    },
+    {
+      "step_number": 14,
+      "action": "Create Add button TestObject",
+      "xpath": "//button[@data-testid='card-back-add-to-card-button']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 15,
+      "action": "Click Add button",
+      "expected": "Action list opened"
+    },
+    {
+      "step_number": 16,
+      "action": "Create Assign members TestObject",
+      "xpath": "//span[text()='Assign members']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 17,
+      "action": "Click Assign members",
+      "expected": "Assign members popup opened"
+    },
+    {
+      "step_number": 18,
+      "action": "Delay 1 second",
+      "expected": "Popup ready"
+    },
+    {
+      "step_number": 19,
+      "action": "Create search field TestObject",
+      "xpath": "//input[@placeholder='Search members']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 20,
+      "action": "Wait for search field and input text",
+      "data": "Lê Thị Thanh Ngân",
+      "expected": "Search text entered"
+    },
+    {
+      "step_number": 21,
+      "action": "Delay 1 second",
+      "expected": "Search result appears"
+    },
+    {
+      "step_number": 22,
+      "action": "Create search result TestObject",
+      "xpath": "//button[@data-testid='choose-member-item-add-member-button']//div[text()='Lê Thị Thanh Ngân']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 23,
+      "action": "Click search result",
+      "expected": "Member selected"
+    },
+    {
+      "step_number": 24,
+      "action": "Delay 1 second",
+      "expected": "UI updated"
+    },
+    {
+      "step_number": 25,
+      "action": "Verify member name appears",
+      "expected": "Member name visible on screen"
+    },
+    {
+      "step_number": 26,
+      "action": "Finish test case",
+      "expected": "Test completed successfully"
+    }
+  ]
+}
+{
+  "test_case_id": "TC_MEM_LIST01",
+  "test_case_name": "Add Comment to Trello Card",
+  "category": "Comment Management",
+  "priority": "Medium",
+  "description": "Verify that the user can successfully add a comment to a Trello card.",
+  "preconditions": [
+    "User must be logged in to Trello",
+    "Board 'My Trello board' must exist",
+    "List 'Today' must exist",
+    "Card 'test' must exist"
+  ],
+  "test_data": {
+    "email": "ktv.thanhngan@gmail.com",
+    "password_encrypted": "h3YAgS6cNwIolJvH95hWIQ==",
+    "board_name": "My Trello board",
+    "list_name": "Today",
+    "card_name": "test",
+    "comment_content": "Tôi đã làm được ze ze"
+  },
+  "expected_result": "Comment is added successfully and appears in the card activity list.",
+  "total_steps": 24,
+  "steps": [
+    {
+      "step_number": 1,
+      "action": "Open browser",
+      "expected": "Browser opened"
+    },
+    {
+      "step_number": 2,
+      "action": "Navigate to Trello homepage",
+      "url": "https://trello.com/",
+      "expected": "Homepage loaded"
+    },
+    {
+      "step_number": 3,
+      "action": "Click Login button",
+      "expected": "Login page displayed"
+    },
+    {
+      "step_number": 4,
+      "action": "Enter email",
+      "data": "ktv.thanhngan@gmail.com",
+      "expected": "Email entered"
+    },
+    {
+      "step_number": 5,
+      "action": "Click Continue",
+      "expected": "Password field displayed"
+    },
+    {
+      "step_number": 6,
+      "action": "Click Continue again (Atlassian redirect)",
+      "expected": "Password form shown"
+    },
+    {
+      "step_number": 7,
+      "action": "Enter encrypted password",
+      "data": "h3YAgS6cNwIolJvH95hWIQ==",
+      "expected": "Password entered"
+    },
+    {
+      "step_number": 8,
+      "action": "Click Log in",
+      "expected": "User logged in"
+    },
+    {
+      "step_number": 9,
+      "action": "Delay 2 seconds",
+      "expected": "Dashboard stabilized"
+    },
+    {
+      "step_number": 10,
+      "action": "Create TestObject for board tile",
+      "xpath": "//span[text()='My Trello board']/ancestor::a",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 11,
+      "action": "Click board tile",
+      "expected": "Board opened"
+    },
+    {
+      "step_number": 12,
+      "action": "Create TestObject for card link",
+      "xpath": "//h2[@data-testid='list-name'][.='Today']/ancestor::div[@data-testid='list']//a[@data-testid='card-name' and text()='test']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 13,
+      "action": "Click card to open detail",
+      "expected": "Card detail displayed"
+    },
+    {
+      "step_number": 14,
+      "action": "Create TestObject for 'Write a comment' button",
+      "xpath": "//button[@data-testid='card-back-new-comment-input-skeleton']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 15,
+      "action": "Click 'Write a comment' button",
+      "expected": "Comment editor activated"
+    },
+    {
+      "step_number": 16,
+      "action": "Create TestObject for comment editor",
+      "xpath": "//*[@id='ak-editor-textarea']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 17,
+      "action": "Enter comment content",
+      "data": "Tôi đã làm được ze ze",
+      "expected": "Comment text entered"
+    },
+    {
+      "step_number": 18,
+      "action": "Create TestObject for Save Comment button",
+      "xpath": "//button[@data-testid='card-back-comment-save-button']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 19,
+      "action": "Click Save Comment button",
+      "expected": "Comment saved"
+    },
+    {
+      "step_number": 20,
+      "action": "Delay 1 second",
+      "expected": "UI updated"
+    },
+    {
+      "step_number": 21,
+      "action": "Verify comment text appears",
+      "data": "Tôi đã làm được ze ze",
+      "expected": "Comment displayed in activity"
+    },
+    {
+      "step_number": 22,
+      "action": "End of test",
+      "expected": "Test completed"
+    }
+  ]
+}
+{
+  "test_case_id": "TC_COMMENT_ADD01",
+  "test_case_name": "Add Comment to Trello Card",
+  "category": "Comment Management",
+  "priority": "High",
+  "description": "Verify that user can successfully add a text comment to a Trello card.",
+  "preconditions": [
+    "User must be logged in to Trello",
+    "Board 'My Trello board' must exist",
+    "List 'Today' must exist",
+    "Card 'test' must exist"
+  ],
+  "test_data": {
+    "email": "ktv.thanhngan@gmail.com",
+    "password_encrypted": "h3YAgS6cNwIolJvH95hWIQ==",
+    "board_name": "My Trello board",
+    "list_name": "Today",
+    "card_name": "test",
+    "comment": "Tôi đã làm được ze ze"
+  },
+  "expected_result": "Comment is added and displayed under the activity section of the card.",
+  "total_steps": 20,
+  "steps": [
+    {
+      "step_number": 1,
+      "action": "Open browser",
+      "expected": "Browser opened successfully"
+    },
+    {
+      "step_number": 2,
+      "action": "Navigate to Trello homepage",
+      "url": "https://trello.com/",
+      "expected": "Homepage loaded"
+    },
+    {
+      "step_number": 3,
+      "action": "Click Login button",
+      "expected": "Login page displayed"
+    },
+    {
+      "step_number": 4,
+      "action": "Enter email",
+      "data": "ktv.thanhngan@gmail.com",
+      "expected": "Email entered"
+    },
+    {
+      "step_number": 5,
+      "action": "Click Continue",
+      "expected": "Continue step executed"
+    },
+    {
+      "step_number": 6,
+      "action": "Click Continue again (Atlassian redirect)",
+      "expected": "Password screen visible"
+    },
+    {
+      "step_number": 7,
+      "action": "Enter encrypted password",
+      "data": "h3YAgS6cNwIolJvH95hWIQ==",
+      "expected": "Password entered"
+    },
+    {
+      "step_number": 8,
+      "action": "Click Log In button",
+      "expected": "Logged in successfully"
+    },
+    {
+      "step_number": 9,
+      "action": "Wait 2 seconds",
+      "expected": "Dashboard fully loaded"
+    },
+    {
+      "step_number": 10,
+      "action": "Create TestObject for board tile",
+      "xpath": "//span[text()='My Trello board']/ancestor::a",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 11,
+      "action": "Click target board",
+      "expected": "Board opened successfully"
+    },
+    {
+      "step_number": 12,
+      "action": "Create TestObject for target card",
+      "xpath": "//h2[@data-testid='list-name'][.='Today']/ancestor::div[@data-testid='list']//a[@data-testid='card-name' and text()='test']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 13,
+      "action": "Click target card",
+      "expected": "Card detail opened"
+    },
+    {
+      "step_number": 14,
+      "action": "Create TestObject for 'Write a comment' button",
+      "xpath": "//button[@data-testid='card-back-new-comment-input-skeleton']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 15,
+      "action": "Click 'Write a comment…' button",
+      "expected": "Comment editor opened"
+    },
+    {
+      "step_number": 16,
+      "action": "Create TestObject for comment editor",
+      "xpath": "//*[@id='ak-editor-textarea']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 17,
+      "action": "Enter comment text",
+      "data": "Tôi đã làm được ze ze",
+      "expected": "Comment entered"
+    },
+    {
+      "step_number": 18,
+      "action": "Create TestObject for Save comment button",
+      "xpath": "//button[@data-testid='card-back-comment-save-button']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 19,
+      "action": "Click Save button",
+      "expected": "Comment saved successfully"
+    },
+    {
+      "step_number": 20,
+      "action": "Verify comment appears in activity list",
+      "expected": "Comment displayed in card activity"
+    }
+  ]
+}
+{
+  "test_case_id": "TC_COMMENT_ADD02",
+  "test_case_name": "Add Comment with Attachment",
+  "category": "Comment Management",
+  "priority": "High",
+  "description": "Verify that user can add a text comment along with an image attachment to a Trello card.",
+  "preconditions": [
+    "User must be logged in to Trello",
+    "Board 'My Trello board' must exist",
+    "List 'Today' must exist",
+    "Card 'test' must exist",
+    "User has permission to upload attachments"
+  ],
+  "test_data": {
+    "email": "ktv.thanhngan@gmail.com",
+    "password_encrypted": "h3YAgS6cNwIolJvH95hWIQ==",
+    "board_name": "My Trello board",
+    "list_name": "Today",
+    "card_name": "test",
+    "comment_text": "This is an automated comment.",
+    "attachment_file": "D:\\\\PictureKhoiVi\\\\test.jpg"
+  },
+  "expected_result": "Comment is successfully added with image attachment displayed under the activity section.",
+  "total_steps": 32,
+  "steps": [
+    {
+      "step_number": 1,
+      "action": "Open browser",
+      "expected": "Browser opened successfully"
+    },
+    {
+      "step_number": 2,
+      "action": "Navigate to Trello homepage",
+      "url": "https://trello.com/",
+      "expected": "Homepage loaded"
+    },
+    {
+      "step_number": 3,
+      "action": "Click Login button",
+      "expected": "Login page displayed"
+    },
+    {
+      "step_number": 4,
+      "action": "Enter email",
+      "data": "ktv.thanhngan@gmail.com",
+      "expected": "Email entered"
+    },
+    {
+      "step_number": 5,
+      "action": "Click Continue",
+      "expected": "Continue executed"
+    },
+    {
+      "step_number": 6,
+      "action": "Click Continue again (Atlassian redirect)",
+      "expected": "Password screen loaded"
+    },
+    {
+      "step_number": 7,
+      "action": "Enter encrypted password",
+      "data": "h3YAgS6cNwIolJvH95hWIQ==",
+      "expected": "Password entered"
+    },
+    {
+      "step_number": 8,
+      "action": "Click Log In button",
+      "expected": "User authenticated"
+    },
+    {
+      "step_number": 9,
+      "action": "Wait 2 seconds",
+      "expected": "Dashboard ready"
+    },
+    {
+      "step_number": 10,
+      "action": "Create TestObject for board tile",
+      "xpath": "//span[text()='My Trello board']/ancestor::a",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 11,
+      "action": "Click target board",
+      "expected": "Board opened"
+    },
+    {
+      "step_number": 12,
+      "action": "Create TestObject for target card",
+      "xpath": "//h2[@data-testid='list-name'][.='Today']/ancestor::div[@data-testid='list']//a[@data-testid='card-name' and text()='test']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 13,
+      "action": "Click card",
+      "expected": "Card detail displayed"
+    },
+    {
+      "step_number": 14,
+      "action": "Create TestObject for 'Write a comment' button",
+      "xpath": "//button[@data-testid='card-back-new-comment-input-skeleton']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 15,
+      "action": "Click 'Write a comment…' button",
+      "expected": "Comment editor opened"
+    },
+    {
+      "step_number": 16,
+      "action": "Create TestObject for editor textarea",
+      "xpath": "//div[contains(@class,'ProseMirror') and @role='textbox']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 17,
+      "action": "Click editor textarea",
+      "expected": "Editor focused"
+    },
+    {
+      "step_number": 18,
+      "action": "Enter comment text",
+      "data": "This is an automated comment.",
+      "expected": "Comment typed in editor"
+    },
+    {
+      "step_number": 19,
+      "action": "Create TestObject for attachment button",
+      "xpath": "//button[@aria-label='Attach and insert link']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 20,
+      "action": "Click attachment button",
+      "expected": "File selection opened"
+    },
+    {
+      "step_number": 21,
+      "action": "Create TestObject for file input",
+      "xpath": "//input[@id='filepicker' and @data-testid='editor-insert-attachment-file-input']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 22,
+      "action": "Upload file",
+      "data": "D:\\\\PictureKhoiVi\\\\test.jpg",
+      "expected": "File uploaded successfully"
+    },
+    {
+      "step_number": 23,
+      "action": "Wait 4 seconds",
+      "expected": "Upload completed"
+    },
+    {
+      "step_number": 24,
+      "action": "Create TestObject for Save button",
+      "xpath": "//button[@data-testid='card-back-comment-save-button' and not(@disabled)]",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 25,
+      "action": "Click Save",
+      "expected": "Comment with attachment saved"
+    },
+    {
+      "step_number": 26,
+      "action": "Wait 1 second",
+      "expected": "UI updated"
+    },
+    {
+      "step_number": 27,
+      "action": "Verify comment text appears",
+      "data": "This is an automated comment.",
+      "expected": "Comment visible"
+    },
+    {
+      "step_number": 28,
+      "action": "Verify image attachment appears",
+      "expected": "Attachment displayed under comment"
+    },
+    {
+      "step_number": 29,
+      "action": "Scroll to activity list (if needed)",
+      "expected": "Activity list visible"
+    },
+    {
+      "step_number": 30,
+      "action": "Confirm activity entry logged",
+      "expected": "Activity entry appears with comment + attachment"
+    },
+    {
+      "step_number": 31,
+      "action": "Close card detail (optional)",
+      "expected": "Card closed"
+    },
+    {
+      "step_number": 32,
+      "action": "Finish test case",
+      "expected": "Test completed successfully"
+    }
+  ]
+}
+{
+  "test_case_id": "TC_COMMENT_ADD03",
+  "test_case_name": "Save Button Disabled When Comment Is Empty",
+  "category": "Comment Management",
+  "priority": "Medium",
+  "test_type": "Negative Test",
+  "description": "Verify that the Save button remains disabled when the comment input is empty.",
+  "preconditions": [
+    "User must be logged in to Trello",
+    "Board 'My Trello board' must exist",
+    "List 'Today' must exist",
+    "Card 'test' must exist",
+    "User must be able to open comment editor"
+  ],
+  "test_data": {
+    "email": "ktv.thanhngan@gmail.com",
+    "password_encrypted": "h3YAgS6cNwIolJvH95hWIQ==",
+    "board_name": "My Trello board",
+    "list_name": "Today",
+    "card_name": "test",
+    "comment_text": ""
+  },
+  "expected_result": "Save button is disabled and user cannot submit an empty comment.",
+  "total_steps": 23,
+  "steps": [
+    {
+      "step_number": 1,
+      "action": "Open browser",
+      "expected": "Browser opened successfully"
+    },
+    {
+      "step_number": 2,
+      "action": "Navigate to Trello homepage",
+      "url": "https://trello.com/",
+      "expected": "Homepage loaded"
+    },
+    {
+      "step_number": 3,
+      "action": "Click Login button",
+      "expected": "Login page displayed"
+    },
+    {
+      "step_number": 4,
+      "action": "Enter email",
+      "data": "ktv.thanhngan@gmail.com",
+      "expected": "Email entered"
+    },
+    {
+      "step_number": 5,
+      "action": "Click Continue",
+      "expected": "Redirected to next login step"
+    },
+    {
+      "step_number": 6,
+      "action": "Click Continue again",
+      "expected": "Password field displayed"
+    },
+    {
+      "step_number": 7,
+      "action": "Enter encrypted password",
+      "data": "h3YAgS6cNwIolJvH95hWIQ==",
+      "expected": "Password entered"
+    },
+    {
+      "step_number": 8,
+      "action": "Click Log in button",
+      "expected": "User logged in"
+    },
+    {
+      "step_number": 9,
+      "action": "Wait 2 seconds",
+      "expected": "Dashboard loaded"
+    },
+    {
+      "step_number": 10,
+      "action": "Create TestObject for board tile",
+      "xpath": "//span[text()='My Trello board']/ancestor::a",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 11,
+      "action": "Click board tile",
+      "expected": "Board opened"
+    },
+    {
+      "step_number": 12,
+      "action": "Create TestObject for target card",
+      "xpath": "//h2[@data-testid='list-name'][.='Today']/ancestor::div[@data-testid='list']//a[@data-testid='card-name' and text()='test']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 13,
+      "action": "Click card",
+      "expected": "Card detail opened"
+    },
+    {
+      "step_number": 14,
+      "action": "Create TestObject for Write Comment button",
+      "xpath": "//button[@data-testid='card-back-new-comment-input-skeleton']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 15,
+      "action": "Click Write Comment button",
+      "expected": "Comment editor opened"
+    },
+    {
+      "step_number": 16,
+      "action": "Create TestObject for comment editor",
+      "xpath": "//div[@id='ak-editor-textarea']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 17,
+      "action": "Click inside comment editor",
+      "expected": "Editor focused"
+    },
+    {
+      "step_number": 18,
+      "action": "Wait 1 second",
+      "expected": "Editor stable"
+    },
+    {
+      "step_number": 19,
+      "action": "Create TestObject for Save button",
+      "xpath": "//button[@data-testid='card-back-comment-save-button']",
+      "expected": "TestObject created"
+    },
+    {
+      "step_number": 20,
+      "action": "Wait for Save button to become visible",
+      "expected": "Save button rendered"
+    },
+    {
+      "step_number": 21,
+      "action": "Check 'disabled' attribute of Save button",
+      "expected": "Save button has disabled attribute"
+    },
+    {
+      "step_number": 22,
+      "action": "Validate Save button is disabled",
+      "expected": "User cannot submit empty comment"
+    },
+    {
+      "step_number": 23,
+      "action": "End test",
+      "expected": "Test completed"
+    }
+  ]
+}
+{
+  "test_case_id": "TC_COMMENT_EDIT01",
+  "test_case_name": "Edit an Existing Comment Successfully",
+  "category": "Comment Management",
+  "priority": "High",
+  "test_type": "Functional Test",
+  "description": "Verify that the user can successfully edit an existing comment on a Trello card.",
+  "preconditions": [
+    "User is logged into Trello",
+    "Board 'My Trello board' exists",
+    "List 'Today' exists",
+    "Card 'test' exists",
+    "A comment already exists on the card to be edited"
+  ],
+  "test_data": {
+    "email": "ktv.thanhngan@gmail.com",
+    "password_encrypted": "h3YAgS6cNwIolJvH95hWIQ==",
+    "board_name": "My Trello board",
+    "list_name": "Today",
+    "card_name": "test",
+    "new_comment_text": "Tôi đã chỉnh sửa bình luận thành công!"
+  },
+  "expected_result": "Comment is updated and new content is displayed successfully.",
+  "total_steps": 20,
+  "steps": [
+    { "step_number": 1, "action": "Open browser", "expected": "Browser launched" },
+    { "step_number": 2, "action": "Navigate to Trello URL", "expected": "Homepage loaded" },
+    { "step_number": 3, "action": "Click Login button", "expected": "Login screen displayed" },
+    { "step_number": 4, "action": "Enter email", "data": "ktv.thanhngan@gmail.com", "expected": "Email entered" },
+    { "step_number": 5, "action": "Click Continue", "expected": "Password step displayed" },
+    { "step_number": 6, "action": "Click Continue again", "expected": "Password field displayed" },
+    { "step_number": 7, "action": "Enter encrypted password", "expected": "Password entered" },
+    { "step_number": 8, "action": "Click Login", "expected": "Login successful" },
+    { "step_number": 9, "action": "Wait 2 seconds", "expected": "Dashboard loaded" },
+
+    { 
+      "step_number": 10, 
+      "action": "Locate board using XPath", 
+      "xpath": "//span[text()='My Trello board']/ancestor::a", 
+      "expected": "Board TestObject created" 
+    },
+    { "step_number": 11, "action": "Click board", "expected": "Board opened" },
+
+    { 
+      "step_number": 12, 
+      "action": "Locate card by name", 
+      "xpath": "//h2[@data-testid='list-name'][.='Today']/ancestor::div[@data-testid='list']//a[@data-testid='card-name' and text()='test']", 
+      "expected": "Card located" 
+    },
+    { "step_number": 13, "action": "Click card", "expected": "Card details opened" },
+
+    { 
+      "step_number": 14, 
+      "action": "Locate Edit button", 
+      "xpath": "//a[text()='Edit']", 
+      "expected": "Edit button found" 
+    },
+    { "step_number": 15, "action": "Click Edit", "expected": "Comment editor opened" },
+
+    { 
+      "step_number": 16, 
+      "action": "Locate edit comment editor", 
+      "xpath": "//div[@id='ak-editor-textarea']", 
+      "expected": "Editor found" 
+    },
+
+    { "step_number": 17, "action": "Click editor area", "expected": "Editor focused" },
+    { 
+      "step_number": 18, 
+      "action": "Clear old text and type new text", 
+      "data": "Tôi đã chỉnh sửa bình luận thành công!", 
+      "expected": "New content entered" 
+    },
+
+    { 
+      "step_number": 19, 
+      "action": "Click Save button", 
+      "xpath": "//button[@data-testid='card-back-comment-save-button']", 
+      "expected": "Comment saved" 
+    },
+
+    { "step_number": 20, "action": "Verify edited text appears", "expected": "Updated comment visible on UI" }
+  ]
+}
+{
+  "test_case_id": "TC_COMMENT_EDIT02",
+  "test_case_name": "Verify Save button is disabled/hidden when editing comment with empty content",
+  "category": "Comment Management",
+  "priority": "High",
+  "test_type": "Functional Negative Test",
+  "description": "Ensure that Trello does not allow saving an edited comment when the content is empty. The Save button must not appear or must remain disabled.",
+  "preconditions": [
+    "User is logged into Trello",
+    "Board 'My Trello board' exists",
+    "List 'Today' exists",
+    "Card 'test' exists",
+    "A comment already exists to be edited"
+  ],
+  "test_data": {
+    "email": "ktv.thanhngan@gmail.com",
+    "password_encrypted": "h3YAgS6cNwIolJvH95hWIQ==",
+    "board_name": "My Trello board",
+    "list_name": "Today",
+    "card_name": "test"
+  },
+  "expected_result": "Save button should NOT appear when the edited comment is empty.",
+  "total_steps": 18,
+  "steps": [
+    { "step_number": 1, "action": "Open browser", "expected": "Browser opened" },
+    { "step_number": 2, "action": "Navigate to Trello homepage", "expected": "Homepage loaded" },
+    { "step_number": 3, "action": "Click Login button", "expected": "Login form displayed" },
+    { "step_number": 4, "action": "Enter email", "data": "ktv.thanhngan@gmail.com", "expected": "Email entered" },
+    { "step_number": 5, "action": "Click Continue", "expected": "Password page displayed" },
+    { "step_number": 6, "action": "Click Continue again", "expected": "Password input shown" },
+    { "step_number": 7, "action": "Enter encrypted password", "expected": "Password entered" },
+    { "step_number": 8, "action": "Click Login", "expected": "User logged in" },
+    { "step_number": 9, "action": "Wait 2 seconds", "expected": "Dashboard loaded" },
+
+    {
+      "step_number": 10,
+      "action": "Locate board using XPath",
+      "xpath": "//span[text()='My Trello board']/ancestor::a",
+      "expected": "Board located"
+    },
+    { "step_number": 11, "action": "Click board", "expected": "Board opened" },
+
+    {
+      "step_number": 12,
+      "action": "Locate the card",
+      "xpath": "//h2[@data-testid='list-name'][.='Today']/ancestor::div[@data-testid='list']//a[@data-testid='card-name' and text()='test']",
+      "expected": "Card found"
+    },
+    { "step_number": 13, "action": "Open card", "expected": "Card details displayed" },
+
+    {
+      "step_number": 14,
+      "action": "Locate Edit button of existing comment",
+      "xpath": "//a[text()='Edit']",
+      "expected": "Edit button visible"
+    },
+    { "step_number": 15, "action": "Click Edit", "expected": "Comment editor opened" },
+
+    {
+      "step_number": 16,
+      "action": "Locate editor textbox",
+      "xpath": "//div[@role='textbox' and contains(@class,'ProseMirror')]",
+      "expected": "Editor located"
+    },
+
+    { "step_number": 17, "action": "Clear all content using CTRL+A + DELETE", "expected": "Editor content now empty" },
+
+    { 
+      "step_number": 18, 
+      "action": "Verify Save button is NOT present", 
+      "xpath": "//button[@data-testid='card-back-comment-save-button' and not(@disabled)]", 
+      "expected": "Save button not visible / disabled" 
+    }
+  ]
+}
+{
+  "test_case_id": "TC_COMMENT_DELETE01",
+  "test_case_name": "Delete an Existing Comment Successfully",
+  "category": "Comment Management",
+  "priority": "High",
+  "test_type": "Functional Test",
+  "description": "Verify that the user can delete an existing comment from a Trello card.",
+  "preconditions": [
+    "User is logged into Trello",
+    "Board 'My Trello board' exists",
+    "List 'Today' exists",
+    "Card 'test' exists",
+    "A comment with known content already exists for deletion"
+  ],
+  "test_data": {
+    "email": "ktv.thanhngan@gmail.com",
+    "password_encrypted": "h3YAgS6cNwIolJvH95hWIQ==",
+    "board_name": "My Trello board",
+    "list_name": "Today",
+    "card_name": "test",
+    "comment_text_to_delete": "Tôi đã làm được ze ze"
+  },
+  "expected_result": "The selected comment is deleted and no longer visible on the card.",
+  "total_steps": 17,
+  "steps": [
+    { "step_number": 1,  "action": "Open browser", "expected": "Browser opened" },
+    { "step_number": 2,  "action": "Navigate to Trello homepage", "expected": "Homepage displayed" },
+    { "step_number": 3,  "action": "Click Login button", "expected": "Login form shown" },
+    { "step_number": 4,  "action": "Enter email", "data": "ktv.thanhngan@gmail.com", "expected": "Email entered" },
+    { "step_number": 5,  "action": "Click Continue", "expected": "Password page displayed" },
+    { "step_number": 6,  "action": "Click Continue again", "expected": "Password field shown" },
+    { "step_number": 7,  "action": "Enter encrypted password", "expected": "Password entered" },
+    { "step_number": 8,  "action": "Click Login", "expected": "Login successful" },
+    { "step_number": 9,  "action": "Wait 2 seconds", "expected": "Dashboard loaded" },
+
+    {
+      "step_number": 10,
+      "action": "Locate board using XPath",
+      "xpath": "//span[text()='My Trello board']/ancestor::a",
+      "expected": "Board located"
+    },
+    { "step_number": 11, "action": "Click board", "expected": "Board opened" },
+
+    {
+      "step_number": 12,
+      "action": "Locate card using XPath",
+      "xpath": "//h2[@data-testid='list-name'][.='Today']/ancestor::div[@data-testid='list']//a[@data-testid='card-name' and text()='test']",
+      "expected": "Card located"
+    },
+    { "step_number": 13, "action": "Click card", "expected": "Card details opened" },
+
+    {
+      "step_number": 14,
+      "action": "Locate Delete link",
+      "xpath": "//a[text()='Delete']",
+      "expected": "Delete button found"
+    },
+    { "step_number": 15, "action": "Click Delete", "expected": "Delete confirmation popup displayed" },
+
+    {
+      "step_number": 16,
+      "action": "Click 'Delete comment' in popup",
+      "xpath": "//button[normalize-space()='Delete comment']",
+      "expected": "Comment removed"
+    },
+
+    {
+      "step_number": 17,
+      "action": "Verify deleted comment no longer appears",
+      "xpath": "//p[contains(text(),'Tôi đã làm được ze ze')]",
+      "expected": "Comment not present"
+    }
+  ]
+}
+{
+  "test_case_id": "TC_COMMENT_DELETE02",
+  "test_case_name": "Cancel Comment Deletion Successfully",
+  "category": "Comment Management",
+  "priority": "Medium",
+  "test_type": "Functional Negative Test",
+  "description": "Verify that when the user clicks Delete on a comment but cancels the deletion in the confirmation popover, the comment remains visible.",
+  "preconditions": [
+    "User is logged into Trello",
+    "Board 'My Trello board' exists",
+    "List 'Today' exists",
+    "Card 'test' exists",
+    "A comment with content 'aa' already exists on the card"
+  ],
+  "test_data": {
+    "email": "ktv.thanhngan@gmail.com",
+    "password_encrypted": "h3YAgS6cNwIolJvH95hWIQ==",
+    "board_name": "My Trello board",
+    "list_name": "Today",
+    "card_name": "test",
+    "comment_text": "aa"
+  },
+  "expected_result": "Deletion is canceled and the comment remains visible on the card.",
+  "total_steps": 18,
+  "steps": [
+    { "step_number": 1, "action": "Open browser", "expected": "Browser launched" },
+    { "step_number": 2, "action": "Navigate to Trello URL", "expected": "Homepage loaded" },
+    { "step_number": 3, "action": "Click Login button", "expected": "Login form displayed" },
+    { "step_number": 4, "action": "Enter email", "data": "ktv.thanhngan@gmail.com", "expected": "Email entered" },
+    { "step_number": 5, "action": "Click Continue", "expected": "Password screen displayed" },
+    { "step_number": 6, "action": "Click Continue again", "expected": "Password field shown" },
+    { "step_number": 7, "action": "Enter encrypted password", "expected": "Password entered" },
+    { "step_number": 8, "action": "Click Login", "expected": "Login successful" },
+    { "step_number": 9, "action": "Wait 2 seconds", "expected": "Dashboard loaded" },
+
+    {
+      "step_number": 10,
+      "action": "Locate board by XPath",
+      "xpath": "//span[text()='My Trello board']/ancestor::a",
+      "expected": "Board located"
+    },
+    { "step_number": 11, "action": "Click board", "expected": "Board opened" },
+
+    {
+      "step_number": 12,
+      "action": "Locate card by name",
+      "xpath": "//h2[@data-testid='list-name'][.='Today']/ancestor::div[@data-testid='list']//a[@data-testid='card-name' and text()='test']",
+      "expected": "Card found"
+    },
+    { "step_number": 13, "action": "Click card", "expected": "Card details opened" },
+
+    {
+      "step_number": 14,
+      "action": "Hover over the target comment",
+      "xpath": "//div[@data-testid='comment-container'][.//p[text()='aa']]",
+      "expected": "Comment hover menu displayed"
+    },
+
+    {
+      "step_number": 15,
+      "action": "Click Delete option",
+      "xpath": "(//a[normalize-space()='Delete'])[1]",
+      "expected": "Delete confirmation popup displayed"
+    },
+
+    {
+      "step_number": 16,
+      "action": "Click Close (Cancel Delete) button",
+      "xpath": "//button[@aria-label='Close popover']",
+      "expected": "Deletion canceled"
+    },
+
+    {
+      "step_number": 17,
+      "action": "Verify comment still exists",
+      "xpath": "//div[@data-testid='comment-container'][.//p[text()='aa']]",
+      "expected": "Comment still visible"
+    },
+
+    {
+      "step_number": 18,
+      "action": "Log success result",
+      "expected": "Test case passed: Comment deletion canceled successfully"
+    }
+  ]
+}
+{
+  "test_case_id": "TC_COMMENT_LIST01",
+  "test_case_name": "List All Comments Displayed on the Card",
+  "category": "Comment Management",
+  "priority": "Medium",
+  "test_type": "Functional Test",
+  "description": "Verify that all comments on a Trello card are retrieved and displayed in the UI correctly.",
+  "preconditions": [
+    "User is logged into Trello",
+    "Board 'My Trello board' exists",
+    "List 'Today' exists",
+    "Card 'test' exists",
+    "Card contains one or more comments"
+  ],
+  "test_data": {
+    "email": "ktv.thanhngan@gmail.com",
+    "password_encrypted": "h3YAgS6cNwIolJvH95hWIQ==",
+    "board_name": "My Trello board",
+    "list_name": "Today",
+    "card_name": "test"
+  },
+  "expected_result": "All comments on the card are listed and visible on the UI.",
+  "total_steps": 16,
+  "steps": [
+    { "step_number": 1, "action": "Open browser", "expected": "Browser opened" },
+    { "step_number": 2, "action": "Navigate to Trello homepage", "expected": "Homepage displayed" },
+    { "step_number": 3, "action": "Click Login button", "expected": "Login form shown" },
+    { "step_number": 4, "action": "Enter email", "data": "ktv.thanhngan@gmail.com", "expected": "Email entered" },
+    { "step_number": 5, "action": "Click Continue", "expected": "Password screen shown" },
+    { "step_number": 6, "action": "Click Continue again", "expected": "Password input visible" },
+    { "step_number": 7, "action": "Enter encrypted password", "expected": "Password entered" },
+    { "step_number": 8, "action": "Click Login", "expected": "User logged in" },
+    { "step_number": 9, "action": "Wait for dashboard to load", "expected": "Dashboard loaded" },
+
+    {
+      "step_number": 10,
+      "action": "Locate the board via XPath",
+      "xpath": "//span[text()='My Trello board']/ancestor::a",
+      "expected": "Board located"
+    },
+    { "step_number": 11, "action": "Open the board", "expected": "Board opened" },
+
+    {
+      "step_number": 12,
+      "action": "Locate the card via XPath",
+      "xpath": "//h2[@data-testid='list-name'][.='Today']/ancestor::div[@data-testid='list']//a[@data-testid='card-name' and text()='test']",
+      "expected": "Card located"
+    },
+    { "step_number": 13, "action": "Open card", "expected": "Card detail displayed" },
+
+    {
+      "step_number": 14,
+      "action": "Locate all comment elements",
+      "xpath": "//div[@data-testid='comment-container']//p",
+      "expected": "All comment nodes found"
+    },
+
+    {
+      "step_number": 15,
+      "action": "Retrieve all comment texts using WebUI.findWebElements",
+      "expected": "List of comments retrieved"
+    },
+
+    {
+      "step_number": 16,
+      "action": "Verify comments are displayed",
+      "expected": "Comment list is not empty and matches UI"
+    }
+  ]
+}
+{
+  "test_case_id": "TC_COMMENT_MENTION01",
+  "test_case_name": "Add Comment with @Mention Successfully",
+  "category": "Comment Management",
+  "priority": "High",
+  "test_type": "Functional Test",
+  "description": "Verify that the user can create a comment containing @mention and that the mentioned user appears correctly in the comment.",
+  "preconditions": [
+    "User is logged into Trello",
+    "Board 'My Trello board' exists",
+    "List 'Today' exists",
+    "Card 'test' exists",
+    "Mention target user exists in the board members"
+  ],
+  "test_data": {
+    "email": "ktv.thanhngan@gmail.com",
+    "password_encrypted": "h3YAgS6cNwIolJvH95hWIQ==",
+    "board_name": "My Trello board",
+    "list_name": "Today",
+    "card_name": "test",
+    "mention_name": "Lê Thị Thanh Ngân"
+  },
+  "expected_result": "@Mention is inserted successfully and appears correctly in the posted comment.",
+  "total_steps": 20,
+  "steps": [
+    { "step_number": 1, "action": "Open browser", "expected": "Browser opened" },
+    { "step_number": 2, "action": "Navigate to Trello homepage", "expected": "Homepage loaded" },
+    { "step_number": 3, "action": "Click Login button", "expected": "Login form displayed" },
+    { "step_number": 4, "action": "Enter email", "data": "ktv.thanhngan@gmail.com", "expected": "Email entered" },
+    { "step_number": 5, "action": "Click Continue", "expected": "Password screen shown" },
+    { "step_number": 6, "action": "Click Continue again", "expected": "Password field displayed" },
+    { "step_number": 7, "action": "Enter encrypted password", "expected": "Password entered" },
+    { "step_number": 8, "action": "Click Login", "expected": "User logged in successfully" },
+    { "step_number": 9, "action": "Wait 2 seconds", "expected": "Dashboard loaded" },
+
+    {
+      "step_number": 10,
+      "action": "Locate board using XPath",
+      "xpath": "//span[text()='My Trello board']/ancestor::a",
+      "expected": "Board located"
+    },
+    { "step_number": 11, "action": "Click board", "expected": "Board opened" },
+
+    {
+      "step_number": 12,
+      "action": "Locate the card by name",
+      "xpath": "//h2[@data-testid='list-name'][.='Today']/ancestor::div[@data-testid='list']//a[@data-testid='card-name' and text()='test']",
+      "expected": "Card located"
+    },
+    { "step_number": 13, "action": "Click the card", "expected": "Card details displayed" },
+
+    {
+      "step_number": 14,
+      "action": "Open comment input area",
+      "xpath": "//button[@data-testid='card-back-new-comment-input-skeleton']",
+      "expected": "Comment input activated"
+    },
+
+    {
+      "step_number": 15,
+      "action": "Focus into ProseMirror editor",
+      "xpath": "//div[contains(@class,'ProseMirror')]//p",
+      "expected": "Editor focused"
+    },
+
+    {
+      "step_number": 16,
+      "action": "Type '@' to trigger mention suggestions",
+      "expected": "Mention suggestion list displayed"
+    },
+
+    {
+      "step_number": 17,
+      "action": "Select mention target from suggestion list",
+      "xpath": "//div[@role='option']//span[contains(text(),'Lê Thị Thanh Ngân')]",
+      "expected": "Mention inserted into editor"
+    },
+
+    { 
+      "step_number": 18,
+      "action": "Press Enter to submit comment",
+      "expected": "Comment posted"
+    },
+
+    {
+      "step_number": 19,
+      "action": "Verify mention is displayed in comment",
+      "xpath": "//div[@data-testid='comment-container']//span[contains(text(),'Lê Thị Thanh Ngân')]",
+      "expected": "Mention visible in posted comment"
+    },
+
+    {
+      "step_number": 20,
+      "action": "Log result",
+      "expected": "Test passed: Mention added successfully"
+    }
+  ]
+}
