@@ -1,8 +1,8 @@
 {
   "test_suites": [
     {
-      "id": "TS_WorkSpaceManagement",
-      "name": "Test Suite 1 - Trello WorkSpace Management",
+      "id": "TS_WORKSPACEMANAGEMENT",
+      "name": "Test Suite Trello WorkSpace Management",
       "description": "Comprehensive test suite for Trello Workspace functionality",
       "version": "1.0",
       "created_date": "2025-11-28",
@@ -1898,8 +1898,8 @@
       ]
     },
     {
-      "id": "TS_CARDFILTER_02",
-      "name": "Test Suite 2 - Card Search and Filter Functionality",
+      "id": "TS_CARDFILTER",
+      "name": "Test Suite Card Search and Filter Functionality",
       "description": "Test suite focusing on filtering cards by labels, members, due dates, and keywords within a board",
       "version": "1.0",
       "created_date": "2025-11-28",
