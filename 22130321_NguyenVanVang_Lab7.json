@@ -1,0 +1,777 @@
+{
+  "test_suites": [
+    {
+      "test_suite": {
+        "suite_name": "Test_Suites_Chuc_Nang_Quan_Ly_Bang",
+        "suite_id": "TS_TRELLO_BOARD_MGMT_001",
+        "description": "Comprehensive test suite for Trello board management functionality - including creation, editing, member invitation and deletion",
+        "author": "Nguyễn Văn Vàng",
+        "student_id": "22130321",
+        "created_date": "2024",
+        "tool": "Katalon Studio",
+        "target_application": "Trello",
+        "base_url": "https://trello.com/",
+        "test_environment": {
+          "login_credentials": {
+            "email": "22130321@st.hcmuaf.edu.vn",
+            "password_encrypted": "by3i+AA12UcTlQm2wTyUag=="
+          },
+          "test_board": "Test Board",
+          "test_boards": {
+            "created_board": "Demo_1",
+            "updated_board": "Demo_11"
+          }
+        },
+        "total_test_cases": 5,
+        "test_categories": [
+          "Board Creation",
+          "Board Management",
+          "Member Management"
+        ],
+        "test_cases": [
+          {
+            "test_case_id": "TC_BOARD_CREATE01",
+            "test_case_name": "Create New Trello Board",
+            "category": "Board Creation",
+            "priority": "High",
+            "description": "Verify that user can successfully create a new board in Trello with specified name and visibility",
+            "preconditions": [
+              "User must be logged in to Trello",
+              "User must have permission to create boards"
+            ],
+            "test_data": {
+              "board_name": "Demo_1",
+              "visibility": "Public"
+            },
+            "expected_result": "New board is created successfully with specified name and visibility",
+            "total_steps": 16,
+            "steps": [
+              {
+                "step_number": 1,
+                "action": "Open browser",
+                "expected": "Browser opens successfully"
+              },
+              {
+                "step_number": 2,
+                "action": "Navigate to Trello homepage",
+                "url": "https://trello.com/",
+                "expected": "Trello homepage loads"
+              },
+              {
+                "step_number": 3,
+                "action": "Click Login button",
+                "expected": "Login page appears"
+              },
+              {
+                "step_number": 4,
+                "action": "Enter email",
+                "data": "22130321@st.hcmuaf.edu.vn",
+                "expected": "Email is entered"
+              },
+              {
+                "step_number": 5,
+                "action": "Click remember me checkbox",
+                "expected": "Checkbox is selected"
+              },
+              {
+                "step_number": 6,
+                "action": "Enter encrypted password",
+                "data": "by3i+AA12UcTlQm2wTyUag==",
+                "expected": "Password is entered"
+              },
+              {
+                "step_number": 7,
+                "action": "Click Login/Continue button",
+                "expected": "User is logged in successfully"
+              },
+              {
+                "step_number": 8,
+                "action": "Click Create button on header",
+                "expected": "Create menu appears"
+              },
+              {
+                "step_number": 9,
+                "action": "Select Create board option",
+                "expected": "Board creation form appears"
+              },
+              {
+                "step_number": 10,
+                "action": "Click on board title input field",
+                "expected": "Input field is focused"
+              },
+              {
+                "step_number": 11,
+                "action": "Enter board name",
+                "data": "Demo_1",
+                "expected": "Board name is entered"
+              },
+              {
+                "step_number": 12,
+                "action": "Select visibility option",
+                "expected": "Visibility dropdown opens"
+              },
+              {
+                "step_number": 13,
+                "action": "Select workspace (if applicable)",
+                "expected": "Workspace is selected"
+              },
+              {
+                "step_number": 14,
+                "action": "Change visibility to Public",
+                "expected": "Visibility is set to Public"
+              },
+              {
+                "step_number": 15,
+                "action": "Click Create board button",
+                "expected": "Board is created successfully"
+              },
+              {
+                "step_number": 16,
+                "action": "Close browser",
+                "expected": "Browser closes"
+              }
+            ]
+          },
+          {
+            "test_case_id": "TC_BOARD_EDIT01",
+            "test_case_name": "Edit Board Properties",
+            "category": "Board Management",
+            "priority": "High",
+            "description": "Verify that user can update board name, change visibility and customize background",
+            "preconditions": [
+              "Board 'Demo_1' must exist",
+              "User must have edit permissions"
+            ],
+            "test_data": {
+              "old_board_name": "Demo_1",
+              "new_board_name": "Demo_11",
+              "visibility_change": "Public to Private",
+              "background_color": "Gradient Ocean (blue)"
+            },
+            "expected_result": "Board properties are updated successfully",
+            "total_steps": 21,
+            "steps": [
+              {
+                "step_number": 1,
+                "action": "Login and navigate to board",
+                "expected": "Board page loaded"
+              },
+              {
+                "step_number": 11,
+                "action": "Create TestObject for board name container",
+                "xpath": "//div[@data-testid='board-name-container']",
+                "expected": "TestObject created"
+              },
+              {
+                "step_number": 12,
+                "action": "Click board name container to edit",
+                "expected": "Board name becomes editable"
+              },
+              {
+                "step_number": 13,
+                "action": "Create TestObject for board name input",
+                "xpath": "//input[@data-testid='board-name-input']",
+                "expected": "TestObject created"
+              },
+              {
+                "step_number": 14,
+                "action": "Select all text and update board name",
+                "data": "Demo_11",
+                "expected": "Board name is updated to Demo_11"
+              },
+              {
+                "step_number": 15,
+                "action": "Create TestObject for overflow menu",
+                "xpath": "//span[@data-testid='OverflowMenuHorizontalIcon']",
+                "expected": "TestObject created"
+              },
+              {
+                "step_number": 16,
+                "action": "Click overflow menu",
+                "expected": "Board options menu appears"
+              },
+              {
+                "step_number": 17,
+                "action": "Create TestObject for visibility option",
+                "xpath": "//div[contains(@class,'XTd91xrSkjN3zk') and contains(text(),'Visibility: Public')]",
+                "expected": "TestObject created"
+              },
+              {
+                "step_number": 18,
+                "action": "Change visibility to Private",
+                "xpath": "//span[@data-testid='PrivateIcon' or @data-testid='PublicIcon']/ancestor::span[contains(@class,'g4oicM70jgqP7r')]",
+                "expected": "Visibility is changed to Private"
+              },
+              {
+                "step_number": 19,
+                "action": "Create TestObject for change background option",
+                "xpath": "//div[contains(@class,'XTd91xrSkjN3zk') and normalize-space(text())='Change background']",
+                "expected": "TestObject created"
+              },
+              {
+                "step_number": 20,
+                "action": "Select Colors tab and choose gradient ocean background",
+                "xpath": "//button[@data-testid='board-background-select-gradient-gradient-ocean']",
+                "expected": "Background is changed to gradient ocean"
+              },
+              {
+                "step_number": 21,
+                "action": "Close browser",
+                "expected": "Browser closes"
+              }
+            ]
+          },
+          {
+            "test_case_id": "TC_BOARD_INVITE01",
+            "test_case_name": "Invite Member with Invalid Email",
+            "category": "Member Management",
+            "priority": "Medium",
+            "description": "Verify system validates and rejects invalid email format when sharing board",
+            "preconditions": [
+              "Board 'Demo_11' must exist",
+              "User must have board management permissions"
+            ],
+            "test_data": {
+              "invalid_email": "Vidugmail.com",
+              "expected_validation_message": "Validation message for invalid email format"
+            },
+            "expected_result": "System displays appropriate validation message for invalid email format",
+            "total_steps": 15,
+            "steps": [
+              {
+                "step_number": 1,
+                "action": "Login and navigate to board",
+                "expected": "Board page loaded"
+              },
+              {
+                "step_number": 12,
+                "action": "Create TestObject for Share button",
+                "xpath": "//span[text()='Share']",
+                "expected": "TestObject created"
+              },
+              {
+                "step_number": 13,
+                "action": "Click Share button",
+                "expected": "Share modal dialog appears"
+              },
+              {
+                "step_number": 14,
+                "action": "Create TestObject for add members input",
+                "xpath": "//input[@data-testid='add-members-input']",
+                "expected": "TestObject created"
+              },
+              {
+                "step_number": 15,
+                "action": "Enter invalid email format",
+                "data": "Vidugmail.com",
+                "expected": "System displays validation error message"
+              }
+            ]
+          },
+          {
+            "test_case_id": "TC_BOARD_INVITE02",
+            "test_case_name": "Invite Member with Valid Email",
+            "category": "Member Management",
+            "priority": "High",
+            "description": "Verify that user can share board with valid email address and complete invitation process",
+            "preconditions": [
+              "Board 'Demo_11' must exist",
+              "Invitee email must be valid and active"
+            ],
+            "test_data": {
+              "valid_email": "nguyenvanvang2626@gmail.com"
+            },
+            "expected_result": "Board is successfully shared and invitation is sent",
+            "total_steps": 18,
+            "steps": [
+              {
+                "step_number": 1,
+                "action": "Login and navigate to board",
+                "expected": "Board page loaded"
+              },
+              {
+                "step_number": 12,
+                "action": "Create TestObject for Share button",
+                "xpath": "//span[text()='Share']",
+                "expected": "TestObject created"
+              },
+              {
+                "step_number": 13,
+                "action": "Click Share button",
+                "expected": "Share modal dialog appears"
+              },
+              {
+                "step_number": 14,
+                "action": "Create TestObject for add members input",
+                "xpath": "//input[@data-testid='add-members-input']",
+                "expected": "TestObject created"
+              },
+              {
+                "step_number": 15,
+                "action": "Enter valid email address and submit",
+                "data": "nguyenvanvang2626@gmail.com",
+                "expected": "Email is accepted and added to invitation list"
+              },
+              {
+                "step_number": 16,
+                "action": "Create TestObject for Share invitation button",
+                "xpath": "//button[@data-testid='team-invite-submit-button']",
+                "expected": "TestObject created"
+              },
+              {
+                "step_number": 17,
+                "action": "Click Share invitation button",
+                "expected": "Invitation is sent successfully"
+              },
+              {
+                "step_number": 18,
+                "action": "Close browser",
+                "expected": "Browser closes"
+              }
+            ]
+          },
+          {
+            "test_case_id": "TC_BOARD_DELETE01",
+            "test_case_name": "Close Trello Board",
+            "category": "Board Management",
+            "priority": "High",
+            "description": "Verify that user can close existing board through overflow menu and confirmation workflow",
+            "preconditions": [
+              "Board 'Demo_1' must exist",
+              "User must have closure permissions"
+            ],
+            "test_data": {
+              "board_name": "Demo_1"
+            },
+            "expected_result": "Board is successfully closed and removed from active boards list",
+            "total_steps": 16,
+            "steps": [
+              {
+                "step_number": 1,
+                "action": "Login and navigate to board",
+                "expected": "Board page loaded"
+              },
+              {
+                "step_number": 11,
+                "action": "Create TestObject for overflow menu",
+                "xpath": "//span[@data-testid='OverflowMenuHorizontalIcon']",
+                "expected": "TestObject created"
+              },
+              {
+                "step_number": 12,
+                "action": "Click overflow menu",
+                "expected": "Board options menu appears"
+              },
+              {
+                "step_number": 13,
+                "action": "Create TestObject for Close board option",
+                "xpath": "//div[text()='Close board']",
+                "expected": "TestObject created"
+              },
+              {
+                "step_number": 14,
+                "action": "Click Close board option",
+                "expected": "Board closure confirmation dialog appears"
+              },
+              {
+                "step_number": 15,
+                "action": "Create TestObject for confirmation button",
+                "xpath": "//button[@data-testid='popover-close-board-confirm']",
+                "expected": "TestObject created"
+              },
+              {
+                "step_number": 16,
+                "action": "Click confirmation button to close board",
+                "expected": "Board is successfully closed"
+              }
+            ]
+          }
+        ],
+        "test_execution_summary": {
+          "board_operations": {
+            "creation_tests": 1,
+            "management_tests": 2,
+            "member_tests": 2
+          },
+          "priority_breakdown": {
+            "high": 4,
+            "medium": 1
+          },
+          "test_coverage": [
+            "Board creation workflow",
+            "Board property editing",
+            "Visibility management",
+            "Background customization",
+            "Member invitation with valid email",
+            "Email validation for invalid format",
+            "Board closure process"
+          ],
+          "automation_approach": {
+            "tool": "Katalon Studio",
+            "framework": "WebUI Keywords",
+            "dynamic_object_creation": "XPath-based TestObject creation",
+            "wait_strategy": "Explicit waits with timeouts",
+            "test_types": "Positive and Negative testing"
+          }
+        }
+      }
+    },
+    {
+      "test_suite": {
+        "suite_name": "Test_Suites_Chuc_Nang_Quan_Ly_DanhSach",
+        "suite_id": "TS_TRELLO_LIST_MGMT_001",
+        "description": "Comprehensive test suite for Trello list management functionality - including creation, naming, editing and archiving",
+        "author": "Nguyễn Văn Vàng",
+        "student_id": "22130321",
+        "created_date": "2024",
+        "tool": "Katalon Studio",
+        "target_application": "Trello",
+        "base_url": "https://trello.com/",
+        "test_environment": {
+          "login_credentials": {
+            "email": "22130321@st.hcmuaf.edu.vn",
+            "password_encrypted": "by3i+AA12UcTlQm2wTyUag=="
+          },
+          "test_board": "Demo_11",
+          "test_lists": {
+            "default_list": "New list",
+            "custom_list": "Công việc tới",
+            "updated_list": "Công việc hả"
+          }
+        },
+        "total_test_cases": 4,
+        "test_categories": [
+          "List Creation",
+          "List Management"
+        ],
+        "test_cases": [
+          {
+            "test_case_id": "TC_LIST_ADD01",
+            "test_case_name": "Create New List with Default Name",
+            "category": "List Creation",
+            "priority": "High",
+            "description": "Verify that user can successfully create a new list with default name in existing Trello board",
+            "preconditions": [
+              "User must be logged in to Trello",
+              "Board 'Demo_11' must exist",
+              "User must have permission to create lists"
+            ],
+            "test_data": {
+              "board_name": "Demo_11"
+            },
+            "expected_result": "New list with default name is created successfully in the specified board",
+            "total_steps": 15,
+            "steps": [
+              {
+                "step_number": 1,
+                "action": "Open browser",
+                "expected": "Browser opens successfully"
+              },
+              {
+                "step_number": 2,
+                "action": "Navigate to Trello homepage",
+                "url": "https://trello.com/",
+                "expected": "Trello homepage loads"
+              },
+              {
+                "step_number": 3,
+                "action": "Click Login button",
+                "expected": "Login page appears"
+              },
+              {
+                "step_number": 4,
+                "action": "Enter email",
+                "data": "22130321@st.hcmuaf.edu.vn",
+                "expected": "Email is entered"
+              },
+              {
+                "step_number": 5,
+                "action": "Click remember me checkbox",
+                "expected": "Checkbox is selected"
+              },
+              {
+                "step_number": 6,
+                "action": "Enter encrypted password",
+                "data": "by3i+AA12UcTlQm2wTyUag==",
+                "expected": "Password is entered"
+              },
+              {
+                "step_number": 7,
+                "action": "Click Login/Continue button",
+                "expected": "User is logged in successfully"
+              },
+              {
+                "step_number": 8,
+                "action": "Create TestObject for Boards tab",
+                "xpath": "//span[contains(@class,'QEGH0t6lsxm4C9') and text()='Boards']",
+                "expected": "TestObject created"
+              },
+              {
+                "step_number": 9,
+                "action": "Click Boards tab",
+                "expected": "Boards menu appears"
+              },
+              {
+                "step_number": 10,
+                "action": "Create TestObject for target board",
+                "xpath": "//span[contains(@class,'GOPk_J9hMP7py5') and text()='Demo_11']",
+                "expected": "TestObject created"
+              },
+              {
+                "step_number": 11,
+                "action": "Click target board",
+                "expected": "Board page loads successfully"
+              },
+              {
+                "step_number": 12,
+                "action": "Create TestObject for Add list button",
+                "xpath": "//button[@data-testid='list-composer-button']",
+                "expected": "TestObject created"
+              },
+              {
+                "step_number": 13,
+                "action": "Click Add list button",
+                "expected": "List creation interface appears"
+              },
+              {
+                "step_number": 14,
+                "action": "Create TestObject for Add list confirmation button",
+                "xpath": "//button[@data-testid='list-composer-add-list-button']",
+                "expected": "TestObject created"
+              },
+              {
+                "step_number": 15,
+                "action": "Click Add list confirmation button",
+                "expected": "New list with default name is created successfully"
+              }
+            ]
+          },
+          {
+            "test_case_id": "TC_LIST_ADD02",
+            "test_case_name": "Create New List with Custom Name",
+            "category": "List Creation",
+            "priority": "High",
+            "description": "Verify that user can successfully create a new list with custom name in existing Trello board",
+            "preconditions": [
+              "User must be logged in to Trello",
+              "Board 'Demo_11' must exist",
+              "User must have permission to create lists"
+            ],
+            "test_data": {
+              "board_name": "Demo_11",
+              "list_name": "Công việc tới"
+            },
+            "expected_result": "New list with custom name is created successfully in the specified board",
+            "total_steps": 18,
+            "steps": [
+              {
+                "step_number": 1,
+                "action": "Login and navigate to board",
+                "expected": "Board page loaded"
+              },
+              {
+                "step_number": 12,
+                "action": "Create TestObject for Add list button",
+                "xpath": "//button[@data-testid='list-composer-button']",
+                "expected": "TestObject created"
+              },
+              {
+                "step_number": 13,
+                "action": "Click Add list button",
+                "expected": "List creation interface appears"
+              },
+              {
+                "step_number": 14,
+                "action": "Create TestObject for list name textarea",
+                "xpath": "//textarea[@data-testid='list-name-textarea']",
+                "expected": "TestObject created"
+              },
+              {
+                "step_number": 15,
+                "action": "Scroll to and focus on list name textarea",
+                "expected": "List name textarea is ready for input"
+              },
+              {
+                "step_number": 16,
+                "action": "Clear existing text and enter custom list name",
+                "keyboard_shortcut": "Ctrl+A",
+                "data": "Công việc tới",
+                "expected": "Custom list name is entered successfully"
+              },
+              {
+                "step_number": 17,
+                "action": "Create TestObject for Add list confirmation button",
+                "xpath": "//button[@data-testid='list-composer-add-list-button']",
+                "expected": "TestObject created"
+              },
+              {
+                "step_number": 18,
+                "action": "Click Add list confirmation button",
+                "expected": "New list with custom name is created successfully"
+              }
+            ]
+          },
+          {
+            "test_case_id": "TC_LIST_RENAME01",
+            "test_case_name": "Rename Existing List",
+            "category": "List Management",
+            "priority": "High",
+            "description": "Verify that user can successfully edit and rename an existing list in Trello board",
+            "preconditions": [
+              "User must be logged in to Trello",
+              "Board 'Demo_11' must exist",
+              "List 'Công việc tới' must exist",
+              "User must have permission to edit lists"
+            ],
+            "test_data": {
+              "board_name": "Demo_11",
+              "original_list_name": "Công việc tới",
+              "updated_list_name": "Công việc hả"
+            },
+            "expected_result": "List name is successfully updated from 'Công việc tới' to 'Công việc hả'",
+            "total_steps": 16,
+            "steps": [
+              {
+                "step_number": 1,
+                "action": "Login and navigate to board",
+                "expected": "Board page loaded"
+              },
+              {
+                "step_number": 12,
+                "action": "Create TestObject for target list name",
+                "xpath": "//span[text()='Công việc tới']",
+                "expected": "TestObject created"
+              },
+              {
+                "step_number": 13,
+                "action": "Click list name to enter edit mode",
+                "expected": "List name becomes editable"
+              },
+              {
+                "step_number": 14,
+                "action": "Create TestObject for list name textarea",
+                "xpath": "//textarea[@data-testid='list-name-textarea']",
+                "expected": "TestObject created"
+              },
+              {
+                "step_number": 15,
+                "action": "Select all text and update list name",
+                "keyboard_shortcut": "Ctrl+A",
+                "data": "Công việc hả",
+                "expected": "List name is updated to 'Công việc hả'"
+              },
+              {
+                "step_number": 16,
+                "action": "Press Enter to save changes",
+                "expected": "List name changes are saved successfully"
+              }
+            ]
+          },
+          {
+            "test_case_id": "TC_LIST_DELETE01",
+            "test_case_name": "Archive List",
+            "category": "List Management",
+            "priority": "High",
+            "description": "Verify that user can successfully archive a list and handle the confirmation alert",
+            "preconditions": [
+              "User must be logged in to Trello",
+              "Board 'Demo_11' must exist",
+              "List 'Công việc hả' must exist",
+              "User must have permission to archive lists"
+            ],
+            "test_data": {
+              "board_name": "Demo_11",
+              "list_name": "Công việc hả"
+            },
+            "expected_result": "List is successfully archived and confirmation alert is handled appropriately",
+            "total_steps": 17,
+            "steps": [
+              {
+                "step_number": 1,
+                "action": "Login and navigate to board",
+                "expected": "Board page loaded"
+              },
+              {
+                "step_number": 12,
+                "action": "Create TestObject for list overflow menu",
+                "xpath": "//button[@data-testid='list-edit-menu-button' and @aria-label='More actions on Công việc tới']",
+                "expected": "TestObject created"
+              },
+              {
+                "step_number": 13,
+                "action": "Click list overflow menu",
+                "expected": "List options menu appears"
+              },
+              {
+                "step_number": 14,
+                "action": "Create TestObject for Archive this list option",
+                "xpath": "//span[contains(text(),'Archive this list')]",
+                "expected": "TestObject created"
+              },
+              {
+                "step_number": 15,
+                "action": "Click Archive this list option",
+                "expected": "List is archived and confirmation alert appears"
+              },
+              {
+                "step_number": 16,
+                "action": "Create TestObject for alert close button",
+                "xpath": "//div[contains(@class,'bfb0aNnc3caWwf')]//button[contains(@class,'F9EOc0_yHVJ11x')]",
+                "expected": "TestObject created"
+              },
+              {
+                "step_number": 17,
+                "action": "Close confirmation alert if present",
+                "failure_handling": "OPTIONAL",
+                "expected": "Alert is closed and list archiving is completed"
+              }
+            ]
+          }
+        ],
+        "test_execution_summary": {
+          "list_operations": {
+            "creation_tests": 2,
+            "management_tests": 2
+          },
+          "priority_breakdown": {
+            "high": 4
+          },
+          "test_coverage": [
+            "List creation with default name",
+            "List creation with custom Vietnamese name",
+            "List renaming functionality",
+            "List archiving workflow",
+            "Alert handling for list operations",
+            "Keyboard shortcuts for efficient text manipulation"
+          ],
+          "automation_approach": {
+            "tool": "Katalon Studio",
+            "framework": "WebUI Keywords",
+            "dynamic_object_creation": "XPath-based TestObject creation",
+            "wait_strategy": "Explicit waits with timeouts",
+            "error_handling": "FailureHandling.OPTIONAL for flexible elements",
+            "interaction_methods": "Keyboard shortcuts for text manipulation"
+          }
+        }
+      }
+    }
+  ],
+  "total_test_suites": 2,
+  "overall_summary": {
+    "total_test_cases": 9,
+    "test_categories_covered": [
+      "Board Creation",
+      "Board Management", 
+      "Member Management",
+      "List Creation",
+      "List Management"
+    ],
+    "priority_distribution": {
+      "high": 8,
+      "medium": 1
+    },
+    "automation_framework": "Katalon Studio",
+    "target_application": "Trello",
+    "test_environment": "Web-based application"
+  }
+}
