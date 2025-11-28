@@ -1,0 +1,2984 @@
+{
+  "test_suite": {
+    "id": "Test Suite 6",
+    "name": "Test Suite 6 - Trello Power-Up and Attachment Management",
+    "description": "Comprehensive test suite for Trello board functionality including Power-Up add/delete/edit/search operations and attachment handling",
+    "version": "1.0",
+    "created_date": "2025-11-24",
+    "test_environment": {
+      "application": "Trello Web Application",
+      "base_url": "https://trello.com/vi",
+      "authentication_method": "Google OAuth",
+      "testing_tool": "Katalon Studio",
+      "browser": "Chrome (default)"
+    },
+    "test_execution_order": "Sequential",
+    "total_test_cases": 15,
+    "test_cases": [
+      {
+        "id": "TC_POWERUP_ADD_01",
+        "name": "TC_POWERUP_ADD_01",
+        "sequence": 1,
+        "category": "Power-Up Management",
+        "type": "Positive",
+        "priority": "High",
+        "description": "Verify adding Calendar Power-Up to the board",
+        "preconditions": [
+          "Valid Google account credentials available",
+          "Browser is installed and accessible",
+          "Internet connection is stable"
+        ],
+        "test_data": {
+          "email": "22130188@st.hcmuaf.edu.vn",
+          "password": "Nguyenidol123."
+        },
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "open_browser",
+            "description": "Open browser instance",
+            "parameters": {
+              "url": ""
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "navigate_to_url",
+            "description": "Navigate to Trello homepage",
+            "parameters": {
+              "url": "https://trello.com/vi"
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Click login button",
+            "parameters": {
+              "object": "Object Repository/Page_Ghi li, sp xp v gii quyt vic cn lm t b_870fc3/a_Ti liu_Buttonsstyles__Button-sc-1jwidxo-0 kTwZBr"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Select email login option",
+            "parameters": {
+              "object": "Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/span_Log in with email_css-178ag6o"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "set_text",
+            "description": "Enter email address",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "text": "22130188@st.hcmuaf.edu.vn"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "send_keys",
+            "description": "Press Enter on email field",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "click",
+            "description": "Click next button",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_VfPpkd-muHVF_8ead10"
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "set_text",
+            "description": "Enter password",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "text": "Nguyenidol123."
+            }
+          },
+          {
+            "step_number": 9,
+            "action": "send_keys",
+            "description": "Press Enter on password field",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 10,
+            "action": "click",
+            "description": "Click on test board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards Trello/div_Dat_Ve_Xem_Phim_gWl3Xe9ruADN19 SzliHsDO_R43nR"
+            }
+          },
+          {
+            "step_number": 11,
+            "action": "click",
+            "description": "Open board menu",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/span_Switch boards__1e0c1o8l _1o9zidpf _vyf_4a6f64"
+            }
+          },
+          {
+            "step_number": 12,
+            "action": "click",
+            "description": "Click report menu",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/span_Report__1e0c1o8l _vchhusvi _1o9zidpf __11dc2a"
+            }
+          },
+          {
+            "step_number": 13,
+            "action": "click",
+            "description": "Click settings",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/button_Settings_ybVBgfOiuWZJtD orotyyeYQx_t_0269c7"
+            }
+          },
+          {
+            "step_number": 14,
+            "action": "click",
+            "description": "Enable Power-Up",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/a_Enabled_WGY9hGsS5muj12"
+            }
+          },
+          {
+            "step_number": 15,
+            "action": "click",
+            "description": "Click Calendar Power-Up",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/button_Calendar Power-Up_v1h5yZNRnfe74l ybV_d6bedc"
+            }
+          },
+          {
+            "step_number": 16,
+            "action": "click",
+            "description": "Confirm add Calendar Power-Up",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/button_Calendar Power-Up_O2jFNiRqwPNjZi ybV_0d1a44"
+            }
+          },
+          {
+            "step_number": 17,
+            "action": "click",
+            "description": "Select featured",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/a_Featured_WGY9hGsS5muj12 oVTy_5Hj0NsJON"
+            }
+          },
+          {
+            "step_number": 18,
+            "action": "close_browser",
+            "description": "Close browser",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "Calendar Power-Up added successfully to the board",
+        "variables": {},
+        "dependencies": []
+      },
+      {
+        "id": "TC_POWERUP_ADD_02",
+        "name": "TC_POWERUP_ADD_02",
+        "sequence": 2,
+        "category": "Power-Up Management",
+        "type": "Positive",
+        "priority": "High",
+        "description": "Verify adding Card Aging Power-Up",
+        "preconditions": [
+          "User is logged in",
+          "Test board exists"
+        ],
+        "test_data": {
+          "email": "22130188@st.hcmuaf.edu.vn",
+          "password": "74aGk+CJTjePLhCojrePTQ=="
+        },
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "open_browser",
+            "description": "Open browser instance",
+            "parameters": {
+              "url": ""
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "navigate_to_url",
+            "description": "Navigate to Trello homepage",
+            "parameters": {
+              "url": "https://trello.com/vi"
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Click login button",
+            "parameters": {
+              "object": "Object Repository/Page_Ghi li, sp xp v gii quyt vic cn lm t b_870fc3/a_Ti liu_Buttonsstyles__Button-sc-1jwidxo-0 kTwZBr"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Select email login",
+            "parameters": {
+              "object": "Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/span_Log in with email_css-178ag6o"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "set_text",
+            "description": "Enter email",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "text": "22130188@st.hcmuaf.edu.vn"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "click",
+            "description": "Click next",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/div_Too many failed attempts_selectionc1"
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "set_text",
+            "description": "Enter password",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "text": "Nguyenidol123."
+            }
+          },
+          {
+            "step_number": 9,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 10,
+            "action": "click",
+            "description": "Click recently viewed board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards Trello/div_Recently viewed_gWl3Xe9ruADN19 SzliHsDO_R43nR"
+            }
+          },
+          {
+            "step_number": 11,
+            "action": "click",
+            "description": "Open board menu",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/span_Switch boards__1e0c1o8l _1o9zidpf _vyf_4a6f64"
+            }
+          },
+          {
+            "step_number": 12,
+            "action": "click",
+            "description": "Click card",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/div_ang lm_LqgHiubcZnMWmo"
+            }
+          },
+          {
+            "step_number": 13,
+            "action": "click",
+            "description": "Click date on card",
+            "parameters": {
+              "object": "Object Repository/Page_Xong 30 video anh G trong tun ny (23.4_8a23a5/span_Apr 23, 2025, 1151 PM_ToAa87lNYiFfdv"
+            }
+          },
+          {
+            "step_number": 14,
+            "action": "click",
+            "description": "Click report",
+            "parameters": {
+              "object": "Object Repository/Page_Xong 30 video anh G trong tun ny (23.4_8a23a5/span_Report_g4oicM70jgqP7r"
+            }
+          },
+          {
+            "step_number": 15,
+            "action": "click",
+            "description": "Click enabled",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/a_Enabled_WGY9hGsS5muj12"
+            }
+          },
+          {
+            "step_number": 16,
+            "action": "click",
+            "description": "Click Card Aging",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/button_Card Aging_v1h5yZNRnfe74l ybVBgfOiuW_100469"
+            }
+          },
+          {
+            "step_number": 17,
+            "action": "click",
+            "description": "Click made by Trello",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/span_Made by Trello__1e0c1o8l _1o9zidpf _vy_f6561f"
+            }
+          },
+          {
+            "step_number": 18,
+            "action": "click",
+            "description": "Click card again",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/div_ang lm_LqgHiubcZnMWmo"
+            }
+          },
+          {
+            "step_number": 19,
+            "action": "click",
+            "description": "Click date on card",
+            "parameters": {
+              "object": "Object Repository/Page_Xong 30 video anh G trong tun ny (23.4_8a23a5/button_Apr 23, 2025, 1151 PM_APu9_M1MYhkJun_62530c"
+            }
+          },
+          {
+            "step_number": 20,
+            "action": "close_browser",
+            "description": "Close browser",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "Card Aging Power-Up added successfully",
+        "variables": {},
+        "dependencies": []
+      },
+      {
+        "id": "TC_POWERUP_ADD_03",
+        "name": "TC_POWERUP_ADD_03",
+        "sequence": 3,
+        "category": "Power-Up Management",
+        "type": "Negative",
+        "priority": "Medium",
+        "description": "Verify adding Card Aging Power-Up is cancelled",
+        "preconditions": [
+          "User is logged in",
+          "Test board exists"
+        ],
+        "test_data": {
+          "email": "22130188@st.hcmuaf.edu.vn",
+          "password": "74aGk+CJTjePLhCojrePTQ=="
+        },
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "open_browser",
+            "description": "Open browser instance",
+            "parameters": {
+              "url": ""
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "navigate_to_url",
+            "description": "Navigate to Trello homepage",
+            "parameters": {
+              "url": "https://trello.com/vi"
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Click login button",
+            "parameters": {
+              "object": "Object Repository/Page_Ghi li, sp xp v gii quyt vic cn lm t b_870fc3/a_Ti liu_Buttonsstyles__Button-sc-1jwidxo-0 kTwZBr"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Select email login",
+            "parameters": {
+              "object": "Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/span_Log in with email_css-178ag6o"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "set_text",
+            "description": "Enter email",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "text": "22130188@st.hcmuaf.edu.vn"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "set_encrypted_text",
+            "description": "Enter encrypted password",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "text": "74aGk+CJTjePLhCojrePTQ=="
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 9,
+            "action": "click",
+            "description": "Click recently viewed board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards Trello/div_Recently viewed_gWl3Xe9ruADN19 SzliHsDO_R43nR"
+            }
+          },
+          {
+            "step_number": 10,
+            "action": "click",
+            "description": "Open board menu",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/span_Switch boards__1e0c1o8l _1o9zidpf _vyf_4a6f64"
+            }
+          },
+          {
+            "step_number": 11,
+            "action": "click",
+            "description": "Click card",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/div_xong_LqgHiubcZnMWmo"
+            }
+          },
+          {
+            "step_number": 12,
+            "action": "click",
+            "description": "Click date",
+            "parameters": {
+              "object": "Object Repository/Page_5 video u ca anh G on Nhm Cy Siu Tc Trello/span_Apr 23, 2025, 524 PM_ToAa87lNYiFfdv"
+            }
+          },
+          {
+            "step_number": 13,
+            "action": "click",
+            "description": "Click Power-Ups",
+            "parameters": {
+              "object": "Object Repository/Page_5 video u ca anh G on Nhm Cy Siu Tc Trello/span_Power-Ups_g4oicM70jgqP7r"
+            }
+          },
+          {
+            "step_number": 14,
+            "action": "click",
+            "description": "Click Card aging",
+            "parameters": {
+              "object": "Object Repository/Page_5 video u ca anh G on Nhm Cy Siu Tc Trello/button_Card aging_kw1BCJDqihjzNd ybVBgfOiuW_17287a"
+            }
+          },
+          {
+            "step_number": 15,
+            "action": "click",
+            "description": "Confirm add",
+            "parameters": {
+              "object": "Object Repository/Page_5 video u ca anh G on Nhm Cy Siu Tc Trello/button_Card aging_kw1BCJDqihjzNd ybVBgfOiuW_17287a"
+            }
+          },
+          {
+            "step_number": 16,
+            "action": "click",
+            "description": "Click close",
+            "parameters": {
+              "object": "Object Repository/Page_5 video u ca anh G on Nhm Cy Siu Tc Trello/a_Card aging_pop-over-header-close-btn icon_fc308c"
+            }
+          },
+          {
+            "step_number": 17,
+            "action": "click",
+            "description": "Click date again",
+            "parameters": {
+              "object": "Object Repository/Page_5 video u ca anh G on Nhm Cy Siu Tc Trello/span_Apr 23, 2025, 524 PM_ToAa87lNYiFfdv_1"
+            }
+          },
+          {
+            "step_number": 18,
+            "action": "close_browser",
+            "description": "Close browser",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "Card Aging Power-Up addition cancelled",
+        "variables": {},
+        "dependencies": []
+      },
+      {
+        "id": "TC_POWERUP_DELETE_01",
+        "name": "TC_POWERUP_DELETE_01",
+        "sequence": 4,
+        "category": "Power-Up Management",
+        "type": "Positive",
+        "priority": "High",
+        "description": "Verify deleting Card Snooze Power-Up keeping data",
+        "preconditions": [
+          "User is logged in",
+          "Test board with Power-Up exists"
+        ],
+        "test_data": {
+          "email": "22130188@st.hcmuaf.edu.vn",
+          "password": "Nguyenidol123."
+        },
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "open_browser",
+            "description": "Open browser instance",
+            "parameters": {
+              "url": ""
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "navigate_to_url",
+            "description": "Navigate to Trello homepage",
+            "parameters": {
+              "url": "https://trello.com/vi"
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Click login button",
+            "parameters": {
+              "object": "Object Repository/Page_Ghi li, sp xp v gii quyt vic cn lm t b_870fc3/a_Ti liu_Buttonsstyles__Button-sc-1jwidxo-0 kTwZBr"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Select email login",
+            "parameters": {
+              "object": "Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/span_Log in with email_css-178ag6o"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "set_text",
+            "description": "Enter email",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "text": "22130188@st.hcmuaf.edu.vn"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "click",
+            "description": "Click forgot email",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/span_Forgot email_VfPpkd-vQzf8d"
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "click",
+            "description": "Click next",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/div_Too many failed attempts_selectionc1"
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "set_text",
+            "description": "Enter password",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "text": "Nguyenidol123."
+            }
+          },
+          {
+            "step_number": 9,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 10,
+            "action": "click",
+            "description": "Click recently viewed board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards Trello/div_Recently viewed_gWl3Xe9ruADN19 SzliHsDO_R43nR"
+            }
+          },
+          {
+            "step_number": 11,
+            "action": "click",
+            "description": "Open board menu",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/span_Switch boards__1e0c1o8l _1o9zidpf _vyf_4a6f64"
+            }
+          },
+          {
+            "step_number": 12,
+            "action": "click",
+            "description": "Click report",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/button_Report_ktzI4mkrTz6f4_ sBTPnzftJeBlBT_a94bb6"
+            }
+          },
+          {
+            "step_number": 13,
+            "action": "click",
+            "description": "Click settings",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/button_Settings_ybVBgfOiuWZJtD orotyyeYQx_t_0269c7"
+            }
+          },
+          {
+            "step_number": 14,
+            "action": "click",
+            "description": "Click featured",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/a_Featured_WGY9hGsS5muj12 oVTy_5Hj0NsJON"
+            }
+          },
+          {
+            "step_number": 15,
+            "action": "click",
+            "description": "Click Card Snooze",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/button_Card Snooze_O2jFNiRqwPNjZi ybVBgfOiu_ec7d9e"
+            }
+          },
+          {
+            "step_number": 16,
+            "action": "click",
+            "description": "Click remove personal settings",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/span_Remove personal settings_bH80RvHHmoWYhk"
+            }
+          },
+          {
+            "step_number": 17,
+            "action": "click",
+            "description": "Click keep data",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/button_Keep all Power-Up data_ybVBgfOiuWZJt_21783f"
+            }
+          },
+          {
+            "step_number": 18,
+            "action": "click",
+            "description": "Click search",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/a_Search_WGY9hGsS5muj12"
+            }
+          },
+          {
+            "step_number": 19,
+            "action": "close_browser",
+            "description": "Close browser",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "Card Snooze Power-Up deleted, data kept",
+        "variables": {},
+        "dependencies": []
+      },
+      {
+        "id": "TC_POWERUP_DELETE_02",
+        "name": "TC_POWERUP_DELETE_02",
+        "sequence": 5,
+        "category": "Power-Up Management",
+        "type": "Negative",
+        "priority": "Medium",
+        "description": "Verify cancelling Card Snooze Power-Up deletion",
+        "preconditions": [
+          "User is logged in",
+          "Test board with Power-Up exists"
+        ],
+        "test_data": {
+          "email": "22130188@st.hcmuaf.edu.vn",
+          "password": "74aGk+CJTjePLhCojrePTQ=="
+        },
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "open_browser",
+            "description": "Open browser instance",
+            "parameters": {
+              "url": ""
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "navigate_to_url",
+            "description": "Navigate to Trello homepage",
+            "parameters": {
+              "url": "https://trello.com/vi"
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Click login button",
+            "parameters": {
+              "object": "Object Repository/Page_Ghi li, sp xp v gii quyt vic cn lm t b_870fc3/a_Ti liu_Buttonsstyles__Button-sc-1jwidxo-0 kTwZBr"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Select email login",
+            "parameters": {
+              "object": "Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/span_Log in with email_css-178ag6o"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "set_text",
+            "description": "Enter email",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "text": "22130188@st.hcmuaf.edu.vn"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "set_encrypted_text",
+            "description": "Enter encrypted password",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "text": "74aGk+CJTjePLhCojrePTQ=="
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 9,
+            "action": "click",
+            "description": "Click recently viewed board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards Trello/div_Recently viewed_gWl3Xe9ruADN19 SzliHsDO_R43nR"
+            }
+          },
+          {
+            "step_number": 10,
+            "action": "click",
+            "description": "Open board menu",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/span_Switch boards__1e0c1o8l _1o9zidpf _vyf_4a6f64"
+            }
+          },
+          {
+            "step_number": 11,
+            "action": "click",
+            "description": "Click report",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/span_Report__1e0c1o8l _vchhusvi _1o9zidpf __11dc2a"
+            }
+          },
+          {
+            "step_number": 12,
+            "action": "click",
+            "description": "Click settings",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/button_Settings_ybVBgfOiuWZJtD orotyyeYQx_t_0269c7"
+            }
+          },
+          {
+            "step_number": 13,
+            "action": "click",
+            "description": "Click featured",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/a_Featured_WGY9hGsS5muj12 oVTy_5Hj0NsJON"
+            }
+          },
+          {
+            "step_number": 14,
+            "action": "click",
+            "description": "Click Card Snooze",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/button_Card Snooze_O2jFNiRqwPNjZi ybVBgfOiu_ec7d9e"
+            }
+          },
+          {
+            "step_number": 15,
+            "action": "click",
+            "description": "Click remove personal settings",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/span_Remove personal settings_bH80RvHHmoWYhk"
+            }
+          },
+          {
+            "step_number": 16,
+            "action": "click",
+            "description": "Click learn more checkbox",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/input_Learn more_checkbox_id"
+            }
+          },
+          {
+            "step_number": 17,
+            "action": "click",
+            "description": "Click checkbox again",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/input_Learn more_checkbox_id"
+            }
+          },
+          {
+            "step_number": 18,
+            "action": "click",
+            "description": "Click disable",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/a_Disable Power-Up_pop-over-header-close-bt_ba0b1d"
+            }
+          },
+          {
+            "step_number": 19,
+            "action": "click",
+            "description": "Click search",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/a_Search_WGY9hGsS5muj12"
+            }
+          },
+          {
+            "step_number": 20,
+            "action": "close_browser",
+            "description": "Close browser",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "Card Snooze Power-Up deletion cancelled",
+        "variables": {},
+        "dependencies": []
+      },
+      {
+        "id": "TC_POWERUP_DELETE_03",
+        "name": "TC_POWERUP_DELETE_03",
+        "sequence": 6,
+        "category": "Power-Up Management",
+        "type": "Positive",
+        "priority": "High",
+        "description": "Verify deleting Card Snooze Power-Up with data removal",
+        "preconditions": [
+          "User is logged in",
+          "Test board with Power-Up exists"
+        ],
+        "test_data": {
+          "email": "22130188@st.hcmuaf.edu.vn",
+          "password": "74aGk+CJTjePLhCojrePTQ=="
+        },
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "open_browser",
+            "description": "Open browser instance",
+            "parameters": {
+              "url": ""
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "navigate_to_url",
+            "description": "Navigate to Trello homepage",
+            "parameters": {
+              "url": "https://trello.com/vi"
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Click login button",
+            "parameters": {
+              "object": "Object Repository/Page_Ghi li, sp xp v gii quyt vic cn lm t b_870fc3/a_Ti liu_Buttonsstyles__Button-sc-1jwidxo-0 kTwZBr"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Select email login",
+            "parameters": {
+              "object": "Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/span_Log in with email_css-178ag6o"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "set_text",
+            "description": "Enter email",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "text": "22130188@st.hcmuaf.edu.vn"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "set_encrypted_text",
+            "description": "Enter encrypted password",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "text": "74aGk+CJTjePLhCojrePTQ=="
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 9,
+            "action": "click",
+            "description": "Click recently viewed board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards Trello/div_Recently viewed_gWl3Xe9ruADN19 SzliHsDO_R43nR"
+            }
+          },
+          {
+            "step_number": 10,
+            "action": "click",
+            "description": "Open board menu",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/span_Switch boards__1e0c1o8l _1o9zidpf _vyf_4a6f64"
+            }
+          },
+          {
+            "step_number": 11,
+            "action": "click",
+            "description": "Click report",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/span_Report__1e0c1o8l _vchhusvi _1o9zidpf __11dc2a"
+            }
+          },
+          {
+            "step_number": 12,
+            "action": "click",
+            "description": "Click settings",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/button_Settings_ybVBgfOiuWZJtD orotyyeYQx_t_0269c7"
+            }
+          },
+          {
+            "step_number": 13,
+            "action": "click",
+            "description": "Click featured",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/a_Featured_WGY9hGsS5muj12 oVTy_5Hj0NsJON"
+            }
+          },
+          {
+            "step_number": 14,
+            "action": "click",
+            "description": "Click Card Snooze",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/button_Card Snooze_O2jFNiRqwPNjZi ybVBgfOiu_ec7d9e"
+            }
+          },
+          {
+            "step_number": 15,
+            "action": "click",
+            "description": "Click remove personal settings",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/span_Remove personal settings_bH80RvHHmoWYhk"
+            }
+          },
+          {
+            "step_number": 16,
+            "action": "click",
+            "description": "Click learn more checkbox",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/input_Learn more_checkbox_id"
+            }
+          },
+          {
+            "step_number": 17,
+            "action": "click",
+            "description": "Click keep data",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/button_Keep all Power-Up data_ybVBgfOiuWZJt_21783f"
+            }
+          },
+          {
+            "step_number": 18,
+            "action": "click",
+            "description": "Click search",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/a_Search_WGY9hGsS5muj12"
+            }
+          },
+          {
+            "step_number": 19,
+            "action": "click",
+            "description": "Click featured again",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/a_Featured_WGY9hGsS5muj12 oVTy_5Hj0NsJON_1"
+            }
+          },
+          {
+            "step_number": 20,
+            "action": "close_browser",
+            "description": "Close browser",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "Card Snooze Power-Up deleted, data removed",
+        "variables": {},
+        "dependencies": []
+      },
+      {
+        "id": "TC_POWERUP_EDIT_01",
+        "name": "TC_POWERUP_EDIT_01",
+        "sequence": 7,
+        "category": "Power-Up Management",
+        "type": "Positive",
+        "priority": "High",
+        "description": "Verify editing Voting Power-Up settings",
+        "preconditions": [
+          "User is logged in",
+          "Test board with Voting Power-Up exists"
+        ],
+        "test_data": {
+          "email": "22130188@st.hcmuaf.edu.vn",
+          "password": "74aGk+CJTjePLhCojrePTQ=="
+        },
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "open_browser",
+            "description": "Open browser instance",
+            "parameters": {
+              "url": ""
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "navigate_to_url",
+            "description": "Navigate to Trello homepage",
+            "parameters": {
+              "url": "https://trello.com/vi"
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Click login button",
+            "parameters": {
+              "object": "Object Repository/Page_Ghi li, sp xp v gii quyt vic cn lm t b_870fc3/a_Ti liu_Buttonsstyles__Button-sc-1jwidxo-0 kTwZBr"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Select email login",
+            "parameters": {
+              "object": "Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/img"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "set_text",
+            "description": "Enter email",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "text": "22130188@st.hcmuaf.edu.vn"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "set_encrypted_text",
+            "description": "Enter encrypted password",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "text": "9NLz+4tGZcQ="
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "click",
+            "description": "Click next",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_VfPpkd-muHVF_8ead10"
+            }
+          },
+          {
+            "step_number": 9,
+            "action": "click",
+            "description": "Click password field",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd"
+            }
+          },
+          {
+            "step_number": 10,
+            "action": "set_encrypted_text",
+            "description": "Enter correct encrypted password",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "text": "74aGk+CJTjePLhCojrePTQ=="
+            }
+          },
+          {
+            "step_number": 11,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 12,
+            "action": "click",
+            "description": "Click test board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards Trello/div_Dat_Ve_Xem_Phim_gWl3Xe9ruADN19 SzliHsDO_R43nR"
+            }
+          },
+          {
+            "step_number": 13,
+            "action": "click",
+            "description": "Open board menu",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/span_Switch boards__1e0c1o8l _1o9zidpf _vyf_4a6f64"
+            }
+          },
+          {
+            "step_number": 14,
+            "action": "click",
+            "description": "Click report",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/span_Report__1e0c1o8l _vchhusvi _1o9zidpf __11dc2a"
+            }
+          },
+          {
+            "step_number": 15,
+            "action": "click",
+            "description": "Click settings",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/button_Settings_ybVBgfOiuWZJtD orotyyeYQx_t_0269c7"
+            }
+          },
+          {
+            "step_number": 16,
+            "action": "click",
+            "description": "Click featured",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/a_Featured_WGY9hGsS5muj12 oVTy_5Hj0NsJON"
+            }
+          },
+          {
+            "step_number": 17,
+            "action": "click",
+            "description": "Click Voting",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/button_Voting_O2jFNiRqwPNjZi ybVBgfOiuWZJtD_0be83f"
+            }
+          },
+          {
+            "step_number": 18,
+            "action": "click",
+            "description": "Click voting settings",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/span_Voting_g4oicM70jgqP7r"
+            }
+          },
+          {
+            "step_number": 19,
+            "action": "click",
+            "description": "Click workspace members",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/div_Workspace members_xAZRAlQvzWR693"
+            }
+          },
+          {
+            "step_number": 20,
+            "action": "click",
+            "description": "Click who is allowed to vote",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/span_Who is allowed to vote on cards_bH80Rv_ec0b65"
+            }
+          },
+          {
+            "step_number": 21,
+            "action": "click",
+            "description": "Click workspace members again",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/div_Workspace members_xAZRAlQvzWR693"
+            }
+          },
+          {
+            "step_number": 22,
+            "action": "click",
+            "description": "Click members",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/div_Members_xAZRAlQvzWR693"
+            }
+          },
+          {
+            "step_number": 23,
+            "action": "close_browser",
+            "description": "Close browser",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "Voting Power-Up settings updated to workspace members",
+        "variables": {},
+        "dependencies": []
+      },
+      {
+        "id": "TC_POWERUP_SEARCH_01",
+        "name": "TC_POWERUP_SEARCH_01",
+        "sequence": 8,
+        "category": "Power-Up Management",
+        "type": "Positive",
+        "priority": "Medium",
+        "description": "Verify searching for 'box' Power-Up",
+        "preconditions": [
+          "User is logged in",
+          "Test board exists"
+        ],
+        "test_data": {
+          "search_term": "box"
+        },
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "open_browser",
+            "description": "Open browser instance",
+            "parameters": {
+              "url": ""
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "navigate_to_url",
+            "description": "Navigate to Trello homepage",
+            "parameters": {
+              "url": "https://trello.com/vi"
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Click login button",
+            "parameters": {
+              "object": "Object Repository/Page_Ghi li, sp xp v gii quyt vic cn lm t b_870fc3/a_Ti liu_Buttonsstyles__Button-sc-1jwidxo-0 kTwZBr"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Select email login",
+            "parameters": {
+              "object": "Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/span_Log in with email_css-178ag6o"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "set_text",
+            "description": "Enter invalid email",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "text": "TC_POWERUP_SEARCH_01"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "click",
+            "description": "Click next",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/div_Atlassian_UXFQgc"
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "set_text",
+            "description": "Enter correct email",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "text": "22130188@st.hcmuaf.edu.vn"
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 9,
+            "action": "set_encrypted_text",
+            "description": "Enter encrypted password",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "text": "74aGk+CJTjePLhCojrePTQ=="
+            }
+          },
+          {
+            "step_number": 10,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 11,
+            "action": "click",
+            "description": "Click recently viewed board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards Trello/div_Recently viewed_gWl3Xe9ruADN19 SzliHsDO_R43nR"
+            }
+          },
+          {
+            "step_number": 12,
+            "action": "click",
+            "description": "Open board menu",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/span_Switch boards__1e0c1o8l _1o9zidpf _vyf_4a6f64"
+            }
+          },
+          {
+            "step_number": 13,
+            "action": "click",
+            "description": "Click report",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/span_Report__1e0c1o8l _vchhusvi _1o9zidpf __11dc2a"
+            }
+          },
+          {
+            "step_number": 14,
+            "action": "click",
+            "description": "Click settings",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/button_Settings_ybVBgfOiuWZJtD orotyyeYQx_t_0269c7"
+            }
+          },
+          {
+            "step_number": 15,
+            "action": "double_click",
+            "description": "Double click search field",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/div_Search__16jlkb7n _1o9zkb7n _i0dl1wug _n_7f18aa"
+            }
+          },
+          {
+            "step_number": 16,
+            "action": "click",
+            "description": "Click search field",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/div_Search__16jlkb7n _1o9zkb7n _i0dl1wug _n_7f18aa"
+            }
+          },
+          {
+            "step_number": 17,
+            "action": "set_text",
+            "description": "Enter search term 'box'",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/input_Power-Ups_react-select-5-input",
+              "text": "box"
+            }
+          },
+          {
+            "step_number": 18,
+            "action": "send_keys",
+            "description": "Press Enter to search",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/input_Power-Ups_react-select-5-input",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 19,
+            "action": "close_browser",
+            "description": "Close browser",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "Power-Ups containing 'box' displayed in search results",
+        "variables": {},
+        "dependencies": []
+      },
+      {
+        "id": "TC_POWERUP_SEARCH_02",
+        "name": "TC_POWERUP_SEARCH_02",
+        "sequence": 9,
+        "category": "Power-Up Management",
+        "type": "Positive",
+        "priority": "Medium",
+        "description": "Verify searching for non-English term 'máy bay'",
+        "preconditions": [
+          "User is logged in",
+          "Test board exists"
+        ],
+        "test_data": {
+          "search_term": "television, máy bay"
+        },
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "open_browser",
+            "description": "Open browser instance",
+            "parameters": {
+              "url": ""
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "navigate_to_url",
+            "description": "Navigate to Trello homepage",
+            "parameters": {
+              "url": "https://trello.com/vi"
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Click login button",
+            "parameters": {
+              "object": "Object Repository/Page_Ghi li, sp xp v gii quyt vic cn lm t b_870fc3/a_Ti liu_Buttonsstyles__Button-sc-1jwidxo-0 kTwZBr"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Select email login",
+            "parameters": {
+              "object": "Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/span_Log in with email_css-178ag6o"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "set_text",
+            "description": "Enter email",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "text": "22130188@st.hcmuaf.edu.vn"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "set_encrypted_text",
+            "description": "Enter encrypted password",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "text": "74aGk+CJTjePLhCojrePTQ=="
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 9,
+            "action": "click",
+            "description": "Click recently viewed board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards Trello/div_Recently viewed_gWl3Xe9ruADN19 SzliHsDO_R43nR"
+            }
+          },
+          {
+            "step_number": 10,
+            "action": "click",
+            "description": "Open board menu",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/span_Switch boards__1e0c1o8l _1o9zidpf _vyf_4a6f64"
+            }
+          },
+          {
+            "step_number": 11,
+            "action": "click",
+            "description": "Click report",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/button_Report_ktzI4mkrTz6f4_ sBTPnzftJeBlBT_a94bb6"
+            }
+          },
+          {
+            "step_number": 12,
+            "action": "click",
+            "description": "Click settings",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/button_Settings_ybVBgfOiuWZJtD orotyyeYQx_t_0269c7"
+            }
+          },
+          {
+            "step_number": 13,
+            "action": "click",
+            "description": "Click search",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/div_Search__16jlkb7n _1o9zkb7n _i0dl1wug _n_7f18aa"
+            }
+          },
+          {
+            "step_number": 14,
+            "action": "set_text",
+            "description": "Enter 'television'",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/input_Power-Ups_react-select-5-input",
+              "text": "television"
+            }
+          },
+          {
+            "step_number": 15,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/input_Power-Ups_react-select-5-input",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 16,
+            "action": "set_text",
+            "description": "Enter 'máy bay'",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/input_Power-Ups_react-select-5-input",
+              "text": "máy bay"
+            }
+          },
+          {
+            "step_number": 17,
+            "action": "close_browser",
+            "description": "Close browser",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "Search results for 'television' and 'máy bay' displayed",
+        "variables": {},
+        "dependencies": []
+      },
+      {
+        "id": "TC_POWERUP_SEARCH_03",
+        "name": "TC_POWERUP_SEARCH_03",
+        "sequence": 10,
+        "category": "Power-Up Management",
+        "type": "Positive",
+        "priority": "Medium",
+        "description": "Verify browsing Power-Up categories",
+        "preconditions": [
+          "User is logged in",
+          "Test board exists"
+        ],
+        "test_data": {},
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "open_browser",
+            "description": "Open browser instance",
+            "parameters": {
+              "url": ""
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "navigate_to_url",
+            "description": "Navigate to Trello homepage",
+            "parameters": {
+              "url": "https://trello.com/vi"
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Click login button",
+            "parameters": {
+              "object": "Object Repository/Page_Ghi li, sp xp v gii quyt vic cn lm t b_870fc3/a_Ti liu_Buttonsstyles__Button-sc-1jwidxo-0 kTwZBr"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Select email login",
+            "parameters": {
+              "object": "Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/span_Log in with email_css-178ag6o"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "set_text",
+            "description": "Enter email",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "text": "22130188@st.hcmuaf.edu.vn"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "set_encrypted_text",
+            "description": "Enter encrypted password",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "text": "74aGk+CJTjePLhCojrePTQ=="
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 9,
+            "action": "click",
+            "description": "Click upgrade board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards Trello/div_Upgrade_gWl3Xe9ruADN19 SzliHsDO_R43nR"
+            }
+          },
+          {
+            "step_number": 10,
+            "action": "click",
+            "description": "Open board menu",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/span_Switch boards__1e0c1o8l _1o9zidpf _vyf_4a6f64"
+            }
+          },
+          {
+            "step_number": 11,
+            "action": "click",
+            "description": "Click report",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/span_Report__1e0c1o8l _vchhusvi _1o9zidpf __11dc2a"
+            }
+          },
+          {
+            "step_number": 12,
+            "action": "click",
+            "description": "Click settings",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/button_Settings_ybVBgfOiuWZJtD orotyyeYQx_t_0269c7"
+            }
+          },
+          {
+            "step_number": 13,
+            "action": "click",
+            "description": "Click categories",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/a_Categories_WGY9hGsS5muj12 lfyh85m1qpLXvy"
+            }
+          },
+          {
+            "step_number": 14,
+            "action": "click",
+            "description": "Click analytics reporting",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/a_Analytics reporting_WGY9hGsS5muj12 lfyh8_1b2992"
+            }
+          },
+          {
+            "step_number": 15,
+            "action": "click",
+            "description": "Click automation",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/a_Automation_WGY9hGsS5muj12 lfyh85m1qpLXvy"
+            }
+          },
+          {
+            "step_number": 16,
+            "action": "click",
+            "description": "Click board utilities",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/a_Board utilities_WGY9hGsS5muj12 lfyh85m1qpLXvy"
+            }
+          },
+          {
+            "step_number": 17,
+            "action": "click",
+            "description": "Click communication collaboration",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/a_Communication collaboration_WGY9hGsS5muj_c18fa6"
+            }
+          },
+          {
+            "step_number": 18,
+            "action": "close_browser",
+            "description": "Close browser",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "Power-Up categories browsed successfully",
+        "variables": {},
+        "dependencies": []
+      },
+      {
+        "id": "TC_ATTACHMENT_ADD_01",
+        "name": "TC_ATTACHMENT_ADD_01",
+        "sequence": 11,
+        "category": "Attachment Management",
+        "type": "Positive",
+        "priority": "High",
+        "description": "Verify adding file attachment from computer",
+        "preconditions": [
+          "User is logged in",
+          "Test board and card exist"
+        ],
+        "test_data": {},
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "open_browser",
+            "description": "Open browser instance",
+            "parameters": {
+              "url": ""
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "navigate_to_url",
+            "description": "Navigate to Trello homepage",
+            "parameters": {
+              "url": "https://trello.com/vi"
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Click login button",
+            "parameters": {
+              "object": "Object Repository/Page_Ghi li, sp xp v gii quyt vic cn lm t b_870fc3/a_Ti liu_Buttonsstyles__Button-sc-1jwidxo-0 kTwZBr"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Select Google auth",
+            "parameters": {
+              "object": "Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/button_Log in with email_google-auth-button"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "set_text",
+            "description": "Enter email",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "text": "22130188@st.hcmuaf.edu.vn"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "set_encrypted_text",
+            "description": "Enter encrypted password",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "text": "74aGk+CJTjePLhCojrePTQ=="
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 9,
+            "action": "click",
+            "description": "Click recently viewed board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards Trello/div_Recently viewed_gWl3Xe9ruADN19 SzliHsDO_R43nR"
+            }
+          },
+          {
+            "step_number": 10,
+            "action": "click",
+            "description": "Open board menu",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/span_Switch boards__1e0c1o8l _1o9zidpf _vyf_4a6f64"
+            }
+          },
+          {
+            "step_number": 11,
+            "action": "click",
+            "description": "Click card",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/div_ang lm_LqgHiubcZnMWmo"
+            }
+          },
+          {
+            "step_number": 12,
+            "action": "click",
+            "description": "Click attachments",
+            "parameters": {
+              "object": "Object Repository/Page_Xong 30 video anh trong tun ny (23.4.2_09e0b2/button_Attachments_zBgH6YQTy7dRbo ybVBgfOiu_fd9184"
+            }
+          },
+          {
+            "step_number": 13,
+            "action": "click",
+            "description": "Click attach file from computer",
+            "parameters": {
+              "object": "Object Repository/Page_Xong 30 video anh trong tun ny (23.4.2_09e0b2/label_Attach a file from your computer_zPvV_1a76da"
+            }
+          },
+          {
+            "step_number": 14,
+            "action": "click",
+            "description": "Click close card",
+            "parameters": {
+              "object": "Object Repository/Page_Xong 30 video anh trong tun ny (23.4.2_09e0b2/span_ang lm__1e0c1o8l _1o9zidpf _vyfuvuon __cf208e"
+            }
+          },
+          {
+            "step_number": 15,
+            "action": "click",
+            "description": "Click card again",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/div_ang lm_LqgHiubcZnMWmo"
+            }
+          },
+          {
+            "step_number": 16,
+            "action": "close_browser",
+            "description": "Close browser",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "File attachment added successfully",
+        "variables": {},
+        "dependencies": []
+      },
+      {
+        "id": "TC_ATTACHMENT_ADD_02",
+        "name": "TC_ATTACHMENT_ADD_02",
+        "sequence": 12,
+        "category": "Attachment Management",
+        "type": "Positive",
+        "priority": "High",
+        "description": "Verify adding YouTube link attachment",
+        "preconditions": [
+          "User is logged in",
+          "Test board and card exist"
+        ],
+        "test_data": {
+          "link_url": "https://www.youtube.com"
+        },
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "open_browser",
+            "description": "Open browser instance",
+            "parameters": {
+              "url": ""
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "navigate_to_url",
+            "description": "Navigate to Trello homepage",
+            "parameters": {
+              "url": "https://trello.com/vi"
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "delay",
+            "description": "Wait for page to load",
+            "parameters": {
+              "seconds": 3
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Click login button",
+            "parameters": {
+              "object": "Object Repository/Page_Ghi li, sp xp v gii quyt vic cn lm t b_870fc3/a_Ti liu_Buttonsstyles__Button-sc-1jwidxo-0 kTwZBr"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "click",
+            "description": "Select email login",
+            "parameters": {
+              "object": "Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/span_Log in with email_css-178ag6o"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "delay",
+            "description": "Wait for email field",
+            "parameters": {
+              "seconds": 2
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "set_text",
+            "description": "Enter email",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "text": "22130188@st.hcmuaf.edu.vn"
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 9,
+            "action": "delay",
+            "description": "Wait for password screen",
+            "parameters": {
+              "seconds": 3
+            }
+          },
+          {
+            "step_number": 10,
+            "action": "set_encrypted_text",
+            "description": "Enter encrypted password",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "text": "74aGk+CJTjePLhCojrePTQ=="
+            }
+          },
+          {
+            "step_number": 11,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 12,
+            "action": "delay",
+            "description": "Wait for boards page",
+            "parameters": {
+              "seconds": 10
+            }
+          },
+          {
+            "step_number": 13,
+            "action": "click",
+            "description": "Click recently viewed board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards Trello/div_Recently viewed_gWl3Xe9ruADN19 SzliHsDO_R43nR"
+            }
+          },
+          {
+            "step_number": 14,
+            "action": "delay",
+            "description": "Wait for board load",
+            "parameters": {
+              "seconds": 5
+            }
+          },
+          {
+            "step_number": 15,
+            "action": "click",
+            "description": "Click card",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/div_ang lm_LqgHiubcZnMWmo"
+            }
+          },
+          {
+            "step_number": 16,
+            "action": "delay",
+            "description": "Wait for card details",
+            "parameters": {
+              "seconds": 3
+            }
+          },
+          {
+            "step_number": 17,
+            "action": "click",
+            "description": "Click attachments",
+            "parameters": {
+              "object": "Object Repository/Page_Xong 30 video anh trong tun ny (23.4.2_09e0b2/button_Attachments_zBgH6YQTy7dRbo ybVBgfOiu_fd9184"
+            }
+          },
+          {
+            "step_number": 18,
+            "action": "delay",
+            "description": "Wait for dialog",
+            "parameters": {
+              "seconds": 2
+            }
+          },
+          {
+            "step_number": 19,
+            "action": "wait_for_element_visible",
+            "description": "Wait for link input",
+            "parameters": {
+              "object": {
+                "name": "linkInputDynamic",
+                "properties": {
+                  "xpath": "//input[@data-testid='link-url']"
+                }
+              },
+              "timeout": 10
+            }
+          },
+          {
+            "step_number": 20,
+            "action": "click",
+            "description": "Click form container",
+            "parameters": {
+              "object": "Object Repository/Page_Xong 30 video anh trong tun ny (23.4.2_09e0b2/form_Choose a file__19bv164s _u5f31pah _ca0_18368c"
+            }
+          },
+          {
+            "step_number": 21,
+            "action": "delay",
+            "description": "Wait for form ready",
+            "parameters": {
+              "seconds": 1
+            }
+          },
+          {
+            "step_number": 22,
+            "action": "execute_javascript",
+            "description": "Set YouTube URL via JS",
+            "parameters": {
+              "script": "arguments[0].value = 'https://www.youtube.com'; arguments[0].dispatchEvent(new Event('input', { bubbles: true })); arguments[0].dispatchEvent(new Event('change', { bubbles: true }));",
+              "elements": [
+                {
+                  "object": {
+                    "name": "linkInputDynamic",
+                    "properties": {
+                      "xpath": "//input[@data-testid='link-url']"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "step_number": 23,
+            "action": "delay",
+            "description": "Wait for validation",
+            "parameters": {
+              "seconds": 2
+            }
+          },
+          {
+            "step_number": 24,
+            "action": "get_attribute",
+            "description": "Verify input value",
+            "parameters": {
+              "object": {
+                "name": "linkInputDynamic",
+                "properties": {
+                  "xpath": "//input[@data-testid='link-url']"
+                }
+              },
+              "attribute": "value",
+              "variable_name": "inputValue"
+            }
+          },
+          {
+            "step_number": 25,
+            "action": "verify_equal",
+            "description": "Check if contains youtube.com",
+            "parameters": {
+              "actual": "inputValue",
+              "expected": "https://www.youtube.com"
+            }
+          },
+          {
+            "step_number": 26,
+            "action": "wait_for_element_clickable",
+            "description": "Wait for insert button",
+            "parameters": {
+              "object": {
+                "name": "insertButton",
+                "properties": {
+                  "xpath": "//button[contains(text(), 'Insert') or contains(text(), 'Attach') or contains(text(), 'Add') or @data-testid='link-picker-insert-button']"
+                }
+              },
+              "timeout": 10
+            }
+          },
+          {
+            "step_number": 27,
+            "action": "click",
+            "description": "Click insert button",
+            "parameters": {
+              "object": {
+                "name": "insertButton",
+                "properties": {
+                  "xpath": "//button[contains(text(), 'Insert') or contains(text(), 'Attach') or contains(text(), 'Add') or @data-testid='link-picker-insert-button']"
+                }
+              }
+            }
+          },
+          {
+            "step_number": 28,
+            "action": "delay",
+            "description": "Wait for attachment add",
+            "parameters": {
+              "seconds": 3
+            }
+          },
+          {
+            "step_number": 29,
+            "action": "verify_element_present",
+            "description": "Verify YouTube attachment",
+            "parameters": {
+              "object": {
+                "name": "youtubeAttachment",
+                "properties": {
+                  "xpath": "//div[@class='attachments-list']//a[contains(@href, 'youtube.com')]"
+                }
+              },
+              "timeout": 10
+            }
+          },
+          {
+            "step_number": 30,
+            "action": "delay",
+            "description": "Wait before closing",
+            "parameters": {
+              "seconds": 2
+            }
+          },
+          {
+            "step_number": 31,
+            "action": "click",
+            "description": "Close card",
+            "parameters": {
+              "object": "Object Repository/Page_Xong 30 video anh trong tun ny (23.4.2_09e0b2/span_ang lm__1e0c1o8l _1o9zidpf _vyfuvuon __cf208e"
+            }
+          },
+          {
+            "step_number": 32,
+            "action": "delay",
+            "description": "Wait before close browser",
+            "parameters": {
+              "seconds": 2
+            }
+          },
+          {
+            "step_number": 33,
+            "action": "close_browser",
+            "description": "Close browser",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "YouTube link attachment added successfully",
+        "variables": {
+          "inputValue": ""
+        },
+        "dependencies": []
+      },
+      {
+        "id": "TC_ATTACHMENT_ADD_03",
+        "name": "TC_ATTACHMENT_ADD_03",
+        "sequence": 13,
+        "category": "Attachment Management",
+        "type": "Positive",
+        "priority": "High",
+        "description": "Verify adding specific YouTube video link",
+        "preconditions": [
+          "User is logged in",
+          "Test board and card exist"
+        ],
+        "test_data": {
+          "link_url": "https://www.youtube.com/watch?v=example"
+        },
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "open_browser",
+            "description": "Open browser instance",
+            "parameters": {
+              "url": ""
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "navigate_to_url",
+            "description": "Navigate to Trello homepage",
+            "parameters": {
+              "url": "https://trello.com/vi"
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "delay",
+            "description": "Wait for page to load",
+            "parameters": {
+              "seconds": 3
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Click login button",
+            "parameters": {
+              "object": "Object Repository/Page_Ghi li, sp xp v gii quyt vic cn lm t b_870fc3/a_Ti liu_Buttonsstyles__Button-sc-1jwidxo-0 kTwZBr"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "click",
+            "description": "Select email login",
+            "parameters": {
+              "object": "Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/span_Log in with email_css-178ag6o"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "delay",
+            "description": "Wait for email field",
+            "parameters": {
+              "seconds": 2
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "set_text",
+            "description": "Enter email",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "text": "22130188@st.hcmuaf.edu.vn"
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 9,
+            "action": "delay",
+            "description": "Wait for password screen",
+            "parameters": {
+              "seconds": 3
+            }
+          },
+          {
+            "step_number": 10,
+            "action": "set_encrypted_text",
+            "description": "Enter encrypted password",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "text": "74aGk+CJTjePLhCojrePTQ=="
+            }
+          },
+          {
+            "step_number": 11,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 12,
+            "action": "delay",
+            "description": "Wait for boards page",
+            "parameters": {
+              "seconds": 10
+            }
+          },
+          {
+            "step_number": 13,
+            "action": "click",
+            "description": "Click recently viewed board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards Trello/div_Recently viewed_gWl3Xe9ruADN19 SzliHsDO_R43nR"
+            }
+          },
+          {
+            "step_number": 14,
+            "action": "delay",
+            "description": "Wait for board load",
+            "parameters": {
+              "seconds": 5
+            }
+          },
+          {
+            "step_number": 15,
+            "action": "click",
+            "description": "Click card",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/div_ang lm_LqgHiubcZnMWmo"
+            }
+          },
+          {
+            "step_number": 16,
+            "action": "delay",
+            "description": "Wait for card details",
+            "parameters": {
+              "seconds": 3
+            }
+          },
+          {
+            "step_number": 17,
+            "action": "click",
+            "description": "Click attachments",
+            "parameters": {
+              "object": "Object Repository/Page_Xong 30 video anh trong tun ny (23.4.2_09e0b2/button_Attachments_zBgH6YQTy7dRbo ybVBgfOiu_fd9184"
+            }
+          },
+          {
+            "step_number": 18,
+            "action": "delay",
+            "description": "Wait for dialog",
+            "parameters": {
+              "seconds": 2
+            }
+          },
+          {
+            "step_number": 19,
+            "action": "wait_for_element_visible",
+            "description": "Wait for link input",
+            "parameters": {
+              "object": {
+                "name": "linkInputDynamic",
+                "properties": {
+                  "xpath": "//input[@data-testid='link-url']"
+                }
+              },
+              "timeout": 10
+            }
+          },
+          {
+            "step_number": 20,
+            "action": "click",
+            "description": "Click form container",
+            "parameters": {
+              "object": "Object Repository/Page_Xong 30 video anh trong tun ny (23.4.2_09e0b2/form_Choose a file__19bv164s _u5f31pah _ca0_18368c"
+            }
+          },
+          {
+            "step_number": 21,
+            "action": "delay",
+            "description": "Wait for form ready",
+            "parameters": {
+              "seconds": 1
+            }
+          },
+          {
+            "step_number": 22,
+            "action": "execute_javascript",
+            "description": "Set YouTube video URL via JS",
+            "parameters": {
+              "script": "arguments[0].value = 'https://www.youtube.com/watch?v=example'; arguments[0].dispatchEvent(new Event('input', { bubbles: true })); arguments[0].dispatchEvent(new Event('change', { bubbles: true }));",
+              "elements": [
+                {
+                  "object": {
+                    "name": "linkInputDynamic",
+                    "properties": {
+                      "xpath": "//input[@data-testid='link-url']"
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "step_number": 23,
+            "action": "delay",
+            "description": "Wait for validation",
+            "parameters": {
+              "seconds": 2
+            }
+          },
+          {
+            "step_number": 24,
+            "action": "get_attribute",
+            "description": "Verify input value",
+            "parameters": {
+              "object": {
+                "name": "linkInputDynamic",
+                "properties": {
+                  "xpath": "//input[@data-testid='link-url']"
+                }
+              },
+              "attribute": "value",
+              "variable_name": "inputValue"
+            }
+          },
+          {
+            "step_number": 25,
+            "action": "verify_equal",
+            "description": "Check if contains youtube.com",
+            "parameters": {
+              "actual": "inputValue",
+              "expected": "https://www.youtube.com/watch?v=example"
+            }
+          },
+          {
+            "step_number": 26,
+            "action": "wait_for_element_clickable",
+            "description": "Wait for insert button",
+            "parameters": {
+              "object": {
+                "name": "insertButton",
+                "properties": {
+                  "xpath": "//button[contains(text(), 'Insert') or contains(text(), 'Attach') or contains(text(), 'Add') or @data-testid='link-picker-insert-button']"
+                }
+              },
+              "timeout": 10
+            }
+          },
+          {
+            "step_number": 27,
+            "action": "click",
+            "description": "Click insert button",
+            "parameters": {
+              "object": {
+                "name": "insertButton",
+                "properties": {
+                  "xpath": "//button[contains(text(), 'Insert') or contains(text(), 'Attach') or contains(text(), 'Add') or @data-testid='link-picker-insert-button']"
+                }
+              }
+            }
+          },
+          {
+            "step_number": 28,
+            "action": "delay",
+            "description": "Wait for attachment add",
+            "parameters": {
+              "seconds": 3
+            }
+          },
+          {
+            "step_number": 29,
+            "action": "verify_element_present",
+            "description": "Verify YouTube attachment",
+            "parameters": {
+              "object": {
+                "name": "youtubeAttachment",
+                "properties": {
+                  "xpath": "//div[@class='attachments-list']//a[contains(@href, 'youtube.com')]"
+                }
+              },
+              "timeout": 10
+            }
+          },
+          {
+            "step_number": 30,
+            "action": "delay",
+            "description": "Wait before closing",
+            "parameters": {
+              "seconds": 2
+            }
+          },
+          {
+            "step_number": 31,
+            "action": "click",
+            "description": "Close card",
+            "parameters": {
+              "object": "Object Repository/Page_Xong 30 video anh trong tun ny (23.4.2_09e0b2/span_ang lm__1e0c1o8l _1o9zidpf _vyfuvuon __cf208e"
+            }
+          },
+          {
+            "step_number": 32,
+            "action": "delay",
+            "description": "Wait before close browser",
+            "parameters": {
+              "seconds": 2
+            }
+          },
+          {
+            "step_number": 33,
+            "action": "close_browser",
+            "description": "Close browser",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "Specific YouTube video link attachment added successfully",
+        "variables": {
+          "inputValue": ""
+        },
+        "dependencies": []
+      },
+      {
+        "id": "TC_ATTACHMENT_DELETE_01",
+        "name": "TC_ATTACHMENT_DELETE_01",
+        "sequence": 14,
+        "category": "Attachment Management",
+        "type": "Positive",
+        "priority": "High",
+        "description": "Verify deleting cover attachment",
+        "preconditions": [
+          "User is logged in",
+          "Test board and card with attachment exist"
+        ],
+        "test_data": {},
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "open_browser",
+            "description": "Open browser instance",
+            "parameters": {
+              "url": ""
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "navigate_to_url",
+            "description": "Navigate to Trello homepage",
+            "parameters": {
+              "url": "https://trello.com/vi"
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Click login button",
+            "parameters": {
+              "object": "Object Repository/Page_Ghi li, sp xp v gii quyt vic cn lm t b_870fc3/a_Ti liu_Buttonsstyles__Button-sc-1jwidxo-0 kTwZBr"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Select email login",
+            "parameters": {
+              "object": "Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/span_Log in with email_css-178ag6o"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "set_text",
+            "description": "Enter email",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "text": "22130188@st.hcmuaf.edu.vn"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "set_encrypted_text",
+            "description": "Enter encrypted password",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "text": "74aGk+CJTjePLhCojrePTQ=="
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 9,
+            "action": "click",
+            "description": "Click recently viewed board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards Trello/div_Recently viewed_gWl3Xe9ruADN19 SzliHsDO_R43nR"
+            }
+          },
+          {
+            "step_number": 10,
+            "action": "click",
+            "description": "Click card",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/div_ang lm_LqgHiubcZnMWmo"
+            }
+          },
+          {
+            "step_number": 11,
+            "action": "click",
+            "description": "Click cover",
+            "parameters": {
+              "object": "Object Repository/Page_Xong 30 video anh trong tun ny (23.4.2_09e0b2/span_Cover__1e0c1o8l _1o9zidpf _vyfuvuon _v_b98667"
+            }
+          },
+          {
+            "step_number": 12,
+            "action": "click",
+            "description": "Click remove cover",
+            "parameters": {
+              "object": "Object Repository/Page_Xong 30 video anh trong tun ny (23.4.2_09e0b2/button_Remove cover_LOhIKSjx1ImXEH xpYbYeYlP9KDnd"
+            }
+          },
+          {
+            "step_number": 13,
+            "action": "click",
+            "description": "Confirm remove attachment",
+            "parameters": {
+              "object": "Object Repository/Page_Xong 30 video anh trong tun ny (23.4.2_09e0b2/button_Remove this attachment There is no u_300e4d"
+            }
+          },
+          {
+            "step_number": 14,
+            "action": "click",
+            "description": "Click YouTube attachment",
+            "parameters": {
+              "object": "Object Repository/Page_Xong 30 video anh trong tun ny (23.4.2_09e0b2/span_YouTube__1e0c1o8l _1o9zidpf _vyfuvuon _b4bab0"
+            }
+          },
+          {
+            "step_number": 15,
+            "action": "close_browser",
+            "description": "Close browser",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "Cover attachment removed successfully",
+        "variables": {},
+        "dependencies": []
+      },
+      {
+        "id": "TC_ATTACHMENT_EDIT_01",
+        "name": "TC_ATTACHMENT_EDIT_01",
+        "sequence": 15,
+        "category": "Attachment Management",
+        "type": "Positive",
+        "priority": "High",
+        "description": "Verify editing attachment link and cancelling",
+        "preconditions": [
+          "User is logged in",
+          "Test board and card with YouTube attachment exist"
+        ],
+        "test_data": {
+          "new_link": "https://baya.vn"
+        },
+        "steps": [
+          {
+            "step_number": 1,
+            "action": "open_browser",
+            "description": "Open browser instance",
+            "parameters": {
+              "url": ""
+            }
+          },
+          {
+            "step_number": 2,
+            "action": "navigate_to_url",
+            "description": "Navigate to Trello homepage",
+            "parameters": {
+              "url": "https://trello.com/vi"
+            }
+          },
+          {
+            "step_number": 3,
+            "action": "click",
+            "description": "Click login button",
+            "parameters": {
+              "object": "Object Repository/Page_Ghi li, sp xp v gii quyt vic cn lm t b_870fc3/a_Ti liu_Buttonsstyles__Button-sc-1jwidxo-0 kTwZBr"
+            }
+          },
+          {
+            "step_number": 4,
+            "action": "click",
+            "description": "Select Google auth",
+            "parameters": {
+              "object": "Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/img"
+            }
+          },
+          {
+            "step_number": 5,
+            "action": "set_text",
+            "description": "Enter email",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "text": "22130188@st.hcmuaf.edu.vn"
+            }
+          },
+          {
+            "step_number": 6,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Sign in - Google Accounts/input_Atlassian_identifierId",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 7,
+            "action": "set_encrypted_text",
+            "description": "Enter encrypted password",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "text": "74aGk+CJTjePLhCojrePTQ=="
+            }
+          },
+          {
+            "step_number": 8,
+            "action": "send_keys",
+            "description": "Press Enter",
+            "parameters": {
+              "object": "Object Repository/Page_Welcome/input_Too many failed attempts_Passwd",
+              "keys": "ENTER"
+            }
+          },
+          {
+            "step_number": 9,
+            "action": "click",
+            "description": "Click recently viewed board",
+            "parameters": {
+              "object": "Object Repository/Page_Boards Trello/div_Recently viewed_gWl3Xe9ruADN19 SzliHsDO_R43nR"
+            }
+          },
+          {
+            "step_number": 10,
+            "action": "click",
+            "description": "Click image on board",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/img"
+            }
+          },
+          {
+            "step_number": 11,
+            "action": "click",
+            "description": "Open board menu",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/span_Switch boards__1e0c1o8l _1o9zidpf _vyf_4a6f64"
+            }
+          },
+          {
+            "step_number": 12,
+            "action": "click",
+            "description": "Click card",
+            "parameters": {
+              "object": "Object Repository/Page_Nhm Cy Siu Tc Trello/a_ang lm_Ns0Sj0nEGMQ7un"
+            }
+          },
+          {
+            "step_number": 13,
+            "action": "click",
+            "description": "Click YouTube attachment",
+            "parameters": {
+              "object": "Object Repository/Page_Xong 30 video anh trong tun ny (23.4.2_09e0b2/span_YouTube__1e0c1o8l _1o9zidpf _vyfuvuon _b4bab0"
+            }
+          },
+          {
+            "step_number": 14,
+            "action": "click",
+            "description": "Click comments",
+            "parameters": {
+              "object": "Object Repository/Page_Xong 30 video anh trong tun ny (23.4.2_09e0b2/span_Comments_bH80RvHHmoWYhk"
+            }
+          },
+          {
+            "step_number": 15,
+            "action": "set_text",
+            "description": "Enter new link",
+            "parameters": {
+              "object": "Object Repository/Page_Xong 30 video anh trong tun ny (23.4.2_09e0b2/input_Search or paste a link_url-uid78",
+              "text": "https://baya.vn"
+            }
+          },
+          {
+            "step_number": 16,
+            "action": "click",
+            "description": "Click edit attachment form",
+            "parameters": {
+              "object": "Object Repository/Page_Xong 30 video anh trong tun ny (23.4.2_09e0b2/form_Edit attachment__19bv164s _u5f31pah _c_c5497d"
+            }
+          },
+          {
+            "step_number": 17,
+            "action": "click",
+            "description": "Click cancel",
+            "parameters": {
+              "object": "Object Repository/Page_Xong 30 video anh trong tun ny (23.4.2_09e0b2/span_Cancel__v564g17y _1reo15vq _18m915vq __d3fc97"
+            }
+          },
+          {
+            "step_number": 18,
+            "action": "click",
+            "description": "Click YouTube attachment again",
+            "parameters": {
+              "object": "Object Repository/Page_Xong 30 video anh trong tun ny (23.4.2_09e0b2/span_YouTube__1e0c1o8l _1o9zidpf _vyfuvuon _b4bab0"
+            }
+          },
+          {
+            "step_number": 19,
+            "action": "click",
+            "description": "Click comments again",
+            "parameters": {
+              "object": "Object Repository/Page_Xong 30 video anh trong tun ny (23.4.2_09e0b2/span_Comments_g4oicM70jgqP7r"
+            }
+          },
+          {
+            "step_number": 20,
+            "action": "close_browser",
+            "description": "Close browser",
+            "parameters": {}
+          }
+        ],
+        "expected_result": "Attachment edit cancelled, original link retained",
+        "variables": {},
+        "dependencies": []
+      }
+    ],
+    "test_summary": {
+      "total_cases": 15,
+      "by_category": {
+        "Power-Up Management": 10,
+        "Attachment Management": 5
+      },
+      "by_type": {
+        "Positive": 12,
+        "Negative": 3
+      },
+      "by_priority": {
+        "High": 10,
+        "Medium": 5
+      }
+    },
+    "common_imports": [
+      "com.kms.katalon.core.checkpoint.CheckpointFactory",
+      "com.kms.katalon.core.testcase.TestCaseFactory",
+      "com.kms.katalon.core.testdata.TestDataFactory",
+      "com.kms.katalon.core.testobject.ObjectRepository",
+      "com.kms.katalon.core.checkpoint.Checkpoint",
+      "com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords",
+      "com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords",
+      "com.kms.katalon.core.model.FailureHandling",
+      "com.kms.katalon.core.testcase.TestCase",
+      "com.kms.katalon.core.testdata.TestData",
+      "com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords",
+      "com.kms.katalon.core.testobject.TestObject",
+      "com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords",
+      "com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords",
+      "com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords",
+      "internal.GlobalVariable",
+      "org.openqa.selenium.Keys",
+      "com.kms.katalon.core.testobject.ConditionType",
+      "com.kms.katalon.core.util.KeywordUtil"
+    ],
+    "execution_notes": {
+      "timing_considerations": {
+        "login_delay": "10-15 seconds for OAuth authentication flow",
+        "page_load_delay": "10 seconds for board/card rendering",
+        "action_delays": "1-3 seconds for UI updates and state changes"
+      },
+      "failure_handling": {
+        "login_dependency": "STOP_ON_FAILURE - All tests depend on successful login",
+        "optional_verifications": "OPTIONAL - Used for conditional element checks",
+        "custom_messages": "Implemented for validation failures"
+      },
+      "browser_management": {
+        "cleanup": "All test cases close browser in final step",
+        "state": "Clean state maintained between executions"
+      }
+    }
+  }
+}
