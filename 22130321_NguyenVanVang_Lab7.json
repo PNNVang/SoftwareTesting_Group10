@@ -4,10 +4,10 @@
       "test_suite": {
         "suite_name": "Test_Suites_Chuc_Nang_Quan_Ly_Bang",
         "suite_id": "TS_TRELLO_BOARD_MGMT_001",
-        "description": "Comprehensive test suite for Trello board management functionality - including creation, editing, member invitation and deletion",
+        "description": "Comprehensive test suite for Trello board management functionality - including creation, editing, member invitation, closure, reopening and deletion",
         "author": "Nguyễn Văn Vàng",
         "student_id": "22130321",
-        "created_date": "2025-11-28",
+        "created_date": "2025-11-29",
         "tool": "Katalon Studio",
         "target_application": "Trello",
         "base_url": "https://trello.com/",
@@ -19,10 +19,13 @@
           "test_board": "Test Board",
           "test_boards": {
             "created_board": "Demo_1",
-            "updated_board": "Demo_11"
+            "updated_board": "Demo_11",
+            "closed_board": "Demo_11",
+            "deleted_board": "Demo_11",
+            "reopened_board": "Demo"
           }
         },
-        "total_test_cases": 5,
+        "total_test_cases": 7,
         "test_categories": [
           "Board Creation",
           "Board Management",
@@ -331,17 +334,17 @@
             ]
           },
           {
-            "test_case_id": "TC_BOARD_DELETE01",
+            "test_case_id": "TC_BOARD_CLOSE01",
             "test_case_name": "Close Trello Board",
             "category": "Board Management",
             "priority": "High",
             "description": "Verify that user can close existing board through overflow menu and confirmation workflow",
             "preconditions": [
-              "Board 'Demo_1' must exist",
+              "Board 'Demo_11' must exist",
               "User must have closure permissions"
             ],
             "test_data": {
-              "board_name": "Demo_1"
+              "board_name": "Demo_11"
             },
             "expected_result": "Board is successfully closed and removed from active boards list",
             "total_steps": 16,
@@ -385,16 +388,140 @@
                 "expected": "Board is successfully closed"
               }
             ]
+          },
+          {
+            "test_case_id": "TC_BOARD_DELETE01",
+            "test_case_name": "Permanently Delete Specific Closed Board",
+            "category": "Board Management",
+            "priority": "High",
+            "description": "Verify that user can permanently delete a specific closed board named 'Demo_11' from closed boards list",
+            "preconditions": [
+              "User must be logged in to Trello",
+              "Board 'Demo_11' must exist in closed boards list",
+              "User must have permission to delete boards"
+            ],
+            "test_data": {
+              "target_board_name": "Demo_11"
+            },
+            "expected_result": "Specific board 'Demo_11' is permanently deleted successfully from the system",
+            "total_steps": 14,
+            "steps": [
+              {
+                "step_number": 1,
+                "action": "Login and navigate to board",
+                "expected": "Board page loaded"
+              },
+              {
+                "step_number": 8,
+                "action": "Create TestObject for View all closed boards button",
+                "xpath": "//button[contains(text(), 'View all closed boards')]",
+                "expected": "TestObject created successfully"
+              },
+              {
+                "step_number": 9,
+                "action": "Wait for and click View all closed boards button",
+                "timeout": 10,
+                "expected": "Closed boards list appears"
+              },
+              {
+                "step_number": 10,
+                "action": "Create TestObject for Delete button of specific board 'Demo_11'",
+                "xpath": "//li[.//a[text()='Demo_11']]//button[@data-testid='close-board-delete-board-button']",
+                "expected": "TestObject for Demo_11 delete button created"
+              },
+              {
+                "step_number": 11,
+                "action": "Wait for and click Delete button for Demo_11 board",
+                "timeout": 10,
+                "expected": "Delete confirmation dialog appears"
+              },
+              {
+                "step_number": 12,
+                "action": "Create TestObject for delete confirmation button",
+                "xpath": "//button[@data-testid='close-board-delete-board-confirm-button']",
+                "expected": "TestObject for confirmation button created"
+              },
+              {
+                "step_number": 13,
+                "action": "Wait for and click delete confirmation button",
+                "timeout": 10,
+                "expected": "Board 'Demo_11' is permanently deleted successfully"
+              },
+              {
+                "step_number": 14,
+                "action": "Close browser",
+                "expected": "Browser closes"
+              }
+            ]
+          },
+          {
+            "test_case_id": "TC_BOARD_REOPEN01",
+            "test_case_name": "Reopen Closed Board",
+            "category": "Board Management",
+            "priority": "High",
+            "description": "Verify that user can successfully reopen a previously closed board named 'Demo'",
+            "preconditions": [
+              "User must be logged in to Trello",
+              "There must be a closed board named 'Demo' available",
+              "User must have permission to reopen boards"
+            ],
+            "test_data": {
+              "target_board_name": "Demo"
+            },
+            "expected_result": "Closed board 'Demo' is successfully reopened and restored to active boards",
+            "total_steps": 13,
+            "steps": [
+              {
+                "step_number": 1,
+                "action": "Login and navigate to board",
+                "expected": "Board page loaded"
+              },
+              {
+                "step_number": 8,
+                "action": "Create TestObject for View all closed boards button",
+                "xpath": "//button[contains(text(), 'View all closed boards')]",
+                "expected": "TestObject created successfully"
+              },
+              {
+                "step_number": 9,
+                "action": "Click View all closed boards button",
+                "expected": "Closed boards list appears"
+              },
+              {
+                "step_number": 10,
+                "action": "Create TestObject for Reopen button of 'Demo' board",
+                "xpath": "//li[.//a[text()='Demo']]//button[@data-testid='workspace-chooser-trigger-button']",
+                "expected": "TestObject for Demo board reopen button created"
+              },
+              {
+                "step_number": 11,
+                "action": "Wait for and click Reopen button",
+                "timeout": 10,
+                "expected": "Reopen confirmation popup appears"
+              },
+              {
+                "step_number": 12,
+                "action": "Create TestObject for Reopen board confirmation button",
+                "xpath": "//button[@data-testid='workspace-chooser-reopen-button']",
+                "expected": "TestObject for confirmation button created"
+              },
+              {
+                "step_number": 13,
+                "action": "Wait for and click Reopen board confirmation button",
+                "timeout": 10,
+                "expected": "Board 'Demo' is successfully reopened and restored"
+              }
+            ]
           }
         ],
         "test_execution_summary": {
           "board_operations": {
             "creation_tests": 1,
-            "management_tests": 2,
+            "management_tests": 4,
             "member_tests": 2
           },
           "priority_breakdown": {
-            "high": 4,
+            "high": 6,
             "medium": 1
           },
           "test_coverage": [
@@ -404,7 +531,9 @@
             "Background customization",
             "Member invitation with valid email",
             "Email validation for invalid format",
-            "Board closure process"
+            "Board closure process",
+            "Board reopening functionality",
+            "Permanent board deletion"
           ],
           "automation_approach": {
             "tool": "Katalon Studio",
@@ -423,7 +552,7 @@
         "description": "Comprehensive test suite for Trello list management functionality - including creation, naming, editing and archiving",
         "author": "Nguyễn Văn Vàng",
         "student_id": "22130321",
-        "created_date": "2025-11-28",
+        "created_date": "2025-11-29",
         "tool": "Katalon Studio",
         "target_application": "Trello",
         "base_url": "https://trello.com/",
