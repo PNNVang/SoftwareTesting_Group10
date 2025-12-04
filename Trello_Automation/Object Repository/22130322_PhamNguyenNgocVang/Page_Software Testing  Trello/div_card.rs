@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_card</name>
+   <tag></tag>
+   <elementGuidId>073d5d2e-e351-402f-b648-624ce2977fb0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ol[@id='board']/li/div/ol/li/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.LBbj8Ff4qXPj8l</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;trello-card&quot;] div >> internal:has-text=&quot;New test&quot;i >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>13fc116d-3a5f-4a48-979c-a321fc45f1a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>LBbj8Ff4qXPj8l</value>
+      <webElementGuid>318a4260-ffc2-40ea-9afc-5b21ebfeee1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>New test</value>
+      <webElementGuid>9a3b787c-dc2e-4ffc-b014-21735fa15583</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;board&quot;)/li[@class=&quot;Iq1byT5o1KoAi6&quot;]/div[@class=&quot;cYogZfEaHc9LfO&quot;]/ol[@class=&quot;B27wN5INCjrQTV&quot;]/li[@class=&quot;csCxU7M5teCNNl&quot;]/div[@class=&quot;PPk42xVXm4ipq3&quot;]/div[@class=&quot;z1bjoUSvJd2OG5&quot;]/div[@class=&quot;LBbj8Ff4qXPj8l&quot;]</value>
+      <webElementGuid>c2c6a78f-4b4c-488a-a38d-9e96b2597a2c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ol[@id='board']/li/div/ol/li/div/div/div</value>
+      <webElementGuid>1ef59fbc-291f-4fe7-b160-ab91752d52a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Testing'])[2]/following::div[8]</value>
+      <webElementGuid>257a150f-73a8-4acc-b167-2313b7c8b8eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Testing'])[1]/following::div[8]</value>
+      <webElementGuid>38cffc2f-032e-4ea3-86a5-a8fce1c59e14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add a card'])[1]/preceding::div[7]</value>
+      <webElementGuid>76dfe08f-14db-4eaf-9a1e-6fd3d783bbdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/div/ol/li/div/div/div</value>
+      <webElementGuid>08930deb-5d58-4334-a4a2-60fc9549253e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'New test' or . = 'New test')]</value>
+      <webElementGuid>9e452a3b-23cc-4abc-af61-1f97a2db4c92</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

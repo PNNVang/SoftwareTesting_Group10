@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Add an item</name>
+   <tag></tag>
+   <elementGuidId>7b6fb0a1-a6b0-4a5c-8e04-0b1e69673fc1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.fix47QBt61Ou3M.ybVBgfOiuWZJtD._St8_YSRMkLv07</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[38]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Add an item&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>69254290-87a1-427e-bfcb-d1e7c96ebfd8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fix47QBt61Ou3M ybVBgfOiuWZJtD _St8_YSRMkLv07</value>
+      <webElementGuid>9bf18330-b174-4846-a3c2-afbe8d26a90f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9654a126-b94a-4463-abb2-0ad41296c4a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add an item</value>
+      <webElementGuid>71e394e8-ad8e-486f-a961-569ab9175208</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layer-manager-card-back&quot;)/div[@class=&quot;NU3Yu9KTws207g YPtsgaEOeBFV2L&quot;]/div[@class=&quot;uIImyziS34erOZ&quot;]/div[2]/div[@class=&quot;mqI1p85XmC2MaW BvYMUSHQ3VZhSV Ig0VMqSXaVagiQ udR7hhdNKnONkc GEdu4Dn5rTEUDE&quot;]/div[@class=&quot;cMcSJ6d3jjVbP6&quot;]/div[@class=&quot;FfvcTlpoh18lsV&quot;]/div[@class=&quot;lQUUwFFqPNu94w&quot;]/main[@class=&quot;wc06Ow6i2YO3aG&quot;]/div[@class=&quot;t6cNjdAqr4XLQt&quot;]/div[@class=&quot;jPU40MEIQllLnJ&quot;]/section[@class=&quot;s7K43upMNnpWe4&quot;]/div[@class=&quot;N_3ir40qWUR8gh PIClXRhqsb9NWy&quot;]/div[@class=&quot;AuMB8ox5QHRcCM&quot;]/div[1]/button[@class=&quot;fix47QBt61Ou3M ybVBgfOiuWZJtD _St8_YSRMkLv07&quot;]</value>
+      <webElementGuid>d6753452-7ef5-4c27-aac2-b37758bc3607</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[38]</value>
+      <webElementGuid>c5af3f24-7d0f-4e45-abb7-8fd9ae589f0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/div[2]/div/button</value>
+      <webElementGuid>e759efe5-e592-49eb-9789-54ecfc68b8b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/following::button[1]</value>
+      <webElementGuid>679132b8-56c0-4b9b-9d66-12cdf60d286f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Danh Mục Mới'])[1]/following::button[2]</value>
+      <webElementGuid>4be63ae6-7024-44c4-a3c6-1f7a7e34d822</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comments and activity'])[1]/preceding::button[1]</value>
+      <webElementGuid>c596a89d-c795-4d93-aab2-cfd4a5c010b3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show details'])[1]/preceding::button[1]</value>
+      <webElementGuid>e7f71f05-5b97-4de9-8a48-93078c2db478</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add an item']/parent::*</value>
+      <webElementGuid>95e45ecc-5501-4d9c-968c-c2e40d743d8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div[2]/div[2]/div/button</value>
+      <webElementGuid>29372a96-1cbe-4145-9311-18b827df9211</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Add an item' or . = 'Add an item')]</value>
+      <webElementGuid>887e2e87-2670-4ea3-9d41-993ba1a36c0f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
