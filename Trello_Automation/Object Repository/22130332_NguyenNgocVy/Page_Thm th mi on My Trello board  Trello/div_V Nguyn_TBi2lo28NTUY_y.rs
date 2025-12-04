@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_V Nguyn_TBi2lo28NTUY_y</name>
+   <tag></tag>
+   <elementGuidId>e22c324a-0d1e-47e2-aeed-7b7ed842f69b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.TBi2lo28NTUY_y</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/aside/div/section/div[2]/ul/li/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^2 minutes ago$/</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d962b5c0-a305-41fa-9f6e-67b574b77569</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>TBi2lo28NTUY_y</value>
+      <webElementGuid>cfaf840b-9997-49ea-af42-ffaad95bebdf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>2 minutes ago</value>
+      <webElementGuid>1127e8f7-61f4-4675-a867-54e1225fb6ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layer-manager-card-back&quot;)/div[@class=&quot;NU3Yu9KTws207g YPtsgaEOeBFV2L&quot;]/div[@class=&quot;uIImyziS34erOZ&quot;]/div[2]/div[@class=&quot;mqI1p85XmC2MaW BvYMUSHQ3VZhSV gVKBv3Rn1WqlNF udR7hhdNKnONkc GEdu4Dn5rTEUDE&quot;]/div[@class=&quot;cMcSJ6d3jjVbP6&quot;]/div[@class=&quot;FntQZvNq2QvxQL&quot;]/div[@class=&quot;DGQMOEx8BBlPsz&quot;]/aside[@class=&quot;KCpLKkH5OYrE15 e5CSuqlUHauZS_&quot;]/div[@class=&quot;Z3vMXj8_Ef9DWJ VI2lhiSMrt9vmM&quot;]/section[@class=&quot;s7K43upMNnpWe4&quot;]/div[@class=&quot;N_3ir40qWUR8gh PIClXRhqsb9NWy&quot;]/ul[@class=&quot;VxKRIoztMcODIj&quot;]/li[@class=&quot;tHtuAoy3OW7uUR&quot;]/div[@class=&quot;iXBq2gtAJjprCi&quot;]/div[1]/div[@class=&quot;TBi2lo28NTUY_y&quot;]</value>
+      <webElementGuid>8b9c23c6-b25c-4ffc-9eb8-f35ac0d1f066</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/aside/div/section/div[2]/ul/li/div[2]/div/div</value>
+      <webElementGuid>e710554e-1c40-4dba-8813-2f0a3030ecf9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vỹ Nguyễn'])[1]/following::div[1]</value>
+      <webElementGuid>c3911757-552c-4743-8e80-6204217ea160</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Power-ups'])[1]/preceding::div[4]</value>
+      <webElementGuid>46f005eb-082b-40d5-9b10-c149f12d20eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Automations'])[1]/preceding::div[5]</value>
+      <webElementGuid>3d0ff907-5fe4-424f-ae46-3828808af125</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/div[2]/div/div</value>
+      <webElementGuid>f612cd88-fa0c-45f4-bf0e-678000f1d6e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '2 minutes ago' or . = '2 minutes ago')]</value>
+      <webElementGuid>d82c9309-6b11-4806-9686-8e15b52c5cd5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
