@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Share_bH80RvHHmoWYhk</name>
+   <tag></tag>
+   <elementGuidId>b8562cce-0f36-44b0-b4ee-ab37cd2f7bae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-of-type(3) > li > button.LOhIKSjx1ImXEH.Ah0omaEVZNBsfL > span.bH80RvHHmoWYhk</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Share'])[2]/following::span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;card-back-archive-button&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>71373c49-d32d-481b-8dc7-ebda044b1fbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bH80RvHHmoWYhk</value>
+      <webElementGuid>64fe40b5-1a02-41a8-9ed6-1e5dc58b763b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Archive</value>
+      <webElementGuid>67df93ff-51bf-4b2b-bb23-f6ac95dcfc9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;feplat3731 react-overlay-up&quot;]/div[@class=&quot;atlaskit-portal-container&quot;]/div[@class=&quot;atlaskit-portal&quot;]/section[@class=&quot;Tu0XvZVffeyqqw js-react-root&quot;]/div[2]/div[1]/div[@class=&quot;aFGD9vtcIAqeiM&quot;]/div[@class=&quot;UZFgTnUqKFdI6u&quot;]/ul[1]/div[3]/li[1]/button[@class=&quot;LOhIKSjx1ImXEH Ah0omaEVZNBsfL&quot;]/span[@class=&quot;bH80RvHHmoWYhk&quot;]</value>
+      <webElementGuid>d173c3c8-d817-4159-9d57-9a4baf85837e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Share'])[2]/following::span[1]</value>
+      <webElementGuid>839343e2-d904-4ac1-8881-9aa1c8126f5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Watch'])[1]/following::span[6]</value>
+      <webElementGuid>4494857f-0a8f-455d-a2a3-aa2f91faecf6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/li/button/span</value>
+      <webElementGuid>d9728f61-0c28-4a2d-85cc-66c24f443f84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Archive' or . = 'Archive')]</value>
+      <webElementGuid>a24c15a6-4606-439f-9f3a-609f90ba3478</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Switch boards_NU3Yu9KTws207g YPtsgaEOeBFV2L</name>
+   <tag></tag>
+   <elementGuidId>79a7ff1c-1f8c-43bb-8aed-da7d949c06b7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.NU3Yu9KTws207g.YPtsgaEOeBFV2L</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='layer-manager-card-back']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.NU3Yu9KTws207g</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8308f3f4-8459-4f26-9eff-42619a24b5ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>NU3Yu9KTws207g YPtsgaEOeBFV2L</value>
+      <webElementGuid>707bc4a3-a748-4554-b8b3-9934bf94a1cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kiểm thử trelloThêm thẻ mới aasssThêm thẻ mới aasssThêm thẻ mới aasssAddAddLabelsDatesChecklistMembersDescriptionAdd a more detailed description…Comments and activityShow detailsWrite a comment…Vỹ Nguyễn added this card to Kiểm thử trello22 minutes agoPower-upsAutomationsComments</value>
+      <webElementGuid>32374990-a83a-4ddd-bb38-72b78e93ae69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layer-manager-card-back&quot;)/div[@class=&quot;NU3Yu9KTws207g YPtsgaEOeBFV2L&quot;]</value>
+      <webElementGuid>65c6f0f7-c42a-4c7d-9180-82ea15318cbd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layer-manager-card-back']/div</value>
+      <webElementGuid>ddd6141b-3710-43fd-ab36-deecadf96f6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch boards'])[1]/following::div[8]</value>
+      <webElementGuid>af52dd3f-f88a-4f4c-9418-be4b0ad26369</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Board'])[1]/following::div[10]</value>
+      <webElementGuid>885f3f4a-3ee5-4419-84e8-c27c769a7363</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[4]/div</value>
+      <webElementGuid>2ce150b0-f01d-42d0-8eaa-a04c4a18447c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Kiểm thử trelloThêm thẻ mới aasssThêm thẻ mới aasssThêm thẻ mới aasssAddAddLabelsDatesChecklistMembersDescriptionAdd a more detailed description…Comments and activityShow detailsWrite a comment…Vỹ Nguyễn added this card to Kiểm thử trello22 minutes agoPower-upsAutomationsComments' or . = 'Kiểm thử trelloThêm thẻ mới aasssThêm thẻ mới aasssThêm thẻ mới aasssAddAddLabelsDatesChecklistMembersDescriptionAdd a more detailed description…Comments and activityShow detailsWrite a comment…Vỹ Nguyễn added this card to Kiểm thử trello22 minutes agoPower-upsAutomationsComments')]</value>
+      <webElementGuid>8452317c-651d-431a-8152-78999719c0e8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Move_iYTpb2CW4DS3dE f2W9CDemJJk_se y_d1cbc9</name>
+   <tag></tag>
+   <elementGuidId>251950e6-04bd-40f4-9c96-0b7a2a81c8bd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(7) > button.iYTpb2CW4DS3dE.f2W9CDemJJk_se.ybVBgfOiuWZJtD._St8_YSRMkLv07</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[58]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;quick-card-editor-copy&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a3157683-eda5-415b-a489-e99fe6b3ddd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>iYTpb2CW4DS3dE f2W9CDemJJk_se ybVBgfOiuWZJtD _St8_YSRMkLv07</value>
+      <webElementGuid>014076bb-c789-47ff-bb17-568276f03521</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>165490b7-9897-4118-862f-39412f0fc284</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>quick-card-editor-copy</value>
+      <webElementGuid>09e5b9f0-1fde-47fc-811f-de1852ebdf06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Copy card</value>
+      <webElementGuid>0a0ccf05-17f9-407e-99dd-2f50245a6849</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;feplat3731&quot;]/div[@class=&quot;atlaskit-portal-container&quot;]/div[@class=&quot;atlaskit-portal&quot;]/div[2]/div[@class=&quot;xoyz9YrmeMeM25&quot;]/div[1]/div[1]/ul[@class=&quot;sztkE20sEO1Lso&quot;]/li[7]/button[@class=&quot;iYTpb2CW4DS3dE f2W9CDemJJk_se ybVBgfOiuWZJtD _St8_YSRMkLv07&quot;]</value>
+      <webElementGuid>e50cac6d-265c-41f8-8f86-12ba8fe2674f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[58]</value>
+      <webElementGuid>cf520d0a-d4cb-4c46-aaba-b29d4c00d598</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Move'])[1]/following::button[1]</value>
+      <webElementGuid>4846b03e-f167-4464-aac0-b04e4bdc29e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit dates'])[1]/following::button[2]</value>
+      <webElementGuid>99e5096d-7a69-4713-b52c-b19b6a1e3314</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy link'])[1]/preceding::button[1]</value>
+      <webElementGuid>11a2f1a1-2339-4d1a-8e88-f2879f4648ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mirror'])[1]/preceding::button[2]</value>
+      <webElementGuid>dfad6ebb-b1b2-4095-a277-ab609adbd00b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Copy card']/parent::*</value>
+      <webElementGuid>0df56750-ab0e-4f06-93dc-96dce125f3dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[7]/button</value>
+      <webElementGuid>0104d244-353f-4a83-9bc7-039edfc78ecc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Copy card' or . = 'Copy card')]</value>
+      <webElementGuid>108f72e7-af62-4434-900c-471ff7ff9c0c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

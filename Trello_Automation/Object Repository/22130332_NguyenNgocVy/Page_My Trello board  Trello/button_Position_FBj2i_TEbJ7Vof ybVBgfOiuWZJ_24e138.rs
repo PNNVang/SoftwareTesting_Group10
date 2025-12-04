@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Position_FBj2i_TEbJ7Vof ybVBgfOiuWZJ_24e138</name>
+   <tag></tag>
+   <elementGuidId>7642d004-fee1-4bf5-9275-2fb817514477</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.FBj2i_TEbJ7Vof.ybVBgfOiuWZJtD.orotyyeYQx_tso.JjWtyAi4N6CDgu._St8_YSRMkLv07</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[64]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;move-card-popover-move-button&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>df19d97d-d612-4487-a8b9-4f5944dd3941</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>FBj2i_TEbJ7Vof ybVBgfOiuWZJtD orotyyeYQx_tso JjWtyAi4N6CDgu _St8_YSRMkLv07</value>
+      <webElementGuid>d5cd7c01-de83-42be-acec-7f90b074370c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>53a60a29-ee90-41c6-82a9-d31677b80dcc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>move-card-popover-move-button</value>
+      <webElementGuid>5649c832-accd-4a2a-91e6-a2d6c2aa10aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create card</value>
+      <webElementGuid>e18f208d-d5b6-44d0-9dea-5609bd7fe81a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;feplat3731&quot;]/div[@class=&quot;atlaskit-portal-container&quot;]/div[@class=&quot;atlaskit-portal&quot;]/section[@class=&quot;Tu0XvZVffeyqqw js-react-root&quot;]/div[2]/div[1]/div[@class=&quot;aFGD9vtcIAqeiM YzL7yRijWxDng8&quot;]/div[1]/div[@class=&quot;M8rz3WFdm66fdg&quot;]/button[@class=&quot;FBj2i_TEbJ7Vof ybVBgfOiuWZJtD orotyyeYQx_tso JjWtyAi4N6CDgu _St8_YSRMkLv07&quot;]</value>
+      <webElementGuid>d4786956-a234-455c-a66d-5f8d0f904907</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[64]</value>
+      <webElementGuid>7de6067e-13e5-4674-bc7b-f837395ae094</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Position'])[1]/following::button[1]</value>
+      <webElementGuid>18e87298-869a-408c-ba6c-232f60dfcb8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kiểm thử trello'])[3]/following::button[1]</value>
+      <webElementGuid>7d8370c6-3601-40d4-95a7-c9680d39a29f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Create card']/parent::*</value>
+      <webElementGuid>a8969ec6-4e96-4055-bc00-1b7016b5c44c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[3]/button</value>
+      <webElementGuid>59fd87d8-d700-47ce-964d-e37a791670b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Create card' or . = 'Create card')]</value>
+      <webElementGuid>10f95204-f19b-4d46-8d4f-1202d97e49e0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-CARD_ADD01</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>631c2a58-811c-486d-bd77-7f4ee8cc3d00</testCaseGuid>
+</TestCaseEntity>
