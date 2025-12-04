@@ -6,11 +6,12 @@
    <UUID>6b7c1f44-907f-42c9-a004-ad6c4109baef</UUID>
    <createdEdition>ENTERPRISE</createdEdition>
    <createdVersion>10.4.2</createdVersion>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
    <modifiedEdition>ENTERPRISE</modifiedEdition>
-   <modifiedVersion>10.4.2</modifiedVersion>
+   <modifiedVersion>10.3.2</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>D:\Tester\SoftwareTesting_Group10\Trello_Automation\Trello_Automation.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

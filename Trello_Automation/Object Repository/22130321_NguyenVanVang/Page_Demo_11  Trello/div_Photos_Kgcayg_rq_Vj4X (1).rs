@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Photos_Kgcayg_rq_Vj4X (1)</name>
+   <tag></tag>
+   <elementGuidId>3c0a5f24-3ceb-469b-a75b-b3b0a54b9f5e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.Kgcayg_rq_Vj4X</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1cd01f59-9ebf-43cd-b423-bfb2f67f7f1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Kgcayg_rq_Vj4X</value>
+      <webElementGuid>c7180b2c-034e-4066-b7ec-a68fa2614c4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;feplat3731&quot;]/div[@class=&quot;atlaskit-portal-container&quot;]/div[@class=&quot;atlaskit-portal&quot;]/section[@class=&quot;Tu0XvZVffeyqqw _9gVZKx4ZK5x4I js-react-root&quot;]/div[2]/div[1]/div[@class=&quot;aFGD9vtcIAqeiM BxnW01nt1ospt1 YzL7yRijWxDng8&quot;]/div[@class=&quot;rdF_CdqSD31pjK&quot;]/section[@class=&quot;mgn8Z23aXE6pCQ&quot;]/div[1]/div[@class=&quot;JeAfifEr0XZrAM&quot;]/button[@class=&quot;hqTsGbFGWvmCLH ybVBgfOiuWZJtD _St8_YSRMkLv07&quot;]/div[@class=&quot;Kgcayg_rq_Vj4X&quot;]</value>
+      <webElementGuid>6d709ed7-a418-443b-939f-c2862b2b7743</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/div</value>
+      <webElementGuid>e11d6247-dd46-4304-98a9-d2ed0b1bb250</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
