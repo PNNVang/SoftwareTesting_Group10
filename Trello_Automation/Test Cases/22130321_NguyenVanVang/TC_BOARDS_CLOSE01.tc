@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_BOARDS_CLOSE01</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>43b2a551-b6b9-408d-bedb-bd196ef99ba2</testCaseGuid>
+</TestCaseEntity>

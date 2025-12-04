@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_BOARDS_EDIT01</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>55f82124-fc1c-48c8-9fad-04c821b3895e</testCaseGuid>
+</TestCaseEntity>
