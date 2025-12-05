@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Categories_WGY9hGsS5muj12 lfyh85m1qpLXvy</name>
+   <tag></tag>
+   <elementGuidId>acc4aabc-86f3-49e1-9fcb-c3efb7047c92</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.WGY9hGsS5muj12.lfyh85m1qpLXvy</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='trello-board-root']/div/div/div/div[2]/div/div[2]/div[2]/div/ul[2]/li/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e545ea5d-3905-42a8-9fae-8a5b2373b9bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/b/b4wgiQLd/nhc3b3m-cc3a0y-sic3aau-te1bb91c/power-ups/category/analytics-reporting</value>
+      <webElementGuid>74c53dd9-3f39-4624-b0b4-37ca37cd0166</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>WGY9hGsS5muj12 lfyh85m1qpLXvy</value>
+      <webElementGuid>aa584d7d-16a0-4fba-9c30-8c5fe6ec74a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Analytics &amp; reporting</value>
+      <webElementGuid>8e080ab9-906f-4d82-bd4e-6e57e3f36158</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;trello-board-root&quot;)/div[1]/div[@class=&quot;board-wrapper&quot;]/div[@class=&quot;board-main-content MGBVHMvOK1TD8j Xpq6bBra11ICMi ivZ_wF4VZB8iYB&quot;]/div[@class=&quot;board-canvas&quot;]/div[@class=&quot;u9fbqAqsZm2m8M&quot;]/div[@class=&quot;z4R6o22U1TiJyR&quot;]/div[@class=&quot;Xw8Tg1DihmxOH0&quot;]/div[@class=&quot;aIZlg_Z9MmRARS&quot;]/ul[2]/li[1]/a[@class=&quot;WGY9hGsS5muj12 lfyh85m1qpLXvy&quot;]</value>
+      <webElementGuid>f7083880-cff3-4039-b8bc-b7befce8b3c2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='trello-board-root']/div/div/div/div[2]/div/div[2]/div[2]/div/ul[2]/li/a</value>
+      <webElementGuid>a5a808ce-332c-40a4-8a84-c2a668c0f34c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Analytics &amp; reporting')]</value>
+      <webElementGuid>2304f0f7-5875-45c2-8f00-dca60d288bf2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Categories'])[1]/following::a[1]</value>
+      <webElementGuid>a67a4ded-c22c-4a7a-af68-49775b0bc958</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Made by Trello'])[1]/following::a[1]</value>
+      <webElementGuid>0a9cb866-bd75-4c97-8027-3b192624fb37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Automation'])[1]/preceding::a[1]</value>
+      <webElementGuid>c3f2ee0a-aa4f-4a19-95a3-bd0458b6426c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Board utilities'])[1]/preceding::a[2]</value>
+      <webElementGuid>ceb26479-3338-4007-955d-134ad5e0ce79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Analytics &amp; reporting']/parent::*</value>
+      <webElementGuid>732fb60a-3b9c-4e54-8308-c52194e82410</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/b/b4wgiQLd/nhc3b3m-cc3a0y-sic3aau-te1bb91c/power-ups/category/analytics-reporting')]</value>
+      <webElementGuid>4af2ba5d-74ec-4e72-ac73-1fc47aec1bc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul[2]/li/a</value>
+      <webElementGuid>59232bc6-15fb-4c38-b6c5-dcdcbe054857</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/b/b4wgiQLd/nhc3b3m-cc3a0y-sic3aau-te1bb91c/power-ups/category/analytics-reporting' and (text() = 'Analytics &amp; reporting' or . = 'Analytics &amp; reporting')]</value>
+      <webElementGuid>1dc6175e-3c79-42bc-8aef-54f63c7f05c8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

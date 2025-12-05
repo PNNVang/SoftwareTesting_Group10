@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Upgrade_gWl3Xe9ruADN19 SzliHsDO_R43nR</name>
+   <tag></tag>
+   <elementGuidId>4a51de0f-3bc4-4817-bd91-a16e17adb996</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-of-type(2) > div._0WILnE2Yki1zE3 > div.JeWt7esCgw4_73 > div.Dm9SyZvpL8MyK1 > a[title=&quot;Nhóm Cày Siêu Tốc&quot;] > div.DixFsoZpaUkdLa > div.Oyv4uPfpaB4_Yz > div.gWl3Xe9ruADN19.SzliHsDO_R43nR</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div/div/div/main/div/div[3]/div[2]/div[2]/div[2]/div/a/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8494aa4a-7701-4e4b-b4fa-02b6f6cc594d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gWl3Xe9ruADN19 SzliHsDO_R43nR</value>
+      <webElementGuid>b52f1a7f-9eb9-4dd4-9bcb-8075c45cbfa7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;js-react-root&quot;]/div[@class=&quot;igs0P2yeiJmpkk&quot;]/div[@class=&quot;witf2lW81DY7WP&quot;]/main[@class=&quot;WE1g1M6mHeG8Zv&quot;]/div[@class=&quot;N5JLl1bG1SMtDO&quot;]/div[3]/div[2]/div[@class=&quot;_0WILnE2Yki1zE3&quot;]/div[@class=&quot;JeWt7esCgw4_73&quot;]/div[@class=&quot;Dm9SyZvpL8MyK1&quot;]/a[1]/div[@class=&quot;DixFsoZpaUkdLa&quot;]/div[@class=&quot;Oyv4uPfpaB4_Yz&quot;]/div[@class=&quot;gWl3Xe9ruADN19 SzliHsDO_R43nR&quot;]</value>
+      <webElementGuid>d5ab195e-e0ee-4004-b29f-6074f861dd7c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div/div/div/main/div/div[3]/div[2]/div[2]/div[2]/div/a/div/div/div</value>
+      <webElementGuid>b4736bc4-2ab6-4a78-a788-daf68c784d2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/a/div/div/div</value>
+      <webElementGuid>3c1a2e46-74de-4fac-96c0-ec3decfa2ce7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

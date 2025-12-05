@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Import to Trello by Blue Cat (CSV, E_085ec7</name>
+   <tag></tag>
+   <elementGuidId>de308780-c766-4391-b0bc-e84bd3559a60</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(5) > a.YWdqwf2ehexrXd > div.XpeU5t9upTEXrG.Xq4g2HJ1vIc6jV > div.WxU8ZEBtsbi2pJ.o4kZC5Qvu5ar8x > div:nth-of-type(2) > button.v1h5yZNRnfe74l.ybVBgfOiuWZJtD.orotyyeYQx_tso._St8_YSRMkLv07</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[28]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>27873d0b-cc3c-444a-8323-0765c44db689</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>v1h5yZNRnfe74l ybVBgfOiuWZJtD orotyyeYQx_tso _St8_YSRMkLv07</value>
+      <webElementGuid>078fbfd9-2215-40cd-9850-e2abc79fd931</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a2a4a541-f519-4952-a17b-21e9200f35c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>pup-add-button</value>
+      <webElementGuid>20c1074f-6382-4bc6-8f36-76fc54b6eb9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add</value>
+      <webElementGuid>3f3f1d41-7877-40fa-8b22-7688910a3d86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;trello-board-root&quot;)/div[1]/div[@class=&quot;board-wrapper&quot;]/div[@class=&quot;board-main-content MGBVHMvOK1TD8j Xpq6bBra11ICMi ivZ_wF4VZB8iYB&quot;]/div[@class=&quot;board-canvas&quot;]/div[@class=&quot;u9fbqAqsZm2m8M&quot;]/div[@class=&quot;z4R6o22U1TiJyR&quot;]/div[@class=&quot;Xw8Tg1DihmxOH0&quot;]/div[@class=&quot;Da4wJ9a1YneHqC&quot;]/div[@class=&quot;UP4S2pNKYlF10X&quot;]/div[1]/ul[@class=&quot;zx1cKptUNl_oAi&quot;]/li[5]/a[@class=&quot;YWdqwf2ehexrXd&quot;]/div[@class=&quot;XpeU5t9upTEXrG Xq4g2HJ1vIc6jV&quot;]/div[@class=&quot;WxU8ZEBtsbi2pJ o4kZC5Qvu5ar8x&quot;]/div[2]/button[@class=&quot;v1h5yZNRnfe74l ybVBgfOiuWZJtD orotyyeYQx_tso _St8_YSRMkLv07&quot;]</value>
+      <webElementGuid>12167028-ad09-40c4-a858-60f2aa19d12b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[28]</value>
+      <webElementGuid>d0d2a900-5b68-43d3-9206-21130ce5e0d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='trello-board-root']/div/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div/ul/li[5]/a/div/div/div[2]/button</value>
+      <webElementGuid>5838eed3-1fc4-45fe-ae08-af997408c10c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Import to Trello by Blue Cat (CSV, Excel)'])[1]/following::button[1]</value>
+      <webElementGuid>ac425cac-7e81-42f2-9f6b-61f1e644ea02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add'])[4]/following::button[1]</value>
+      <webElementGuid>5bd3e1dd-7953-4729-ba9e-51158f8d5364</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Import CSV and Excel files into Trello (First 10 imports FREE 😻)'])[1]/preceding::button[1]</value>
+      <webElementGuid>093548a5-c0a9-470d-a102-aa0e57aebcf0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Process Templates for Trello'])[1]/preceding::button[1]</value>
+      <webElementGuid>1b0ccc19-c59f-47b0-bba1-c480205b2889</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/a/div/div/div[2]/button</value>
+      <webElementGuid>9c1bef13-3257-4a00-8edf-da1a98518caa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Add' or . = 'Add')]</value>
+      <webElementGuid>e85fa0fe-aa0a-48be-ad0c-f6b8448edf0e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

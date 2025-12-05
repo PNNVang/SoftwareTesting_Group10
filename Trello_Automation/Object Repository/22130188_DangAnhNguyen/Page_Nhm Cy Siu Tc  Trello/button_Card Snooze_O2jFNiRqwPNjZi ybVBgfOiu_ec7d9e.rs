@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Card Snooze_O2jFNiRqwPNjZi ybVBgfOiu_ec7d9e</name>
+   <tag></tag>
+   <elementGuidId>69501e28-6e26-4b6c-b307-3c0fb45f712f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(5) > a.YWdqwf2ehexrXd > div.WxU8ZEBtsbi2pJ.NbWs9wGxzPMe3j.Xq4g2HJ1vIc6jV > button.O2jFNiRqwPNjZi.ybVBgfOiuWZJtD._St8_YSRMkLv07</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[25]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>23a1fd5e-23f8-4270-ac10-8c0000150c84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>O2jFNiRqwPNjZi ybVBgfOiuWZJtD _St8_YSRMkLv07</value>
+      <webElementGuid>2eee6940-51c7-42f3-9848-4b480c6bec33</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f9bf4e19-11be-40c0-a277-5103caa6a52b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>pup-settings-button</value>
+      <webElementGuid>5008e30b-d236-49d7-a723-70b8c1e42e13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Settings</value>
+      <webElementGuid>3359bf6e-4567-45ee-99c3-2fc8ff010b14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;trello-board-root&quot;)/div[1]/div[@class=&quot;board-wrapper&quot;]/div[@class=&quot;board-main-content MGBVHMvOK1TD8j Xpq6bBra11ICMi ivZ_wF4VZB8iYB&quot;]/div[@class=&quot;board-canvas&quot;]/div[@class=&quot;u9fbqAqsZm2m8M&quot;]/div[@class=&quot;z4R6o22U1TiJyR&quot;]/div[@class=&quot;Xw8Tg1DihmxOH0&quot;]/div[@class=&quot;Da4wJ9a1YneHqC&quot;]/div[@class=&quot;UP4S2pNKYlF10X&quot;]/ul[@class=&quot;qwcNX_7XAVb4Gk&quot;]/li[5]/a[@class=&quot;YWdqwf2ehexrXd&quot;]/div[@class=&quot;WxU8ZEBtsbi2pJ NbWs9wGxzPMe3j Xq4g2HJ1vIc6jV&quot;]/button[@class=&quot;O2jFNiRqwPNjZi ybVBgfOiuWZJtD _St8_YSRMkLv07&quot;]</value>
+      <webElementGuid>6fb9c351-26ce-4bb8-bc39-2293532de718</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[25]</value>
+      <webElementGuid>91ae0e8d-9916-4939-a2f0-4ae0333b7354</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='trello-board-root']/div/div/div/div[2]/div/div[2]/div[2]/div[2]/div/ul/li[5]/a/div/button</value>
+      <webElementGuid>902558d2-2607-4e58-988f-749c202ad4a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Card Snooze'])[1]/following::button[1]</value>
+      <webElementGuid>4a517b87-25ba-44c4-9121-c01487d3aef4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quickly visualize inactive cards on your board, and keep tasks from going incomplete.'])[1]/following::button[1]</value>
+      <webElementGuid>f28df235-6944-4fd7-aa4e-cc58304e0953</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Snooze (archive) a card until a certain time, when it will be restored to the board.'])[1]/preceding::button[1]</value>
+      <webElementGuid>85419372-0b3e-4c8c-b056-8a28d61df7c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reports (By Placker)'])[1]/preceding::button[1]</value>
+      <webElementGuid>73687966-8672-40f7-8618-396297d0d7a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/a/div/button</value>
+      <webElementGuid>fb98d091-848d-41d2-b658-8c1423d75794</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Settings' or . = 'Settings')]</value>
+      <webElementGuid>8bfb7b00-820a-4800-aa75-74341c8acc10</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Switch boards__1e0c1o8l _1o9zidpf _vyf_4a6f64</name>
+   <tag></tag>
+   <elementGuidId>1cead190-d807-494d-a022-e98c3c33d8c9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.zQOYhZhPk9SToc.ybVBgfOiuWZJtD.mUpWqmjL4CZBvn._St8_YSRMkLv07 > span.nch-icon.hChYpzFshATQo8.GzZMAuibTh5l1i > span._1e0c1o8l._1o9zidpf._vyfuvuon._vwz4kb7n._1szv15vq._1tly15vq._rzyw1osq._17jb1osq._1ksvoz0e._3se1x1jp._re2rglyw._1veoyfq0._1kg81r31._jcxd1r8n._gq0g1onz._1trkwc43</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@aria-label='Power-Ups' and normalize-space()='Power-Ups']&#xd;
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ff10245e-a3cb-4b9e-838b-7cf983a92b4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>RemoveIcon</value>
+      <webElementGuid>6c6bcc8b-8bf3-4631-abc6-945ff4423df3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-vc</name>
+      <type>Main</type>
+      <value>icon-RemoveIcon</value>
+      <webElementGuid>5e60d2d3-bc3c-45ad-92c4-e0ca51da7021</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>3e97c0dd-7c47-4567-8ebb-99116f1122e8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_1e0c1o8l _1o9zidpf _vyfuvuon _vwz4kb7n _1szv15vq _1tly15vq _rzyw1osq _17jb1osq _1ksvoz0e _3se1x1jp _re2rglyw _1veoyfq0 _1kg81r31 _jcxd1r8n _gq0g1onz _1trkwc43</value>
+      <webElementGuid>436a3f8d-9ff5-414c-b450-dae3c425d0c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layer-manager-discovery-ad&quot;)/div[@class=&quot;N5qD0z6tGXkHjM rAPmDzUNJMecQC lnxp8HPD2o2m9H&quot;]/div[@class=&quot;NyngjRUbMPoz8c&quot;]/div[@class=&quot;w3CTLEHOMOZWzq&quot;]/button[@class=&quot;zQOYhZhPk9SToc ybVBgfOiuWZJtD mUpWqmjL4CZBvn _St8_YSRMkLv07&quot;]/span[@class=&quot;nch-icon hChYpzFshATQo8 GzZMAuibTh5l1i&quot;]/span[@class=&quot;_1e0c1o8l _1o9zidpf _vyfuvuon _vwz4kb7n _1szv15vq _1tly15vq _rzyw1osq _17jb1osq _1ksvoz0e _3se1x1jp _re2rglyw _1veoyfq0 _1kg81r31 _jcxd1r8n _gq0g1onz _1trkwc43&quot;]</value>
+      <webElementGuid>b6a622d7-165f-4f9b-8701-477ec78e12ef</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layer-manager-discovery-ad']/div/div/div/button/span/span</value>
+      <webElementGuid>8033c766-626d-4440-82fd-bbe07a634542</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch boards'])[1]/following::span[3]</value>
+      <webElementGuid>ff7b82f5-a28b-4040-9f71-207c5c2829cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Board'])[2]/following::span[7]</value>
+      <webElementGuid>3adef2a4-c67b-4613-bd75-9a6c925c275a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Power your projects with Jira'])[1]/preceding::span[2]</value>
+      <webElementGuid>3c27a8f6-8eba-4c45-826f-2cf1b880ad88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Try it free'])[1]/preceding::span[4]</value>
+      <webElementGuid>57a74a89-9c24-49ed-bb8d-2f10966d61fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div/button/span/span</value>
+      <webElementGuid>f015edfa-65cc-4797-ac3b-cdb9d80baac2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

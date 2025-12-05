@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Apr 7, 2025, 512 PM_ToAa87lNYiFfdv</name>
+   <tag></tag>
+   <elementGuidId>7b7f2c24-d54d-4d12-a310-a1d5034c6808</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>nav.GuShmlgQU24O2r.f4L8hdFI5mPAUb.dBn9BtCLFJgCHA > div.E5Al1WuMnZSnCa > div > button.APu9_M1MYhkJun.Nv8oAmNcmfqNc4.ybVBgfOiuWZJtD.mUpWqmjL4CZBvn.Y8VSmRstKSzhJH._St8_YSRMkLv07 > span.ToAa87lNYiFfdv</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/nav/div/div/button/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1ba4c69d-28e8-4c21-bba9-04abed0d172e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ToAa87lNYiFfdv</value>
+      <webElementGuid>39a720c2-28fa-4609-88b4-a3ed60295f19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Power-ups</value>
+      <webElementGuid>9508808b-c1b6-4540-b8fd-04737442c521</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layer-manager-card-back&quot;)/div[@class=&quot;NU3Yu9KTws207g YPtsgaEOeBFV2L&quot;]/div[@class=&quot;uIImyziS34erOZ&quot;]/div[2]/div[@class=&quot;mqI1p85XmC2MaW BvYMUSHQ3VZhSV gVKBv3Rn1WqlNF udR7hhdNKnONkc GEdu4Dn5rTEUDE&quot;]/div[@class=&quot;cMcSJ6d3jjVbP6&quot;]/div[@class=&quot;FntQZvNq2QvxQL&quot;]/nav[@class=&quot;GuShmlgQU24O2r f4L8hdFI5mPAUb dBn9BtCLFJgCHA&quot;]/div[@class=&quot;E5Al1WuMnZSnCa&quot;]/div[1]/button[@class=&quot;APu9_M1MYhkJun Nv8oAmNcmfqNc4 ybVBgfOiuWZJtD mUpWqmjL4CZBvn Y8VSmRstKSzhJH _St8_YSRMkLv07&quot;]/span[@class=&quot;ToAa87lNYiFfdv&quot;]</value>
+      <webElementGuid>ac824db3-c214-428b-9b45-e2ead102fbd7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/nav/div/div/button/span[2]</value>
+      <webElementGuid>224b903b-d86e-445b-ba28-a85d89454e51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apr 7, 2025, 5:12 PM'])[1]/following::span[4]</value>
+      <webElementGuid>2c683df7-fa81-44c9-80d7-aca95546e32c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tài Phạm Thành'])[1]/following::span[5]</value>
+      <webElementGuid>8f377ae1-7176-4dec-afac-2a32def8fadb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Power-ups'])[2]/preceding::span[1]</value>
+      <webElementGuid>64488de6-120c-4369-b8ad-305dbf3cb531</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Automations'])[1]/preceding::span[4]</value>
+      <webElementGuid>3750e71f-acbb-49e8-aa75-37f16b1fe9bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Power-ups']/parent::*</value>
+      <webElementGuid>246e5b9b-0521-4d03-9628-4de49f3cb525</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/nav/div/div/button/span[2]</value>
+      <webElementGuid>fd2204b4-2bd1-41a7-84af-ef320fd19fe3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Power-ups' or . = 'Power-ups')]</value>
+      <webElementGuid>ae8ce276-85d3-4522-8d17-b70d4650ab8d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

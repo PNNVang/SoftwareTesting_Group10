@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Deeplists_plugin-chrome-close-button icon_23f478</name>
+   <tag></tag>
+   <elementGuidId>b043a7e2-fd1d-4f27-88e5-a99fc2603594</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.plugin-chrome-close-button.icon-lg.icon-close.js-close-plugin-chrome.light</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='chrome-container']/div[4]/div/div/div/div[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>78961bc9-6616-40d2-a652-030f6a1962c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>plugin-chrome-close-button icon-lg icon-close js-close-plugin-chrome light</value>
+      <webElementGuid>30b84b14-228f-4e7e-ba71-3f37d008d6c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>5e8d31c4-ecbc-4889-9d57-fc86fa1e496f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;chrome-container&quot;)/div[@class=&quot;plugin-modal&quot;]/div[@class=&quot;js-plugin-chrome-content plugin-chrome-wrapper&quot;]/div[1]/div[@class=&quot;plugin-chrome-header&quot;]/div[@class=&quot;plugin-chrome-header-right-actions&quot;]/a[@class=&quot;plugin-chrome-close-button icon-lg icon-close js-close-plugin-chrome light&quot;]</value>
+      <webElementGuid>0a7fdd62-ac77-4cee-8029-0f3d1a675208</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='chrome-container']/div[4]/div/div/div/div[2]/a</value>
+      <webElementGuid>2274b170-b5b7-49ab-a5b9-5476ba565ec0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[3]</value>
+      <webElementGuid>eebc9024-425f-4188-8394-d64581c97728</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div/div[2]/a</value>
+      <webElementGuid>eb39c23e-8eb5-4801-9b14-9d399b8fabdc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#']</value>
+      <webElementGuid>8837348a-02de-4da7-a23c-3e33d9df6100</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
