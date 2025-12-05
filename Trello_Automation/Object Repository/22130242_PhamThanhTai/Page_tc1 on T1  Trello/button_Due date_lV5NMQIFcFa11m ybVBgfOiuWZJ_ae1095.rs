@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Due date_lV5NMQIFcFa11m ybVBgfOiuWZJ_ae1095</name>
+   <tag></tag>
+   <elementGuidId>6c384c40-f4c2-40b9-900d-3237ef111170</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[58]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.lV5NMQIFcFa11m.ybVBgfOiuWZJtD._St8_YSRMkLv07</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7a64c7b7-59e4-4601-ad11-d0b5eb9aa016</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lV5NMQIFcFa11m ybVBgfOiuWZJtD _St8_YSRMkLv07</value>
+      <webElementGuid>55d1032a-72a8-4b65-a986-03bab7c59d76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>54c31607-5841-4f05-9af7-d711bfe254a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>due-date-badge-with-date-range-picker</value>
+      <webElementGuid>960d7978-e47e-4745-8470-10d8ad762648</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dec 9, 12:55 PM</value>
+      <webElementGuid>b5e0d56a-ab10-45ab-b86b-b17db079b4a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layer-manager-card-back&quot;)/div[@class=&quot;NU3Yu9KTws207g YPtsgaEOeBFV2L&quot;]/div[@class=&quot;uIImyziS34erOZ&quot;]/div[2]/div[@class=&quot;mqI1p85XmC2MaW BvYMUSHQ3VZhSV gVKBv3Rn1WqlNF udR7hhdNKnONkc GEdu4Dn5rTEUDE&quot;]/div[@class=&quot;cMcSJ6d3jjVbP6&quot;]/div[@class=&quot;FntQZvNq2QvxQL&quot;]/div[@class=&quot;DGQMOEx8BBlPsz&quot;]/main[@class=&quot;OCBnVA6yk0XZsg z5cmpMyMY5EyBB&quot;]/div[@class=&quot;hzcmJzuca9EAAu&quot;]/div[@class=&quot;vvxJ5TzkAGa_Yk&quot;]/section[@class=&quot;BwWJgt9gxtnC2g&quot;]/div[@class=&quot;DRuW5uK5xdLGU9&quot;]/button[@class=&quot;lV5NMQIFcFa11m ybVBgfOiuWZJtD _St8_YSRMkLv07&quot;]</value>
+      <webElementGuid>7ea7a8a4-b6f8-45e6-bef2-5849c10e52ac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[58]</value>
+      <webElementGuid>8dc0b7ff-44a7-495e-92cd-f0e92943af27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div/section/div/button</value>
+      <webElementGuid>1023f65e-c716-4773-96e5-01253e431051</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Due date'])[1]/following::button[1]</value>
+      <webElementGuid>dd3eaeee-0de1-444b-9ce5-2c237fd79a9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Attachment'])[1]/following::button[1]</value>
+      <webElementGuid>91bc2b46-557a-4c2b-94b9-c644f875ab6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/preceding::button[1]</value>
+      <webElementGuid>8ac251ab-c7d5-46c1-84d9-f6b04c9e49ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/button</value>
+      <webElementGuid>2caa8715-520c-4ef4-bea5-3a755dd90115</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Dec 9, 12:55 PM' or . = 'Dec 9, 12:55 PM')]</value>
+      <webElementGuid>88ac61d4-81be-45db-9e57-5b708566b895</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

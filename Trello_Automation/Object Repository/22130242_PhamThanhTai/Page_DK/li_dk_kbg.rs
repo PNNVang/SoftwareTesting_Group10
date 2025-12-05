@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_dk_kbg</name>
+   <tag></tag>
+   <elementGuidId>bd1d9e2f-9cba-462a-a07f-e49d694daa7d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='react-select-2-option-0']/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#react-select-2-option-0 > li</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>51ba25f4-f688-4331-bd3a-2e61ae416d96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Không bao giờ</value>
+      <webElementGuid>038f60f9-6f8a-474e-bd31-949e5c43ffe4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react-select-2-option-0&quot;)/li[1]</value>
+      <webElementGuid>4c1877ce-8254-4d3c-bd4c-881665d507a9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react-select-2-option-0']/li</value>
+      <webElementGuid>7e92f924-9b58-4f56-9a33-420ac13a131e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::li[1]</value>
+      <webElementGuid>5cc61ef9-3b43-4b8c-9b79-d36654b94075</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hàng ngày'])[1]/preceding::li[1]</value>
+      <webElementGuid>91a81414-a46e-4ae0-b92f-03915bd602f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Từ thứ Hai đến thứ Sáu'])[1]/preceding::li[2]</value>
+      <webElementGuid>85d92f19-c632-4fc6-b85b-e5342774aad0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/li</value>
+      <webElementGuid>de18ad42-c683-41d0-8cde-fbe04443f15c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Không bao giờ' or . = 'Không bao giờ')]</value>
+      <webElementGuid>cabfd6fc-2ea0-415a-80dc-0540f8694a8c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

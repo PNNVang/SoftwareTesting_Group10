@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_ang lm_LBbj8Ff4qXPj8l</name>
+   <tag></tag>
+   <elementGuidId>f6840eab-b049-49f9-8cda-aa44e57be4a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ol[@id='board']/li[2]/div/ol/li/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3ef79362-7f6e-4d8b-979d-92c2e6c2424a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>LBbj8Ff4qXPj8l</value>
+      <webElementGuid>58c5d390-71d4-4546-b193-40f516b36d90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>tc10/5 </value>
+      <webElementGuid>d530ea13-cc7e-4878-9fd8-60a960e3b410</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;board&quot;)/li[@class=&quot;Iq1byT5o1KoAi6&quot;]/div[@class=&quot;cYogZfEaHc9LfO&quot;]/ol[@class=&quot;B27wN5INCjrQTV&quot;]/li[@class=&quot;csCxU7M5teCNNl&quot;]/div[@class=&quot;PPk42xVXm4ipq3&quot;]/div[@class=&quot;z1bjoUSvJd2OG5&quot;]/div[@class=&quot;LBbj8Ff4qXPj8l&quot;]</value>
+      <webElementGuid>ca3948b1-bed4-4215-bca5-2340ba4f7469</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ol[@id='board']/li[2]/div/ol/li/div/div/div</value>
+      <webElementGuid>3229bedb-c284-423d-a66b-fcf8ce1a383e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Đang làm'])[2]/following::div[8]</value>
+      <webElementGuid>40910229-37d9-4633-b6b1-d214a1a16a64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Đang làm'])[1]/following::div[8]</value>
+      <webElementGuid>7f59554e-7fbf-4edd-9cac-0d8ee729852a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add a card'])[2]/preceding::div[7]</value>
+      <webElementGuid>e876d469-5b31-48f3-b917-15f706184d56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/div/ol/li/div/div/div</value>
+      <webElementGuid>9af7871b-15a0-4a79-93c9-2964563c43b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'tc10/5 ' or . = 'tc10/5 ')]</value>
+      <webElementGuid>5bb7a908-17ac-4142-b870-e151cef08735</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'tc10/4 ' or . = 'tc10/4 ')]</value>
+      <webElementGuid>cf079cce-2745-4af0-9e83-2f028888b022</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'tc10/12 ' or . = 'tc10/12 ')]</value>
+      <webElementGuid>de7ac0f5-48b6-422a-bca1-65dcd4e5fe25</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

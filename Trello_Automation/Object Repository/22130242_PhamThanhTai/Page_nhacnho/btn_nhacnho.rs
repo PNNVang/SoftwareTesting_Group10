@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_nhacnho</name>
+   <tag></tag>
+   <elementGuidId>e9e2378f-0d73-4a9c-b991-3521b57b95f3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Không bao giờ'])[1]/following::div[7]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div._12ji1r31._1qu2glyw._12y3idpf._2rkofajl._v564r5cv._1h6d1p6i._1dqonqa1._189ee4h9._4cvr1h6o._80om73ad._1e0c1txw._1n261g80._1bah1yb4._kqswh2mm._bfhkr01l._1tke1ylp._ca0qze3t._u5f3ze3t._n3tdze3t._19bvze3t._15peftgi._1ke8ftgi._jaboglyw._1u6lq049._4cvx1p6i._123byq51._d0altlke._irr3r01l._1ogl1caj._16qsq049.YaGQx99cVlGuTq.-control</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>17c98e01-bf4e-4a1e-97bc-e12290021dbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_12ji1r31 _1qu2glyw _12y3idpf _2rkofajl _v564r5cv _1h6d1p6i _1dqonqa1 _189ee4h9 _4cvr1h6o _80om73ad _1e0c1txw _1n261g80 _1bah1yb4 _kqswh2mm _bfhkr01l _1tke1ylp _ca0qze3t _u5f3ze3t _n3tdze3t _19bvze3t _15peftgi _1ke8ftgi _jaboglyw _1u6lq049 _4cvx1p6i _123byq51 _d0altlke _irr3r01l _1ogl1caj _16qsq049 YaGQx99cVlGuTq -control</value>
+      <webElementGuid>acb3bd8e-a7ba-4055-9ed7-b30f09c05bc3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>due-reminder-select-select--control</value>
+      <webElementGuid>8d024a5d-22da-40fa-9d85-9398776239ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1 Ngày trước</value>
+      <webElementGuid>50d1592a-d4e4-4859-8e9a-bda41ac31ddf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;feplat3731 react-overlay-up&quot;]/div[@class=&quot;atlaskit-portal-container&quot;]/div[@class=&quot;atlaskit-portal&quot;]/section[@class=&quot;Tu0XvZVffeyqqw js-react-root&quot;]/div[2]/div[1]/div[@class=&quot;aFGD9vtcIAqeiM YzL7yRijWxDng8&quot;]/div[1]/div[1]/form[1]/label[@class=&quot;wXhKcWlxXn6s_7&quot;]/div[1]/div[@class=&quot;_11c82smr _kqswh2mm _lcxv1rj4 SMV5lOF5E76oNS -container&quot;]/div[1]/div[@class=&quot;_12ji1r31 _1qu2glyw _12y3idpf _2rkofajl _v564r5cv _1h6d1p6i _1dqonqa1 _189ee4h9 _4cvr1h6o _80om73ad _1e0c1txw _1n261g80 _1bah1yb4 _kqswh2mm _bfhkr01l _1tke1ylp _ca0qze3t _u5f3ze3t _n3tdze3t _19bvze3t _15peftgi _1ke8ftgi _jaboglyw _1u6lq049 _4cvx1p6i _123byq51 _d0altlke _irr3r01l _1ogl1caj _16qsq049 YaGQx99cVlGuTq -control&quot;]</value>
+      <webElementGuid>f5d394a8-e58a-499f-9a49-36d39f0a8aeb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Không bao giờ'])[1]/following::div[7]</value>
+      <webElementGuid>061242c0-2889-4029-8ff3-9461c94c2ea6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nhắc nhở sẽ được gửi đến tất cả các thành viên và người theo dõi thẻ này.'])[1]/preceding::div[5]</value>
+      <webElementGuid>51aeeb28-4b72-4b79-8e48-4e499b7006ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lưu'])[2]/preceding::div[6]</value>
+      <webElementGuid>7fe53427-e8ce-42c2-bce0-6300089d28d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label[2]/div/div/div/div</value>
+      <webElementGuid>55fdb4ac-92ce-4977-aa55-f29992dae964</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '1 Ngày trước' or . = '1 Ngày trước')]</value>
+      <webElementGuid>6943e286-0b13-415c-9837-84d5dcdf4a70</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

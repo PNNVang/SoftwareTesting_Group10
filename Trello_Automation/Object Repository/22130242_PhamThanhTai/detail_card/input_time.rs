@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_time</name>
+   <tag></tag>
+   <elementGuidId>f1ec16eb-fa76-4fdc-980d-69dac63e9a1a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='23:03']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'text' and @placeholder = 'Thêm thời gian']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>f14fa051-db91-4f10-9420-4b16a99226c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nch-textfield__input a3omnNx_j558kc a3omnNx_j558kc</value>
+      <webElementGuid>9f8cd29b-9f77-4c2a-ace3-cc3c44951a90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>b06e1e8f-0cea-40ec-9ff1-9901dc0f8631</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Thêm thời gian</value>
+      <webElementGuid>f849eb9a-613c-4bed-8118-b565f5c2fa32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-placeholder</name>
+      <type>Main</type>
+      <value>Thêm thời gian</value>
+      <webElementGuid>8a54787e-aa10-42eb-ba15-87992caa661f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>23:03</value>
+      <webElementGuid>f6fe98e3-85bb-486b-bc69-1f90edd59b7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;feplat3731 react-overlay-up&quot;]/div[@class=&quot;atlaskit-portal-container&quot;]/div[@class=&quot;atlaskit-portal&quot;]/section[@class=&quot;Tu0XvZVffeyqqw js-react-root&quot;]/div[2]/div[1]/div[@class=&quot;aFGD9vtcIAqeiM YzL7yRijWxDng8&quot;]/div[1]/div[1]/form[1]/div[@class=&quot;Pn1tzZk3NgQPc8&quot;]/div[@class=&quot;VcKKqL2t6EWx1d&quot;]/div[@class=&quot;fzlccTmfltY2Sy&quot;]/fieldset[@class=&quot;NpF4lRNlrS2rVC&quot;]/div[@class=&quot;TMFD0fSgrnl0ez&quot;]/input[@class=&quot;nch-textfield__input a3omnNx_j558kc a3omnNx_j558kc&quot;]</value>
+      <webElementGuid>a8cfa52a-15a2-4c29-85d5-3ed549e49f28</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='23:03']</value>
+      <webElementGuid>da38acdb-dcd7-42d5-b9cb-3ef4e9f25477</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//fieldset/div[2]/input</value>
+      <webElementGuid>e0c9a18a-ad22-4aeb-b79f-9ee8227941bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Thêm thời gian']</value>
+      <webElementGuid>2178dd7b-9be7-43ea-b413-12c067ce1295</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

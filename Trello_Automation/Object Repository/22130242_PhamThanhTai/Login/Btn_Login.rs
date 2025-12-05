@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Btn_Login</name>
+   <tag></tag>
+   <elementGuidId>62defaa4-1ae5-4c6c-8f95-b82ec6722703</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='BXP-APP']/header/div/div/div[2]Te/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.Buttonsstyles__Button-sc-1jwidxo-0.kTwZBr</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>254a8b1a-08ce-4b8d-8e36-035c1777aca2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://id.atlassian.com/login?application=trello&amp;continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&amp;display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D</value>
+      <webElementGuid>9ba1ce78-a94b-4eac-bef2-7a25954f55dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-uuid</name>
+      <type>Main</type>
+      <value>MJFtCCgVhXrVl7v9HA7EH_login</value>
+      <webElementGuid>1b994ed9-414f-497b-87cc-bad918f3f5a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Buttonsstyles__Button-sc-1jwidxo-0 kTwZBr</value>
+      <webElementGuid>e0b5fe71-5f4f-4d6d-87b5-e5816c4191f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Log in</value>
+      <webElementGuid>1a743358-9d64-420c-ab76-d59e83ad27ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;BXP-APP&quot;)/header[@class=&quot;BigNavstyles__Header-sc-1mttgq7-1 hNNfeR&quot;]/div[@class=&quot;BigNavstyles__InnerHeader-sc-1mttgq7-2 kuxyBF&quot;]/div[@class=&quot;BigNavstyles__NavBar-sc-1mttgq7-3 caTbTe&quot;]/div[@class=&quot;Buttonsstyles__ButtonGroup-sc-1jwidxo-3 jnMZCI&quot;]/a[@class=&quot;Buttonsstyles__Button-sc-1jwidxo-0 kTwZBr&quot;]</value>
+      <webElementGuid>d219577b-5144-447e-96a4-fcb6b199eca1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='BXP-APP']/header/div/div/div[2]/a</value>
+      <webElementGuid>47dc4e95-a803-4eb0-b968-06ea5171e003</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Log in')]</value>
+      <webElementGuid>dd1307b9-2d44-4697-9366-b1458e67769f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Resources'])[1]/following::a[1]</value>
+      <webElementGuid>09dc309a-0f68-485e-987e-6e63dded8ba0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pricing'])[1]/following::a[1]</value>
+      <webElementGuid>62798611-e5f5-46d2-8916-fc339f91e66c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get Trello for free'])[1]/preceding::a[1]</value>
+      <webElementGuid>c521df73-c706-42f0-9844-ea0f94bae779</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Explore the features that help your team succeed'])[1]/preceding::a[2]</value>
+      <webElementGuid>66b8758e-2fac-4023-939b-b06321066d55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Log in']/parent::*</value>
+      <webElementGuid>88ead3e8-e2ea-4958-becc-f2021afda74c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://id.atlassian.com/login?application=trello&amp;continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&amp;display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D')]</value>
+      <webElementGuid>09521e3c-1048-4e6c-83fb-0386dbbd2747</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a</value>
+      <webElementGuid>33d6e5f7-04c9-4ea6-9b27-c1f400e9e9a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://id.atlassian.com/login?application=trello&amp;continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&amp;display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D' and (text() = 'Log in' or . = 'Log in')]</value>
+      <webElementGuid>b059310e-78b4-420f-a2f1-f0119f0a521c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_khongco</name>
+   <tag></tag>
+   <elementGuidId>46468088-28c1-4fb8-860c-209455f0ad77</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='react-select-3-option-0']/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#react-select-3-option-0 > li</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>bdf2247b-bfbf-4c52-8578-f62e2037370a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Không có</value>
+      <webElementGuid>ab8cbe47-0083-40c1-ba50-89e8196b59ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react-select-3-option-0&quot;)/li[1]</value>
+      <webElementGuid>7c8bee78-25d6-4c7b-aa5b-f2656c669bce</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react-select-3-option-0']/li</value>
+      <webElementGuid>36b346cd-55fe-4b3d-bb8b-c4a9ed3879f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::li[1]</value>
+      <webElementGuid>5d9126c9-a8a4-4e74-8e45-fef99846d51b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vào thời điểm ngày hết hạn'])[1]/preceding::li[1]</value>
+      <webElementGuid>88b8980b-2c7b-4d79-95cf-5763fbe12f6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Không có']/parent::*</value>
+      <webElementGuid>16d29242-56e6-4c0e-9504-4702e8c4e64a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/li</value>
+      <webElementGuid>2e1c0f81-c564-440b-9fee-7cac291d7741</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Không có' or . = 'Không có')]</value>
+      <webElementGuid>556edb3b-b893-417c-acb5-849e0540c631</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

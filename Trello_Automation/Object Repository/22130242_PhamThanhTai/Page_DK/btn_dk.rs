@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_dk</name>
+   <tag></tag>
+   <elementGuidId>81ea108f-3417-49f7-a1f5-ea127ecbba79</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='New'])[1]/following::div[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div._12ji1r31._1qu2glyw._12y3idpf._2rkofajl._v564r5cv._1h6d1p6i._1dqonqa1._189ee4h9._4cvr1h6o._80om73ad._1e0c1txw._1n261g80._1bah1yb4._kqswh2mm._bfhkr01l._1tke1ylp._ca0qze3t._u5f3ze3t._n3tdze3t._19bvze3t._15peftgi._1ke8ftgi._jaboglyw._1u6lq049._4cvx1p6i._123byq51._d0altlke._irr3r01l._1ogl1caj._16qsq049.YaGQx99cVlGuTq.-control</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>9eabce02-817b-4b20-a98f-4cf1b57fe8bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_12ji1r31 _1qu2glyw _12y3idpf _2rkofajl _v564r5cv _1h6d1p6i _1dqonqa1 _189ee4h9 _4cvr1h6o _80om73ad _1e0c1txw _1n261g80 _1bah1yb4 _kqswh2mm _bfhkr01l _1tke1ylp _ca0qze3t _u5f3ze3t _n3tdze3t _19bvze3t _15peftgi _1ke8ftgi _jaboglyw _1u6lq049 _4cvx1p6i _123byq51 _d0altlke _irr3r01l _1ogl1caj _16qsq049 YaGQx99cVlGuTq -control</value>
+      <webElementGuid>794ede10-a08e-47b3-ba45-262e525ec349</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>recurrence-select-select--control</value>
+      <webElementGuid>0b6d17ee-860b-4c05-a6b9-a3ecac0b9def</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Không bao giờ</value>
+      <webElementGuid>2717478b-ad3b-4815-a52f-2d9640545f91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;feplat3731 react-overlay-up&quot;]/div[@class=&quot;atlaskit-portal-container&quot;]/div[@class=&quot;atlaskit-portal&quot;]/section[@class=&quot;Tu0XvZVffeyqqw js-react-root&quot;]/div[2]/div[1]/div[@class=&quot;aFGD9vtcIAqeiM YzL7yRijWxDng8&quot;]/div[1]/div[1]/form[1]/label[@class=&quot;wXhKcWlxXn6s_7&quot;]/div[1]/div[@class=&quot;_11c82smr _kqswh2mm _lcxv1rj4 SMV5lOF5E76oNS -container&quot;]/div[1]/div[@class=&quot;_12ji1r31 _1qu2glyw _12y3idpf _2rkofajl _v564r5cv _1h6d1p6i _1dqonqa1 _189ee4h9 _4cvr1h6o _80om73ad _1e0c1txw _1n261g80 _1bah1yb4 _kqswh2mm _bfhkr01l _1tke1ylp _ca0qze3t _u5f3ze3t _n3tdze3t _19bvze3t _15peftgi _1ke8ftgi _jaboglyw _1u6lq049 _4cvx1p6i _123byq51 _d0altlke _irr3r01l _1ogl1caj _16qsq049 YaGQx99cVlGuTq -control&quot;]</value>
+      <webElementGuid>c1119925-2a90-4de3-b44b-bbd6be1cd6f3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New'])[1]/following::div[4]</value>
+      <webElementGuid>22b07545-46e6-42fb-bb37-d6e9527541d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/div/div/div/div</value>
+      <webElementGuid>a8f7eeaf-bbe9-4536-be1d-02ef92253498</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Không bao giờ' or . = 'Không bao giờ')]</value>
+      <webElementGuid>7e8ef1bd-94e2-4332-917d-345d33b67edd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
