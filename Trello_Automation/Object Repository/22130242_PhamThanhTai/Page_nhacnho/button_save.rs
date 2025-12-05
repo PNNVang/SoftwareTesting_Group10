@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_save</name>
+   <tag></tag>
+   <elementGuidId>dd5355d5-85d4-4e80-90eb-450c29c48f75</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='submit'])[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.ybVBgfOiuWZJtD.orotyyeYQx_tso.Y8VSmRstKSzhJH._St8_YSRMkLv07</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and (text() = 'Save&#xd;
+' or . = 'Save&#xd;
+')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ab0827b8-409f-453d-953f-d3c6c17a67c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ybVBgfOiuWZJtD orotyyeYQx_tso Y8VSmRstKSzhJH _St8_YSRMkLv07</value>
+      <webElementGuid>3e4e2089-88b5-4a30-a279-cbb143b581da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>1f6a7048-7d32-4f77-b6ff-3c742eb0a700</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>save-date-button</value>
+      <webElementGuid>5a11d962-382b-44df-9933-57a67a5c3133</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save&#xd;
+</value>
+      <webElementGuid>30829774-433a-4a20-893b-7c4a19d0ad7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;feplat3731 react-overlay-up&quot;]/div[@class=&quot;atlaskit-portal-container&quot;]/div[@class=&quot;atlaskit-portal&quot;]/section[@class=&quot;Tu0XvZVffeyqqw js-react-root&quot;]/div[2]/div[1]/div[@class=&quot;aFGD9vtcIAqeiM YzL7yRijWxDng8&quot;]/div[1]/div[1]/form[1]/div[@class=&quot;WG2Xn1vpjohFkT&quot;]/button[@class=&quot;ybVBgfOiuWZJtD orotyyeYQx_tso Y8VSmRstKSzhJH _St8_YSRMkLv07&quot;]</value>
+      <webElementGuid>51783c1b-8d5d-446c-a1ff-081db3f4fa2e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='submit'])[2]</value>
+      <webElementGuid>88af0ea1-edff-4d7b-bc68-201b46dc3649</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nhắc nhở sẽ được gửi đến tất cả các thành viên và người theo dõi thẻ này.'])[1]/following::button[1]</value>
+      <webElementGuid>f0ddd290-c18c-4259-9cac-4ba07a445364</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gỡ bỏ'])[1]/preceding::button[1]</value>
+      <webElementGuid>7210dd69-8bc5-48f3-bf3b-050c15017251</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/button</value>
+      <webElementGuid>748db8dd-e5e9-42ed-9607-5fcebc31e529</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Lưu' or . = 'Lưu')]</value>
+      <webElementGuid>d1fbb848-2fa6-452c-88b6-a26dc2c289d0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

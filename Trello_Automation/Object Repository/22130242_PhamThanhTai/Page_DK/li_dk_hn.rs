@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_dk_hn</name>
+   <tag></tag>
+   <elementGuidId>17e084c2-5602-4a6a-8985-e7425d5fbab3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='react-select-2-option-1']/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#react-select-2-option-1 > li</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>c213ff56-cb32-45ac-b907-9a39e8d3745b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Hàng ngày</value>
+      <webElementGuid>d2c73e6e-45ca-45cf-8653-c86925252a8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react-select-2-option-1&quot;)/li[1]</value>
+      <webElementGuid>8e042619-9e9f-42c0-86e3-8465673bbaa5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react-select-2-option-1']/li</value>
+      <webElementGuid>5c1facb9-1a75-448c-9589-ed06125ee69a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Không bao giờ'])[2]/following::li[1]</value>
+      <webElementGuid>9b20a327-0a5b-4af9-bd17-3461743afbc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Từ thứ Hai đến thứ Sáu'])[1]/preceding::li[1]</value>
+      <webElementGuid>4339486f-5164-4dee-be13-33973f285942</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hàng tuần'])[1]/preceding::li[2]</value>
+      <webElementGuid>96ca322e-f656-4fd6-8516-482da38d8404</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Hàng ngày']/parent::*</value>
+      <webElementGuid>3c168577-b0b8-4953-97d5-9619e8be2136</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/li</value>
+      <webElementGuid>3af5c689-925d-459e-9ba4-3c4043345528</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Hàng ngày' or . = 'Hàng ngày')]</value>
+      <webElementGuid>97355c00-b1e3-4913-8d6f-d9f4c623dcf4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

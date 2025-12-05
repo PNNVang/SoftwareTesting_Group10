@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_10phuttruoc</name>
+   <tag></tag>
+   <elementGuidId>b1b640f5-62a1-47ff-b595-11922c1ee470</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='react-select-3-option-3']/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#react-select-3-option-3 > li</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>075af3b6-950a-449c-8b88-f10c11791c01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>10 Phút trước</value>
+      <webElementGuid>6d3b4041-934d-474f-aaf6-59eb807875a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react-select-3-option-3&quot;)/li[1]</value>
+      <webElementGuid>85e2b2f8-25d2-46a7-8449-c376c633d831</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react-select-3-option-3']/li</value>
+      <webElementGuid>0e488d5d-5e01-4326-8f62-d2ed0014be15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vào thời điểm ngày hết hạn'])[1]/following::li[2]</value>
+      <webElementGuid>842bb718-3f7e-4c92-8648-0453cc2f9caf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Không có'])[1]/following::li[3]</value>
+      <webElementGuid>545063d3-4bd6-4555-bcd2-945aabb880aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='10 Phút trước']/parent::*</value>
+      <webElementGuid>23b11200-95b7-4043-87f8-219919001285</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/li</value>
+      <webElementGuid>540d1665-2c74-4390-adca-0cd6d3a5c62c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = '10 Phút trước' or . = '10 Phút trước')]</value>
+      <webElementGuid>57848b6f-713b-44a2-a4e6-e4e57e92d70d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

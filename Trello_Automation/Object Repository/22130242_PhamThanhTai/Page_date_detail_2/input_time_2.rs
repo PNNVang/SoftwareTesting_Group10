@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_time_2</name>
+   <tag></tag>
+   <elementGuidId>3a654f48-50d6-427e-aeb6-fc09531cbfa1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='11:43 PM']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>d3577103-0126-4698-9ef4-a7c06f974fbd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nch-textfield__input a3omnNx_j558kc a3omnNx_j558kc</value>
+      <webElementGuid>16de3974-19f7-4656-9e52-7fa4c3127d74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>3fcf8d14-dc12-4792-898f-a39d276f6e24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Add time</value>
+      <webElementGuid>2cd68348-5a94-43ef-ab76-7f97e0b91373</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-placeholder</name>
+      <type>Main</type>
+      <value>Add time</value>
+      <webElementGuid>55f840eb-5f54-4d9a-9eb1-e7a908e14604</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>11:43 PM</value>
+      <webElementGuid>e1abfee0-be87-4c69-8ea6-5df3a92a093b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;feplat3731 react-overlay-up&quot;]/div[@class=&quot;atlaskit-portal-container&quot;]/div[@class=&quot;atlaskit-portal&quot;]/section[@class=&quot;Tu0XvZVffeyqqw js-react-root&quot;]/div[2]/div[1]/div[@class=&quot;aFGD9vtcIAqeiM YzL7yRijWxDng8&quot;]/form[1]/div[@class=&quot;Pn1tzZk3NgQPc8&quot;]/div[@class=&quot;VcKKqL2t6EWx1d&quot;]/div[@class=&quot;fzlccTmfltY2Sy&quot;]/fieldset[@class=&quot;NpF4lRNlrS2rVC&quot;]/div[@class=&quot;TMFD0fSgrnl0ez&quot;]/input[@class=&quot;nch-textfield__input a3omnNx_j558kc a3omnNx_j558kc&quot;]</value>
+      <webElementGuid>d3ae23b0-789a-4086-a964-928b83047728</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='11:43 PM']</value>
+      <webElementGuid>c581518f-1241-4082-a268-0b01e2b43a64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/input</value>
+      <webElementGuid>4f376eba-01ba-42e1-a355-bc8a8d50f363</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Add time']</value>
+      <webElementGuid>7f4dba79-3c4e-4789-a5ac-06b5915568eb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
