@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Labels</name>
+   <tag></tag>
+   <elementGuidId>4899c70a-8813-47ce-8a49-9e1080b505af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(11) > button.H4CRJnSRKY5a_I.YYRfNoEtCHWP55.ybVBgfOiuWZJtD._St8_YSRMkLv07</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[40]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Labels Labels&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>28f4850e-f03e-42af-b44a-dfd4c236b5af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>H4CRJnSRKY5a_I YYRfNoEtCHWP55 ybVBgfOiuWZJtD _St8_YSRMkLv07</value>
+      <webElementGuid>196ebcf6-9ddb-4a81-afa2-cd16c989c13c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9a5ff914-0965-4ec1-abc3-06375fe616ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Labels</value>
+      <webElementGuid>fc1d8bd3-ccbd-4dcf-9076-30321279e3c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;feplat3731&quot;]/div[@class=&quot;atlaskit-portal-container&quot;]/div[@class=&quot;atlaskit-portal&quot;]/section[@class=&quot;Tu0XvZVffeyqqw _9gVZKx4ZK5x4I js-react-root&quot;]/div[2]/div[1]/div[@class=&quot;aFGD9vtcIAqeiM BxnW01nt1ospt1 YzL7yRijWxDng8&quot;]/div[@class=&quot;rdF_CdqSD31pjK&quot;]/section[@class=&quot;mgn8Z23aXE6pCQ&quot;]/ul[1]/li[11]/button[@class=&quot;H4CRJnSRKY5a_I YYRfNoEtCHWP55 ybVBgfOiuWZJtD _St8_YSRMkLv07&quot;]</value>
+      <webElementGuid>f452edb6-96c5-4c1d-9fd1-fe42b465fc65</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[40]</value>
+      <webElementGuid>6250ff70-c5e4-40e3-b6b6-e8ce1ed13d09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Power-Ups'])[2]/following::button[1]</value>
+      <webElementGuid>94d3e965-e7ed-4cab-a9d6-fcc9e4baf0d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Automation'])[1]/following::button[2]</value>
+      <webElementGuid>0c25f9c9-79f7-4c0d-b81b-a3d189a9c3b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Stickers'])[1]/preceding::button[1]</value>
+      <webElementGuid>7aa48cee-d929-4cff-9f79-6e53a2c73459</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[11]/button</value>
+      <webElementGuid>0b674459-2dd4-4ba7-bc64-70edbcc9d6bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Labels' or . = 'Labels')]</value>
+      <webElementGuid>a66354f7-0239-47af-87a3-d646d610afad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

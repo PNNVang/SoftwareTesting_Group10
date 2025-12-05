@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Labels_Edit</name>
+   <tag></tag>
+   <elementGuidId>45d34f67-b212-47cd-b02c-3e9da2de646b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='6923b9cd77edcef3b0ff7ff5']/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#6923b9cd77edcef3b0ff7ff5 > span.nch-icon.hChYpzFshATQo8.GzZMAuibTh5l1i.r1ljm7etlgUs0w > span._1e0c1o8l._1o9zidpf._vyfuvuon._vwz4kb7n._1szv15vq._1tly15vq._rzyw1osq._17jb1osq._1ksvoz0e._3se1x1jp._re2rglyw._1veoyfq0._1kg81r31._jcxd1r8n._gq0g1onz._1trkwc43</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Edit Color: sky, title: none&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f5901617-a66c-45ee-b6ff-42fa7b0472e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>EditIcon</value>
+      <webElementGuid>65c383ec-3ad8-4ad5-b899-8686ecab189a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-vc</name>
+      <type>Main</type>
+      <value>icon-EditIcon</value>
+      <webElementGuid>2d28b077-3ac4-44ef-82d2-6ffba0d6f00b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>2e52f646-0385-4df7-8393-fb27e1d5415e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_1e0c1o8l _1o9zidpf _vyfuvuon _vwz4kb7n _1szv15vq _1tly15vq _rzyw1osq _17jb1osq _1ksvoz0e _3se1x1jp _re2rglyw _1veoyfq0 _1kg81r31 _jcxd1r8n _gq0g1onz _1trkwc43</value>
+      <webElementGuid>18354ebd-4e60-4f9d-b9ec-13b218800272</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;6923b9cd77edcef3b0ff7ff5&quot;)/span[@class=&quot;nch-icon hChYpzFshATQo8 GzZMAuibTh5l1i r1ljm7etlgUs0w&quot;]/span[@class=&quot;_1e0c1o8l _1o9zidpf _vyfuvuon _vwz4kb7n _1szv15vq _1tly15vq _rzyw1osq _17jb1osq _1ksvoz0e _3se1x1jp _re2rglyw _1veoyfq0 _1kg81r31 _jcxd1r8n _gq0g1onz _1trkwc43&quot;]</value>
+      <webElementGuid>3b7a2ece-6c0d-42c2-9893-9d3f766a4947</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='6923b9cd77edcef3b0ff7ff5']/span/span</value>
+      <webElementGuid>55d38869-98af-4c95-915d-35ac332ba3e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Labels'])[2]/following::span[15]</value>
+      <webElementGuid>6ad8e2de-95b8-4067-994e-fbb330611e42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Typing automatically updates the search results below'])[1]/following::span[15]</value>
+      <webElementGuid>ccc46216-3534-4622-87a2-f82063e68407</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nhắc Nhở'])[1]/preceding::span[1]</value>
+      <webElementGuid>2c77d7ee-6d28-402d-9c36-061db26bdafb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create a new label'])[1]/preceding::span[4]</value>
+      <webElementGuid>a8348767-b7a1-4277-a9e3-d00c1d1f3707</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/div/button/span/span</value>
+      <webElementGuid>a97aae8e-c6f1-44ad-a7ef-1d60dabedae1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

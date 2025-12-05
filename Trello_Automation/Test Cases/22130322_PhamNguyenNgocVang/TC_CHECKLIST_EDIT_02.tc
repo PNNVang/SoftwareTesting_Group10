@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CHECKLIST_EDIT_02</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7b238c6a-f901-4fec-96ca-2d8513a1cf84</testCaseGuid>
+</TestCaseEntity>

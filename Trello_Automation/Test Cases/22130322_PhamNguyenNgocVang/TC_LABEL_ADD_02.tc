@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_LABEL_ADD_02</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b0fa68e6-9653-4aa0-9df7-05da8f264d6f</testCaseGuid>
+</TestCaseEntity>

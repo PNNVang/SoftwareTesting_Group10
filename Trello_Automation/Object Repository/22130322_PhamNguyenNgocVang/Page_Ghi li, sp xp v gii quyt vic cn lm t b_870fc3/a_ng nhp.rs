@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_ng nhp</name>
+   <tag></tag>
+   <elementGuidId>ebb0e464-2b67-4f8b-a8b0-4c758e0911d1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.Buttonsstyles__Button-sc-1jwidxo-0.kTwZBr</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='BXP-APP']/header/div/div/div[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;bignav&quot;] >> internal:role=link[name=&quot;Đăng nhập&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>5df69753-fb02-4e1f-a285-415cf497e1c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://id.atlassian.com/login?application=trello&amp;continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&amp;display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D</value>
+      <webElementGuid>1a2be02d-e9b8-47f1-a149-3827578293c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-uuid</name>
+      <type>Main</type>
+      <value>MJFtCCgVhXrVl7v9HA7EH_login</value>
+      <webElementGuid>6c3202cf-3979-4d0a-95d8-e63361afeb00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Buttonsstyles__Button-sc-1jwidxo-0 kTwZBr</value>
+      <webElementGuid>bcf6f375-8f48-479c-9284-717c35d3d8e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Đăng nhập</value>
+      <webElementGuid>73e055bb-e9ca-4d25-8caf-3bb17e38a02f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;BXP-APP&quot;)/header[@class=&quot;BigNavstyles__Header-sc-1mttgq7-1 hNNfeR&quot;]/div[@class=&quot;BigNavstyles__InnerHeader-sc-1mttgq7-2 kuxyBF&quot;]/div[@class=&quot;BigNavstyles__NavBar-sc-1mttgq7-3 caTbTe&quot;]/div[@class=&quot;Buttonsstyles__ButtonGroup-sc-1jwidxo-3 jnMZCI&quot;]/a[@class=&quot;Buttonsstyles__Button-sc-1jwidxo-0 kTwZBr&quot;]</value>
+      <webElementGuid>d2e75e33-861f-49d3-8fb4-35a991fecd7c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='BXP-APP']/header/div/div/div[2]/a</value>
+      <webElementGuid>b8ce9c01-a988-415f-b830-6074ed12979a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Đăng nhập')]</value>
+      <webElementGuid>b1910c66-fb6b-46fe-b345-ce7b85801aa0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tài liệu'])[1]/following::a[1]</value>
+      <webElementGuid>2554b842-711b-4d76-8cd0-5930a976d80b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Biểu phí'])[1]/following::a[1]</value>
+      <webElementGuid>f5cffff5-d218-4f99-af13-56fc5b162794</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tải Trello miễn phí'])[1]/preceding::a[1]</value>
+      <webElementGuid>d94d64bd-63a5-46bc-bdad-f1f7c9d1f0e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Khám phá các tính năng giúp nhóm của bạn thành công'])[1]/preceding::a[2]</value>
+      <webElementGuid>9fcac4e1-a264-46b6-b7da-a9da39bf84e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Đăng nhập']/parent::*</value>
+      <webElementGuid>0d11089e-76de-4931-bd36-38e3b11b5509</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://id.atlassian.com/login?application=trello&amp;continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&amp;display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D')]</value>
+      <webElementGuid>e9df5d74-7083-4c39-9815-85ee0a2df060</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a</value>
+      <webElementGuid>d3a6b87f-d902-401a-9bf8-1c0d47b4d491</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://id.atlassian.com/login?application=trello&amp;continue=https%3A%2F%2Ftrello.com%2Fauth%2Fatlassian%2Fcallback%3Fdisplay%3DeyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%253D%253D&amp;display=eyJ2ZXJpZmljYXRpb25TdHJhdGVneSI6InNvZnQifQ%3D%3D' and (text() = 'Đăng nhập' or . = 'Đăng nhập')]</value>
+      <webElementGuid>d4f517fa-e4b0-42e5-8792-921518f899ad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

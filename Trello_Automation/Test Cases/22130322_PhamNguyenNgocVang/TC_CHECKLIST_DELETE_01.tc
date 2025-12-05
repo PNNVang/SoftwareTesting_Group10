@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CHECKLIST_DELETE_01</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8046e7f7-c99e-43e2-8d41-51871ad0abb9</testCaseGuid>
+</TestCaseEntity>

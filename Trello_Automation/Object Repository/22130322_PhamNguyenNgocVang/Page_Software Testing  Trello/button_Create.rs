@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Create</name>
+   <tag></tag>
+   <elementGuidId>89bdaf3c-42c5-4b8b-9f48-c7dc31f20f8c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.dJTS3FCwC6Plhw > button.ybVBgfOiuWZJtD.orotyyeYQx_tso._St8_YSRMkLv07</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[60]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;board-menu-container&quot;] >> internal:role=button[name=&quot;Create&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1efdf698-1b87-4b3a-822d-3721ab7c076d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ybVBgfOiuWZJtD orotyyeYQx_tso _St8_YSRMkLv07</value>
+      <webElementGuid>7cd28ec1-016c-4488-b108-15718bac76b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a2de9529-9198-4509-bcb9-c863d6d8f30f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create</value>
+      <webElementGuid>2a23faca-77cb-494c-86c6-408bf610c25f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;feplat3731&quot;]/div[@class=&quot;atlaskit-portal-container&quot;]/div[@class=&quot;atlaskit-portal&quot;]/section[@class=&quot;Tu0XvZVffeyqqw _9gVZKx4ZK5x4I js-react-root&quot;]/div[2]/div[1]/div[@class=&quot;aFGD9vtcIAqeiM BxnW01nt1ospt1 YzL7yRijWxDng8&quot;]/div[@class=&quot;rdF_CdqSD31pjK&quot;]/section[@class=&quot;mgn8Z23aXE6pCQ&quot;]/div[@class=&quot;dJTS3FCwC6Plhw&quot;]/button[@class=&quot;ybVBgfOiuWZJtD orotyyeYQx_tso _St8_YSRMkLv07&quot;]</value>
+      <webElementGuid>df5b44dc-267e-4cfc-a11f-51389fdb43e7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[60]</value>
+      <webElementGuid>6ebc6607-222f-418a-9692-33cd6f88e181</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove color'])[1]/following::button[1]</value>
+      <webElementGuid>ce140fbc-c5f5-4d00-87ad-ae4e65c79717</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select a color'])[1]/following::button[32]</value>
+      <webElementGuid>29721d34-e7de-40a7-8355-cea4502be23f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div[4]/button</value>
+      <webElementGuid>fa5eaaa8-f524-465c-a5b8-a6809beceec1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Create' or . = 'Create')]</value>
+      <webElementGuid>f4a9414c-2517-4782-ac7e-2e2c5659ed23</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

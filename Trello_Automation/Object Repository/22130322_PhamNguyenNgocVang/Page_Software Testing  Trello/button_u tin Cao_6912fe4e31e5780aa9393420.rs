@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_u tin Cao_6912fe4e31e5780aa9393420</name>
+   <tag></tag>
+   <elementGuidId>63394915-d87e-4966-91c3-8580ed8438ca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#6912fe4e31e5780aa9393420</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='6912fe4e31e5780aa9393420']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Edit Color: bold red, title: “Ưu tiên Cao”&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>955bb69f-a906-4d8b-85df-849d50f281f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rvGWDMgF3Sdu71 ybVBgfOiuWZJtD mUpWqmjL4CZBvn Yt_v_LmarJM9ZS _St8_YSRMkLv07</value>
+      <webElementGuid>6d12317b-2af6-473f-bb0a-fda66e35cdac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>504ee2c1-924c-463c-b9d7-273962c14341</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Edit Color: bold red, title: “Ưu tiên Cao”</value>
+      <webElementGuid>3184eebb-df81-4a82-8fc0-cf0395bfedc1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>6912fe4e31e5780aa9393420</value>
+      <webElementGuid>898ce44a-f05c-475b-b6d9-cf7ae49de72b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;6912fe4e31e5780aa9393420&quot;)</value>
+      <webElementGuid>82f4cd23-5c9d-48f8-ab54-56db21463716</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='6912fe4e31e5780aa9393420']</value>
+      <webElementGuid>4047939c-381b-4fcf-8ff2-cb315abfdc2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ưu tiên Cao'])[1]/following::button[1]</value>
+      <webElementGuid>a416c643-98dc-4799-8f0b-cc9f4b9caba8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Labels'])[2]/following::button[5]</value>
+      <webElementGuid>cc275489-908e-4765-a195-360a84382819</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create a new label'])[1]/preceding::button[1]</value>
+      <webElementGuid>2ecd050c-de9b-412f-a7bc-c3a787b932a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enable colorblind friendly mode'])[1]/preceding::button[2]</value>
+      <webElementGuid>152ab7a9-20cd-49e8-8a2c-1bb1e0da8768</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/div/button</value>
+      <webElementGuid>e0cc0af3-0a53-408b-80b6-6952a7214caa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and @id = '6912fe4e31e5780aa9393420']</value>
+      <webElementGuid>3b4d66d9-33f8-419a-82ab-252eb7361ca5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
