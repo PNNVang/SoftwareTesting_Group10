@@ -1,4 +1,5 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.testobject.ConditionType
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -67,6 +68,8 @@ WebUI.waitForElementVisible(titleTextarea, 10)
 WebUI.click(titleTextarea)
 WebUI.setText(titleTextarea, '') // xóa tiêu đề cũ
 WebUI.setText(titleTextarea, 'Sửa tiêu đề thẻ') // nhập tiêu đề mới
+WebUI.sendKeys(titleTextarea, Keys.chord(Keys.ENTER))
+WebUI.delay(1)
 
 // --- Đóng popup card bằng JS để tránh bị header che ---
 TestObject closeButton = new TestObject('closeButton')

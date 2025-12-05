@@ -1,4 +1,5 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
@@ -57,7 +58,7 @@ WebUI.click(btnConfirm)
 // CHỜ Trello lưu
 WebUI.delay(3)
 
-// ===== VERIFY CARD TRONG LIST-CARDS (KHÔNG DÙNG FOR) =====
+// ===== VERIFY CARD TRONG LIST-CARDS =====
 
 TestObject checkCard = new TestObject("checkCard")
 checkCard.addProperty("xpath", ConditionType.EQUALS,
