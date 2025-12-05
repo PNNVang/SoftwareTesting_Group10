@@ -28,17 +28,14 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://trello.com/')
 
 //2. Đăng nhập thành công vào hệ thống, và chuyển đến Dashboard
-WebUI.click(findTestObject('Object Repository/Page_Capture, organize, and tackle your to-_17a2f5/a_Resources_Buttonsstyles__Button-sc-1jwidx_3e5bb7 (2)'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/input_Email_username-uid1 (2)'), 
+WebUI.click(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Capture, organize, and tackle your to-_17a2f5/a_Resources_Buttonsstyles__Button-sc-1jwidx_3e5bb7'))
+WebUI.setText(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Log in to continue - Log in with Atlas_6762ee/input_Email_username-uid1'), 
     '22130321@st.hcmuaf.edu.vn')
-
-WebUI.click(findTestObject('Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/span_Remember me_css-178ag6o (2)'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/input_Password_password (2)'), 
+WebUI.click(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Log in to continue - Log in with Atlas_6762ee/span_Remember me_css-178ag6o'))
+WebUI.setEncryptedText(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Log in to continue - Log in with Atlas_6762ee/input_Password_password'), 
     'by3i+AA12UcTlQm2wTyUag==')
+WebUI.click(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Log in to continue - Log in with Atlas_6762ee/span_Remember me_css-178ag6o_1'))
 
-WebUI.click(findTestObject('Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/span_Remember me_css-178ag6o_1'))
 
 //3. Nhấn tab "Boards", chọn bảng ví dụ "Demo_11" sau đó vào bảng
 TestObject btnBoards = new TestObject("btnBoards")
@@ -49,7 +46,7 @@ WebUI.waitForElementClickable(btnBoards, 10)
 WebUI.click(btnBoards)
 WebUI.delay(1) 
 
-// --- 2. Chọn board "Demo_11" ---
+//4. Chọn board "Demo_11" ---
 TestObject boardDemo = new TestObject("boardDemo")
 boardDemo.addProperty("xpath", ConditionType.EQUALS,
     "//span[contains(@class,'GOPk_J9hMP7py5') and text()='Demo_11']")
@@ -58,7 +55,7 @@ WebUI.waitForElementClickable(boardDemo, 10)
 WebUI.click(boardDemo)
 WebUI.delay(5) 
 
-//4. Nhấn vào tên danh sách ví dụ danh sách tên “Công việc tới”
+//5. Nhấn vào tên danh sách ví dụ danh sách tên “Công việc tới”
 TestObject spanListName = new TestObject("spanListName")
 spanListName.addProperty("xpath", ConditionType.EQUALS, "//span[text()='Công việc tới']")
 
@@ -72,22 +69,22 @@ txtListName.addProperty("xpath", ConditionType.EQUALS, "//textarea[@data-testid=
 WebUI.waitForElementVisible(txtListName, 10)
 WebUI.waitForElementClickable(txtListName, 10)
 
-//5. Cập nhật tên mới là “Công việc hả” 
+//6. Nhập tên mới là “Công việc hả” 
 WebUI.sendKeys(txtListName, Keys.chord(Keys.CONTROL, "a"))
 WebUI.sendKeys(txtListName, "Công việc hả")
 WebUI.sendKeys(txtListName, Keys.chord(Keys.ENTER))
 
 WebUI.delay(1)
 
+// Kiểm tra tên danh sách đã được cập nhật thành Công việc hả
 TestObject checkList = new TestObject("checkList")
-checkList.addProperty("xpath", ConditionType.EQUALS,
-    "//h2[contains(@class,'list-header-name') and normalize-space(.)='Công việc hả']")
+checkList.addProperty(
+    "xpath",
+    ConditionType.EQUALS,
+    "//span[normalize-space(text())='Công việc hả']"
+)
 
-boolean exist = WebUI.verifyElementPresent(checkList, 5, FailureHandling.OPTIONAL)
+WebUI.waitForElementVisible(checkList, 5)
+WebUI.verifyElementPresent(checkList, 5)
 
-if (exist) {
-    println("List 'Công việc hả' đang tồn tại")
-} else {
-    KeywordUtil.markFailed("KHÔNG tìm thấy list 'Công việc hả'!")
-}
-
+WebUI.closeBrowser()

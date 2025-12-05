@@ -27,17 +27,14 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://trello.com/')
 
 //2. Đăng nhập thành công vào hệ thống với quyền quản lý bảng, và chuyển đến Dashboard
-WebUI.click(findTestObject('Object Repository/Page_Capture, organize, and tackle your to-_17a2f5/a_Resources_Buttonsstyles__Button-sc-1jwidx_3e5bb7 (2)'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/input_Email_username-uid1 (2)'), 
+WebUI.click(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Capture, organize, and tackle your to-_17a2f5/a_Resources_Buttonsstyles__Button-sc-1jwidx_3e5bb7'))
+WebUI.setText(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Log in to continue - Log in with Atlas_6762ee/input_Email_username-uid1'), 
     '22130321@st.hcmuaf.edu.vn')
-
-WebUI.click(findTestObject('Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/span_Remember me_css-178ag6o (2)'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/input_Password_password (2)'), 
+WebUI.click(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Log in to continue - Log in with Atlas_6762ee/span_Remember me_css-178ag6o'))
+WebUI.setEncryptedText(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Log in to continue - Log in with Atlas_6762ee/input_Password_password'), 
     'by3i+AA12UcTlQm2wTyUag==')
+WebUI.click(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Log in to continue - Log in with Atlas_6762ee/span_Remember me_css-178ag6o_1'))
 
-WebUI.click(findTestObject('Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/span_Remember me_css-178ag6o_1'))
 
 //3. Nhấn tab "Boards", chọn bảng ví dụ "Demo_11" sau đó vào bảng
 TestObject btnBoards = new TestObject("btnBoards")
@@ -85,19 +82,16 @@ btnShareInvite.addProperty("xpath", ConditionType.EQUALS,
 
 WebUI.waitForElementClickable(btnShareInvite, 10)
 WebUI.click(btnShareInvite)
-WebUI.delay(2)
+WebUI.delay(10)
 
-TestObject userRole = new TestObject("userRole")
-userRole.addProperty("xpath", ConditionType.EQUALS,
-	"//div[contains(text(),'@nguyenvanvang2626') and contains(text(),'Workspace guest')]")
+// Kiểm tra trong  có tồn tại nguyenvanvang2626
+TestObject memberName = new TestObject("memberName")
+memberName.addProperty("xpath", ConditionType.EQUALS,
+    "//span[@data-testid='member-list-item-full-name' and contains(.,'nguyenvanvang2626')]")
 
-WebUI.waitForElementVisible(userRole, 10)
-boolean check = WebUI.verifyElementPresent(userRole, 5, FailureHandling.OPTIONAL)
+WebUI.verifyElementPresent(memberName, 5)
 
-if (check) {
-	println("Có hiển thị: @nguyenvanvang2626 • Workspace guest")
-} else {
-	println("KHÔNG tìm thấy dòng: @nguyenvanvang2626 • Workspace guest")
-}
+
+WebUI.closeBrowser()
 
 

@@ -24,14 +24,16 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://trello.com/')
 
 //2. Đăng nhập thành công vào hệ thống, và chuyển đến Dashboard
-WebUI.click(findTestObject('Object Repository/Page_Capture, organize, and tackle your to-_17a2f5/a_Resources_Buttonsstyles__Button-sc-1jwidx_3e5bb7'))
-WebUI.setText(findTestObject('Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/input_Email_username-uid1'), 
+WebUI.click(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Capture, organize, and tackle your to-_17a2f5/a_Resources_Buttonsstyles__Button-sc-1jwidx_3e5bb7'))
+WebUI.setText(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Log in to continue - Log in with Atlas_6762ee/input_Email_username-uid1'), 
     '22130321@st.hcmuaf.edu.vn')
-WebUI.click(findTestObject('Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/span_Remember me_css-178ag6o'))
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/input_Password_password'), 
+WebUI.click(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Log in to continue - Log in with Atlas_6762ee/span_Remember me_css-178ag6o'))
+WebUI.setEncryptedText(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Log in to continue - Log in with Atlas_6762ee/input_Password_password'), 
     'by3i+AA12UcTlQm2wTyUag==')
-WebUI.click(findTestObject('Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/span_Remember me_css-178ag6o_1'))
-// 1. View all closed boards
+WebUI.click(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Log in to continue - Log in with Atlas_6762ee/span_Remember me_css-178ag6o_1'))
+
+
+// 3. View all closed boards
 TestObject btnViewClosed = new TestObject("btnViewClosed")
 btnViewClosed.addProperty("xpath", ConditionType.EQUALS,
 	"//button[contains(text(), 'View all closed boards')]")
@@ -41,7 +43,7 @@ WebUI.click(btnViewClosed)
 WebUI.delay(1)
 
 
-// 2. Click nút Delete của board đúng tên Demo_11
+// 4. Click nút Delete của board đúng tên Demo_11
 TestObject btnDeleteBoard = new TestObject("btnDeleteBoard")
 btnDeleteBoard.addProperty("xpath", ConditionType.EQUALS,
     "//li[.//a[text()='Demo_11']]//button[@data-testid='close-board-delete-board-button']")
@@ -51,7 +53,7 @@ WebUI.click(btnDeleteBoard)
 WebUI.delay(0.5)
 
 
-// 3. Confirm Delete (xóa vĩnh viễn)
+// 5. Confirm Delete (xóa vĩnh viễn)
 TestObject btnDeleteConfirm = new TestObject("btnDeleteConfirm")
 btnDeleteConfirm.addProperty("xpath", ConditionType.EQUALS,
 	"//button[@data-testid='close-board-delete-board-confirm-button']")
@@ -59,15 +61,14 @@ WebUI.waitForElementClickable(btnDeleteConfirm, 10)
 WebUI.click(btnDeleteConfirm)
 WebUI.delay(1)
 
-// Kiểm tra không còn bảng tên Demo_11
+// Kiểm tra không còn bảng tên Demo_11 trong danh sách bảng đã đóng
 TestObject verifyNoDemo11 = new TestObject("verifyNoDemo11")
-verifyNoDemo11.addProperty("xpath", ConditionType.EQUALS,
-	"//a[text()='Demo_11']")
+verifyNoDemo11.addProperty(
+    "xpath",
+    ConditionType.EQUALS,
+    "//a[normalize-space(text())='Demo_11']"
+)
 
-boolean isPresent = WebUI.verifyElementNotPresent(verifyNoDemo11, 5, FailureHandling.OPTIONAL)
+WebUI.verifyElementNotPresent(verifyNoDemo11, 5)
 
-if (isPresent) {
-	println("Board 'Demo_11' đã được xóa hoàn toàn.")
-} else {
-	KeywordUtil.markFailed("Board 'Demo_11' vẫn còn xuất hiện trong danh sách Closed boards!")
-}
+WebUI.closeBrowser()

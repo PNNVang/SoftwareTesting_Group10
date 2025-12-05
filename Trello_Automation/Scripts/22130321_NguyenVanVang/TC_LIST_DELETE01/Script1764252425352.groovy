@@ -27,20 +27,17 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://trello.com/')
 
-//1. Đăng nhập thành công vào hệ thống, và chuyển đến Dashboard
-WebUI.click(findTestObject('Object Repository/Page_Capture, organize, and tackle your to-_17a2f5/a_Resources_Buttonsstyles__Button-sc-1jwidx_3e5bb7 (2)'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/input_Email_username-uid1 (2)'), 
+//2. Đăng nhập thành công vào hệ thống, và chuyển đến Dashboard
+WebUI.click(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Capture, organize, and tackle your to-_17a2f5/a_Resources_Buttonsstyles__Button-sc-1jwidx_3e5bb7'))
+WebUI.setText(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Log in to continue - Log in with Atlas_6762ee/input_Email_username-uid1'), 
     '22130321@st.hcmuaf.edu.vn')
-
-WebUI.click(findTestObject('Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/span_Remember me_css-178ag6o (2)'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/input_Password_password (2)'), 
+WebUI.click(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Log in to continue - Log in with Atlas_6762ee/span_Remember me_css-178ag6o'))
+WebUI.setEncryptedText(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Log in to continue - Log in with Atlas_6762ee/input_Password_password'), 
     'by3i+AA12UcTlQm2wTyUag==')
+WebUI.click(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Log in to continue - Log in with Atlas_6762ee/span_Remember me_css-178ag6o_1'))
 
-WebUI.click(findTestObject('Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/span_Remember me_css-178ag6o_1'))
 
-//2. Nhấn tab "Boards", chọn bảng ví dụ "Demo_11" sau đó vào bảng
+//3. Nhấn tab "Boards", chọn bảng ví dụ "Demo_11" sau đó vào bảng
 TestObject btnBoards = new TestObject("btnBoards")
 btnBoards.addProperty("xpath", ConditionType.EQUALS,
     "//span[contains(@class,'QEGH0t6lsxm4C9') and text()='Boards']")
@@ -49,7 +46,7 @@ WebUI.waitForElementClickable(btnBoards, 10)
 WebUI.click(btnBoards)
 WebUI.delay(1) 
 
-// --- 2. Chọn board "Demo_11" ---
+//4. Chọn board "Demo_11" ---
 TestObject boardDemo = new TestObject("boardDemo")
 boardDemo.addProperty("xpath", ConditionType.EQUALS,
     "//span[contains(@class,'GOPk_J9hMP7py5') and text()='Demo_11']")
@@ -58,7 +55,7 @@ WebUI.waitForElementClickable(boardDemo, 10)
 WebUI.click(boardDemo)
 WebUI.delay(1) 
 
-//3. Ví dụ tại danh sách "Công việc hả", nhấn vào "..." bên trên góc phải danh sách hiện modal
+//5. Ví dụ tại danh sách "Công việc hả", nhấn vào "..." bên trên góc phải danh sách hiện modal
 TestObject btnOverflow = new TestObject("btnOverflow")
 btnOverflow.addProperty("xpath", ConditionType.EQUALS,
     "//button[@data-testid='list-edit-menu-button' and @aria-label='More actions on Công việc hả']")
@@ -67,7 +64,7 @@ WebUI.waitForElementClickable(btnOverflow, 10)
 WebUI.click(btnOverflow)
 WebUI.delay(0.5) 
 
-//4. Nhấn vào dòng "Archive this list" hiện thông báo bên dưới góc trái
+//6. Nhấn vào dòng "Archive this list" hiện thông báo bên dưới góc trái
 TestObject btnArchive = new TestObject("btnArchive")
 btnArchive.addProperty("xpath", ConditionType.EQUALS,
     "//span[contains(text(),'Archive this list')]")
@@ -87,14 +84,16 @@ if (WebUI.verifyElementPresent(btnAlertClose, 5, FailureHandling.OPTIONAL)) {
 }
 WebUI.delay(1)
 
+// Kiểm tra danh sách tên "Công việc hả" không còn tồn tại
 TestObject checkList = new TestObject("checkList")
-checkList.addProperty("xpath", ConditionType.EQUALS,
-	"//h2[contains(@class,'list-header-name') and text()='Công việc hả']")
+checkList.addProperty(
+    "xpath",
+    ConditionType.EQUALS,
+    "//span[normalize-space(text())='Công việc hả']"
+)
 
-boolean notExist = WebUI.verifyElementNotPresent(checkList, 2, FailureHandling.OPTIONAL)
+WebUI.waitForElementVisible(checkList, 5)
+WebUI.verifyElementNotPresent(checkList, 5)
 
-if (notExist) {
-	println("Công việc hả đã xóa thành công")
-} else {
-	KeywordUtil.markFailed("List 'Công việc hả' đã tồn tại trước khi tạo!")
-}
+
+WebUI.closeBrowser()
