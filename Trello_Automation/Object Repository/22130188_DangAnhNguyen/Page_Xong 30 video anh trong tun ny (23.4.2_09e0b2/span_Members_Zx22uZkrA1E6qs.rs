@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Members_Zx22uZkrA1E6qs</name>
+   <tag></tag>
+   <elementGuidId>2fd07736-3217-4f1a-8ade-f5d53668cdf3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ul > li > button.LOhIKSjx1ImXEH.CoC18d9FWl8O6e > span.bH80RvHHmoWYhk > span.g4oicM70jgqP7r > span.jiwoFtNy9OsRTK > span.Zx22uZkrA1E6qs</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Members'])[2]/following::span[8]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8b0724f3-59ae-42ab-8bc0-942f74356b79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Zx22uZkrA1E6qs</value>
+      <webElementGuid>6f28a6de-4db1-466e-8735-a4a9aed5eff1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Attachment</value>
+      <webElementGuid>99f3deed-a7e8-4cdc-89db-4ad5a22bebdf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;feplat3731 react-overlay-up&quot;]/div[@class=&quot;atlaskit-portal-container&quot;]/div[@class=&quot;atlaskit-portal&quot;]/section[@class=&quot;Tu0XvZVffeyqqw js-react-root&quot;]/div[2]/div[1]/div[@class=&quot;aFGD9vtcIAqeiM YzL7yRijWxDng8&quot;]/div[@class=&quot;UZFgTnUqKFdI6u&quot;]/ul[1]/li[1]/button[@class=&quot;LOhIKSjx1ImXEH CoC18d9FWl8O6e&quot;]/span[@class=&quot;bH80RvHHmoWYhk&quot;]/span[@class=&quot;g4oicM70jgqP7r&quot;]/span[@class=&quot;jiwoFtNy9OsRTK&quot;]/span[@class=&quot;Zx22uZkrA1E6qs&quot;]</value>
+      <webElementGuid>8097d8b3-dc92-4f3d-a1e5-83819e996d47</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Members'])[2]/following::span[8]</value>
+      <webElementGuid>240ef9e9-9fe9-41c0-aa3f-75003091316c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Checklist'])[2]/following::span[16]</value>
+      <webElementGuid>3d537a61-bd59-4eaa-91aa-bfce93c26014</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Custom Fields'])[1]/preceding::span[5]</value>
+      <webElementGuid>9f48d3f5-a89b-481d-afed-64227d058417</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul/li/button/span/span/span[2]/span</value>
+      <webElementGuid>a5bbb0b5-d232-4013-b547-d27cb3bb4dcb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Attachment' or . = 'Attachment')]</value>
+      <webElementGuid>9159cd43-2731-4171-b265-831b6a95cab4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

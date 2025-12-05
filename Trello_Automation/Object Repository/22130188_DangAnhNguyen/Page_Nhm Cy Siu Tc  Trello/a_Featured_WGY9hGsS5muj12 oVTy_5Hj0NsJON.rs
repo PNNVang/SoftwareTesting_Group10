@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Featured_WGY9hGsS5muj12 oVTy_5Hj0NsJON</name>
+   <tag></tag>
+   <elementGuidId>92a45cd6-62e3-4f7a-a531-25b010ad801b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.WGY9hGsS5muj12.oVTy_5Hj0NsJON</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='trello-board-root']/div/div/div/div[2]/div/div[2]/div[2]/div/ul/li[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>2bb78098-f317-4a1b-89cb-8646aecb3489</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/b/b4wgiQLd/nhc3b3m-cc3a0y-sic3aau-te1bb91c/power-ups/enabled</value>
+      <webElementGuid>de871ba8-3909-429e-bfbe-99147ced7bfa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>WGY9hGsS5muj12 oVTy_5Hj0NsJON</value>
+      <webElementGuid>6a700aae-c99b-46cc-a5e3-a68dc616a73d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>enabled-powerups-link</value>
+      <webElementGuid>891b2ad9-a062-4f7c-82bf-a89eb79e293c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Enabled7</value>
+      <webElementGuid>d77e3ab4-b76b-4b92-9b79-70de48e746fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;trello-board-root&quot;)/div[1]/div[@class=&quot;board-wrapper&quot;]/div[@class=&quot;board-main-content MGBVHMvOK1TD8j Xpq6bBra11ICMi ivZ_wF4VZB8iYB&quot;]/div[@class=&quot;board-canvas&quot;]/div[@class=&quot;u9fbqAqsZm2m8M&quot;]/div[@class=&quot;z4R6o22U1TiJyR&quot;]/div[@class=&quot;Xw8Tg1DihmxOH0&quot;]/div[@class=&quot;aIZlg_Z9MmRARS&quot;]/ul[1]/li[2]/a[@class=&quot;WGY9hGsS5muj12 oVTy_5Hj0NsJON&quot;]</value>
+      <webElementGuid>48ce6fdb-fd4b-447e-be2e-91c3d5319574</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='trello-board-root']/div/div/div/div[2]/div/div[2]/div[2]/div/ul/li[2]/a</value>
+      <webElementGuid>f4385251-a56a-4818-b859-775dda87a256</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Featured'])[1]/following::a[1]</value>
+      <webElementGuid>ab86b7b0-cbf9-4475-acfa-5825ff09bc20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::a[2]</value>
+      <webElementGuid>23e9bcd9-3a7b-491a-9cca-e9c736cbdc6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Made by Trello'])[1]/preceding::a[1]</value>
+      <webElementGuid>a0ac27a7-0c1f-48cc-8b8a-b95adf4c065b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Categories'])[1]/preceding::a[2]</value>
+      <webElementGuid>28a583c9-386d-451c-9f62-e91a9e9ee731</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Enabled']/parent::*</value>
+      <webElementGuid>7c6fb0e1-4415-4350-84e8-407c51aff60d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/b/b4wgiQLd/nhc3b3m-cc3a0y-sic3aau-te1bb91c/power-ups/enabled')]</value>
+      <webElementGuid>ce153264-e764-4ed6-a972-87b1d26f0406</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul/li[2]/a</value>
+      <webElementGuid>d8377f02-67c4-468c-a6f0-ea18fe8503a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/b/b4wgiQLd/nhc3b3m-cc3a0y-sic3aau-te1bb91c/power-ups/enabled' and (text() = 'Enabled7' or . = 'Enabled7')]</value>
+      <webElementGuid>d3875d55-832c-4034-aad5-9925ed48e429</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/b/b4wgiQLd/nhc3b3m-cc3a0y-sic3aau-te1bb91c/power-ups/enabled' and (text() = 'Enabled6' or . = 'Enabled6')]</value>
+      <webElementGuid>cb0f8671-c934-4d26-8749-16965b3e8b9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Made by Trello'])[2]/preceding::a[1]</value>
+      <webElementGuid>ce89a1e8-89ac-4014-8ef3-03eccccf1e80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/b/b4wgiQLd/nhc3b3m-cc3a0y-sic3aau-te1bb91c/power-ups/enabled' and (text() = 'Enabled5' or . = 'Enabled5')]</value>
+      <webElementGuid>7c8550d1-d038-434f-a640-505b2768bb31</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Voting_O2jFNiRqwPNjZi ybVBgfOiuWZJtD_0be83f</name>
+   <tag></tag>
+   <elementGuidId>91119db9-871d-4eac-8ed5-a89dae69bff8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(6) > a.YWdqwf2ehexrXd > div.WxU8ZEBtsbi2pJ.NbWs9wGxzPMe3j.Xq4g2HJ1vIc6jV > button.O2jFNiRqwPNjZi.ybVBgfOiuWZJtD._St8_YSRMkLv07</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[26]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>44699e8d-0ae4-49b2-bd74-3ea533662a9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>O2jFNiRqwPNjZi ybVBgfOiuWZJtD _St8_YSRMkLv07</value>
+      <webElementGuid>6440ff37-3f43-428f-8ec7-a7a9b3e997b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>fec94735-2565-4508-bae7-ca7653502664</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>pup-settings-button</value>
+      <webElementGuid>c48096f1-b9bb-4bc5-ae9d-3844d0c057a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Settings</value>
+      <webElementGuid>3f16bc99-17b1-4f75-9aaa-b3b9d1ffecfb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;trello-board-root&quot;)/div[1]/div[@class=&quot;board-wrapper&quot;]/div[@class=&quot;board-main-content MGBVHMvOK1TD8j Xpq6bBra11ICMi ivZ_wF4VZB8iYB&quot;]/div[@class=&quot;board-canvas&quot;]/div[@class=&quot;u9fbqAqsZm2m8M&quot;]/div[@class=&quot;z4R6o22U1TiJyR&quot;]/div[@class=&quot;Xw8Tg1DihmxOH0&quot;]/div[@class=&quot;Da4wJ9a1YneHqC&quot;]/div[@class=&quot;UP4S2pNKYlF10X&quot;]/ul[@class=&quot;qwcNX_7XAVb4Gk&quot;]/li[6]/a[@class=&quot;YWdqwf2ehexrXd&quot;]/div[@class=&quot;WxU8ZEBtsbi2pJ NbWs9wGxzPMe3j Xq4g2HJ1vIc6jV&quot;]/button[@class=&quot;O2jFNiRqwPNjZi ybVBgfOiuWZJtD _St8_YSRMkLv07&quot;]</value>
+      <webElementGuid>d8d19f7f-2d15-4c43-9682-2ec0e12c4330</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[26]</value>
+      <webElementGuid>2a567176-c2a1-4009-a330-3659223e0131</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='trello-board-root']/div/div/div/div[2]/div/div[2]/div[2]/div[2]/div/ul/li[6]/a/div/button</value>
+      <webElementGuid>bbf5d45b-e3aa-45cc-aca2-86396799070b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Voting'])[1]/following::button[1]</value>
+      <webElementGuid>1537d151-6653-45d9-bfce-270dc7fa659d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='📈 Track and report your work across boards on real-time dashboards 📊'])[1]/following::button[1]</value>
+      <webElementGuid>6bf5b411-f6a7-4b77-b7dc-9391d7d83b55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Give power to the people, and allow users to vote on cards.'])[1]/preceding::button[1]</value>
+      <webElementGuid>b2c84d40-bb28-458c-b7f6-68fd03c5e287</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='❤️ Staff pick'])[2]/preceding::button[1]</value>
+      <webElementGuid>499384ca-6eb4-425b-a2ac-a69e5e4a9281</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/a/div/button</value>
+      <webElementGuid>56553e67-850e-4fdd-b208-a109277431f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Settings' or . = 'Settings')]</value>
+      <webElementGuid>532a4e77-7a27-4057-9e0a-8637a58441ab</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

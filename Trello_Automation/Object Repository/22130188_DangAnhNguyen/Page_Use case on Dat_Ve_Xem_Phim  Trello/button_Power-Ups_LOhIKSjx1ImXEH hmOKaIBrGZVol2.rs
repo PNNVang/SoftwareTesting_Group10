@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Power-Ups_LOhIKSjx1ImXEH hmOKaIBrGZVol2</name>
+   <tag></tag>
+   <elementGuidId>fec07fdd-8449-4f9f-b07f-d72dcf96da6c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.LOhIKSjx1ImXEH.hmOKaIBrGZVol2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='chrome-container']/div[4]/div[2]/div/div/div/section/ul/li/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e631e967-16eb-44ae-9e95-c7fd5bc03d55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>LOhIKSjx1ImXEH hmOKaIBrGZVol2</value>
+      <webElementGuid>b0d85191-7f7d-49c0-8757-ef1b32e1b2aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Snooze</value>
+      <webElementGuid>83bced8f-1645-4f88-85fa-d56c76c3b079</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;chrome-container&quot;)/div[@class=&quot;pop-over is-shown&quot;]/div[2]/div[@class=&quot;no-back&quot;]/div[@class=&quot;pop-over-content js-pop-over-content u-fancy-scrollbar js-tab-parent&quot;]/div[@class=&quot;js-react-root&quot;]/section[@class=&quot;hdHcoC9PTZz6kB&quot;]/ul[@class=&quot;kQikrV4FulLnoB&quot;]/li[1]/button[@class=&quot;LOhIKSjx1ImXEH hmOKaIBrGZVol2&quot;]</value>
+      <webElementGuid>4b6d2b72-54f3-48bf-a07e-2f3c2f8a4fb4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='chrome-container']/div[4]/div[2]/div/div/div/section/ul/li/button</value>
+      <webElementGuid>ed614f6b-f930-4582-8534-30ec057e0a2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Power-Ups'])[2]/following::button[1]</value>
+      <webElementGuid>5f9e2f97-b5c8-457b-a797-2657bc6c19a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comments'])[1]/following::button[1]</value>
+      <webElementGuid>d615c246-e72e-495d-b102-eba6aca6f826</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Power-Ups'])[1]/preceding::button[1]</value>
+      <webElementGuid>be5cd8c1-a5e4-492c-a85f-f47f0b981071</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/button</value>
+      <webElementGuid>bbf6e2a5-85a2-4a6c-ba32-7a1c8ea5d2f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Snooze' or . = 'Snooze')]</value>
+      <webElementGuid>dd7f4916-c442-4c3e-9b9a-da0e938e8fb7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

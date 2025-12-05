@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Search__16jlkb7n _1o9zkb7n _i0dl1wug _n_7f18aa</name>
+   <tag></tag>
+   <elementGuidId>c03a99fb-63eb-45ba-8370-a5c774b08b50</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div._16jlkb7n._1o9zkb7n._i0dl1wug._nd5l1sux._1mouv77o._195gv77o._1rjcv77o._1e0c1n7u._yv0e12qd._syaz1fxt._j8d6idpf._1av2idpf._1doyidpf._pfztidpf._uoe3idpf._1recidpf._70xridpf._1k96idpf._eq43idpf._1h9u1kw7._ckog1yjy._1x651r31._1nn4glyw._1rzeidpf._1yd8yh40._aetr11ps._uy7x15vq._1qjlqvpr.TFhk4NNdyXWUeP.-Input</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='trello-board-root']/div/div/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c0579813-bd03-4f22-b556-4454d2e20375</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_16jlkb7n _1o9zkb7n _i0dl1wug _nd5l1sux _1mouv77o _195gv77o _1rjcv77o _1e0c1n7u _yv0e12qd _syaz1fxt _j8d6idpf _1av2idpf _1doyidpf _pfztidpf _uoe3idpf _1recidpf _70xridpf _1k96idpf _eq43idpf _1h9u1kw7 _ckog1yjy _1x651r31 _1nn4glyw _1rzeidpf _1yd8yh40 _aetr11ps _uy7x15vq _1qjlqvpr TFhk4NNdyXWUeP -Input</value>
+      <webElementGuid>fb30569b-614e-4e50-b64b-c98a46a9f55a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;trello-board-root&quot;)/div[1]/div[@class=&quot;board-wrapper&quot;]/div[@class=&quot;board-main-content MGBVHMvOK1TD8j Xpq6bBra11ICMi ivZ_wF4VZB8iYB&quot;]/div[@class=&quot;board-canvas&quot;]/div[@class=&quot;u9fbqAqsZm2m8M&quot;]/div[@class=&quot;z4R6o22U1TiJyR&quot;]/div[@class=&quot;Xw8Tg1DihmxOH0&quot;]/div[@class=&quot;aIZlg_Z9MmRARS&quot;]/div[@class=&quot;bT5obrJH8cfbi2&quot;]/div[@class=&quot;_11c82smr _kqswh2mm _lcxv1rj4 -container&quot;]/div[@class=&quot;_12ji1r31 _1qu2glyw _12y3idpf _2rkofajl _v564r5cv _1h6d1p6i _1dqonqa1 _189ee4h9 _4cvr1h6o _80om73ad _1e0c1txw _1n261g80 _1bah1yb4 _kqswh2mm _bfhkr01l _1tke1ylp _ca0qze3t _u5f3ze3t _n3tdze3t _19bvze3t _15peftgi _1ke8ftgi _jaboglyw _1u6lq049 _4cvx1p6i _123byq51 _d0altlke _irr3r01l _1ogl1caj _16qsq049 MR6FSx_xyuFObZ usFn_WrGCWEa7A -control&quot;]/div[@class=&quot;_16jlkb7n _1o9zkb7n _i0dlf1ug _1reo15vq _18m915vq _4cvr1h6o _1e0c11p5 _1n261g80 _8am5i4x0 _kqswh2mm _ca0qv77o _u5f312x7 _n3tdv77o _19bv12x7 -ValueContainer&quot;]/div[@class=&quot;_16jlkb7n _1o9zkb7n _i0dl1wug _nd5l1sux _1mouv77o _195gv77o _1rjcv77o _1e0c1n7u _yv0e12qd _syaz1fxt _j8d6idpf _1av2idpf _1doyidpf _pfztidpf _uoe3idpf _1recidpf _70xridpf _1k96idpf _eq43idpf _1h9u1kw7 _ckog1yjy _1x651r31 _1nn4glyw _1rzeidpf _1yd8yh40 _aetr11ps _uy7x15vq _1qjlqvpr TFhk4NNdyXWUeP -Input&quot;]</value>
+      <webElementGuid>c7b7b19d-f78a-40e2-a06e-6cdbaf0d7596</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='trello-board-root']/div/div/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/div[2]</value>
+      <webElementGuid>fedbe36d-d4f8-43aa-b4dc-0e860551d5af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/following::div[1]</value>
+      <webElementGuid>151c03ed-9dcb-4be9-a584-fbe32a558295</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No options.'])[1]/following::div[4]</value>
+      <webElementGuid>56c6b931-a7b9-4f8e-b668-79dc288749ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Featured'])[1]/preceding::div[1]</value>
+      <webElementGuid>9ff85dbf-200e-4cd2-b548-a55b119f36cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div/div/div/div[2]</value>
+      <webElementGuid>5ac1e795-4c6d-450b-b201-cfcecdd8188b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Power-Ups_HW67lp0JqQABxr</name>
+   <tag></tag>
+   <elementGuidId>f8e04dc4-27db-4fe1-954a-1c96e61e8be1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.HW67lp0JqQABxr</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='react-select-4-option-0']/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>639c3c36-8ebd-4804-88df-e390ea943bfb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>HW67lp0JqQABxr</value>
+      <webElementGuid>94f559a0-c87a-4d11-811b-a09358abc60e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>See all results for &quot;box&quot;</value>
+      <webElementGuid>108080b9-5960-4b7f-9c17-69e9007ab6d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react-select-4-option-0&quot;)/div[@class=&quot;d6fmhj_Yhy1m6R&quot;]/div[@class=&quot;hSURK_K9BrvZH9&quot;]/div[@class=&quot;HW67lp0JqQABxr&quot;]</value>
+      <webElementGuid>9f31cd31-a8e3-4a05-9057-5ba20c08c5f8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react-select-4-option-0']/div/div/div</value>
+      <webElementGuid>aae86250-0fff-44ef-a091-d9cca68d5858</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Power-Ups'])[2]/following::div[16]</value>
+      <webElementGuid>f50395ad-1ab7-4909-b0c4-bb7a9c3a785c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Share'])[1]/following::div[20]</value>
+      <webElementGuid>5973a6aa-4535-4f20-9031-2cfe4780ac5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Box'])[1]/preceding::div[3]</value>
+      <webElementGuid>469c697c-3ac3-480e-a4af-b045938f92a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='See updated information and previews for any Box files or folders attached to a card.'])[1]/preceding::div[4]</value>
+      <webElementGuid>674ea026-1a27-4944-9022-df83c17bc15f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='See all results for &quot;box&quot;']/parent::*</value>
+      <webElementGuid>0a8f004b-93c3-4841-ae5e-15ef82fdf3a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div/div[2]/div/div/div/div/div</value>
+      <webElementGuid>f5b6801c-ee2d-441e-869b-a2fd8d15f0be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'See all results for &quot;box&quot;' or . = 'See all results for &quot;box&quot;')]</value>
+      <webElementGuid>e6b691fa-6be5-43e5-9a1c-6c5fae2b836a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
