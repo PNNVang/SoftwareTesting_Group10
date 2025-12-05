@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Header_Account</name>
+   <tag></tag>
+   <elementGuidId>bb1787d2-5879-4157-86e1-b8ec249354c5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='header-member-menu-avatar']/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.lyE6dN0zPcEtwe.PXrUPxLInxAuOB.UUXk7U_m2LcHHZ</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4535160c-deae-4121-a63a-e50318844a01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>phucabc83 (tailam164)</value>
+      <webElementGuid>e02239ce-d952-454a-9bbe-154a0940bb7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>4ce7e333-d195-43f0-a576-2a077583fae6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>phucabc83 (tailam164)</value>
+      <webElementGuid>b0c1920d-9f23-4199-8a6e-2ef82daf3249</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lyE6dN0zPcEtwe PXrUPxLInxAuOB UUXk7U_m2LcHHZ</value>
+      <webElementGuid>8f63a0e5-1a70-4b4e-802d-28a30528dd9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;header-member-menu-avatar&quot;)/div[@class=&quot;w7KETlmrCN8Ekc&quot;]/span[@class=&quot;lyE6dN0zPcEtwe PXrUPxLInxAuOB UUXk7U_m2LcHHZ&quot;]</value>
+      <webElementGuid>3882e4d4-cf70-473e-b86f-abeb7c8f4291</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='header-member-menu-avatar']/div/span</value>
+      <webElementGuid>c173cc80-14fd-4657-8ed8-be6ce937942f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/div/span</value>
+      <webElementGuid>8313f92a-75cc-4957-8ef0-0431951c14b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@title = 'phucabc83 (tailam164)']</value>
+      <webElementGuid>cecd354c-bce0-4a5d-bc54-8d74a429f13c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

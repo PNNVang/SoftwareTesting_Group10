@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Boards_wNdgQfwraPxaK7 tuIsXtjACg6oZB Fwkg_449410</name>
+   <tag></tag>
+   <elementGuidId>b69bcb85-97c0-4dc2-9ef9-dc53ac178695</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.wNdgQfwraPxaK7.tuIsXtjACg6oZB.FwkgyzOcGprpi1.QsI5QQd3bvvoay</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div/div/div/nav/section/div/section/ul/li/ul/li[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>afe80d73-7d46-4d2e-8f89-7553368548f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/w/abcs35/members</value>
+      <webElementGuid>2e33b722-26d5-404d-a4a2-31703bf7e2cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wNdgQfwraPxaK7 tuIsXtjACg6oZB FwkgyzOcGprpi1 QsI5QQd3bvvoay</value>
+      <webElementGuid>bafbda0a-2a6a-4296-9a1e-1b294feeaa1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>home-team-members-tab</value>
+      <webElementGuid>a4807286-8209-471c-94ad-050d1e59c146</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Members</value>
+      <webElementGuid>8b1fbc22-877b-41e6-898f-ee1b014f3fa8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;js-react-root&quot;]/div[@class=&quot;igs0P2yeiJmpkk&quot;]/div[@class=&quot;witf2lW81DY7WP&quot;]/nav[@class=&quot;eOF7HLejybn5ad&quot;]/section[@class=&quot;v2yaj6y7dtFy4C&quot;]/div[1]/section[@class=&quot;IyWeSHzb5z4TTx&quot;]/ul[1]/li[@class=&quot;WmhimhrsxjL1KU&quot;]/ul[1]/li[@class=&quot;WmhimhrsxjL1KU&quot;]/a[@class=&quot;wNdgQfwraPxaK7 tuIsXtjACg6oZB FwkgyzOcGprpi1 QsI5QQd3bvvoay&quot;]</value>
+      <webElementGuid>f058acd5-1033-4101-ace6-087ffb935a29</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div/div/div/nav/section/div/section/ul/li/ul/li[2]/a</value>
+      <webElementGuid>99d4129c-9ba9-450e-b46e-7786cd786b4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Boards'])[2]/following::a[1]</value>
+      <webElementGuid>f745e93c-0179-4fc2-9a42-1361ec6cc955</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='abcs'])[1]/following::a[2]</value>
+      <webElementGuid>82ef3ccf-95a9-41e8-8a2c-94bdd64d494d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[1]/preceding::a[1]</value>
+      <webElementGuid>512f276a-e62b-4ab3-8434-75bbcab38190</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/w/abcs35/members')]</value>
+      <webElementGuid>9452f34e-64be-4053-b5e5-9527f3798cb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/ul/li[2]/a</value>
+      <webElementGuid>6941f303-c34b-4000-907b-4f87004726c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/w/abcs35/members' and (text() = 'Members' or . = 'Members')]</value>
+      <webElementGuid>99b5864d-232a-459e-bf4e-72f6420dea95</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

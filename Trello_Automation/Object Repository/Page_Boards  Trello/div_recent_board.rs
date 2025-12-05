@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_recent_board</name>
+   <tag></tag>
+   <elementGuidId>7fd8c050-bffe-4b4a-abab-6c28ea239cb3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a[title=&quot;Chat_App&quot;] > div.DixFsoZpaUkdLa > div.Oyv4uPfpaB4_Yz > div.gWl3Xe9ruADN19.SzliHsDO_R43nR</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div/div/div/main/div/div[3]/div/div[2]/div/a/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3cebf49b-02f3-4e4d-bcc0-7c35c2c1e43c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gWl3Xe9ruADN19 SzliHsDO_R43nR</value>
+      <webElementGuid>8d06e80b-741d-4d11-9563-62ff7d6d6ada</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;js-react-root&quot;]/div[@class=&quot;igs0P2yeiJmpkk&quot;]/div[@class=&quot;witf2lW81DY7WP&quot;]/main[@class=&quot;WE1g1M6mHeG8Zv&quot;]/div[@class=&quot;N5JLl1bG1SMtDO&quot;]/div[3]/div[@class=&quot;_0WILnE2Yki1zE3&quot;]/div[@class=&quot;JeWt7esCgw4_73&quot;]/div[@class=&quot;Dm9SyZvpL8MyK1&quot;]/a[1]/div[@class=&quot;DixFsoZpaUkdLa&quot;]/div[@class=&quot;Oyv4uPfpaB4_Yz&quot;]/div[@class=&quot;gWl3Xe9ruADN19 SzliHsDO_R43nR&quot;]</value>
+      <webElementGuid>694d1065-fcc0-45bb-a5ef-32ed4e4b0ffb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div/div/div/main/div/div[3]/div/div[2]/div/a/div/div/div</value>
+      <webElementGuid>a9565ad0-b812-4d0b-b5f8-8b1652f1d601</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/div/a/div/div/div</value>
+      <webElementGuid>39a6b510-ee68-4af0-9f25-03fb1363464a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

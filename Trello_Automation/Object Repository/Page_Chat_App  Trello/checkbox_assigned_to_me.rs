@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkbox_assigned_to_me</name>
+   <tag></tag>
+   <elementGuidId>241355bf-719e-44c0-9ea4-289cdf509be0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(2) > label.QAbIzaY_2ICVlA.llQZ8KQKbYje7j.PZwAvQwrxnJ0b4.O9nDqZLwVMc7ZA > span.I1mTB4BD1hFm9_ > span.ZAcH7Pr9TT7uUR > svg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='No members'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>ad6be287-e563-47aa-af00-4a2c5d4832df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>16px</value>
+      <webElementGuid>9bbf6aaa-c777-4473-97dd-524184080212</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>16px</value>
+      <webElementGuid>3a2091fa-5ced-42d1-ad31-2123cf6e2dc8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>-3 -4 16 16</value>
+      <webElementGuid>cd5a1ad0-7079-4fe4-a528-c55872cc35d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>fill</name>
+      <type>Main</type>
+      <value>none</value>
+      <webElementGuid>2a5e88c9-5abb-413f-8fd8-eef69c97e294</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>c76dda85-e6db-4188-b0ae-1a4f15bd9c67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>3a8e4eb1-d210-4cd9-a2dd-72201a9cf3c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>5e141fbd-0d88-48a1-846b-6e7774218695</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;mdl-js&quot;]/body[@class=&quot;feplat3731&quot;]/div[@class=&quot;atlaskit-portal-container&quot;]/div[@class=&quot;atlaskit-portal&quot;]/section[@class=&quot;Tu0XvZVffeyqqw js-react-root&quot;]/div[2]/div[1]/div[@class=&quot;aFGD9vtcIAqeiM YzL7yRijWxDng8&quot;]/div[2]/ul[1]/li[2]/label[@class=&quot;QAbIzaY_2ICVlA llQZ8KQKbYje7j PZwAvQwrxnJ0b4 O9nDqZLwVMc7ZA&quot;]/span[@class=&quot;I1mTB4BD1hFm9_&quot;]/span[@class=&quot;ZAcH7Pr9TT7uUR&quot;]/svg[1]</value>
+      <webElementGuid>cf12a122-4f1b-4d2e-8d37-d40516e7c8bc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No members'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>48391ec2-9c44-41da-afc9-45bd6700e5de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/following::*[name()='svg'][4]</value>
+      <webElementGuid>77e25535-0c92-47cb-a605-54f147cb849a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cards assigned to me'])[1]/preceding::*[name()='svg'][1]</value>
+      <webElementGuid>037d1981-7aad-487b-9478-5e00ec1761ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Marked as complete'])[1]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>908c71ea-bbeb-47e5-8496-4b0e8ba900cd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

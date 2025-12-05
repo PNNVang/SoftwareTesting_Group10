@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Tạo Workspace thành công (Hợp lệ)</description>
+   <name>TC_WORKSPACE_ADD_01</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8cf8d4c0-55ac-412a-b6b3-5e00df2c8325</testCaseGuid>
+</TestCaseEntity>

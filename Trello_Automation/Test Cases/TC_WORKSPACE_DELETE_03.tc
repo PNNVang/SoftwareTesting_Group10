@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_WORKSPACE_DELETE_03</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>66434164-5100-46e0-8a9e-5e60210ecf8e</testCaseGuid>
+</TestCaseEntity>

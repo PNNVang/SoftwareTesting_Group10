@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CARDFILTER_COMBINE_01</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6f98d8ad-5b8f-4401-9a56-d905c50b318e</testCaseGuid>
+</TestCaseEntity>

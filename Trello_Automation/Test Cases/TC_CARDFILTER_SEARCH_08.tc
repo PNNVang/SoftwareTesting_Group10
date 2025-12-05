@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_CARDFILTER_SEARCH_08</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>62ca197b-453a-4a4e-9912-7a127bf99089</testCaseGuid>
+</TestCaseEntity>

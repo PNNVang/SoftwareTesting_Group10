@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_Header_Create</name>
+   <tag></tag>
+   <elementGuidId>0962c72e-40db-4860-b889-2fa9d8a482fe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='account-menu-popover-content']/div[3]/div/ul/li[2]/button/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(2) > button.LOhIKSjx1ImXEH > span.bH80RvHHmoWYhk > span.g4oicM70jgqP7r</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1427553b-acb8-4477-a5ca-798615e6cb06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>g4oicM70jgqP7r</value>
+      <webElementGuid>50455b18-dba3-45f9-8c46-7003ede63cfe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create Workspace</value>
+      <webElementGuid>01d2c245-a653-43c6-8a93-c4f9393a69c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;account-menu-popover-content&quot;)/div[@class=&quot;eojBNcm2w4h4Y6&quot;]/div[@class=&quot;UZFgTnUqKFdI6u&quot;]/ul[1]/li[2]/button[@class=&quot;LOhIKSjx1ImXEH&quot;]/span[@class=&quot;bH80RvHHmoWYhk&quot;]/span[@class=&quot;g4oicM70jgqP7r&quot;]</value>
+      <webElementGuid>cbe8f205-24e4-4c99-bc33-b98db324c00c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='account-menu-popover-content']/div[3]/div/ul/li[2]/button/span/span</value>
+      <webElementGuid>ea1aceaf-415e-4d43-b5f1-81c9f85cc03f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Theme'])[1]/following::span[5]</value>
+      <webElementGuid>450a0f29-fcf9-4683-9161-341fe339de4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Settings'])[12]/following::span[7]</value>
+      <webElementGuid>7017971e-bdda-444a-9b5c-00990cf25a3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/preceding::span[4]</value>
+      <webElementGuid>d8730cd2-f0de-4cca-853b-e8c972368351</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shortcuts'])[1]/preceding::span[6]</value>
+      <webElementGuid>c24d7fe0-ed6d-44cc-8ddd-c90fa473bbcb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Create Workspace']/parent::*</value>
+      <webElementGuid>8401c1bc-913d-491e-a52e-8020b3928d29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/button/span/span</value>
+      <webElementGuid>62754c59-7550-44f1-b643-c0a87efe4055</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Create Workspace' or . = 'Create Workspace')]</value>
+      <webElementGuid>31995f1b-d5f4-45b9-b78b-b7df99f05ed5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

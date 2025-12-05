@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Chỉnh sửa quyền truy cập Workspace (Hợp lệ)</description>
+   <name>TC_WORKSPACE_EDIT_07</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aa63d60d-3527-40bd-abef-46df1297df3b</testCaseGuid>
+</TestCaseEntity>
