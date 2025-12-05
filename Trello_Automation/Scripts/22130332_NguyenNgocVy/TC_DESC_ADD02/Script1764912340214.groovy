@@ -1,5 +1,6 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.util.KeywordUtil
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -51,7 +52,7 @@ WebUI.click(boardDemo)
 WebUI.delay(2)
 
 // --- Chọn card cần sửa tiêu đề ---
-String oldTitle = "Thẻ này để test phần mô tả"
+String oldTitle = "Card Thêm mô tả chứa URL hoặc link"
 TestObject cardToEdit = new TestObject('cardToEdit')
 cardToEdit.addProperty('xpath', ConditionType.EQUALS, "//h2[@data-testid='list-name'][.='Kiểm thử trello']/ancestor::div[@data-testid='list']//a[@data-testid='card-name' and text()='" + oldTitle + "']")
 
@@ -59,32 +60,41 @@ WebUI.waitForElementVisible(cardToEdit, 10)
 WebUI.waitForElementClickable(cardToEdit, 10)
 WebUI.click(cardToEdit)
 
-// --- Click nút Edit để mở editor ---
-TestObject editDescriptionButton = new TestObject('editDescriptionButton')
-editDescriptionButton.addProperty('xpath', ConditionType.EQUALS, "//button[@data-testid='description-edit-button']")
+// --- Chọn nút "Add a more detailed description..." ---
+TestObject addDescriptionButton = new TestObject('addDescriptionButton')
+addDescriptionButton.addProperty('xpath', ConditionType.EQUALS, "//button[@data-testid='description-button']")
 
-WebUI.waitForElementVisible(editDescriptionButton, 10)
-WebUI.click(editDescriptionButton)
+WebUI.waitForElementVisible(addDescriptionButton, 10)
+WebUI.click(addDescriptionButton)
 
-// --- Chọn editor mô tả ---
+// --- Chọn editor và nhập URL ---
 TestObject descriptionEditor = new TestObject('descriptionEditor')
+// Editor có id 'ak-editor-textarea' trong ví dụ trước của bạn
 descriptionEditor.addProperty('xpath', ConditionType.EQUALS, "//div[@id='ak-editor-textarea']")
 
 WebUI.waitForElementVisible(descriptionEditor, 10)
-WebUI.click(descriptionEditor)
 
-// Xóa toàn bộ nội dung cũ
-WebUI.sendKeys(descriptionEditor, Keys.chord(Keys.CONTROL, "a") + Keys.BACK_SPACE)
+// URL cần chèn (theo yêu cầu)
+String urlToInsert = "https://trello.com/vi"
 
-// --- Nội dung mô tả thay đổi nhưng không lưu mà hủy thay đổi ---
-WebUI.sendKeys(descriptionEditor, 'Nội dung mô tả thay đổi nhưng không lưu mà hủy thay đổi')
+// Dán/nhập URL vào editor
+// Sử dụng executeJavaScript để đặt nội dung trực tiếp tránh flaky với sendKeys
+String jsSetText = "var el = document.getElementById('ak-editor-textarea');" +
+    "if(el){ el.focus(); el.innerText = '" + urlToInsert + "'; " +
+    "var evt = document.createEvent('HTMLEvents'); evt.initEvent('input', true, false); el.dispatchEvent(evt);}"
 
-// --- Click nút Cancel để hủy chỉnh sửa ---
-TestObject cancelButton = new TestObject('cancelButton')
-cancelButton.addProperty('xpath', ConditionType.EQUALS, "//button[@data-testid='description-cancel-button']")
-WebUI.waitForElementVisible(cancelButton, 10)
-WebUI.click(cancelButton)
-WebUI.delay(2)
+// Thực hiện JS
+WebUI.executeJavaScript(jsSetText, null)
+WebUI.delay(1)
+
+// --- Click nút Save ---
+TestObject saveDescriptionButton = new TestObject('saveDescriptionButton')
+saveDescriptionButton.addProperty('xpath', ConditionType.EQUALS, "//button[contains(text(),'Save')]")
+
+if (WebUI.waitForElementVisible(saveDescriptionButton, 5, FailureHandling.OPTIONAL)) {
+    WebUI.click(saveDescriptionButton)
+	WebUI.delay(2)
+}
 
 // --- Click nút Close trước khi đóng trình duyệt ---
 TestObject closeButton = new TestObject('closeButton')
@@ -93,44 +103,44 @@ closeButton.addProperty('xpath', ConditionType.EQUALS, "//span[@data-testid='Clo
 WebUI.waitForElementVisible(closeButton, 10)
 WebUI.click(closeButton)
 
-// ===== VERIFY MÔ TẢ KHÔNG BỊ THAY ĐỔI SAU KHI BẤM CANCEL =====
+// ================== VERIFY MÔ TẢ VỪA THÊM ==================
 
-// Mô tả ban đầu (trước khi sửa)
-String originalDescription = "Mô tả mới của thẻ đã được cập nhật thật tuyệt vời"
+// --- MỞ LẠI CARD để VERIFY (an toàn hơn) ---
+WebUI.waitForElementClickable(cardToEdit, 10)
+WebUI.click(cardToEdit)
+WebUI.delay(1)
 
-// Mở lại card để verify
-TestObject verifyCard = new TestObject('verifyCard')
-verifyCard.addProperty('xpath', ConditionType.EQUALS,
-	"//h2[@data-testid='list-name'][.='Kiểm thử trello']" +
-	"/ancestor::div[@data-testid='list']" +
-	"//a[@data-testid='card-name' and text()='" + oldTitle + "']")
-
-WebUI.waitForElementClickable(verifyCard, 10)
-WebUI.click(verifyCard)
-
-// Locate lại nội dung mô tả (DOM thật)
+// --- Vùng hiển thị nội dung mô tả ---
 TestObject descriptionContent = new TestObject('descriptionContent')
-descriptionContent.addProperty('xpath', ConditionType.EQUALS,
-	"//div[contains(@class,'ak-renderer-document')]")
+descriptionContent.addProperty('xpath', ConditionType.EQUALS, "//div[contains(@class,'ak-renderer-document')]")
 
 WebUI.waitForElementVisible(descriptionContent, 10)
 
-String actualDescription = WebUI.getText(descriptionContent)
+// --- VERIFY: kiểm tra có anchor <a> chứa href = urlToInsert ---
+TestObject linkInDescription = new TestObject('linkInDescription')
+linkInDescription.addProperty('xpath', ConditionType.EQUALS,
+    "//div[contains(@class,'ak-renderer-document')]//a[contains(@href,'" + urlToInsert + "') or normalize-space(text())='" + urlToInsert + "']")
 
-// Log ra cho chắc chắn nhìn thấy
-WebUI.comment("👉 Mô tả hiện tại sau khi bấm Cancel: [" + actualDescription + "]")
+boolean linkPresent = WebUI.verifyElementPresent(linkInDescription, 10, FailureHandling.OPTIONAL)
 
-// ✅ VERIFY: phải GIỐNG mô tả ban đầu
-if (actualDescription.trim() == originalDescription.trim()) {
-	WebUI.comment("✅ PASS: Bấm Cancel → mô tả KHÔNG bị thay đổi!")
+if (linkPresent) {
+    // Lấy href và log ra
+    String actualHref = WebUI.getAttribute(linkInDescription, "href")
+    WebUI.comment("Expected URL: " + urlToInsert)
+    WebUI.comment("Found href: " + actualHref)
+    if (actualHref != null && actualHref.contains("trello.com/vi")) {
+        KeywordUtil.logInfo("✅ PASS: URL được lưu và hiển thị dưới dạng link với href chứa 'trello.com/vi'")
+    } else {
+        KeywordUtil.markFailed("❌ FAIL: Link tồn tại nhưng href không đúng: " + actualHref)
+    }
 } else {
-	KeywordUtil.markFailed("❌ FAIL: Bấm Cancel nhưng mô tả đã bị thay đổi!")
+    KeywordUtil.markFailed("❌ FAIL: Không tìm thấy link chứa '" + urlToInsert + "' trong mô tả")
 }
 
-// Đóng lại card sau khi verify
-TestObject closeAfterVerify = new TestObject('closeAfterVerify')
-closeAfterVerify.addProperty('xpath', ConditionType.EQUALS, "//span[@data-testid='CloseIcon']")
-WebUI.click(closeAfterVerify)
+// --- Đóng popup và trình duyệt ---
+if (WebUI.waitForElementVisible(closeButton, 5, FailureHandling.OPTIONAL)) {
+    WebUI.click(closeButton)
+}
 
 
 // --- Đóng trình duyệt ---
