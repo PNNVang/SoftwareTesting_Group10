@@ -28,17 +28,14 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://trello.com/')
 
 //2. Đăng nhập thành công vào hệ thống với quyền quản lý bảng, và chuyển đến Dashboard
-WebUI.click(findTestObject('Object Repository/Page_Capture, organize, and tackle your to-_17a2f5/a_Resources_Buttonsstyles__Button-sc-1jwidx_3e5bb7 (2)'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/input_Email_username-uid1 (2)'), 
+WebUI.click(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Capture, organize, and tackle your to-_17a2f5/a_Resources_Buttonsstyles__Button-sc-1jwidx_3e5bb7'))
+WebUI.setText(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Log in to continue - Log in with Atlas_6762ee/input_Email_username-uid1'), 
     '22130321@st.hcmuaf.edu.vn')
-
-WebUI.click(findTestObject('Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/span_Remember me_css-178ag6o (2)'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/input_Password_password (2)'), 
+WebUI.click(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Log in to continue - Log in with Atlas_6762ee/span_Remember me_css-178ag6o'))
+WebUI.setEncryptedText(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Log in to continue - Log in with Atlas_6762ee/input_Password_password'), 
     'by3i+AA12UcTlQm2wTyUag==')
-
-WebUI.click(findTestObject('Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/span_Remember me_css-178ag6o_1'))
+WebUI.click(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Log in to continue - Log in with Atlas_6762ee/span_Remember me_css-178ag6o_1'))
+WebUI.delay(15)
 
 //3. Nhấn tab "Boards", chọn bảng ví dụ "Demo_11" sau đó vào bảng
 TestObject btnBoards = new TestObject("btnBoards")
@@ -68,13 +65,21 @@ WebUI.click(btnShare)
 WebUI.delay(0.5)
 
 //5. Nhập tên người cần mời (ví dụ: Vidugmail.com)
-//6. Hiện thông báo ở ngay dưới ô nhập tên : "Looks like that person isn't a                                                                                                                                                                                                                                                                                                                                                    
-//Trello member yet. Add their email address to invite them."
 TestObject inputAddMembers = new TestObject("inputAddMembers")
 inputAddMembers.addProperty("xpath", ConditionType.EQUALS,
 	"//input[@data-testid='add-members-input']")
 WebUI.waitForElementVisible(inputAddMembers, 10)
 WebUI.setText(inputAddMembers, "Vidugmail.com")
-WebUI.delay(0.5)
+WebUI.delay(1.5)
 
-WebUI.delay(1)
+//Kiểm tra hiện đúng thông báo ở ngay dưới ô nhập tên : "Looks like that person isn't a
+//Trello member yet. Add their email address to invite them."
+TestObject inviteWarning = new TestObject("inviteWarning")
+inviteWarning.addProperty(
+	"xpath",
+	ConditionType.EQUALS,
+	"//div[contains(@class,'is-empty-text') and contains(.,\"Looks like that person isn't a Trello member yet.\")]"
+)
+WebUI.verifyElementPresent(inviteWarning, 5)
+
+WebUI.closeBrowser()

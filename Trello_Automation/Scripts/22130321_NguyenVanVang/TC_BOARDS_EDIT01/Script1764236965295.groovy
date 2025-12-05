@@ -26,18 +26,14 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://trello.com/')
 
 //2. Đăng nhập thành công vào hệ thống, và chuyển đến Dashboard
-WebUI.click(findTestObject('Object Repository/Page_Capture, organize, and tackle your to-_17a2f5/a_Resources_Buttonsstyles__Button-sc-1jwidx_3e5bb7 (2)'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/input_Email_username-uid1 (2)'), 
+WebUI.click(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Capture, organize, and tackle your to-_17a2f5/a_Resources_Buttonsstyles__Button-sc-1jwidx_3e5bb7'))
+WebUI.setText(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Log in to continue - Log in with Atlas_6762ee/input_Email_username-uid1'), 
     '22130321@st.hcmuaf.edu.vn')
-
-WebUI.click(findTestObject('Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/span_Remember me_css-178ag6o (2)'))
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/input_Password_password (2)'), 
+WebUI.click(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Log in to continue - Log in with Atlas_6762ee/span_Remember me_css-178ag6o'))
+WebUI.setEncryptedText(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Log in to continue - Log in with Atlas_6762ee/input_Password_password'), 
     'by3i+AA12UcTlQm2wTyUag==')
-
-WebUI.click(findTestObject('Object Repository/Page_Log in to continue - Log in with Atlas_6762ee/span_Remember me_css-178ag6o_1'))
-WebUI.delay(5)
+WebUI.click(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Log in to continue - Log in with Atlas_6762ee/span_Remember me_css-178ag6o_1'))
+WebUI.delay(15)
 
 
 //3. Nhấn tab "Boards", chọn bảng ví dụ "Demo_11" sau đó vào bảng
@@ -137,21 +133,31 @@ gradientOcean.addProperty("xpath", ConditionType.EQUALS,
 
 WebUI.waitForElementClickable(gradientOcean, 10)
 WebUI.click(gradientOcean)
-WebUI.delay(2)
+WebUI.delay(1)
 
 // Click nút X 
-TestObject closeIcon = new TestObject("closeIcon")
-closeIcon.addProperty("xpath", ConditionType.EQUALS, "(//span[contains(@class,'_1e0c1o8l')])[1]")
-WebUI.waitForElementClickable(closeIcon, 10)
-WebUI.click(closeIcon)
+TestObject btnClose = new TestObject("btnClose")
+btnClose.addProperty("xpath", ConditionType.EQUALS,
+    "//button[@aria-label='Close popover']")
+    
+WebUI.waitForElementClickable(btnClose, 10)
+WebUI.click(btnClose)
 
 
-// Kiểm tra + click icon khóa 
+// Kiểm tra tên bảng đã được cập nhật thành Demo_11
+TestObject boardTitle = new TestObject("boardTitle")
+boardTitle.addProperty("xpath", ConditionType.EQUALS,
+    "//h1[@data-testid='board-name-display' and normalize-space(text())='Demo_11']")
+
+WebUI.verifyElementPresent(boardTitle, 5)
+WebUI.delay(1)
+
+// Kiểm tra đã chuyển qua trạng thái "Private"
 TestObject privateIcon = new TestObject("privateIcon")
 privateIcon.addProperty("xpath", ConditionType.EQUALS, "//*[@data-testid='PrivateIcon']")
-WebUI.waitForElementVisible(privateIcon, 10)
-WebUI.verifyElementPresent(privateIcon, 10)
-WebUI.click(privateIcon)
+
+WebUI.verifyElementPresent(privateIcon, 5)   
+WebUI.delay(1)
 
 
 // Kiểm tra nút Add a list màu xanh + click 
@@ -160,4 +166,6 @@ addListBtn.addProperty("xpath", ConditionType.EQUALS, "//*[@data-testid='list-co
 WebUI.waitForElementClickable(addListBtn, 10)
 WebUI.verifyElementPresent(addListBtn, 10)
 WebUI.click(addListBtn)
+
+WebUI.closeBrowser()
 

@@ -16,11 +16,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.testobject.ConditionType
-
-WebUI.openBrowser('')
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import org.openqa.selenium.Keys as Keys
 
 //1. Truy cập vào trang web trello.com
+WebUI.openBrowser('')
+
 WebUI.navigateToUrl('https://trello.com/')
 
 //2. Đăng nhập thành công vào hệ thống, và chuyển đến Dashboard
@@ -32,46 +36,55 @@ WebUI.setEncryptedText(findTestObject('Object Repository/22130321_NguyenVanVang/
     'by3i+AA12UcTlQm2wTyUag==')
 WebUI.click(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Log in to continue - Log in with Atlas_6762ee/span_Remember me_css-178ag6o_1'))
 
-//3. Nhấn nút "Create" trên thanh header
-//4.  Nhấn dòng "Create board” hiện form
-WebUI.click(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Boards  Trello/p_troubleshooting guide_jzNA5uVDhk7V5S'))
 
-WebUI.click(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Boards  Trello/span_View all closed boards_g4oicM70jgqP7r'))
+//3. Nhấn tab "Boards", chọn bảng ví dụ "Demo_11" sau đó vào bảng
+TestObject btnBoards = new TestObject("btnBoards")
+btnBoards.addProperty("xpath", ConditionType.EQUALS,
+    "//span[contains(@class,'QEGH0t6lsxm4C9') and text()='Boards']")
 
-WebUI.click(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Boards  Trello/input__nch-textfield__input a3omnNx_j558kc _229800'))
+WebUI.waitForElementClickable(btnBoards, 10)
+WebUI.click(btnBoards)
+WebUI.delay(1) 
 
+//4. Chọn board "Demo_11" ---
+TestObject boardDemo = new TestObject("boardDemo")
+boardDemo.addProperty("xpath", ConditionType.EQUALS,
+    "//span[contains(@class,'GOPk_J9hMP7py5') and text()='Demo_11']")
 
-//4. Nhập tên bảng: "Demo_1"
-WebUI.setText(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Boards  Trello/input__nch-textfield__input a3omnNx_j558kc _57218e_5'), 
-    'Demo_1')
+WebUI.waitForElementClickable(boardDemo, 10)
+WebUI.click(boardDemo)
+WebUI.delay(5) 
 
-//5. Chọn không gian làm việc (nếu có)
-//6. Chỉnh quyền xem có thể là (Private hoặc Public)
-WebUI.click(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Boards  Trello/div_Visibility_react-select-3-single-value'))
+//5. Nhấn vào tên danh sách ví dụ danh sách tên “Công việc tới”
+TestObject spanListName = new TestObject("spanListName")
+spanListName.addProperty("xpath", ConditionType.EQUALS, "//span[text()='Công việc tới']")
 
-WebUI.click(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Boards  Trello/div'))
+WebUI.waitForElementClickable(spanListName, 10)
+WebUI.click(spanListName)
+WebUI.delay(0.5) 
 
-WebUI.click(findTestObject('Object Repository/22130321_NguyenVanVang/Page_Boards  Trello/button_Change to public_ybVBgfOiuWZJtD orot_ed26f4'))
+TestObject txtListName = new TestObject("txtListName")
+txtListName.addProperty("xpath", ConditionType.EQUALS, "//textarea[@data-testid='list-name-textarea']")
 
-// 7. Nhấn nút "Create" để tạo mới bảng
-TestObject btnCreateBoard = new TestObject("btnCreateBoard")
-btnCreateBoard.addProperty("xpath", ConditionType.EQUALS,
-    "//button[@data-testid='create-board-submit-button' and text()='Create']")
+WebUI.waitForElementVisible(txtListName, 10)
+WebUI.waitForElementClickable(txtListName, 10)
 
-WebUI.waitForElementClickable(btnCreateBoard, 10)
-WebUI.click(btnCreateBoard)
-WebUI.delay(15)
+//6. Nhập tên mới để trống 
+WebUI.sendKeys(txtListName, Keys.chord(Keys.CONTROL, "a"))
+WebUI.sendKeys(txtListName, " ")
+WebUI.sendKeys(txtListName, Keys.chord(Keys.ENTER))
 
-// Kiểm tra xem bảng mở có đúng tên Demo_1
-TestObject boardName = new TestObject("Demo_1")
-boardName.addProperty("xpath", ConditionType.EQUALS, "//*[@data-testid='board-name-display']")
+WebUI.delay(1)
 
-WebUI.waitForElementClickable(boardName, 10)
-WebUI.click(boardName)
+// Kiểm tra tên danh sách đã được cập nhật thành Công việc hả
+TestObject checkList = new TestObject("checkList")
+checkList.addProperty(
+    "xpath",
+    ConditionType.EQUALS,
+    "//span[normalize-space(text())='Công việc tới']"
+)
+
+WebUI.waitForElementVisible(checkList, 5)
+WebUI.verifyElementPresent(checkList, 5)
 
 WebUI.closeBrowser()
-
-
-
-
-

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_LIST_RENAME01</name>
+   <name>TC_LIST_RENAME02</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>db7551d3-a1e8-4d57-bc73-69ee9e486da5</testCaseGuid>
+   <testCaseGuid>42c832cb-2d17-4fbd-b825-b483f1ba15f2</testCaseGuid>
 </TestCaseEntity>
