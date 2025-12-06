@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>CARD_DUEDATE_Add01</name>
+   <name>CARD_DUEDATE_Add_01</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>

@@ -6,24 +6,6 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>b5749467-9be3-4236-bba2-f9a80bd5c7d3</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>95d4fd39-a7a4-4e8d-9ac4-b0dfc2f25719</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>d1fe8921-13fb-4cd2-9739-095ae64312be</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>9e01b92c-0f5f-4095-9f08-665ed812e9ea</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>'$!@#%'</defaultValue>
       <description></description>
