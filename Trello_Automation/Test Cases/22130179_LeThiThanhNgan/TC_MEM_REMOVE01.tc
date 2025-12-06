@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_MEM_REMOVE01</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1f6e21e1-567d-4a99-ba48-d9c297cfef8a</testCaseGuid>
+</TestCaseEntity>

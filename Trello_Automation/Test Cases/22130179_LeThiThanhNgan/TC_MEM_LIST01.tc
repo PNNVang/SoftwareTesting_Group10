@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_MEM_LIST01</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b423c01d-dc6e-4d79-a7ce-a3386f51c845</testCaseGuid>
+</TestCaseEntity>

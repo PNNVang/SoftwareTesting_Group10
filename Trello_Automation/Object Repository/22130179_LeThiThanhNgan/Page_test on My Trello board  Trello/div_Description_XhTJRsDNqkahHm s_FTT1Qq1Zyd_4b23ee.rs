@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Description_XhTJRsDNqkahHm s_FTT1Qq1Zyd_4b23ee</name>
+   <tag></tag>
+   <elementGuidId>4372e667-e375-450d-8531-b84d28a11bfa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.XhTJRsDNqkahHm.s_FTT1Qq1Zyd9Q.P25mIWy2UvVvvL</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/section[2]/div[2]/div/div/div/div/div/div/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;editor-loading-spinner&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1e180d07-a416-40a2-98c6-fc533c4a47e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>XhTJRsDNqkahHm s_FTT1Qq1Zyd9Q P25mIWy2UvVvvL</value>
+      <webElementGuid>09f1dc5a-d983-4e5d-aa9f-195fe82a409b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>editor-loading-spinner</value>
+      <webElementGuid>5beb0095-207e-4736-a74d-05d8f5803469</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layer-manager-card-back&quot;)/div[@class=&quot;NU3Yu9KTws207g YPtsgaEOeBFV2L&quot;]/div[@class=&quot;uIImyziS34erOZ&quot;]/div[2]/div[@class=&quot;mqI1p85XmC2MaW BvYMUSHQ3VZhSV gVKBv3Rn1WqlNF udR7hhdNKnONkc GEdu4Dn5rTEUDE&quot;]/div[@class=&quot;cMcSJ6d3jjVbP6&quot;]/div[@class=&quot;FntQZvNq2QvxQL&quot;]/div[@class=&quot;DGQMOEx8BBlPsz&quot;]/main[@class=&quot;OCBnVA6yk0XZsg z5cmpMyMY5EyBB&quot;]/div[@class=&quot;hzcmJzuca9EAAu&quot;]/section[@class=&quot;s7K43upMNnpWe4&quot;]/div[@class=&quot;N_3ir40qWUR8gh&quot;]/div[1]/div[1]/div[1]/div[1]/div[@class=&quot;js-react-root&quot;]/div[@class=&quot;js-react-root&quot;]/div[@class=&quot;XhTJRsDNqkahHm s_FTT1Qq1Zyd9Q P25mIWy2UvVvvL&quot;]</value>
+      <webElementGuid>7ae7b737-ac87-4f69-88bc-e1b4126a1c54</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/section[2]/div[2]/div/div/div/div/div/div/div[2]</value>
+      <webElementGuid>50c6357c-3a1a-4997-bdb5-bdffec78b07f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/following::div[70]</value>
+      <webElementGuid>6942783f-7468-4719-bbc6-1638cbab9b01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Members'])[1]/following::div[73]</value>
+      <webElementGuid>03a24323-0010-4009-86d9-8f238310891b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::div[1]</value>
+      <webElementGuid>78be914d-48e2-4c87-b61d-8ea3c3bd717a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::div[1]</value>
+      <webElementGuid>43a61c37-5f27-4842-b280-3db07f29ebde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div/div[2]</value>
+      <webElementGuid>15391847-8529-4916-8173-b4d44c90e0b5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
