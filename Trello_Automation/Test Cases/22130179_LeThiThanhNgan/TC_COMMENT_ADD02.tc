@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_COMMENT_ADD02</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>9c9e5ae7-8c45-45a7-ad0f-016b853a5b41</testCaseGuid>
+</TestCaseEntity>

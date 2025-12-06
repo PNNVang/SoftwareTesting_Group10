@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Enable two-step verification</name>
+   <tag></tag>
+   <elementGuidId>6b1cd44d-755b-4295-bf73-fd18462d1728</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.css-178ag6o</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='mfa-promote-continue']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Enable two-step verification&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>348b1477-6932-463c-8132-60b6fd632ec4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-178ag6o</value>
+      <webElementGuid>20ac736b-ba46-4196-ad10-3a21a9f00bb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Enable two-step verification</value>
+      <webElementGuid>6e2426ba-d8c8-4fe6-aabb-0c6fd1216da6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mfa-promote-continue&quot;)/span[@class=&quot;css-178ag6o&quot;]</value>
+      <webElementGuid>3428a1e6-8a83-4e65-bb36-178462347862</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='mfa-promote-continue']/span</value>
+      <webElementGuid>37a83c95-bed1-4ee2-addf-977cb1c63928</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enable two-step verification'])[1]/following::span[1]</value>
+      <webElementGuid>93573d19-7bb4-4742-aada-89dad994debd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue without two-step verification'])[1]/preceding::span[1]</value>
+      <webElementGuid>2616d663-65de-4018-9450-c7e2aced719c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Learn more about two-step verification'])[1]/preceding::span[2]</value>
+      <webElementGuid>4b763afa-4cf8-4105-a727-29e42ecc7745</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/span</value>
+      <webElementGuid>a8ba35e1-1cc1-460b-9b2a-2ff2d29c6e23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Enable two-step verification' or . = 'Enable two-step verification')]</value>
+      <webElementGuid>95903aff-0cdd-43fd-b688-af868d284559</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
