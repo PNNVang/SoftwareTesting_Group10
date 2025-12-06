@@ -6,24 +6,6 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>96b15bd5-4aae-411f-9284-bbe95c1caa73</testCaseGuid>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>eeddb683-d698-4ac9-a512-7b57cc28b0dd</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>155e277e-7e61-4270-b5d9-5722ba9e962f</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>594d03b3-eb21-43d5-8c29-26aba5b79c19</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>'hana.voca@gmail.com'</defaultValue>
       <description></description>

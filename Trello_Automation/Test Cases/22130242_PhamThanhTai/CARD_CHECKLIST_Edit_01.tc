@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>add1</name>
+   <name>CARD_CHECKLIST_Edit_01</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>1c516d71-931a-4597-9d8d-342dcdfee54f</testCaseGuid>
+   <testCaseGuid>64cfcc14-9655-49a8-8789-3fe0db961cb0</testCaseGuid>
 </TestCaseEntity>
