@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Search or paste a link__1e0c1o8l _1o9z_301249</name>
+   <tag></tag>
+   <elementGuidId>b1231c7b-5737-4518-8a82-8ac07907e015</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Suggestions will appear below as you type into the field'])[1]/following::span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span._1e0c1o8l._1o9zidpf._vyfuvuon._vwz4kb7n._1szv15vq._1tly15vq._rzyw1osq._17jb1osq._1ksvoz0e._3se1x1jp._re2rglyw._1veoyfq0._1kg81r31._jcxd1r8n._gq0g1onz._1trkwc43._1bsb1tcg._4t3i1tcg._5fdi1tcg._zbji1tcg</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>b02fde99-6f5e-4623-8517-74aac6cf7423</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-vc</name>
+      <type>Main</type>
+      <value>icon-undefined</value>
+      <webElementGuid>5876fe2d-ea83-49e4-a1aa-7e4df3adb0f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>ede1ec88-2060-4de8-ad2d-1070545c10f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Clear</value>
+      <webElementGuid>2dcaa471-2cdd-4a09-aa72-6421ab3b3f4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_1e0c1o8l _1o9zidpf _vyfuvuon _vwz4kb7n _1szv15vq _1tly15vq _rzyw1osq _17jb1osq _1ksvoz0e _3se1x1jp _re2rglyw _1veoyfq0 _1kg81r31 _jcxd1r8n _gq0g1onz _1trkwc43 _1bsb1tcg _4t3i1tcg _5fdi1tcg _zbji1tcg</value>
+      <webElementGuid>ea1d96c3-9c8c-43c2-91b2-9904715cdb06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;feplat3731 react-overlay-up&quot;]/div[@class=&quot;atlaskit-portal-container&quot;]/div[@class=&quot;atlaskit-portal&quot;]/section[@class=&quot;Tu0XvZVffeyqqw js-react-root&quot;]/div[2]/div[1]/div[@class=&quot;aFGD9vtcIAqeiM YzL7yRijWxDng8&quot;]/div[1]/div[@class=&quot;_1bsb1ubl&quot;]/div[@class=&quot;EUrdUjVLwmyp4A&quot;]/form[@class=&quot;_19bv164s _u5f31pah _ca0q1k79 _n3td1t3k _vchhusvi _1e0ctcjq&quot;]/div[@class=&quot;_7yjtidpf _onzypxbi _11c81vhk&quot;]/div[@class=&quot;_1pfhu2gc&quot;]/div[@class=&quot;_16jlkb7n _1o9zkb7n _i0dl1osq _11c82smr _1reo15vq _18m915vq _v564r5cv _189ee4h9 _1e0c1txw _vchhusvi _4cvr1h6o _1bah1yb4 _lcxv1wug _s7n4jp4b _slp31hna _1tnqfajl _1h6d1elr _1dqonqa1 _syaz1fxt _80om1kdv _bfhk1j9a _msj6gir2 _1q51e4h9 _85i5e4h9 _bozgidpf _y4tiidpf _1p9x1p6i _qao9r01l _q433q049 _4cvx1elr _irr31d5g&quot;]/div[1]/button[@class=&quot;_mizu194a _1ah3dkaa _ra3xnqa1 _128mdkaa _1cvmnqa1 _4davt94y _19itglyw _vchhusvi _r06hglyw _80omtlke _ca0qze3t _u5f3ze3t _n3tdze3t _19bvze3t _2hwx1b66 _bfhksm61 _s7n4nkob&quot;]/span[@class=&quot;_1e0c1o8l _1o9zidpf _vyfuvuon _vwz4kb7n _1szv15vq _1tly15vq _rzyw1osq _17jb1osq _1ksvoz0e _3se1x1jp _re2rglyw _1veoyfq0 _1kg81r31 _jcxd1r8n _gq0g1onz _1trkwc43 _1bsb1tcg _4t3i1tcg _5fdi1tcg _zbji1tcg&quot;]</value>
+      <webElementGuid>b6cbabc2-e74f-4c35-ad4b-eae9723fc314</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Suggestions will appear below as you type into the field'])[1]/following::span[2]</value>
+      <webElementGuid>3844c0ab-e93f-469c-bf5a-e4c185e15e0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear'])[1]/preceding::span[1]</value>
+      <webElementGuid>06dd949f-25ba-40c0-a765-6e7d1a30b30e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Display text (optional)'])[1]/preceding::span[2]</value>
+      <webElementGuid>cf043921-a814-41fc-89ba-5dcdce57d91d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div/div/button/span</value>
+      <webElementGuid>362d11e9-d5f8-4672-95b9-60fa5cf88d7b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

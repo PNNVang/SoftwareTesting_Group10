@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Doing_LqgHiubcZnMWmo</name>
+   <name>div_Switch boards_C7M0AhErd3ZgGb yGLGbU_LXb98UW</name>
    <tag></tag>
-   <elementGuidId>555de0e0-e8d2-4969-ae25-5dda8b8b76e2</elementGuidId>
+   <elementGuidId>9e64e86a-f426-481b-b96b-e92c7bc92c8b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//ol[@id='board']/li[2]/div/ol/li/div/div/div</value>
+         <value>//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/header/div/div</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>div.LqgHiubcZnMWmo</value>
+         <value>div.C7M0AhErd3ZgGb.yGLGbU_LXb98UW</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,54 +23,54 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>d253b4f6-7c5f-4951-a8db-6b4bc5aa46a7</webElementGuid>
+      <webElementGuid>a495c589-e05f-4ca3-80b8-0a824e05999c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>LqgHiubcZnMWmo</value>
-      <webElementGuid>8f26cea3-4516-4411-a747-594fce1e5408</webElementGuid>
+      <value>C7M0AhErd3ZgGb yGLGbU_LXb98UW</value>
+      <webElementGuid>3eaf2ee9-590f-4e6b-acad-caa48b7351e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>card-front-cover</value>
-      <webElementGuid>2c11bda7-b09c-4849-9ffd-33f54c3753fe</webElementGuid>
+      <value>card-cover</value>
+      <webElementGuid>b39c810d-ea65-4bff-90a2-eddd7124aad1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-card-front-section</name>
+      <name>role</name>
       <type>Main</type>
-      <value>cover</value>
-      <webElementGuid>4329a127-c4f1-4c4d-bafe-62ba501dfa63</webElementGuid>
+      <value>button</value>
+      <webElementGuid>b541faaf-15c0-4b8a-bbd5-d51db0f2953e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;board&quot;)/li[@class=&quot;Iq1byT5o1KoAi6&quot;]/div[@class=&quot;cYogZfEaHc9LfO&quot;]/ol[@class=&quot;B27wN5INCjrQTV&quot;]/li[@class=&quot;csCxU7M5teCNNl&quot;]/div[@class=&quot;PPk42xVXm4ipq3&quot;]/div[@class=&quot;z1bjoUSvJd2OG5&quot;]/div[@class=&quot;LqgHiubcZnMWmo&quot;]</value>
-      <webElementGuid>5db85de9-14df-4b1a-87ff-4b78dc4a3e8b</webElementGuid>
+      <value>id(&quot;layer-manager-card-back&quot;)/div[@class=&quot;NU3Yu9KTws207g YPtsgaEOeBFV2L&quot;]/div[@class=&quot;uIImyziS34erOZ&quot;]/div[2]/div[@class=&quot;mqI1p85XmC2MaW BvYMUSHQ3VZhSV gVKBv3Rn1WqlNF udR7hhdNKnONkc GEdu4Dn5rTEUDE&quot;]/div[@class=&quot;cMcSJ6d3jjVbP6&quot;]/div[@class=&quot;FntQZvNq2QvxQL&quot;]/header[@class=&quot;PEWk82dyDzpw9j&quot;]/div[@class=&quot;VYOxnDmISE16Mq PuhmTExJftcLrr&quot;]/div[@class=&quot;C7M0AhErd3ZgGb yGLGbU_LXb98UW&quot;]</value>
+      <webElementGuid>19c9a570-eb79-48bc-9da7-e50d84d5ca94</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//ol[@id='board']/li[2]/div/ol/li/div/div/div</value>
-      <webElementGuid>3cdef0ab-f314-4eee-8aad-a9147cc4212f</webElementGuid>
+      <value>//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/header/div/div</value>
+      <webElementGuid>6c027b92-d712-4058-8a76-0ebc8e5def32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/div/ol/li/div/div/div</value>
-      <webElementGuid>81e1a1ca-aa3b-4a26-852e-fabd5dddcd31</webElementGuid>
+      <value>//header/div/div</value>
+      <webElementGuid>518176e1-a726-4414-96ac-55dd6dfd5870</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

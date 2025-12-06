@@ -18,7 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.testobject.ConditionType
 
-
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://trello.com/vi')
@@ -41,14 +40,44 @@ WebUI.click(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Dat_Ve
 
 WebUI.click(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Sequence Thanh ton H tr cc phng thc th_95d3d6/button_Attachments_zBgH6YQTy7dRbo ybVBgfOiu_fd9184'))
 
- WebUI.click(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Sequence Thanh ton H tr cc phng thc th_95d3d6/label_Attach a file from your computer_zPvV_1a76da'))
+WebUI.click(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Sequence Thanh ton H tr cc phng thc th_95d3d6/div_Suggestions will appear below as you ty_5d571a'))
 
-// === XPATH CHUẨN CHO INPUT FILE ẨN ===
-TestObject inputFile = new TestObject()
-inputFile.addProperty("xpath", ConditionType.EQUALS, "//input[@type='file']")
-	
-// === UPLOAD FILE BẰNG SHORT PATH ===
-WebUI.uploadFile(inputFile, "C:/Users/NGUYN~1/Downloads/111.png")
+WebUI.setText(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Sequence Thanh ton H tr cc phng thc th_95d3d6/input_Search or paste a link_url-uid123'), 
+    'youtube.com')
 
+WebUI.click(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Sequence Thanh ton H tr cc phng thc th_95d3d6/span_Cancel__v564g17y _1reo15vq _18m915vq __d3fc97'))
+
+WebUI.click(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Sequence Thanh ton H tr cc phng thc th_95d3d6/button_Attachments_zBgH6YQTy7dRbo ybVBgfOiu_fd9184'))
+
+WebUI.click(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Sequence Thanh ton H tr cc phng thc th_95d3d6/div_Suggestions will appear below as you ty_5d571a'))
+
+WebUI.setText(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Sequence Thanh ton H tr cc phng thc th_95d3d6/input_Search or paste a link_url-uid123'),
+	'youtube.com')
+
+WebUI.click(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Sequence Thanh ton H tr cc phng thc th_95d3d6/span_Cancel__v564g17y _1reo15vq _18m915vq __d3fc97'))
+
+WebUI.click(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Sequence Thanh ton H tr cc phng thc th_95d3d6/button_Attachments_zBgH6YQTy7dRbo ybVBgfOiu_fd9184'))
+
+WebUI.click(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Sequence Thanh ton H tr cc phng thc th_95d3d6/div_Suggestions will appear below as you ty_5d571a'))
+
+WebUI.setText(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Sequence Thanh ton H tr cc phng thc th_95d3d6/input_Search or paste a link_url-uid123'),
+	'youtube.com')
+
+WebUI.click(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Sequence Thanh ton H tr cc phng thc th_95d3d6/span_Cancel__v564g17y _1reo15vq _18m915vq __d3fc97'))
+
+
+
+TestObject noResultMsg = new TestObject()
+noResultMsg.addProperty("xpath", ConditionType.EQUALS,
+	"//h2[contains(., 'We couldn’t find')]")
+
+boolean isNoResult = WebUI.verifyElementPresent(noResultMsg, 3, FailureHandling.OPTIONAL)
+
+if (isNoResult) {
+	WebUI.comment("❌ Không tìm thấy kết quả — TEST FAIL")
+	WebUI.verifyEqual(false, true)  // Force fail
+} else {
+	WebUI.comment("✔ Có kết quả — TEST PASS")
+}
 WebUI.closeBrowser()
 

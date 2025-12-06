@@ -6,12 +6,12 @@
    <elementGuidId>7ce2db4e-d92d-4054-9b94-2ec6827bdeac</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//ol[@id='board']/li[3]/div/ol/li/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>593b6438-1d2a-412f-8214-be7b6adba701</webElementGuid>
+      <webElementGuid>3cb407d7-a07e-4916-84e5-2fc0c5131037</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>LqgHiubcZnMWmo</value>
-      <webElementGuid>9d10498e-2820-4965-8bdb-dac49859e189</webElementGuid>
+      <webElementGuid>ba3320e6-7a81-41e1-ad11-4c89f06a8d3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>card-front-cover</value>
-      <webElementGuid>1cd085d9-62dd-4429-a03c-ac3cc68f197b</webElementGuid>
+      <webElementGuid>3f90fd64-191d-47ef-b75c-72bf6ca2a7d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>data-card-front-section</name>
       <type>Main</type>
       <value>cover</value>
-      <webElementGuid>4b20ebf3-e029-4fca-bc97-9f4f3efd57dd</webElementGuid>
+      <webElementGuid>8af673b1-8170-4a79-96e7-7b0d7971666f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;board&quot;)/li[@class=&quot;Iq1byT5o1KoAi6&quot;]/div[@class=&quot;cYogZfEaHc9LfO&quot;]/ol[@class=&quot;B27wN5INCjrQTV&quot;]/li[@class=&quot;csCxU7M5teCNNl&quot;]/div[@class=&quot;PPk42xVXm4ipq3&quot;]/div[@class=&quot;z1bjoUSvJd2OG5&quot;]/div[@class=&quot;LqgHiubcZnMWmo&quot;]</value>
-      <webElementGuid>de0caaba-7cdb-42e0-8c99-ef26bb9c2c0a</webElementGuid>
+      <webElementGuid>6f57c087-052d-45de-9ea4-faef396ca07a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ol[@id='board']/li[3]/div/ol/li/div/div/div</value>
-      <webElementGuid>a4566ce3-e365-45db-8528-2e000b128865</webElementGuid>
+      <webElementGuid>d9665441-00e2-45c2-8c23-d1881d5ce62a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +71,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/div/ol/li/div/div/div</value>
-      <webElementGuid>d0549208-864b-421c-a256-3c7ab4f6045b</webElementGuid>
+      <webElementGuid>d8b29169-d20a-4ec8-85a4-dd42e0ffc4d5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

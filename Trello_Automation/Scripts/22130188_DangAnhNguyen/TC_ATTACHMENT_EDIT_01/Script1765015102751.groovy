@@ -16,8 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
-
 
 WebUI.openBrowser('')
 
@@ -37,33 +35,20 @@ WebUI.click(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Log in
 
 WebUI.click(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Boards  Trello/div_Recently viewed_gWl3Xe9ruADN19 SzliHsDO_R43nR'))
 
-WebUI.click(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Nhm Cy Siu Tc  Trello/span_Switch boards__1e0c1o8l _1o9zidpf _vyf_4a6f64'))
+WebUI.click(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Dat_Ve_Xem_Phim  Trello/div_Doing_LqgHiubcZnMWmo'))
 
-// WebUI.click(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Nhm Cy Siu Tc  Trello/button_Report_ktzI4mkrTz6f4_ sBTPnzftJeBlBT_a94bb6'))
+WebUI.click(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Sequence Thanh ton H tr cc phng thc th_95d3d6/span_YouTube__1e0c1o8l _1o9zidpf _vyfuvuon _b4bab0'))
 
-WebUI.click(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Nhm Cy Siu Tc  Trello/button_Settings_ybVBgfOiuWZJtD orotyyeYQx_t_0269c7'))
+WebUI.click(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Sequence Thanh ton H tr cc phng thc th_95d3d6/span_Comments_g4oicM70jgqP7r'))
 
-WebUI.click(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Nhm Cy Siu Tc  Trello/div_Search__16jlkb7n _1o9zkb7n _i0dl1wug _n_7f18aa'))
+WebUI.click(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Sequence Thanh ton H tr cc phng thc th_95d3d6/span_Search or paste a link__1e0c1o8l _1o9z_301249'))
 
-WebUI.setText(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Nhm Cy Siu Tc  Trello/input_Power-Ups_react-select-5-input'), 'boxxxx')
+WebUI.setText(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Sequence Thanh ton H tr cc phng thc th_95d3d6/input_Search or paste a link_url-uid134'), 
+    'youtube.com')
 
-WebUI.sendKeys(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Nhm Cy Siu Tc  Trello/input_Power-Ups_react-select-5-input'), Keys.chord(
-		Keys.ENTER))
+WebUI.click(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Sequence Thanh ton H tr cc phng thc th_95d3d6/span_Cancel__v564g17y _1reo15vq _18m915vq __d3fc97'))
 
-
-WebUI.delay(2)
-
-// Kiểm tra nếu xuất hiện thông báo "No results for ..."
-boolean isNoResult = WebUI.verifyElementPresent(
-		findTestObject('Object Repository/22130188_DangAnhNguyen/NoResultMessage'),
-		3,
-		FailureHandling.OPTIONAL
-)
-
-if (!isNoResult) {
-	WebUI.comment("❌ No results for keyword — TEST FAIL")
-	WebUI.verifyFalse(true)  // ép test fail
-} 
+WebUI.click(findTestObject('Object Repository/22130188_DangAnhNguyen/Page_Sequence Thanh ton H tr cc phng thc th_95d3d6/span_YouTube__1e0c1o8l _1o9zidpf _vyfuvuon _b4bab0'))
 
 WebUI.closeBrowser()
 

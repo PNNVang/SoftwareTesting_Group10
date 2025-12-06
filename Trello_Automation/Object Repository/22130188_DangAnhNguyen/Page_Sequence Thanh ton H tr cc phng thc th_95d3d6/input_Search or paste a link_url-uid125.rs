@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_password</name>
+   <name>input_Search or paste a link_url-uid125</name>
    <tag></tag>
-   <elementGuidId>569bf847-3d56-4fec-a071-0d2be561966e</elementGuidId>
+   <elementGuidId>5dd86ce6-109c-4830-aa0a-92e187f7ce0a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='password']</value>
+         <value>//input[@data-testid='link-url']&#xd;
+</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#password</value>
+         <value>#url-uid125</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,47 +24,79 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>893fd88c-25ca-4dd0-ae00-c56292c5f047</webElementGuid>
+      <webElementGuid>f0f99ac1-0b05-4c46-84e0-cf24874673f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>search-recent-links-field-description url-uid125-error</value>
+      <webElementGuid>03a3c37a-514c-4e3f-b541-33da10f72e85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>aria-labelledby</name>
       <type>Main</type>
-      <value>password-uid2-label</value>
-      <webElementGuid>e0487138-6718-4261-b208-59b8ba347165</webElementGuid>
+      <value>url-uid125-label</value>
+      <webElementGuid>8b032852-5189-40cd-9f8d-94cbb95f51b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>982e9125-3a4b-4c36-9973-3123f6527762</webElementGuid>
+      <value>url-uid125</value>
+      <webElementGuid>898dc035-8348-4ad9-95c5-58fb1b22ed6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>autocomplete</name>
       <type>Main</type>
-      <value>current-password</value>
-      <webElementGuid>2ba0f58e-1d69-4c17-93eb-c6a38fbf8620</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>password</value>
-      <webElementGuid>5a577794-9bec-44c5-a81a-fd51b049c408</webElementGuid>
+      <value>off</value>
+      <webElementGuid>f1f9dee8-0489-44b2-90e4-f5db41062271</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>spellcheck</name>
+      <name>aria-readonly</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>0998be91-9db9-442d-9ed6-5966225555dc</webElementGuid>
+      <webElementGuid>4b4a4986-2830-4b37-ae2a-046fe83dfc9e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>combobox</value>
+      <webElementGuid>2a8e85d5-8068-41cc-be05-e5d2825ee795</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>e0debeaf-d35d-4991-a900-dc970f12034b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-autocomplete</name>
+      <type>Main</type>
+      <value>list</value>
+      <webElementGuid>0ff7fd5a-1bef-4775-879f-f2b1a9847921</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>link-picker-search-list</value>
+      <webElementGuid>8f440700-3b88-482f-811f-79ecdadc3674</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,31 +104,31 @@
       <name>data-ds--text-field--input</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>902a0789-3b23-4dd0-abeb-8311ab10583a</webElementGuid>
+      <webElementGuid>6b0ce639-1c07-4049-954d-7ec9fb79c036</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-testid</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>d4d9691b-f37c-43fd-80e3-bb545853d1f8</webElementGuid>
+      <value>link-url</value>
+      <webElementGuid>3a11ba8f-536e-4839-ac55-ebc2dc24f126</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>4722683c-01f5-4043-9c61-879e973df316</webElementGuid>
+      <value>url</value>
+      <webElementGuid>709a0073-01fa-443f-9d6f-e0779f9c0598</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Enter password</value>
-      <webElementGuid>ba965db4-232a-4cde-8cec-4cf368f6ef6a</webElementGuid>
+      <value>Find recent links or paste a new link</value>
+      <webElementGuid>c6b41b86-26e9-4e47-b8ec-77373261998d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -103,54 +136,38 @@
       <name>class</name>
       <type>Main</type>
       <value>_19itidpf _11c82smr _12ji1r31 _1qu2glyw _12y31o36 _vchhusvi _1bsb1osq _1ul9idpf _bfhk1j28 _syaz1kw7 _80om1kw7 _14jiu2gc _olc6u2gc _1kod12x7 _7ba012x7 _1goxglyw _13xeglyw _1n7e1l2s _1idr131l</value>
-      <webElementGuid>8a176b5b-3555-4d3e-bab8-20ea03ed4e5f</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>N</value>
-      <webElementGuid>7f33bf84-58fc-4834-9c75-761a045cef11</webElementGuid>
+      <webElementGuid>83309923-aa18-4447-ab4b-a40834a7c401</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;password&quot;)</value>
-      <webElementGuid>118dc8f0-f73c-4074-8f93-ea5bedf6d6e2</webElementGuid>
+      <value>id(&quot;url-uid125&quot;)</value>
+      <webElementGuid>cb391f65-5bd4-466a-9443-63a7abbe66d8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='password']</value>
-      <webElementGuid>e102671a-457d-454e-8cef-47f68c546f4f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//form[@id='form-login']/div/div[2]/div/div/div/div/div/input</value>
-      <webElementGuid>a4717dfb-eee4-4b99-bfdb-bdd7752b7616</webElementGuid>
+      <value>//input[@id='url-uid125']</value>
+      <webElementGuid>562c33f4-1a14-47f9-bf9c-bca9f4381837</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div/div/div/div/input</value>
-      <webElementGuid>36692f76-cfbb-4cc7-98e1-ba50e99d2250</webElementGuid>
+      <value>//form/div/div/div/input</value>
+      <webElementGuid>7640bccc-53c3-4292-818b-889f7a35ed3b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'password' and @type = 'password' and @name = 'password' and @placeholder = 'Enter password']</value>
-      <webElementGuid>f656cbaf-414c-4e5a-9595-da8aacab0c01</webElementGuid>
+      <value>//input[@id = 'url-uid125' and @name = 'url' and @placeholder = 'Find recent links or paste a new link']</value>
+      <webElementGuid>20090d6a-84df-46e2-a37f-25c47e276e5c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_QAQC__1e0c1o8l _1o9zidpf _vyfuvuon _vw_28c43f</name>
+   <tag></tag>
+   <elementGuidId>6bb7c248-ff16-4317-90b6-5a853e13f334</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/header/div[2]/div[2]/div[5]/button/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.y_p650fpIPDwsU.ybVBgfOiuWZJtD.Yt_v_LmarJM9ZS._St8_YSRMkLv07 > span.nch-icon.hChYpzFshATQo8.FQRfhpoLVAyxHI.r1ljm7etlgUs0w > span._1e0c1o8l._1o9zidpf._vyfuvuon._vwz4kb7n._1szv15vq._1tly15vq._rzyw1osq._17jb1osq._1ksvoz0e._3se1x1jp._re2rglyw._1veoyfq0._1kg81r31._jcxd1r8n._gq0g1onz._1trkwc43</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9b7b53d7-a377-4e74-b1bd-a2fbf8475f00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>CloseIcon</value>
+      <webElementGuid>253ce7de-42fd-4ed4-9d2f-b1cb91663e6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-vc</name>
+      <type>Main</type>
+      <value>icon-CloseIcon</value>
+      <webElementGuid>12a4339f-4baa-47b9-a18f-e7c9bdab4231</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>d857ce42-ed6c-4ff5-a3ed-97c8fe36106a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_1e0c1o8l _1o9zidpf _vyfuvuon _vwz4kb7n _1szv15vq _1tly15vq _rzyw1osq _17jb1osq _1ksvoz0e _3se1x1jp _re2rglyw _1veoyfq0 _1kg81r31 _jcxd1r8n _gq0g1onz _1trkwc43</value>
+      <webElementGuid>570586a1-b00b-458b-ba56-5fd4f4e524fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layer-manager-card-back&quot;)/div[@class=&quot;NU3Yu9KTws207g YPtsgaEOeBFV2L&quot;]/div[@class=&quot;uIImyziS34erOZ&quot;]/div[2]/div[@class=&quot;mqI1p85XmC2MaW BvYMUSHQ3VZhSV gVKBv3Rn1WqlNF udR7hhdNKnONkc GEdu4Dn5rTEUDE&quot;]/div[@class=&quot;cMcSJ6d3jjVbP6&quot;]/div[@class=&quot;FntQZvNq2QvxQL&quot;]/header[@class=&quot;PEWk82dyDzpw9j&quot;]/div[@class=&quot;X1qOHR5u_FfWBE&quot;]/div[@class=&quot;J3GFjfezb6odfw&quot;]/div[5]/button[@class=&quot;y_p650fpIPDwsU ybVBgfOiuWZJtD Yt_v_LmarJM9ZS _St8_YSRMkLv07&quot;]/span[@class=&quot;nch-icon hChYpzFshATQo8 FQRfhpoLVAyxHI r1ljm7etlgUs0w&quot;]/span[@class=&quot;_1e0c1o8l _1o9zidpf _vyfuvuon _vwz4kb7n _1szv15vq _1tly15vq _rzyw1osq _17jb1osq _1ksvoz0e _3se1x1jp _re2rglyw _1veoyfq0 _1kg81r31 _jcxd1r8n _gq0g1onz _1trkwc43&quot;]</value>
+      <webElementGuid>523bc207-e7a5-435c-9b60-139d549dcb8b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/header/div[2]/div[2]/div[5]/button/span/span</value>
+      <webElementGuid>c92ac8a3-2166-4c2c-89bb-05e8e277c911</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QA/QC'])[3]/following::span[9]</value>
+      <webElementGuid>314eb82f-f8f1-4fca-bfa2-3a1a0eaef10a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch boards'])[1]/following::span[11]</value>
+      <webElementGuid>567f07bf-6582-482c-8027-8e17f436648e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/preceding::span[1]</value>
+      <webElementGuid>ed618a1c-03d9-4202-914f-d011e95467b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove cover'])[1]/preceding::span[2]</value>
+      <webElementGuid>1e61fa0b-bfa2-45aa-a881-72581aefa139</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/button/span/span</value>
+      <webElementGuid>87877ed5-4418-44ae-91b9-290164356054</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
