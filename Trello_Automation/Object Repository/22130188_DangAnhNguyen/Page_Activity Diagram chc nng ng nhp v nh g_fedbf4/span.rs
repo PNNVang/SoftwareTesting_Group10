@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span</name>
+   <tag></tag>
+   <elementGuidId>37ae8cd4-e22b-4051-bbf2-2a81f13cbe91</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='link-search-list-item-0']/div/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span[title=&quot;Use case&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>dda58aad-01a4-4319-ad38-e7d10745e176</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>link-search-list-item-title</value>
+      <webElementGuid>27cc9334-a34c-4c3e-86f8-e05cdac5f21d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Use case</value>
+      <webElementGuid>16ed4ec3-7a66-4f93-8c6d-1e8d5c8e48b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Use case</value>
+      <webElementGuid>724b8eb2-dacb-46bd-89ac-ea0f25953ad5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;link-search-list-item-0&quot;)/div[@class=&quot;_1reo15vq _18m915vq _ae4v1h6o _1bsb1osq&quot;]/span[@class=&quot;_19pkidpf _2hwxidpf _otyridpf _18u0idpf _1i4qfg65 _11c82smr _syaz1fxt _1reo15vq _18m915vq _1e0ccj1k _sudp1e54 _1nmz9jpi&quot;]/span[1]</value>
+      <webElementGuid>c434290d-05a3-4c84-a9b0-e9ce2e155760</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='link-search-list-item-0']/div/span/span</value>
+      <webElementGuid>36e1e293-6676-464f-8aa6-4dea98c96066</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recently Viewed'])[1]/following::span[4]</value>
+      <webElementGuid>a13d6c8a-4b4a-403a-9117-aba9fa327c0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Give this link a title or description'])[1]/following::span[4]</value>
+      <webElementGuid>545dfc0f-c224-4c43-99c8-887cec3fdc09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dat_Ve_Xem_Phim'])[2]/preceding::span[1]</value>
+      <webElementGuid>8ab4f89d-727b-4d18-8163-9e473b094d28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul/div/div/span/span</value>
+      <webElementGuid>7e868856-080a-4609-abe9-c52867a0dd8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@title = 'Use case' and (text() = 'Use case' or . = 'Use case')]</value>
+      <webElementGuid>7ddbe3a3-6d83-41e0-8c0b-84c010642fb4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

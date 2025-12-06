@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>6a34b82d-35aa-4701-a31f-813a9fc4b517</webElementGuid>
+      <webElementGuid>686e4f2b-240d-4c75-ad6b-e832b8640e75</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>css-178ag6o</value>
-      <webElementGuid>d9dee7d0-7ae6-4bf5-8062-f2a49cc41028</webElementGuid>
+      <webElementGuid>04ae4b9e-d6a3-4ed7-82a6-f3babfa95a89</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Continue</value>
-      <webElementGuid>e9cd3a6d-3f46-4d63-96b1-f90a5dfc4511</webElementGuid>
+      <webElementGuid>2b470140-197c-4020-9f7e-397cd7e836d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;login-submit&quot;)/span[@class=&quot;css-178ag6o&quot;]</value>
-      <webElementGuid>6ae2dfad-e561-48b5-96ed-54aa1bfa3ae6</webElementGuid>
+      <webElementGuid>e5f6eeb7-d6e3-4919-af6b-c570e516c4ac</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//button[@id='login-submit']/span</value>
-      <webElementGuid>d80355d0-207b-404a-93d2-16aab8789ae1</webElementGuid>
+      <webElementGuid>f759dfe1-ae1d-47c2-9ad9-516866e1bc56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember me'])[1]/following::span[5]</value>
-      <webElementGuid>ca49576a-0427-46d5-9271-bc79cd092170</webElementGuid>
+      <webElementGuid>76032c61-aa3d-47e8-98cc-3d64d9868686</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Show password'])[1]/following::span[6]</value>
-      <webElementGuid>29cee1d6-1745-40b7-b120-d8ec0768af94</webElementGuid>
+      <webElementGuid>eec8e473-04c0-4b1e-9ea4-9aef066f9971</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in with email'])[1]/preceding::span[3]</value>
-      <webElementGuid>0e49e5a9-d0c4-4bc4-8131-179217a2fb20</webElementGuid>
+      <webElementGuid>e2e6bdc3-b583-4b02-81b3-2f5df8a46ad1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Passkey'])[1]/preceding::span[7]</value>
-      <webElementGuid>f273b95e-68df-4dcd-a237-f60cd3369f9d</webElementGuid>
+      <webElementGuid>6249efce-1574-4b3d-a167-1a4e9facde04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Continue']/parent::*</value>
-      <webElementGuid>a3a13414-3ab5-4d64-87ac-7d0385780330</webElementGuid>
+      <webElementGuid>4d639a4b-2a65-4a07-a398-5adca3be7797</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/button/span</value>
-      <webElementGuid>4eb4f7ee-afd1-48b1-ae8b-d756338ddaff</webElementGuid>
+      <webElementGuid>6e711933-5ddc-4fd9-b218-88491b0e8d84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Continue' or . = 'Continue')]</value>
-      <webElementGuid>84ed4400-add7-460a-922c-e91e4b71c6aa</webElementGuid>
+      <webElementGuid>e4b0c530-0965-4f67-902f-e3965272750f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

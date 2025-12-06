@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>55838eb7-f089-4220-a6bc-e709e0e578d9</webElementGuid>
+      <webElementGuid>15e2a213-9461-4fd4-984a-723345d69666</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>role</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ca731ead-8168-463c-b76b-d98b96a73d8a</webElementGuid>
+      <webElementGuid>09efb08b-5a9e-4f6d-a6c9-8b065e47bfb7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>5230f053-5de4-46a0-b3b6-feebf0cc94d1</webElementGuid>
+      <webElementGuid>f1e043b8-5a48-4d06-9dab-97dbe9947072</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>class</name>
       <type>Main</type>
       <value>zPvVGKjRQxHyQp</value>
-      <webElementGuid>91972777-31f1-4d6d-a350-19642cc0ef2f</webElementGuid>
+      <webElementGuid>7184f29c-6d77-4f7c-9fdf-2ebb087c6a9c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>for</name>
       <type>Main</type>
       <value>card-attachment-file-picker</value>
-      <webElementGuid>b1f8a8aa-8c09-4a6d-ac21-0579255dec0f</webElementGuid>
+      <webElementGuid>0d15c2a9-d749-4267-811a-5f34a9bf8f0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Choose a file</value>
-      <webElementGuid>350fe7f3-5593-449e-a670-b139e5dfbe4c</webElementGuid>
+      <webElementGuid>2f82a8a0-de70-465e-acc3-00cb5bbdceb6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Choose a file</value>
-      <webElementGuid>6282906d-8e0b-4ad6-86f8-2b620de7ec1d</webElementGuid>
+      <webElementGuid>ad4cc032-ba42-486b-9e66-a9016b8ae385</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;feplat3731 react-overlay-up&quot;]/div[@class=&quot;atlaskit-portal-container&quot;]/div[@class=&quot;atlaskit-portal&quot;]/section[@class=&quot;Tu0XvZVffeyqqw js-react-root&quot;]/div[2]/div[1]/div[@class=&quot;aFGD9vtcIAqeiM BxnW01nt1ospt1 YzL7yRijWxDng8 uS2wuOb6bRMSqo&quot;]/div[@class=&quot;xFrf4qgBLXHLcV&quot;]/label[@class=&quot;zPvVGKjRQxHyQp&quot;]</value>
-      <webElementGuid>40eb0ff5-c6e7-427b-8a5a-1e4c15cbc67e</webElementGuid>
+      <webElementGuid>f6f37ead-269f-4af2-bbb9-d0cfa5ad5d42</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Attach a file from your computer'])[1]/following::label[1]</value>
-      <webElementGuid>67939763-e62b-47be-9026-888e49070acf</webElementGuid>
+      <webElementGuid>f74bdff5-b750-4ed6-86b2-1f5c9c9abbab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Attach'])[1]/following::label[1]</value>
-      <webElementGuid>4a1ebc5d-c343-4717-bf39-750ca21b8d55</webElementGuid>
+      <webElementGuid>9d67af67-c580-4b90-a605-901d2ab1473b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Suggestions will appear below as you type into the field'])[1]/preceding::label[1]</value>
-      <webElementGuid>11b9afbf-7d7c-4e8c-b35c-7b5133fc6b86</webElementGuid>
+      <webElementGuid>8c98d382-7a72-4694-9eef-0dd59e1e1c65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Choose a file']/parent::*</value>
-      <webElementGuid>99e7f4c6-8df8-4185-b08f-fbb24d5788cd</webElementGuid>
+      <webElementGuid>13bd92aa-4f6c-47cc-bebf-41968b5a2e9a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/label</value>
-      <webElementGuid>48b3591b-6675-4ed5-be00-ba4537df0499</webElementGuid>
+      <webElementGuid>e4a5f9ce-5a26-4f78-ba7d-067be7ed19e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,6 +127,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//label[(text() = 'Choose a file' or . = 'Choose a file')]</value>
-      <webElementGuid>47f7b1dc-1017-4d69-aeff-b34f86468667</webElementGuid>
+      <webElementGuid>514d4266-6ea7-43b0-8b8d-2cebce20396d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

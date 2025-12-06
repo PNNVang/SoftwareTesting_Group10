@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Comments_g4oicM70jgqP7r</name>
+   <tag></tag>
+   <elementGuidId>082e4980-6a11-43f1-89c9-f77f2e83dc39</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Comments'])[1]/following::span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.g4oicM70jgqP7r</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5b6b5c73-e52c-4494-b3b2-3519d8835221</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>g4oicM70jgqP7r</value>
+      <webElementGuid>4d638dc0-a638-4267-b244-3f8d22086f66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Edit</value>
+      <webElementGuid>62d7b584-b98d-43c3-a967-9910109808a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;feplat3731 react-overlay-up&quot;]/div[@class=&quot;atlaskit-portal-container&quot;]/div[@class=&quot;atlaskit-portal&quot;]/section[@class=&quot;Tu0XvZVffeyqqw js-react-root&quot;]/div[2]/div[1]/div[@class=&quot;aFGD9vtcIAqeiM&quot;]/div[@class=&quot;UZFgTnUqKFdI6u&quot;]/ul[1]/li[1]/button[@class=&quot;LOhIKSjx1ImXEH&quot;]/span[@class=&quot;bH80RvHHmoWYhk O_LDi2bRXwfeDw&quot;]/span[@class=&quot;g4oicM70jgqP7r&quot;]</value>
+      <webElementGuid>7de6e7a9-ba7a-40ed-bac0-995ebdd73a91</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comments'])[1]/following::span[2]</value>
+      <webElementGuid>551c69e9-9f62-4deb-bcb4-0ebc8191e224</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Automations'])[1]/following::span[7]</value>
+      <webElementGuid>a0033a63-646d-4e05-bf19-280849c3bd86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comment'])[1]/preceding::span[2]</value>
+      <webElementGuid>094b1c38-225e-41ca-8fb8-83b006c37a43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/button/span/span</value>
+      <webElementGuid>d5f0d3c8-ce36-4e52-b796-3a84a56b8a63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Edit' or . = 'Edit')]</value>
+      <webElementGuid>2daa768b-e43d-414d-be07-c41a5af012f6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

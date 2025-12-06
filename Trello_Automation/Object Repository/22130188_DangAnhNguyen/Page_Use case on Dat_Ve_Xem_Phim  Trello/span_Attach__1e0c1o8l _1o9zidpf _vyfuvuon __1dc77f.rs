@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Attach__1e0c1o8l _1o9zidpf _vyfuvuon __1dc77f</name>
+   <tag></tag>
+   <elementGuidId>efe50cdc-bf8c-43dd-bdc1-863b6173ebc1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Attach'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span._1e0c1o8l._1o9zidpf._vyfuvuon._vwz4kb7n._1szv15vq._1tly15vq._rzyw1osq._17jb1osq._1ksvoz0e._3se1x1jp._re2rglyw._1veoyfq0._1kg81r31._jcxd1r8n._gq0g1onz._1trkwc43._1bsb7vkz._4t3i7vkz._5fdi7vkz._zbji7vkz</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8e087eba-bff7-40ad-af3f-ad58799810aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-vc</name>
+      <type>Main</type>
+      <value>icon-undefined</value>
+      <webElementGuid>fa310de2-66aa-4557-bd4e-91c6ddf1ab4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>3c003372-5dc3-44e7-99ba-70a6e402e461</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_1e0c1o8l _1o9zidpf _vyfuvuon _vwz4kb7n _1szv15vq _1tly15vq _rzyw1osq _17jb1osq _1ksvoz0e _3se1x1jp _re2rglyw _1veoyfq0 _1kg81r31 _jcxd1r8n _gq0g1onz _1trkwc43 _1bsb7vkz _4t3i7vkz _5fdi7vkz _zbji7vkz</value>
+      <webElementGuid>a4e2e992-aa5b-4b8f-bd37-d5bd8547d897</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;feplat3731 react-overlay-up&quot;]/div[@class=&quot;atlaskit-portal-container&quot;]/div[@class=&quot;atlaskit-portal&quot;]/section[@class=&quot;Tu0XvZVffeyqqw js-react-root&quot;]/div[2]/div[1]/header[@class=&quot;F4ycqeb62wUbQq&quot;]/button[@class=&quot;JABNldlIncwKgc zrn4tJQdoA76rj&quot;]/span[@class=&quot;_1e0c1o8l _1o9zidpf _vyfuvuon _vwz4kb7n _1szv15vq _1tly15vq _rzyw1osq _17jb1osq _1ksvoz0e _3se1x1jp _re2rglyw _1veoyfq0 _1kg81r31 _jcxd1r8n _gq0g1onz _1trkwc43 _1bsb7vkz _4t3i7vkz _5fdi7vkz _zbji7vkz&quot;]</value>
+      <webElementGuid>14a7b2a0-62d5-49f3-8a1d-9802d9f5a4d6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Attach'])[1]/following::span[1]</value>
+      <webElementGuid>56cc2f2f-4005-4148-86f1-bc504e7492f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comments'])[1]/following::span[3]</value>
+      <webElementGuid>42346a69-37c8-4bb4-be71-216a168d9490</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Attach a file from your computer'])[1]/preceding::span[1]</value>
+      <webElementGuid>de35b58c-24ef-4b3f-a50a-cbde52a2554c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose a file'])[1]/preceding::span[1]</value>
+      <webElementGuid>45e6242c-5535-424f-b887-2b246057f60e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//header/button/span</value>
+      <webElementGuid>ef20c639-1b07-419a-ac73-3b24fad7fa6f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
