@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_filter</name>
+   <tag></tag>
+   <elementGuidId>9798a757-0c11-49fd-8e06-685ef7a6f83b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button._TUxCYptReyC_7.bql28_1VXnI38J.PhzBALMp63PY_y.xg_E1tMjotLhp1.ybVBgfOiuWZJtD._St8_YSRMkLv07 > span._1e0c1o8l._vchhusvi._1o9zidpf._vwz4kb7n._y4ti1igz._bozg1mb9._12va1onz._jcxd1r8n</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='trello-board-root']/div/div/div/div/div/span[2]/span/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>958e8c97-6a3e-4bea-958f-ab2472fab1a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>0b6d432b-e30c-4d91-bb3d-579bc26c3826</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Filter cards</value>
+      <webElementGuid>607f60ca-0bf8-41ba-b633-6dd7ae78b537</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_1e0c1o8l _vchhusvi _1o9zidpf _vwz4kb7n _y4ti1igz _bozg1mb9 _12va1onz _jcxd1r8n</value>
+      <webElementGuid>01446378-efa7-4faf-b7ef-586174ff74e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;trello-board-root&quot;)/div[1]/div[@class=&quot;board-wrapper&quot;]/div[@class=&quot;board-main-content MGBVHMvOK1TD8j Xpq6bBra11ICMi&quot;]/div[@class=&quot;board-header u-clearfix js-board-header board-header-redesign-blur&quot;]/div[@class=&quot;Tp0C38uQUEpYUw&quot;]/span[@class=&quot;z0eqWVVZWBQhjv&quot;]/span[@class=&quot;YD_345cnMuohhp bql28_1VXnI38J&quot;]/button[@class=&quot;_TUxCYptReyC_7 bql28_1VXnI38J PhzBALMp63PY_y xg_E1tMjotLhp1 ybVBgfOiuWZJtD _St8_YSRMkLv07&quot;]/span[@class=&quot;_1e0c1o8l _vchhusvi _1o9zidpf _vwz4kb7n _y4ti1igz _bozg1mb9 _12va1onz _jcxd1r8n&quot;]</value>
+      <webElementGuid>40dcc991-442f-4201-9892-76ad369bdae8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='trello-board-root']/div/div/div/div/div/span[2]/span/button/span</value>
+      <webElementGuid>80ba8303-93a8-4799-8f01-fa17c06949c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Power-Ups'])[1]/following::span[3]</value>
+      <webElementGuid>8781504c-ac88-48ed-9eac-c78e250a2765</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Chat_App'])[1]/following::span[12]</value>
+      <webElementGuid>5ae6f911-8535-49da-abc9-94c483b933fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='F'])[1]/preceding::span[2]</value>
+      <webElementGuid>7961ed9d-c902-4ce4-8a9c-aacad80ab6ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/span/button/span</value>
+      <webElementGuid>935127fa-9a88-490b-be5f-651676763369</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Chỉnh sửa tên Workspace (Hợp lệ)</description>
+   <name>TC_WORKSPACE_EDIT_01</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c54edb84-7304-44ab-982b-e5eb6a735b68</testCaseGuid>
+</TestCaseEntity>

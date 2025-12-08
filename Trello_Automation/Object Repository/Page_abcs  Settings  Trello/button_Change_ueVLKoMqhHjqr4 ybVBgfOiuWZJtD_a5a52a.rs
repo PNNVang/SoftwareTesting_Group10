@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Change_ueVLKoMqhHjqr4 ybVBgfOiuWZJtD_a5a52a</name>
+   <tag></tag>
+   <elementGuidId>6d3b7277-68b8-4044-a13e-c05a95a62ff1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.ueVLKoMqhHjqr4.ybVBgfOiuWZJtD.znxMkjxGGncGJy._St8_YSRMkLv07</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[11]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8b9cb50c-3385-4651-bb68-d6737d9d1b63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ueVLKoMqhHjqr4 ybVBgfOiuWZJtD znxMkjxGGncGJy _St8_YSRMkLv07</value>
+      <webElementGuid>59e4308a-c865-4d61-81d1-240862cd9ae3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d09d563a-bed4-4a7d-b6d5-e65a5893c55e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>delete-workspace-button</value>
+      <webElementGuid>69e7e86e-86e2-401e-b3ca-d8c6ba3f8311</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Delete this Workspace?</value>
+      <webElementGuid>7f3ab1c6-e939-4602-acf3-53e4556fd7a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;js-react-root&quot;]/div[@class=&quot;gWf80FmcNO65Hd&quot;]/main[@class=&quot;hIlbOkoIOozQ23&quot;]/main[1]/div[@class=&quot;JxdNLDlN2aNNk3&quot;]/div[@class=&quot;GHlDfHJqcB_pQT&quot;]/div[@class=&quot;TzEFgRP2qKeFW4&quot;]/p[@class=&quot;ssQ0DuWheT_nMF&quot;]/button[@class=&quot;ueVLKoMqhHjqr4 ybVBgfOiuWZJtD znxMkjxGGncGJy _St8_YSRMkLv07&quot;]</value>
+      <webElementGuid>b181518b-19a3-4630-b042-8d67c0b8fe3b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[11]</value>
+      <webElementGuid>701b34fe-4a4e-4cde-9a03-29275b3644f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div/div/main/main/div[4]/div/div/p/button</value>
+      <webElementGuid>e4814bb5-9641-42b7-ba8a-d3ee255cbe8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change'])[6]/following::button[1]</value>
+      <webElementGuid>52af61f0-ecc7-4104-a5f6-029efb0beafd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Any Workspace member can link and unlink this Trello Workspace with Slack workspaces.'])[1]/following::button[2]</value>
+      <webElementGuid>c15aa758-3ae7-49bc-96aa-557039290c7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Beta'])[1]/preceding::button[1]</value>
+      <webElementGuid>d228f0e2-cbb3-4224-b4a2-2565b6ee90df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='used queries'])[1]/preceding::button[1]</value>
+      <webElementGuid>fc56db6f-628c-4be6-aa64-d6cab5ea0623</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Delete this Workspace?']/parent::*</value>
+      <webElementGuid>0030c6bf-3cf7-41dc-bdec-86a020bc917b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p/button</value>
+      <webElementGuid>97418595-00da-4148-b3ec-9e6058946c48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Delete this Workspace?' or . = 'Delete this Workspace?')]</value>
+      <webElementGuid>48a5e792-e40b-444b-804b-c610d7f25104</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

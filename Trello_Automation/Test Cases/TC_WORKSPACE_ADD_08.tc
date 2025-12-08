@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Tạo Workspace thất bại khi để trống Tên (Validate)</description>
+   <name>TC_WORKSPACE_ADD_08</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7cadb83a-fba2-43c4-b854-545a40140396</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>show_delete_success</name>
+   <tag></tag>
+   <elementGuidId>e5bea8fa-4860-4c66-9d8f-e7c456c1fbd1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.F9EOc0_yHVJ11x > span._1e0c1o8l._vchhusvi._1o9zidpf._vwz4utpp._y4ti1igz._bozg1mb9._12va1onz._jcxd1r8n</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='FlagGroup']/div/div/div/div/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3dbde7b6-648c-4b8a-92c2-05f4d0161682</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>fb19a0f6-f7c6-493c-80dc-3c11df1c5f2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_1e0c1o8l _vchhusvi _1o9zidpf _vwz4utpp _y4ti1igz _bozg1mb9 _12va1onz _jcxd1r8n</value>
+      <webElementGuid>17554da3-cf47-4cc3-a771-0c2032a1da00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;FlagGroup&quot;)/div[@class=&quot;aFMxIDv9mXuicr N4L3M7nBJUpplx&quot;]/div[@class=&quot;bfb0aNnc3caWwf&quot;]/div[@class=&quot;SbOOLZUl7qN8OB&quot;]/div[1]/button[@class=&quot;F9EOc0_yHVJ11x&quot;]/span[@class=&quot;_1e0c1o8l _vchhusvi _1o9zidpf _vwz4utpp _y4ti1igz _bozg1mb9 _12va1onz _jcxd1r8n&quot;]</value>
+      <webElementGuid>9ae43549-4ceb-4869-ac23-5a7392145fd0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='FlagGroup']/div/div/div/div/button/span</value>
+      <webElementGuid>12bb7fa3-df56-46cd-a03a-c43c8543d2d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Flag notifications'])[1]/following::span[5]</value>
+      <webElementGuid>7bf15f40-1245-4df4-959f-89608a0eab2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dismiss flag'])[1]/preceding::span[1]</value>
+      <webElementGuid>ae7021b9-d47f-4e27-88bd-da06cf7161b7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Project'])[1]/preceding::span[1]</value>
+      <webElementGuid>e1f49fb0-08d7-4065-9699-8453053a7587</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/button/span</value>
+      <webElementGuid>3fa30cb0-efcd-4d45-ad96-50fbdad17c98</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

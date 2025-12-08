@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tTabSettings</name>
+   <tag></tag>
+   <elementGuidId>26ad644e-5f4a-46ec-bec9-8b985b38ea63</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[.//span[@data-testid='home-team-tab-name' and normalize-space(text())='${workspaceName}']]//a[@data-testid='home-team-settings-tab']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>195662d5-3611-4f98-b16c-8ba722685b23</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>QEGH0t6lsxm4C9 u_1vIqpbgZLsMp</value>
+      <webElementGuid>fdf91a4c-7c28-4471-a375-3de8a067ec21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Settings</value>
+      <webElementGuid>6d61b79d-e2f6-4422-8188-9aaf99501d39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;js-react-root&quot;]/div[@class=&quot;igs0P2yeiJmpkk&quot;]/div[@class=&quot;witf2lW81DY7WP&quot;]/nav[@class=&quot;eOF7HLejybn5ad&quot;]/section[@class=&quot;v2yaj6y7dtFy4C&quot;]/div[1]/section[@class=&quot;IyWeSHzb5z4TTx&quot;]/ul[1]/li[@class=&quot;WmhimhrsxjL1KU&quot;]/ul[1]/li[@class=&quot;WmhimhrsxjL1KU&quot;]/a[@class=&quot;wNdgQfwraPxaK7 tuIsXtjACg6oZB FwkgyzOcGprpi1 QsI5QQd3bvvoay&quot;]/span[@class=&quot;QEGH0t6lsxm4C9 u_1vIqpbgZLsMp&quot;]</value>
+      <webElementGuid>ce232dbb-bb23-4697-bcf3-0b28684f1a55</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div/div/div/nav/section/div/section/ul/li/ul/li[3]/a/span[2]</value>
+      <webElementGuid>9f585e15-78eb-40b6-ad30-437c0901b13a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Members'])[1]/following::span[11]</value>
+      <webElementGuid>826a6ff7-f696-4321-90e3-edbb132005aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Boards'])[2]/following::span[16]</value>
+      <webElementGuid>0556d967-7417-45e0-96f4-8077fe492f9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Try Trello Premium'])[1]/preceding::span[4]</value>
+      <webElementGuid>7f5615a6-893d-4a98-a3ef-d8003162d5fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get Planner (full access), card mirroring, collapsible lists, unlimited boards, AI, and more!'])[1]/preceding::span[4]</value>
+      <webElementGuid>35d532dc-a202-4e48-a8be-bdb06618ba08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Settings']/parent::*</value>
+      <webElementGuid>10eb1f2e-375b-4afb-b988-57c988aa1ba9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/ul/li[3]/a/span[2]</value>
+      <webElementGuid>eb93a318-8435-4d8d-99a1-97ddfd1e4366</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Settings' or . = 'Settings')]</value>
+      <webElementGuid>101464e0-788b-4da0-ac5b-7281b2296981</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

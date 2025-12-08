@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_confirm_delele_ws</name>
+   <tag></tag>
+   <elementGuidId>644c027a-db8c-4dd8-8e44-6d1673e19f3b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.Gj2otiLIgxHuvl.ybVBgfOiuWZJtD.Bs17adKBbSQrdA.Y8VSmRstKSzhJH._St8_YSRMkLv07</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[12]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9c7602f7-8e7f-41ea-bea8-e3290d2ea267</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Gj2otiLIgxHuvl ybVBgfOiuWZJtD Bs17adKBbSQrdA Y8VSmRstKSzhJH _St8_YSRMkLv07</value>
+      <webElementGuid>01e7119b-1013-43af-85a6-f9c9158cd84b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8aaf9c26-20f8-486e-8e08-637c0b88b0d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>delete-workspace-confirm-button</value>
+      <webElementGuid>a3220bf1-de74-49db-88a2-5c8c0329d2ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Delete Workspace</value>
+      <webElementGuid>2fb003fb-f5ce-4d90-9346-4f884bed5f67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;mdl-js&quot;]/body[@class=&quot;feplat3731&quot;]/div[@class=&quot;atlaskit-portal-container&quot;]/div[@class=&quot;atlaskit-portal&quot;]/section[@class=&quot;Tu0XvZVffeyqqw js-react-root&quot;]/div[2]/div[1]/div[@class=&quot;aFGD9vtcIAqeiM YzL7yRijWxDng8&quot;]/div[@class=&quot;hYXrVbhvZDXr2M&quot;]/button[@class=&quot;Gj2otiLIgxHuvl ybVBgfOiuWZJtD Bs17adKBbSQrdA Y8VSmRstKSzhJH _St8_YSRMkLv07&quot;]</value>
+      <webElementGuid>e4b0df77-8d0c-4c52-a61d-20f8d27d2853</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[12]</value>
+      <webElementGuid>faac248a-c758-408c-9447-83d55ce322ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter the Workspace name to delete'])[1]/following::button[1]</value>
+      <webElementGuid>11abe780-3bca-4481-9b7e-de3f90bd0eda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Board members will not be able to interact with closed boards.'])[1]/following::button[1]</value>
+      <webElementGuid>bfb69682-092c-4514-a29b-56f11361f92c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Beta'])[1]/preceding::button[1]</value>
+      <webElementGuid>f0d20159-fc2a-4cb6-9f57-ae5a5bc8bdcc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='used queries'])[1]/preceding::button[1]</value>
+      <webElementGuid>dfffae37-3b79-47b4-94a2-b31f2998cae0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Delete Workspace']/parent::*</value>
+      <webElementGuid>9f7439e0-1aba-438d-b1cd-73d99db6cd9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/button</value>
+      <webElementGuid>62cedb31-f18c-4282-8855-d0be29778ba9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Delete Workspace' or . = 'Delete Workspace')]</value>
+      <webElementGuid>86c6f278-cefa-4ca2-bfbe-3ea230634591</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
