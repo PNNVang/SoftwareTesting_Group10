@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Create a new label</name>
+   <tag></tag>
+   <elementGuidId>d7b253dd-d366-4fcf-bffa-bb0f389701a4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.we0Z8HnUw3En3y.ybVBgfOiuWZJtD.Y8VSmRstKSzhJH._St8_YSRMkLv07</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[34]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Create a new label&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c2eb066f-4f21-4ee6-b5cf-b8ed0feea3a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>we0Z8HnUw3En3y ybVBgfOiuWZJtD Y8VSmRstKSzhJH _St8_YSRMkLv07</value>
+      <webElementGuid>2749ed2d-6d11-44fe-8fb5-37cd777b4fd1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>7ec0b74e-bd1d-45a3-a485-a6fcdfb8ce51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>5d815fbb-fafd-43ec-9f1f-8acdd5bf32e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>dialog</value>
+      <webElementGuid>4236bf54-f79a-40f9-b8e4-03d9e291ad63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create a new label</value>
+      <webElementGuid>28b8095d-6130-495a-83b6-e3d58899d01e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;feplat3731&quot;]/div[@class=&quot;atlaskit-portal-container&quot;]/div[@class=&quot;atlaskit-portal&quot;]/section[@class=&quot;Tu0XvZVffeyqqw _9gVZKx4ZK5x4I js-react-root&quot;]/div[2]/div[1]/div[@class=&quot;aFGD9vtcIAqeiM BxnW01nt1ospt1 YzL7yRijWxDng8&quot;]/div[@class=&quot;rdF_CdqSD31pjK&quot;]/section[@class=&quot;mgn8Z23aXE6pCQ&quot;]/div[1]/button[@class=&quot;we0Z8HnUw3En3y ybVBgfOiuWZJtD Y8VSmRstKSzhJH _St8_YSRMkLv07&quot;]</value>
+      <webElementGuid>f7ca5de7-f07a-43a4-acaa-49691559593c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[34]</value>
+      <webElementGuid>33d369dc-d0cb-4686-b75d-c8773210ff71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ưu tiên Cao'])[1]/following::button[2]</value>
+      <webElementGuid>d6024b0c-6787-4af1-a164-83b4af15e6c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Labels'])[2]/following::button[6]</value>
+      <webElementGuid>484885f4-023f-41b0-b67f-38eb021df2d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enable colorblind friendly mode'])[1]/preceding::button[1]</value>
+      <webElementGuid>0495c293-6034-4739-992f-507e05e6f2af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Create a new label']/parent::*</value>
+      <webElementGuid>e20db083-2421-4aec-ba84-20ff78ceabce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/button</value>
+      <webElementGuid>28f3c7df-49ee-48d2-b6a8-1f8a84c30eea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Create a new label' or . = 'Create a new label')]</value>
+      <webElementGuid>58f62d1e-e943-4407-a498-a93edf2af74d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

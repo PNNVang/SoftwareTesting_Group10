@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Members_xAZRAlQvzWR693</name>
+   <tag></tag>
+   <elementGuidId>d76447f0-899f-46b6-abd0-a68608f57ef9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.xAZRAlQvzWR693</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='chrome-container']/div[4]/div[2]/div/div[2]/div/div/div/ul/li/button/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>aae5f431-8d26-4f50-a54e-2ed6bca31fcc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>xAZRAlQvzWR693</value>
+      <webElementGuid>b8526b1d-abfb-4e85-9f49-5f91084d066b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Admins and board members can vote.</value>
+      <webElementGuid>96390c18-4596-4561-99cb-2cc97e6e26db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;chrome-container&quot;)/div[@class=&quot;pop-over is-shown&quot;]/div[2]/div[1]/div[@class=&quot;pop-over-content js-pop-over-content u-fancy-scrollbar js-tab-parent&quot;]/div[@class=&quot;js-react-root&quot;]/div[1]/div[@class=&quot;UZFgTnUqKFdI6u&quot;]/ul[1]/li[1]/button[@class=&quot;LOhIKSjx1ImXEH&quot;]/div[@class=&quot;xAZRAlQvzWR693&quot;]</value>
+      <webElementGuid>f219e957-270a-4777-af5d-2d9c751bb202</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='chrome-container']/div[4]/div[2]/div/div[2]/div/div/div/ul/li/button/div</value>
+      <webElementGuid>f0e66387-1a27-4f27-a3e7-d5061b90cfe4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Members'])[1]/following::div[1]</value>
+      <webElementGuid>9d8630e0-8fed-4e8a-a684-7cd90ba4aa92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Who is allowed to vote on cards?'])[1]/following::div[2]</value>
+      <webElementGuid>a9f8379f-4fbb-471c-b7bf-bcfde00a70bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Members and observers'])[1]/preceding::div[1]</value>
+      <webElementGuid>d195942a-3d60-4e3e-851d-238be79b6281</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Admins, board members, and observers can vote.'])[1]/preceding::div[1]</value>
+      <webElementGuid>fdf0fee8-0bea-421e-ad29-8bb053e19946</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Admins and board members can vote.']/parent::*</value>
+      <webElementGuid>839dbfa6-8791-4f27-8b85-c934c42c4dda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/button/div</value>
+      <webElementGuid>8c5f760e-5c8b-4d93-98cf-56dd872a2da4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Admins and board members can vote.' or . = 'Admins and board members can vote.')]</value>
+      <webElementGuid>93545faf-1a71-416a-bdf3-e56c83fe92a7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

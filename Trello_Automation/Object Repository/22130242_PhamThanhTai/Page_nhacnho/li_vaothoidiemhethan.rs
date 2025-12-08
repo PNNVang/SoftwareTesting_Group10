@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_vaothoidiemhethan</name>
+   <tag></tag>
+   <elementGuidId>9721ac65-709b-4e8e-a993-fd7a3b29716e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='react-select-3-option-1']/li</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#react-select-3-option-1 > li</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>dfb661fc-1273-48d9-8757-cf398a1f0e9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Vào thời điểm ngày hết hạn</value>
+      <webElementGuid>003eb393-7dec-4ea5-ab21-28c7b7b70e7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;react-select-3-option-1&quot;)/li[1]</value>
+      <webElementGuid>7b2646ed-2b66-4df1-b09b-10a9060a50b6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react-select-3-option-1']/li</value>
+      <webElementGuid>bfe21576-1af2-4893-b972-c10117b80832</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Không có'])[1]/following::li[1]</value>
+      <webElementGuid>3f2cdb69-fa2d-47cf-82d8-33e651e0d44f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Vào thời điểm ngày hết hạn']/parent::*</value>
+      <webElementGuid>516ba377-242b-4088-87fd-bcab9f895c51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/li</value>
+      <webElementGuid>cb6cfa71-c7a5-4470-9632-57a7246ce328</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Vào thời điểm ngày hết hạn' or . = 'Vào thời điểm ngày hết hạn')]</value>
+      <webElementGuid>917c71d5-a212-49e7-9aac-31c60acdf29f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_troubleshooting guide_igs0P2yeiJmpkk</name>
+   <tag></tag>
+   <elementGuidId>114e7a71-c11a-42e0-82d2-2837e6ae539b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.igs0P2yeiJmpkk</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a906e970-df89-4b2c-a5f1-2cd2f41480bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>igs0P2yeiJmpkk</value>
+      <webElementGuid>f3265540-4095-4e64-a6f9-cdad523ffea3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Recently viewedLinksCreate new board</value>
+      <webElementGuid>d82b5417-9ea3-4412-8b4e-706648bc46cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;js-react-root&quot;]/div[@class=&quot;igs0P2yeiJmpkk&quot;]</value>
+      <webElementGuid>4d259f5c-e72e-4331-b39f-ddc777bffc20</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div/div</value>
+      <webElementGuid>f8469795-7f26-46e4-8a67-eac2e28351a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='troubleshooting guide'])[1]/following::div[24]</value>
+      <webElementGuid>017f1e5e-fe0e-4d16-8d70-dddf80c2fa68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[2]/div/div/div[2]/div/div</value>
+      <webElementGuid>97266b97-8fdd-4097-b029-ba270c812117</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Recently viewedLinksCreate new board' or . = 'Recently viewedLinksCreate new board')]</value>
+      <webElementGuid>25d4c952-dc00-4da6-b76f-6ff282552254</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

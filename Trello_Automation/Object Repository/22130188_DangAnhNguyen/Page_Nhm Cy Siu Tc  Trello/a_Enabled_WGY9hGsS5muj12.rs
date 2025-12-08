@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Enabled_WGY9hGsS5muj12</name>
+   <tag></tag>
+   <elementGuidId>3c2f57c8-fff9-4570-9806-09a0852e24a8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(3) > a.WGY9hGsS5muj12</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='trello-board-root']/div/div/div/div[2]/div/div[2]/div[2]/div/ul/li[3]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>fd5eeb1a-4386-40bf-b709-9c5e064d020c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/b/b4wgiQLd/nhom-cay-sieu-te1bb91c/power-ups/made-by-trello</value>
+      <webElementGuid>9b3e3232-06f8-4248-b2d0-081306e536c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>WGY9hGsS5muj12</value>
+      <webElementGuid>e63bb313-cf23-401b-8e11-ea430d5f7f4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>trello-powerups-link</value>
+      <webElementGuid>05733aa7-4ce0-4b8b-bf6a-5996521104dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Made by Trello</value>
+      <webElementGuid>dfed576d-f26f-4408-8823-55672b2d119d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;trello-board-root&quot;)/div[1]/div[@class=&quot;board-wrapper&quot;]/div[@class=&quot;board-main-content MGBVHMvOK1TD8j Xpq6bBra11ICMi ivZ_wF4VZB8iYB&quot;]/div[@class=&quot;board-canvas&quot;]/div[@class=&quot;u9fbqAqsZm2m8M&quot;]/div[@class=&quot;z4R6o22U1TiJyR&quot;]/div[@class=&quot;Xw8Tg1DihmxOH0&quot;]/div[@class=&quot;aIZlg_Z9MmRARS&quot;]/ul[1]/li[3]/a[@class=&quot;WGY9hGsS5muj12&quot;]</value>
+      <webElementGuid>daf30470-e1f9-43b9-ada4-ba30a8df5617</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='trello-board-root']/div/div/div/div[2]/div/div[2]/div[2]/div/ul/li[3]/a</value>
+      <webElementGuid>33cbb92f-7c21-4941-8948-1f425abe2c35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Made by Trello')]</value>
+      <webElementGuid>09a2b3c4-a7ca-46c7-8023-3018f87d0c02</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Featured'])[1]/following::a[2]</value>
+      <webElementGuid>281164d8-9839-4179-80e5-eb95acdbccd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Categories'])[1]/preceding::a[1]</value>
+      <webElementGuid>90bc794c-63fc-4abd-bd50-731a38d6bde5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Analytics &amp; reporting'])[1]/preceding::a[1]</value>
+      <webElementGuid>b39ccfb1-f36c-4ece-a7be-b6a829456acd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Made by Trello']/parent::*</value>
+      <webElementGuid>fc1d73a0-a0cd-4a0e-9948-7f747075e8f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/b/b4wgiQLd/nhom-cay-sieu-te1bb91c/power-ups/made-by-trello')]</value>
+      <webElementGuid>e23502c8-db10-4969-bf55-ebc85b7b757d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a</value>
+      <webElementGuid>e26355a1-0c31-4ff9-884b-77a2ccd9d583</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/b/b4wgiQLd/nhom-cay-sieu-te1bb91c/power-ups/made-by-trello' and (text() = 'Made by Trello' or . = 'Made by Trello')]</value>
+      <webElementGuid>ed82c494-a380-4114-97fd-81b4dce03bb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/b/b4wgiQLd/nhc3b3m-cc3a0y-sic3aau-te1bb91c/power-ups/made-by-trello')]</value>
+      <webElementGuid>024c8ed6-2f81-4eb6-b411-d922c7e4f747</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/b/b4wgiQLd/nhc3b3m-cc3a0y-sic3aau-te1bb91c/power-ups/made-by-trello' and (text() = 'Made by Trello' or . = 'Made by Trello')]</value>
+      <webElementGuid>f709d83d-033a-4cf5-8bd1-8ff05867f5e6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

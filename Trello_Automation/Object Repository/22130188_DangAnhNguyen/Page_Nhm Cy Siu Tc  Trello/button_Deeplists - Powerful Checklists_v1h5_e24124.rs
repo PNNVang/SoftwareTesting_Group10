@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Deeplists - Powerful Checklists_v1h5_e24124</name>
+   <tag></tag>
+   <elementGuidId>0be70d69-618c-4350-a3d8-6d777b08b3e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(5) > a.YWdqwf2ehexrXd > div.XpeU5t9upTEXrG.Xq4g2HJ1vIc6jV > div.WxU8ZEBtsbi2pJ.o4kZC5Qvu5ar8x > div:nth-of-type(2) > button.v1h5yZNRnfe74l.ybVBgfOiuWZJtD.orotyyeYQx_tso._St8_YSRMkLv07</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[25]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>04e86d21-4bf4-43c2-bae1-25dc380bb3aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>v1h5yZNRnfe74l ybVBgfOiuWZJtD orotyyeYQx_tso _St8_YSRMkLv07</value>
+      <webElementGuid>3304696d-b176-4a09-bec6-3848749a8e73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ebc7aa06-1bec-4b72-811e-766cd64dd3d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>pup-add-button</value>
+      <webElementGuid>763be3df-d3ff-4240-826a-a4a0ffddb9b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add</value>
+      <webElementGuid>e63375e2-b74d-422c-89cf-ffaaa2e44b13</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;trello-board-root&quot;)/div[1]/div[@class=&quot;board-wrapper&quot;]/div[@class=&quot;board-main-content MGBVHMvOK1TD8j Xpq6bBra11ICMi ivZ_wF4VZB8iYB&quot;]/div[@class=&quot;board-canvas&quot;]/div[@class=&quot;u9fbqAqsZm2m8M&quot;]/div[@class=&quot;z4R6o22U1TiJyR&quot;]/div[@class=&quot;Xw8Tg1DihmxOH0&quot;]/div[@class=&quot;Da4wJ9a1YneHqC&quot;]/div[@class=&quot;UP4S2pNKYlF10X&quot;]/div[1]/ul[@class=&quot;zx1cKptUNl_oAi&quot;]/li[5]/a[@class=&quot;YWdqwf2ehexrXd&quot;]/div[@class=&quot;XpeU5t9upTEXrG Xq4g2HJ1vIc6jV&quot;]/div[@class=&quot;WxU8ZEBtsbi2pJ o4kZC5Qvu5ar8x&quot;]/div[2]/button[@class=&quot;v1h5yZNRnfe74l ybVBgfOiuWZJtD orotyyeYQx_tso _St8_YSRMkLv07&quot;]</value>
+      <webElementGuid>d3707fc2-0e76-408e-991a-1974514a565f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[25]</value>
+      <webElementGuid>8f0600c7-a7a6-4ea0-ad3a-e9ac16e04c72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='trello-board-root']/div/div/div/div[2]/div/div[2]/div[2]/div[2]/div/div/ul/li[5]/a/div/div/div[2]/button</value>
+      <webElementGuid>7da99b12-e46f-4dc1-b83f-42c187656142</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deeplists - Powerful Checklists'])[1]/following::button[1]</value>
+      <webElementGuid>17ad5689-860d-40f6-832a-4f3220f09be7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add'])[3]/following::button[1]</value>
+      <webElementGuid>b1b69863-2ce3-4fee-8f74-e3dabf8bbf0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Improved checklists, include sub-tasks, add priorty, assign to multiple users, add text items'])[1]/preceding::button[1]</value>
+      <webElementGuid>6eb503f5-0bc6-4369-a7d6-31ab0af6b229</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bulk Actions'])[2]/preceding::button[1]</value>
+      <webElementGuid>474f78b5-8853-4f9c-affe-c787501a8c3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/a/div/div/div[2]/button</value>
+      <webElementGuid>e3e8c03e-69e8-40b9-bc11-af2d863574f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Add' or . = 'Add')]</value>
+      <webElementGuid>0d27e961-baab-4bf1-bf26-7162ab471b5a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

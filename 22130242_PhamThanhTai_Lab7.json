@@ -1,0 +1,2547 @@
+{
+    "id": "964189ad-47e7-4635-abee-6a4d8c0cdbd9",
+    "version": "2.0",
+    "name": "t4",
+    "url": "https://trello.com/b/TrjbC0T4/testing",
+    "tests": [
+        {
+            "id": "3f105235-f6c7-4d48-9ba5-1e95e9487f5b",
+            "name": "CARD_DUEDATE_Add_01",
+            "commands": [
+                {
+                    "id": "fb60c7df-08f7-4754-a2e1-debe67fef180",
+                    "comment": "",
+                    "command": "open",
+                    "target": "https://trello.com/b/TrjbC0T4/testing",
+                    "targets": [],
+                    "value": ""
+                },
+                {
+                    "id": "56d866b5-b03d-4a70-bb13-06cf004de8c1",
+                    "comment": "",
+                    "command": "click",
+                    "target": "linkText=tc1",
+                    "targets": [
+                        [
+                            "linkText=tc1",
+                            "linkText"
+                        ],
+                        [
+                            "css=.csCxU7M5teCNNl:nth-child(1) .Ns0Sj0nEGMQ7un",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//a[contains(text(),'tc1')]",
+                            "xpath:link"
+                        ],
+                        [
+                            "xpath=//ol[@id='board']/li/div/ol/li/div/div/div/div/span[2]/a",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//a[contains(@href, '/c/er9TZSdV/1-tc1')]",
+                            "xpath:href"
+                        ],
+                        [
+                            "xpath=//span[2]/a",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//a[contains(.,'tc1')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "226372cb-ffc3-4bc5-ad41-5828bffe7ae5",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=div:nth-child(3) > .Qa0qCr_1_yQKR9 .\\_1e0c1o8l",
+                    "targets": [
+                        [
+                            "css=div:nth-child(3) > .Qa0qCr_1_yQKR9 .\\_1e0c1o8l",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/section/div/div/div[2]/button/span/span",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//section/div/div/div[2]/button/span/span",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "be62d8fa-1954-488d-a357-80996ad1f62d",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.\\_1e0c11p5:nth-child(6) > .\\_syazpsu8",
+                    "targets": [
+                        [
+                            "css=.\\_1e0c11p5:nth-child(6) > .\\_syazpsu8",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=(//button[@type='button'])[106]",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[6]/div[6]/button",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "b3587deb-b78c-4065-8afe-828a6b8a662b",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.WG2Xn1vpjohFkT > .orotyyeYQx_tso",
+                    "targets": [
+                        [
+                            "css=.WG2Xn1vpjohFkT > .orotyyeYQx_tso",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//button[@type='submit']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//form/div[5]/button",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//button[contains(.,'Lưu')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "bbbfa583-3d76-4966-9a54-e06872e8be08",
+                    "comment": "",
+                    "command": "assertElementPresent",
+                    "target": "css=[data-testid='due-date-badge-with-date-range-picker']",
+                    "targets": [],
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "id": "d6895b96-95b6-49f6-9f73-c2f1d3fdb7d3",
+            "name": "CARD_DUEDATE_Add_03",
+            "commands": [
+                {
+                    "id": "3d3e9baa-e92e-468a-ac67-03d9ce0b7494",
+                    "comment": "",
+                    "command": "open",
+                    "target": "https://trello.com/b/TrjbC0T4/testing",
+                    "targets": [],
+                    "value": ""
+                },
+                {
+                    "id": "3d25ff17-1e42-4d2a-898d-d2cbb4c097b2",
+                    "comment": "",
+                    "command": "click",
+                    "target": "linkText=tc3",
+                    "targets": [
+                        [
+                            "linkText=tc3",
+                            "linkText"
+                        ],
+                        [
+                            "css=.csCxU7M5teCNNl:nth-child(5) .Ns0Sj0nEGMQ7un",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//a[contains(text(),'tc3')]",
+                            "xpath:link"
+                        ],
+                        [
+                            "xpath=//ol[@id='board']/li/div/ol/li[3]/div/div/div/div/span[2]/a",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//a[contains(@href, '/c/qsezno65/3-tc3')]",
+                            "xpath:href"
+                        ],
+                        [
+                            "xpath=//li[3]/div/div/div/div/span[2]/a",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//a[contains(.,'tc3')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "1b6ef833-2a06-4741-9f06-f5948a5e6d23",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=div:nth-child(3) > .Qa0qCr_1_yQKR9",
+                    "targets": [
+                        [
+                            "css=div:nth-child(3) > .Qa0qCr_1_yQKR9",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=(//button[@type='button'])[54]",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/section/div/div/div[2]/button",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//section/div/div/div[2]/button",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//button[contains(.,'Ngày')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "3abc9e1e-e126-41b4-a639-84d4e3bbc67b",
+                    "comment": "",
+                    "command": "click",
+                    "target": "id=react-select-2-single-value",
+                    "targets": [
+                        [
+                            "id=react-select-2-single-value",
+                            "id"
+                        ],
+                        [
+                            "css=#react-select-2-single-value",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//div[@id='react-select-2-single-value']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//label/div/div/div/div/div/div",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "9392c69a-5369-4b99-a380-d76c1ab44b42",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=#react-select-2-option-1 > li",
+                    "targets": [
+                        [
+                            "css=#react-select-2-option-1 > li",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//div[@id='react-select-2-option-1']/li",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//div[2]/div/li",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//li[contains(.,'Hàng ngày')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "b7b689f2-0004-4a72-8841-cfc2ba4d4d4f",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.WG2Xn1vpjohFkT > .orotyyeYQx_tso",
+                    "targets": [
+                        [
+                            "css=.WG2Xn1vpjohFkT > .orotyyeYQx_tso",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//button[@type='submit']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//form/div[5]/button",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//button[contains(.,'Lưu')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "0fbd1b96-6dba-4e9e-bc2a-43c91d0b5c9f",
+                    "comment": "",
+                    "command": "assertElementPresent",
+                    "target": "css=[data-testid='due-date-badge-with-date-range-picker']",
+                    "targets": [],
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "id": "10466b8e-aa0e-4100-b892-edf925dcf240",
+            "name": "CARD_DUEDATE_Add_04",
+            "commands": [
+                {
+                    "id": "197159b0-d890-461e-963c-1e95d627e595",
+                    "comment": "",
+                    "command": "open",
+                    "target": "https://trello.com/b/TrjbC0T4/testing",
+                    "targets": [],
+                    "value": ""
+                },
+                {
+                    "id": "ce0ce19a-1d4d-4d13-9667-5924ad0cdd7d",
+                    "comment": "",
+                    "command": "click",
+                    "target": "linkText=tc4",
+                    "targets": [
+                        [
+                            "linkText=tc5",
+                            "linkText"
+                        ],
+                        [
+                            "css=.csCxU7M5teCNNl:nth-child(9) .Ns0Sj0nEGMQ7un",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//a[contains(text(),'tc5')]",
+                            "xpath:link"
+                        ],
+                        [
+                            "xpath=//ol[@id='board']/li/div/ol/li[5]/div/div/div/div/span[2]/a",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//a[contains(@href, '/c/zQQ06iKo/5-tc5')]",
+                            "xpath:href"
+                        ],
+                        [
+                            "xpath=//li[5]/div/div/div/div/span[2]/a",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//a[contains(.,'tc5')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "135362d8-aac7-4d25-b93b-da2a346b6a00",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=div:nth-child(3) > .Qa0qCr_1_yQKR9",
+                    "targets": [
+                        [
+                            "css=div:nth-child(3) > .Qa0qCr_1_yQKR9",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=(//button[@type='button'])[54]",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/section/div/div/div[2]/button",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//section/div/div/div[2]/button",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//button[contains(.,'Ngày')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "fdffdcba-56e5-49ba-8610-6c7a857a32c8",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.TMFD0fSgrnl0ez:nth-child(4) > .nch-textfield__input",
+                    "targets": [
+                        [
+                            "css=.TMFD0fSgrnl0ez:nth-child(4) > .nch-textfield__input",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//input[@value='15:34']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[2]/input",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "f2220fe4-9ed2-473b-9787-da608470d63f",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.TMFD0fSgrnl0ez:nth-child(4) > .nch-textfield__input",
+                    "targets": [
+                        [
+                            "css=.TMFD0fSgrnl0ez:nth-child(4) > .nch-textfield__input",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//input[@value='15:34']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[2]/input",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "d203e977-05f4-4978-9fe9-e5e2ab3be697",
+                    "comment": "",
+                    "command": "type",
+                    "target": "css=.TMFD0fSgrnl0ez:nth-child(4) > .nch-textfield__input",
+                    "targets": [
+                        [
+                            "css=.TMFD0fSgrnl0ez:nth-child(4) > .nch-textfield__input",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//input[@value='19:34']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[2]/input",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": "19:34"
+                },
+                {
+                    "id": "c97713fa-c6c9-4a83-bfa8-f60fb55d0d33",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.VcKKqL2t6EWx1d:nth-child(2) > .fzlccTmfltY2Sy",
+                    "targets": [
+                        [
+                            "css=.VcKKqL2t6EWx1d:nth-child(2) > .fzlccTmfltY2Sy",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//form/div[2]/div[2]/div",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "18ac298c-e81b-4955-9013-8762280f2653",
+                    "comment": "",
+                    "command": "click",
+                    "target": "id=react-select-3-single-value",
+                    "targets": [
+                        [
+                            "id=react-select-3-single-value",
+                            "id"
+                        ],
+                        [
+                            "css=#react-select-3-single-value",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//div[@id='react-select-3-single-value']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//label[2]/div/div/div/div/div/div",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "d99fdf4d-039b-4b32-b1bd-e140a29f7974",
+                    "comment": "",
+                    "command": "click",
+                    "target": "id=react-select-3-option-1",
+                    "targets": [
+                        [
+                            "id=react-select-3-option-1",
+                            "id"
+                        ],
+                        [
+                            "css=#react-select-3-option-1",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//div[@id='react-select-3-option-1']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='react-select-3-listbox']/div[2]/div",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//ul/div/div/div[2]/div",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "86278011-9a89-419d-9597-d4b3b6b317a6",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.WG2Xn1vpjohFkT > .orotyyeYQx_tso",
+                    "targets": [
+                        [
+                            "css=.WG2Xn1vpjohFkT > .orotyyeYQx_tso",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//button[@type='submit']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//form/div[5]/button",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//button[contains(.,'Lưu')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "ccf477c7-b90b-4e2b-a0a4-71ad1a270bbb",
+                    "comment": "",
+                    "command": "assertElementPresent",
+                    "target": "css=[data-testid='due-date-badge-with-date-range-picker']",
+                    "targets": [],
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "id": "8267f8be-97f0-4cee-b917-fe516ac9cad7",
+            "name": "CARD_DUEDATE_Add_05",
+            "commands": [
+                {
+                    "id": "3cab0260-f07b-42ec-8abd-866939fd0b7a",
+                    "comment": "",
+                    "command": "open",
+                    "target": "https://trello.com/b/TrjbC0T4/testing",
+                    "targets": [],
+                    "value": ""
+                },
+                {
+                    "id": "ecaa96d7-ecff-4619-80d5-705dcc99c16c",
+                    "comment": "",
+                    "command": "click",
+                    "target": "linkText=tc5",
+                    "targets": [
+                        [
+                            "linkText=tc5",
+                            "linkText"
+                        ],
+                        [
+                            "css=.csCxU7M5teCNNl:nth-child(9) .Ns0Sj0nEGMQ7un",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//a[contains(text(),'tc5')]",
+                            "xpath:link"
+                        ],
+                        [
+                            "xpath=//ol[@id='board']/li/div/ol/li[5]/div/div/div/div/span[2]/a",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//a[contains(@href, '/c/zQQ06iKo/5-tc5')]",
+                            "xpath:href"
+                        ],
+                        [
+                            "xpath=//li[5]/div/div/div/div/span[2]/a",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//a[contains(.,'tc5')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "90910b88-20ba-468c-b687-86c6ba1331b7",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=div:nth-child(3) > .Qa0qCr_1_yQKR9",
+                    "targets": [
+                        [
+                            "css=div:nth-child(3) > .Qa0qCr_1_yQKR9",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=(//button[@type='button'])[54]",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/section/div/div/div[2]/button",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//section/div/div/div[2]/button",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//button[contains(.,'Ngày')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "5b69fe11-2afa-4af0-a1bb-f25854ed1b61",
+                    "comment": "",
+                    "command": "click",
+                    "target": "id=react-select-2-single-value",
+                    "targets": [
+                        [
+                            "id=react-select-2-single-value",
+                            "id"
+                        ],
+                        [
+                            "css=#react-select-2-single-value",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//div[@id='react-select-2-single-value']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//label/div/div/div/div/div/div",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "fc978295-868b-4df0-acb9-b8b63807f4e2",
+                    "comment": "",
+                    "command": "click",
+                    "target": "id=react-select-2-option-3",
+                    "targets": [
+                        [
+                            "id=react-select-2-option-3",
+                            "id"
+                        ],
+                        [
+                            "css=#react-select-2-option-3",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//div[@id='react-select-2-option-3']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='react-select-2-listbox']/div[4]/div",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//ul/div/div/div[4]/div",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "7b261cf3-59b3-4632-9a98-90a3af4c5476",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.WG2Xn1vpjohFkT > .orotyyeYQx_tso",
+                    "targets": [
+                        [
+                            "css=.WG2Xn1vpjohFkT > .orotyyeYQx_tso",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//button[@type='submit']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//form/div[6]/button",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//button[contains(.,'Lưu')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "94bceea5-afd3-4a48-9103-c66dbabc0949",
+                    "comment": "",
+                    "command": "waitForElementPresent",
+                    "target": "xpath=//span[@aria-label='repeat-icon']",
+                    "targets": [],
+                    "value": "30000"
+                },
+                {
+                    "id": "3481b6f3-ba69-4466-a275-3bbeb7906672",
+                    "comment": "",
+                    "command": "assertElementPresent",
+                    "target": "xpath=//span[@aria-label='repeat-icon']",
+                    "targets": [],
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "id": "51d2f40f-657f-4a81-bf7d-45651f45e6bb",
+            "name": "CARD_DUEDATE_Add_06",
+            "commands": [
+                {
+                    "id": "cc925304-4d55-45db-89f3-3a760d82ffe1",
+                    "comment": "",
+                    "command": "open",
+                    "target": "https://trello.com/b/TrjbC0T4/testing",
+                    "targets": [],
+                    "value": ""
+                },
+                {
+                    "id": "d19c62ca-8e59-4382-8911-eeefaa66ff3e",
+                    "comment": "",
+                    "command": "click",
+                    "target": "linkText=tc6",
+                    "targets": [
+                        [
+                            "css=.csCxU7M5teCNNl:nth-child(11) .WpBdHiAP8hTeQK",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//ol[@id='board']/li/div/ol/li[6]/div/div/div/div/span[2]",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//li[6]/div/div/div/div/span[2]",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//span[contains(.,'tc6')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "6b2da711-628a-4aaf-b3cf-f0ca75c6b90d",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=div:nth-child(3) > .Qa0qCr_1_yQKR9",
+                    "targets": [
+                        [
+                            "css=div:nth-child(3) > .Qa0qCr_1_yQKR9",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=(//button[@type='button'])[54]",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/section/div/div/div[2]/button",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//section/div/div/div[2]/button",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//button[contains(.,'Ngày')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "bb702c4a-ea57-47ad-9d26-e3b1c9a118ff",
+                    "comment": "",
+                    "command": "type",
+                    "target": "css=.TMFD0fSgrnl0ez:nth-child(4) > .nch-textfield__input",
+                    "targets": [
+                        [
+                            "css=.TMFD0fSgrnl0ez:nth-child(4) > .nch-textfield__input",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//input[@value='99:43']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[2]/input",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": "99:43"
+                },
+                {
+                    "id": "73a3c2b9-31b4-4db8-90b8-1e3c029b4813",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.WG2Xn1vpjohFkT > .orotyyeYQx_tso",
+                    "targets": [
+                        [
+                            "css=.WG2Xn1vpjohFkT > .orotyyeYQx_tso",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//button[@type='submit']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//form/div[5]/button",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//button[contains(.,'Lưu')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "64662c2a-2a03-4fc5-afa6-18b8b29addb0",
+                    "comment": "",
+                    "command": "assertElementNotPresent",
+                    "target": "css=[data-testid='due-date-badge-with-date-range-picker']",
+                    "targets": [],
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "id": "9345ce4e-4826-4c17-8fba-91ef5d9fa3bc",
+            "name": "CARD_DUEDATE_Add_07",
+            "commands": [
+                {
+                    "id": "56c4ee02-f0c9-40fc-ba1b-3778f45bed9c",
+                    "comment": "",
+                    "command": "open",
+                    "target": "https://trello.com/b/TrjbC0T4/testing",
+                    "targets": [],
+                    "value": ""
+                },
+                {
+                    "id": "cf5c6223-fdcf-4455-adb4-8e8906e8c517",
+                    "comment": "",
+                    "command": "click",
+                    "target": "linkText=tc7",
+                    "targets": [
+                        [
+                            "linkText=tc7",
+                            "linkText"
+                        ],
+                        [
+                            "css=.csCxU7M5teCNNl:nth-child(13) .Ns0Sj0nEGMQ7un",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//a[contains(text(),'tc7')]",
+                            "xpath:link"
+                        ],
+                        [
+                            "xpath=//ol[@id='board']/li/div/ol/li[7]/div/div/div/div/span[2]/a",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//a[contains(@href, '/c/OCeEUetH/7-tc7')]",
+                            "xpath:href"
+                        ],
+                        [
+                            "xpath=//li[7]/div/div/div/div/span[2]/a",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//a[contains(.,'tc7')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "5dfd335f-f523-440b-8d91-f626a80b8468",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=div:nth-child(3) > .Qa0qCr_1_yQKR9",
+                    "targets": [
+                        [
+                            "css=div:nth-child(3) > .Qa0qCr_1_yQKR9",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=(//button[@type='button'])[54]",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/section/div/div/div[2]/button",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//section/div/div/div[2]/button",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//button[contains(.,'Ngày')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "54d7a23c-90f6-4f0b-990c-6a364e1c4b6f",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.\\_1e0c11p5:nth-child(5) > .\\_1e0c11p5:nth-child(7) > .\\_kkk2n7od",
+                    "targets": [
+                        [
+                            "css=.\\_1e0c11p5:nth-child(5) > .\\_1e0c11p5:nth-child(7) > .\\_kkk2n7od",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=(//button[@type='button'])[100]",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[5]/div[7]/button",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "6a4f8789-340c-4362-a487-ba3736682268",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.TMFD0fSgrnl0ez:nth-child(4) > .nch-textfield__input",
+                    "targets": [
+                        [
+                            "css=.TMFD0fSgrnl0ez:nth-child(4) > .nch-textfield__input",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//input[@value='16:30']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[2]/input",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "04adf4f3-cd98-4d24-95d0-7682e773a370",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.VcKKqL2t6EWx1d:nth-child(2) .NpF4lRNlrS2rVC",
+                    "targets": [
+                        [
+                            "css=.VcKKqL2t6EWx1d:nth-child(2) .NpF4lRNlrS2rVC",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//div[2]/div/fieldset",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//fieldset[contains(.,'Ngày hết hạn')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "43eae4da-6d46-4624-b44f-9f890cb129a9",
+                    "comment": "",
+                    "command": "type",
+                    "target": "css=.TMFD0fSgrnl0ez:nth-child(4) > .nch-textfield__input",
+                    "targets": [
+                        [
+                            "css=.TMFD0fSgrnl0ez:nth-child(4) > .nch-textfield__input",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//input[@value='00:00']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[2]/input",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": "00:00"
+                },
+                {
+                    "id": "67417b19-060a-449b-b1a5-b87b7599c892",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.aFGD9vtcIAqeiM",
+                    "targets": [
+                        [
+                            "css=.aFGD9vtcIAqeiM",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//section/div[2]/div/div",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "52e543a6-f1d3-40a4-b879-d4414ad4bb06",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.WG2Xn1vpjohFkT > .orotyyeYQx_tso",
+                    "targets": [
+                        [
+                            "css=.WG2Xn1vpjohFkT > .orotyyeYQx_tso",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//button[@type='submit']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//form/div[5]/button",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//button[contains(.,'Lưu')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "f2611abb-7159-4d4f-af07-22f7dccdcb5e",
+                    "comment": "",
+                    "command": "assertElementPresent",
+                    "target": "xpath=//button[@data-testid='due-date-badge-with-date-range-picker']//span[starts-with(text(),'00:00')]",
+                    "targets": [],
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "id": "8c40ef3f-9323-47a5-813f-b33c305aa434",
+            "name": "CARD_CHECKLIST_AddItem_01",
+            "commands": [
+                {
+                    "id": "828ae7ed-c949-42ec-ad29-f2be33c8cd30",
+                    "comment": "",
+                    "command": "open",
+                    "target": "https://trello.com/c/hWMT62lQ/13-t2",
+                    "targets": [],
+                    "value": ""
+                },
+                {
+                    "id": "82514d4b-0348-4bc1-8d7a-8272d2f5b77c",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.fix47QBt61Ou3M",
+                    "targets": [
+                        [
+                            "css=.fix47QBt61Ou3M",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=(//button[@type='button'])[61]",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/div[2]/div/button",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//div[2]/div[2]/div/button",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//button[contains(.,'Thêm một mục')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "ae27d144-7c0a-4c20-862d-8c171d4b54b9",
+                    "comment": "",
+                    "command": "type",
+                    "target": "id=add-checkitem-692992a1bca20fd15da07307",
+                    "targets": [
+                        [
+                            "id=add-checkitem-692992a1bca20fd15da07307",
+                            "id"
+                        ],
+                        [
+                            "css=#add-checkitem-692992a1bca20fd15da07307",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//textarea[@id='add-checkitem-692992a1bca20fd15da07307']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/div[2]/form/textarea",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//form/textarea",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": "item 1"
+                },
+                {
+                    "id": "7bb7aada-52cb-4e0c-98be-2268893315ac",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.eGOaKqiDQtJGcI",
+                    "targets": [
+                        [
+                            "css=.eGOaKqiDQtJGcI",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//button[@type='submit']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/div[2]/form/div/button",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//form/div/button",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "e3c9e592-e411-4ae5-bbe8-715a37e6a9f0",
+                    "comment": "",
+                    "command": "assertText",
+                    "target": "xpath=(//div[@data-testid='check-item-name']//p)[last()]",
+                    "targets": [],
+                    "value": "item 1"
+                }
+            ]
+        },
+        {
+            "id": "81f71618-7e4e-49f2-adee-0bc89cab0408",
+            "name": "CARD_CHECKLIST_AddItem_02",
+            "commands": [
+                {
+                    "id": "cf3bddee-a332-4315-b2df-17cff4b4da79",
+                    "comment": "",
+                    "command": "open",
+                    "target": "https://trello.com/c/hWMT62lQ/13-t2",
+                    "targets": [],
+                    "value": ""
+                },
+                {
+                    "id": "2efda47b-f6a7-455e-97b9-d23b782a1a81",
+                    "comment": "",
+                    "command": "setWindowSize",
+                    "target": "521x824",
+                    "targets": [],
+                    "value": ""
+                },
+                {
+                    "id": "b14f0b5f-3380-4e3e-85fe-cfd1c663cb42",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.fix47QBt61Ou3M",
+                    "targets": [
+                        [
+                            "css=.fix47QBt61Ou3M",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=(//button[@type='button'])[61]",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/div[2]/div/button",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//div[2]/div[2]/div/button",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//button[contains(.,'Thêm một mục')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "50cf2cb7-60dd-431c-b8b3-2428cefebe31",
+                    "comment": "",
+                    "command": "type",
+                    "target": "id=add-checkitem-692992a1bca20fd15da07307",
+                    "targets": [
+                        [
+                            "id=add-checkitem-692992a1bca20fd15da07307",
+                            "id"
+                        ],
+                        [
+                            "css=#add-checkitem-692992a1bca20fd15da07307",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//textarea[@id='add-checkitem-692992a1bca20fd15da07307']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/div[2]/form/textarea",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//form/textarea",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": "$!@#%"
+                },
+                {
+                    "id": "50bea2c3-dbfa-4899-b204-a049a51f9486",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.eGOaKqiDQtJGcI",
+                    "targets": [
+                        [
+                            "css=.eGOaKqiDQtJGcI",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//button[@type='submit']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/div[2]/form/div/button",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//form/div/button",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "dc129f14-93a7-40d2-a157-ae84ed28bcbf",
+                    "comment": "",
+                    "command": "assertText",
+                    "target": "xpath=(//div[@data-testid='check-item-name']//p)[last()]",
+                    "targets": [],
+                    "value": "$!@#%"
+                }
+            ]
+        },
+        {
+            "id": "fc3db311-3588-4df5-bcff-b70d2d1f4f12",
+            "name": "CARD_CHECKLIST_AddItem_03",
+            "commands": [
+                {
+                    "id": "4dfc8866-c460-452b-a5d5-c9c3945b96ed",
+                    "comment": "",
+                    "command": "open",
+                    "target": "https://trello.com/c/hWMT62lQ/13-t2",
+                    "targets": [],
+                    "value": ""
+                },
+                {
+                    "id": "b0bed249-69a2-45af-929e-390763b25499",
+                    "comment": "",
+                    "command": "setWindowSize",
+                    "target": "521x824",
+                    "targets": [],
+                    "value": ""
+                },
+                {
+                    "id": "93345e7d-70b0-4cff-84b3-ddd5b7591a0d",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.fix47QBt61Ou3M",
+                    "targets": [
+                        [
+                            "css=.fix47QBt61Ou3M",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=(//button[@type='button'])[33]",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/div[2]/div/button",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//div[2]/div[2]/div/button",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//button[contains(.,'Thêm một mục')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "fce76eba-c64e-4da8-88f3-357b623347e4",
+                    "comment": "",
+                    "command": "type",
+                    "target": "id=add-checkitem-692992a1bca20fd15da07307",
+                    "targets": [
+                        [
+                            "id=add-checkitem-692992a1bca20fd15da07307",
+                            "id"
+                        ],
+                        [
+                            "css=#add-checkitem-692992a1bca20fd15da07307",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//textarea[@id='add-checkitem-692992a1bca20fd15da07307']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/div[2]/form/textarea",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//form/textarea",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": "                    "
+                },
+                {
+                    "id": "72f7770a-18f8-4414-aa26-77311ba2f6cc",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.eGOaKqiDQtJGcI",
+                    "targets": [
+                        [
+                            "css=.eGOaKqiDQtJGcI",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//button[@type='submit']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/div[2]/form/div/button",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//form/div/button",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "2e448d10-2462-40e8-aab9-af8aa2990d72",
+                    "comment": "",
+                    "command": "verifyElementPresent",
+                    "target": "id=add-checkitem-692992a1bca20fd15da07307",
+                    "targets": [],
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "id": "a6a389b2-3ccb-4a62-9391-bf5365f2cf88",
+            "name": "CARD_CHECKLIST_AddItem_04",
+            "commands": [
+                {
+                    "id": "ef12ec0e-e98f-49e4-891a-457e33867775",
+                    "comment": "",
+                    "command": "open",
+                    "target": "https://trello.com/c/hWMT62lQ/13-t2",
+                    "targets": [],
+                    "value": ""
+                },
+                {
+                    "id": "39c6247b-7c3e-4a02-83df-1729c9b990b3",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.fix47QBt61Ou3M",
+                    "targets": [
+                        [
+                            "css=.fix47QBt61Ou3M",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=(//button[@type='button'])[61]",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/div[2]/div/button",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//div[2]/div[2]/div/button",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//button[contains(.,'Thêm một mục')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "309c0c99-51c9-4877-b81f-fe50dbcfb98b",
+                    "comment": "",
+                    "command": "type",
+                    "target": "id=add-checkitem-692992a1bca20fd15da07307",
+                    "targets": [
+                        [
+                            "id=add-checkitem-692992a1bca20fd15da07307",
+                            "id"
+                        ],
+                        [
+                            "css=#add-checkitem-692992a1bca20fd15da07307",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//textarea[@id='add-checkitem-692992a1bca20fd15da07307']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/div[2]/form/textarea",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//form/textarea",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": "aF9kQ3wL7nS2bM8cT6yP1vR4hD0xJ5uZ7gE3mC9tK2pW8lN6sB1fV4jH0rY5dA7qG3oU9iX2eT8kM6cR1wF4nS0pJ5uZ7mL3tB9hQ2vD8yP6rC1xA4gN0sW5fK7lE3cT9pM2uR8jH6dY1oF4vQ0nS5bX7mL3tC9gP2wR8yN6hD1kF4sJ0uZ7aM3eB9qT2pV8lC6rW1xH5dY0oG7fK3mS9tJ2uP8bN6cA1vQ4rD0wL7yM3hE9kS2pC8tX6fB1nR4jV0uZ7gQ3oT9mL2sK8rA6bW1dF4yP0xN5cH7uJ3vE9iT2oG8mS6qD1lR4pC0wK7nF3yV9bL2tA8hQ6jN1xM4rS0eP7uC3vW9dB5gY2oT8kF6lR1pJ4sD0aM7cQ3tV9nH2yW8fP6rG1oC4uL0bK7mS3jE9xT2vD8hN5qR1wA4pB0yF7tM3kC9sJ2uG8lH6oN1dV4rX0cW7fQ3gP9mT2jS8aL5hE1yD4pK0bR7vN3oF9tJ2qG8mC6uY1xP4lH0dS7aM3eV9fB2wQ8rC6kT1nL4sW0pJ7uF3gY9oD2vR8mN5hA1cT4yK0wL7bE3pV9sF2rG8lC6tN1jD4oM0aY7uP3kH9qT2mS8xB5vR1"
+                },
+                {
+                    "id": "e29c0add-d473-4b34-9c39-83d2847fa67c",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.eGOaKqiDQtJGcI",
+                    "targets": [
+                        [
+                            "css=.eGOaKqiDQtJGcI",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//button[@type='submit']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/div[2]/form/div/button",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//form/div/button",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "d842c532-0316-4472-9fa1-2eb10a5727b6",
+                    "comment": "",
+                    "command": "assertText",
+                    "target": "xpath=(//div[@data-testid='check-item-name']//p)[last()]",
+                    "targets": [],
+                    "value": "aF9kQ3wL7nS2bM8cT6yP1vR4hD0xJ5uZ7gE3mC9tK2pW8lN6sB1fV4jH0rY5dA7qG3oU9iX2eT8kM6cR1wF4nS0pJ5uZ7mL3tB9hQ2vD8yP6rC1xA4gN0sW5fK7lE3cT9pM2uR8jH6dY1oF4vQ0nS5bX7mL3tC9gP2wR8yN6hD1kF4sJ0uZ7aM3eB9qT2pV8lC6rW1xH5dY0oG7fK3mS9tJ2uP8bN6cA1vQ4rD0wL7yM3hE9kS2pC8tX6fB1nR4jV0uZ7gQ3oT9mL2sK8rA6bW1dF4yP0xN5cH7uJ3vE9iT2oG8mS6qD1lR4pC0wK7nF3yV9bL2tA8hQ6jN1xM4rS0eP7uC3vW9dB5gY2oT8kF6lR1pJ4sD0aM7cQ3tV9nH2yW8fP6rG1oC4uL0bK7mS3jE9xT2vD8hN5qR1wA4pB0yF7tM3kC9sJ2uG8lH6oN1dV4rX0cW7fQ3gP9mT2jS8aL5hE1yD4pK0bR7vN3oF9tJ2qG8mC6uY1xP4lH0dS7aM3eV9fB2wQ8rC6kT1nL4sW0pJ7uF3gY9oD2vR8mN5hA1cT4yK0wL7bE3pV9sF2rG8lC6tN1jD4oM0aY7uP3kH9qT2mS8xB5vR1"
+                }
+            ]
+        },
+        {
+            "id": "df266149-e8a8-48d9-809f-4ce0019b6238",
+            "name": "CARD_CHECKLIST_AddItem_06",
+            "commands": [
+                {
+                    "id": "f4330f9c-0026-4914-9311-09e9da1cacb8",
+                    "comment": "",
+                    "command": "open",
+                    "target": "https://trello.com/c/hWMT62lQ/13-t2",
+                    "targets": [],
+                    "value": ""
+                },
+                {
+                    "id": "ceee4207-1a46-43ea-be08-161aa7f732c9",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.fix47QBt61Ou3M",
+                    "targets": [
+                        [
+                            "css=.fix47QBt61Ou3M",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=(//button[@type='button'])[61]",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/div[2]/div/button",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//div[2]/div[2]/div/button",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//button[contains(.,'Thêm một mục')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "26ff889b-99a4-4db2-9d2b-51b5ae88f8c9",
+                    "comment": "",
+                    "command": "type",
+                    "target": "id=add-checkitem-692992a1bca20fd15da07307",
+                    "targets": [
+                        [
+                            "id=add-checkitem-692992a1bca20fd15da07307",
+                            "id"
+                        ],
+                        [
+                            "css=#add-checkitem-692992a1bca20fd15da07307",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//textarea[@id='add-checkitem-692992a1bca20fd15da07307']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/div[2]/form/textarea",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//form/textarea",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": "https://www.google.com"
+                },
+                {
+                    "id": "2916b834-e602-4f0b-a5e3-183ee3572c4a",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.eGOaKqiDQtJGcI",
+                    "targets": [
+                        [
+                            "css=.eGOaKqiDQtJGcI",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//button[@type='submit']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/div[2]/form/div/button",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//form/div/button",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "6cba2874-7d38-4082-aa47-fa69ad0f4ba2",
+                    "comment": "",
+                    "command": "assertText",
+                    "target": "xpath=(//div[@data-testid='check-item-name']//a)[last()]",
+                    "targets": [],
+                    "value": "https://www.google.com"
+                }
+            ]
+        },
+        {
+            "id": "06c5b7e8-94a2-460b-ac7a-904cdf01a42c",
+            "name": "CARD_CHECKLIST_AddItem_07",
+            "commands": [
+                {
+                    "id": "1c8fd84f-6d35-41f5-8b1e-3bb343a71aa8",
+                    "comment": "",
+                    "command": "open",
+                    "target": "https://trello.com/c/hWMT62lQ/13-t2",
+                    "targets": [],
+                    "value": ""
+                },
+                {
+                    "id": "558a9d1f-3c1f-49e1-84c8-6076939c6b4f",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.fix47QBt61Ou3M",
+                    "targets": [
+                        [
+                            "css=.fix47QBt61Ou3M",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=(//button[@type='button'])[61]",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/div[2]/div/button",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//div[2]/div[2]/div/button",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//button[contains(.,'Thêm một mục')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "f4831731-efaf-4586-b396-46fb89370c6f",
+                    "comment": "",
+                    "command": "type",
+                    "target": "id=add-checkitem-692992a1bca20fd15da07307",
+                    "targets": [
+                        [
+                            "id=add-checkitem-692992a1bca20fd15da07307",
+                            "id"
+                        ],
+                        [
+                            "css=#add-checkitem-692992a1bca20fd15da07307",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//textarea[@id='add-checkitem-692992a1bca20fd15da07307']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/div[2]/form/textarea",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//form/textarea",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": "22130242@st.hcmuaf.edu.vn"
+                },
+                {
+                    "id": "a4906e87-5f64-4a20-ae2f-c565df3a2f80",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.eGOaKqiDQtJGcI",
+                    "targets": [
+                        [
+                            "css=.eGOaKqiDQtJGcI",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//button[@type='submit']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/div[2]/form/div/button",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//form/div/button",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "fdfe6aac-a034-4f2a-8c1f-7829574bbe4a",
+                    "comment": "",
+                    "command": "assertText",
+                    "target": "xpath=(//div[@data-testid='check-item-name']//a)[last()]",
+                    "targets": [],
+                    "value": "22130242@st.hcmuaf.edu.vn"
+                }
+            ]
+        },
+        {
+            "id": "5ce5b0c7-f285-47d7-9167-c10c0f3d8382",
+            "name": "CARD_CHECKLIST_EditItem_01",
+            "commands": [
+                {
+                    "id": "c03c2e34-7667-4619-8221-189e18b5edeb",
+                    "comment": "",
+                    "command": "open",
+                    "target": "https://trello.com/c/hWMT62lQ/13-t2",
+                    "targets": [],
+                    "value": ""
+                },
+                {
+                    "id": "ed8c1380-1c57-4cb2-af34-08c9319201df",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.Loo6cCxtB5Us48:nth-child(1) p",
+                    "targets": [
+                        [
+                            "css=.Loo6cCxtB5Us48:nth-child(1) p",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/ul/li/div[2]/div/div/div/div/div[2]/div/p",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//div/p",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//p[contains(.,'oiasdasdsad')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "fcedee30-0b7a-40fc-85e8-99788e2de175",
+                    "comment": "",
+                    "command": "type",
+                    "target": "css=[id^='edit-checkitem']",
+                    "targets": [
+                        [
+                            "id=edit-checkitem-692995b0495a58414c99cbce",
+                            "id"
+                        ],
+                        [
+                            "css=#edit-checkitem-692995b0495a58414c99cbce",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//textarea[@id='edit-checkitem-692995b0495a58414c99cbce']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/ul/li/div[2]/form/textarea",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//form/textarea",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": "change 3"
+                },
+                {
+                    "id": "e8619513-a782-4624-a356-db9c3ff1c219",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.F8PaUqG_NlHhy5 > .orotyyeYQx_tso",
+                    "targets": [
+                        [
+                            "css=.F8PaUqG_NlHhy5 > .orotyyeYQx_tso",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//button[@type='submit']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/ul/li/div[2]/form/div/div/button",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//form/div/div/button",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//button[contains(.,'Lưu')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "fb73c01c-1d3f-4032-8dbc-7af4e40e0e47",
+                    "comment": "",
+                    "command": "verifyText",
+                    "target": "xpath=//*[@data-testid='check-item-name']//p",
+                    "targets": [],
+                    "value": "change 3"
+                }
+            ]
+        },
+        {
+            "id": "88325dc0-bc1d-4e5d-97f6-4a7df03327cf",
+            "name": "CARD_CHECKLIST_EditItem_02",
+            "commands": [
+                {
+                    "id": "04b46a59-d24f-473a-b104-aca97c08ae1c",
+                    "comment": "",
+                    "command": "open",
+                    "target": "https://trello.com/c/hWMT62lQ/13-t2",
+                    "targets": [],
+                    "value": ""
+                },
+                {
+                    "id": "4c0195f1-4991-4910-b023-6b8c3d5ea14f",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.Loo6cCxtB5Us48:nth-child(1) p",
+                    "targets": [
+                        [
+                            "css=.Loo6cCxtB5Us48:nth-child(1) p",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/ul/li/div[2]/div/div/div/div/div[2]/div/p",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//div/p",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//p[contains(.,'oiasdasdsad')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "84c46066-3470-48a2-93fa-e03a530a6a8c",
+                    "comment": "",
+                    "command": "type",
+                    "target": "css=[id^='edit-checkitem']",
+                    "targets": [
+                        [
+                            "id=edit-checkitem-692995b0495a58414c99cbce",
+                            "id"
+                        ],
+                        [
+                            "css=#edit-checkitem-692995b0495a58414c99cbce",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//textarea[@id='edit-checkitem-692995b0495a58414c99cbce']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/ul/li/div[2]/form/textarea",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//form/textarea",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": "$!@#%"
+                },
+                {
+                    "id": "384d9878-a758-46c7-beb2-7c9280bfd255",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.F8PaUqG_NlHhy5 > .orotyyeYQx_tso",
+                    "targets": [
+                        [
+                            "css=.F8PaUqG_NlHhy5 > .orotyyeYQx_tso",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//button[@type='submit']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/ul/li/div[2]/form/div/div/button",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//form/div/div/button",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//button[contains(.,'Lưu')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "24cd81bc-1279-4667-9be1-b0b83d2be8f6",
+                    "comment": "",
+                    "command": "verifyText",
+                    "target": "xpath=//*[@data-testid='check-item-name']//p",
+                    "targets": [],
+                    "value": "$!@#%"
+                }
+            ]
+        },
+        {
+            "id": "085ed9e3-9541-4a2d-9599-2b31fcba88cc",
+            "name": "CARD_CHECKLIST_EditItem_04",
+            "commands": [
+                {
+                    "id": "8152931f-dfed-4148-a3bd-5000b1b067b7",
+                    "comment": "      ",
+                    "command": "open",
+                    "target": "https://trello.com/c/hWMT62lQ/13-t2",
+                    "targets": [],
+                    "value": "         "
+                },
+                {
+                    "id": "b04993b4-3af9-4ff8-a0bd-283b630cb6ff",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.Loo6cCxtB5Us48:nth-child(1) p",
+                    "targets": [
+                        [
+                            "css=.Loo6cCxtB5Us48:nth-child(1) p",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/ul/li/div[2]/div/div/div/div/div[2]/div/p",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//div/p",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//p[contains(.,'oiasdasdsad')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "dcb5e60f-c9de-40a9-9c68-51a42df0d8d9",
+                    "comment": "",
+                    "command": "type",
+                    "target": "css=[id^='edit-checkitem']",
+                    "targets": [
+                        [
+                            "id=edit-checkitem-692995b0495a58414c99cbce",
+                            "id"
+                        ],
+                        [
+                            "css=#edit-checkitem-692995b0495a58414c99cbce",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//textarea[@id='edit-checkitem-692995b0495a58414c99cbce']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/ul/li/div[2]/form/textarea",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//form/textarea",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": "            "
+                },
+                {
+                    "id": "876d827d-1a28-4094-963c-d21814aabc13",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.F8PaUqG_NlHhy5 > .orotyyeYQx_tso",
+                    "targets": [
+                        [
+                            "css=.F8PaUqG_NlHhy5 > .orotyyeYQx_tso",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//button[@type='submit']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/ul/li/div[2]/form/div/div/button",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//form/div/div/button",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//button[contains(.,'Lưu')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "553afadb-0e21-44ac-83a4-c86abe9654af",
+                    "comment": "",
+                    "command": "verifyElementPresent",
+                    "target": "css=[id^='edit-checkitem']",
+                    "targets": [],
+                    "value": "        "
+                }
+            ]
+        },
+        {
+            "id": "63e5be17-4872-44e7-bebf-13c1290d8518",
+            "name": "CARD_CHECKLIST_EditItem_03",
+            "commands": [
+                {
+                    "id": "4d29ff10-1a82-4e6a-8c78-c33efaef1714",
+                    "comment": "",
+                    "command": "open",
+                    "target": "https://trello.com/c/hWMT62lQ/13-t2",
+                    "targets": [],
+                    "value": ""
+                },
+                {
+                    "id": "62d87b53-f388-4cd9-b717-69b28ff18842",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.Loo6cCxtB5Us48:nth-child(1) p",
+                    "targets": [
+                        [
+                            "css=.Loo6cCxtB5Us48:nth-child(1) p",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/ul/li/div[2]/div/div/div/div/div[2]/div/p",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//div/p",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//p[contains(.,'oiasdasdsad')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "7a885668-d36a-4383-8052-db4efb566f29",
+                    "comment": "",
+                    "command": "type",
+                    "target": "css=[id^='edit-checkitem']",
+                    "targets": [
+                        [
+                            "id=edit-checkitem-692995b0495a58414c99cbce",
+                            "id"
+                        ],
+                        [
+                            "css=#edit-checkitem-692995b0495a58414c99cbce",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//textarea[@id='edit-checkitem-692995b0495a58414c99cbce']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/ul/li/div[2]/form/textarea",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//form/textarea",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": "facebook.com"
+                },
+                {
+                    "id": "f2e7f348-5c9b-4676-8af6-457f4b10f02a",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.F8PaUqG_NlHhy5 > .orotyyeYQx_tso",
+                    "targets": [
+                        [
+                            "css=.F8PaUqG_NlHhy5 > .orotyyeYQx_tso",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//button[@type='submit']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div[2]/section/div[2]/ul/li/div[2]/form/div/div/button",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//form/div/div/button",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//button[contains(.,'Lưu')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "432be759-07a8-4922-a229-9a61c388ad1f",
+                    "comment": "",
+                    "command": "verifyText",
+                    "target": "xpath=//*[@data-testid='check-item-name']//a",
+                    "targets": [],
+                    "value": "facebook.com"
+                }
+            ]
+        },
+        {
+            "id": "305b332e-d367-4258-80b6-c9190c5f54be",
+            "name": "CARD_DUEDATE_Add_08",
+            "commands": [
+                {
+                    "id": "aef28e94-8f84-42ef-8298-6cc91d4633fc",
+                    "comment": "",
+                    "command": "open",
+                    "target": "https://trello.com/b/TrjbC0T4/testing",
+                    "targets": [],
+                    "value": ""
+                },
+                {
+                    "id": "5fa39272-202a-4d05-b5a3-264bc870ba83",
+                    "comment": "",
+                    "command": "setWindowSize",
+                    "target": "781x816",
+                    "targets": [],
+                    "value": ""
+                },
+                {
+                    "id": "4008e949-de30-4ccb-a59c-9fe68bb378e5",
+                    "comment": "",
+                    "command": "click",
+                    "target": "linkText=tc8",
+                    "targets": [
+                        [
+                            "linkText=tc8",
+                            "linkText"
+                        ],
+                        [
+                            "css=.csCxU7M5teCNNl:nth-child(15) .Ns0Sj0nEGMQ7un",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//a[contains(text(),'tc8')]",
+                            "xpath:link"
+                        ],
+                        [
+                            "xpath=//ol[@id='board']/li/div/ol/li[8]/div/div/div/div/span[2]/a",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//a[contains(@href, '/c/vjcWqBue/8-tc8')]",
+                            "xpath:href"
+                        ],
+                        [
+                            "xpath=//li[8]/div/div/div/div/span[2]/a",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//a[contains(.,'tc8')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "10e8e73c-b554-45df-bfbf-5c0704367458",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=div:nth-child(3) > .Qa0qCr_1_yQKR9",
+                    "targets": [
+                        [
+                            "css=div:nth-child(3) > .Qa0qCr_1_yQKR9",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=(//button[@type='button'])[63]",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/section/div/div/div[2]/button",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//section/div/div/div[2]/button",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//button[contains(.,'Ngày')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "08db4d74-4a83-49ce-9a1c-aec20fe78cc1",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.TMFD0fSgrnl0ez:nth-child(4) > .nch-textfield__input",
+                    "targets": [
+                        [
+                            "css=.TMFD0fSgrnl0ez:nth-child(4) > .nch-textfield__input",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//input[@value='11:35']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[2]/input",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "be8dd76d-1062-4e3f-b225-ad4a37927fa8",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.VcKKqL2t6EWx1d:nth-child(2) .NpF4lRNlrS2rVC",
+                    "targets": [
+                        [
+                            "css=.VcKKqL2t6EWx1d:nth-child(2) .NpF4lRNlrS2rVC",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//div[2]/div/fieldset",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//fieldset[contains(.,'Ngày hết hạn')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "1dd302b6-bce8-4228-85d7-eceb4117e78b",
+                    "comment": "",
+                    "command": "type",
+                    "target": "css=.TMFD0fSgrnl0ez:nth-child(4) > .nch-textfield__input",
+                    "targets": [
+                        [
+                            "css=.TMFD0fSgrnl0ez:nth-child(4) > .nch-textfield__input",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//input[@value='23:59']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[2]/input",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": "23:59"
+                },
+                {
+                    "id": "c3ed8d5d-e148-45db-a1e6-42fd7100db89",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.Pn1tzZk3NgQPc8",
+                    "targets": [
+                        [
+                            "css=.Pn1tzZk3NgQPc8",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//form/div[2]",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "0affb8ed-53f0-41aa-94d4-c3e85a5af486",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.WG2Xn1vpjohFkT > .orotyyeYQx_tso",
+                    "targets": [
+                        [
+                            "css=.WG2Xn1vpjohFkT > .orotyyeYQx_tso",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//button[@type='submit']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//form/div[5]/button",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//button[contains(.,'Lưu')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "ed57d000-ec77-4bde-a071-1b55580d97b8",
+                    "comment": "",
+                    "command": "assertElementPresent",
+                    "target": "xpath=//button[@data-testid='due-date-badge-with-date-range-picker']//span[starts-with(text(),'23:59')]",
+                    "targets": [],
+                    "value": ""
+                }
+            ]
+        },
+        {
+            "id": "215a4f46-a6ba-4e12-b690-4dbb83e38d9a",
+            "name": "CARD_DUEDATE_Add_02",
+            "commands": [
+                {
+                    "id": "b56d738f-51d4-4210-bdb9-6f478a4de23a",
+                    "comment": "",
+                    "command": "open",
+                    "target": "https://trello.com/b/TrjbC0T4/testing",
+                    "targets": [],
+                    "value": ""
+                },
+                {
+                    "id": "d71d101f-e7ad-461c-9728-cd02dbe30714",
+                    "comment": "",
+                    "command": "click",
+                    "target": "linkText=tc2",
+                    "targets": [
+                        [
+                            "linkText=tc2",
+                            "linkText"
+                        ],
+                        [
+                            "css=.Iq1byT5o1KoAi6:nth-child(2) .csCxU7M5teCNNl:nth-child(3) .Ns0Sj0nEGMQ7un:nth-child(1)",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//a[contains(text(),'tc2')]",
+                            "xpath:link"
+                        ],
+                        [
+                            "xpath=//ol[@id='board']/li/div/ol/li[2]/div/div/div/div/span[2]/a",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//a[contains(@href, '/c/eVjJh8jL/2-tc2')]",
+                            "xpath:href"
+                        ],
+                        [
+                            "xpath=//li[2]/div/div/div/div/span[2]/a",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//a[contains(.,'tc2')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "1e99b7dc-e39a-4308-896e-1960862f72f0",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=div:nth-child(3) > .Qa0qCr_1_yQKR9",
+                    "targets": [
+                        [
+                            "css=div:nth-child(3) > .Qa0qCr_1_yQKR9",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=(//button[@type='button'])[63]",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/section/div/div/div[2]/button",
+                            "xpath:idRelative"
+                        ],
+                        [
+                            "xpath=//section/div/div/div[2]/button",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//button[contains(.,'Ngày')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "f1f5dbba-beb1-4b9d-b046-183bb48c301c",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.VcKKqL2t6EWx1d:nth-child(2) .TMFD0fSgrnl0ez:nth-child(3) > .nch-textfield__input",
+                    "targets": [
+                        [
+                            "css=.VcKKqL2t6EWx1d:nth-child(2) .TMFD0fSgrnl0ez:nth-child(3) > .nch-textfield__input",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=(//input[@name='date'])[2]",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[2]/div/fieldset/div/input",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "467423ac-e64d-453e-8ae0-8c90a2b20780",
+                    "comment": "",
+                    "command": "type",
+                    "target": "css=.VcKKqL2t6EWx1d:nth-child(2) .TMFD0fSgrnl0ez:nth-child(3) > .nch-textfield__input",
+                    "targets": [
+                        [
+                            "css=.VcKKqL2t6EWx1d:nth-child(2) .TMFD0fSgrnl0ez:nth-child(3) > .nch-textfield__input",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=(//input[@name='date'])[2]",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//div[2]/div/fieldset/div/input",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": "10/10/2020"
+                },
+                {
+                    "id": "d0ad293f-1ceb-4fcc-ad0c-addc4666f20b",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.Pn1tzZk3NgQPc8",
+                    "targets": [
+                        [
+                            "css=.Pn1tzZk3NgQPc8",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//form/div[2]",
+                            "xpath:position"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "5d5a6912-5851-4fab-8cf6-de09e4c2d019",
+                    "comment": "",
+                    "command": "click",
+                    "target": "css=.WG2Xn1vpjohFkT > .orotyyeYQx_tso",
+                    "targets": [
+                        [
+                            "css=.WG2Xn1vpjohFkT > .orotyyeYQx_tso",
+                            "css:finder"
+                        ],
+                        [
+                            "xpath=//button[@type='submit']",
+                            "xpath:attributes"
+                        ],
+                        [
+                            "xpath=//form/div[5]/button",
+                            "xpath:position"
+                        ],
+                        [
+                            "xpath=//button[contains(.,'Lưu')]",
+                            "xpath:innerText"
+                        ]
+                    ],
+                    "value": ""
+                },
+                {
+                    "id": "5a478b42-d1b3-4709-9386-b6276b5a56f1",
+                    "comment": "",
+                    "command": "assertText",
+                    "target": "xpath=//button[@data-testid='due-date-badge-with-date-range-picker']//span[text()='Quá hạn']",
+                    "targets": [],
+                    "value": "Quá hạn"
+                }
+            ]
+        }
+    ],
+    "suites": [
+        {
+            "id": "8f289a17-e728-40a3-8e7a-a74e102bf9d2",
+            "name": "DUEDATE_Add_Suite",
+            "persistSession": false,
+            "parallel": false,
+            "timeout": 300,
+            "tests": [
+                "10466b8e-aa0e-4100-b892-edf925dcf240",
+                "8267f8be-97f0-4cee-b917-fe516ac9cad7",
+                "51d2f40f-657f-4a81-bf7d-45651f45e6bb",
+                "9345ce4e-4826-4c17-8fba-91ef5d9fa3bc",
+                "d6895b96-95b6-49f6-9f73-c2f1d3fdb7d3",
+                "3f105235-f6c7-4d48-9ba5-1e95e9487f5b",
+                "305b332e-d367-4258-80b6-c9190c5f54be",
+                "215a4f46-a6ba-4e12-b690-4dbb83e38d9a"
+            ]
+        },
+        {
+            "id": "8a2eb6e8-adbe-4f8c-aba3-d0c86613f97c",
+            "name": "CHECKLIST_Add_Suite",
+            "persistSession": false,
+            "parallel": false,
+            "timeout": 300,
+            "tests": [
+                "8c40ef3f-9323-47a5-813f-b33c305aa434",
+                "81f71618-7e4e-49f2-adee-0bc89cab0408",
+                "fc3db311-3588-4df5-bcff-b70d2d1f4f12",
+                "a6a389b2-3ccb-4a62-9391-bf5365f2cf88",
+                "df266149-e8a8-48d9-809f-4ce0019b6238",
+                "06c5b7e8-94a2-460b-ac7a-904cdf01a42c"
+            ]
+        },
+        {
+            "id": "66b2e533-338a-41bd-ab38-c7fdfd6695b1",
+            "name": "CHECKLIST_EditItem_Suite",
+            "persistSession": false,
+            "parallel": false,
+            "timeout": 300,
+            "tests": [
+                "5ce5b0c7-f285-47d7-9167-c10c0f3d8382",
+                "88325dc0-bc1d-4e5d-97f6-4a7df03327cf",
+                "085ed9e3-9541-4a2d-9599-2b31fcba88cc",
+                "63e5be17-4872-44e7-bebf-13c1290d8518"
+            ]
+        }
+    ],
+    "urls": [
+        "https://trello.com/b/TrjbC0T4/testing",
+        "https://trello.com/c/hWMT62lQ/13-t2",
+        "https://trello.com/c/vjcWqBue/8-tc8"
+    ],
+    "plugins": []
+}

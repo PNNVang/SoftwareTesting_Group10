@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_COMMENT_DELETE02</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c05709c9-50b3-44cd-b097-918d4de3fa64</testCaseGuid>
+</TestCaseEntity>

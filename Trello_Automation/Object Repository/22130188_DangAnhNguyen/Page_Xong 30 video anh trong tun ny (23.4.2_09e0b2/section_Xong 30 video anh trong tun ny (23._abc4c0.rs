@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>section_Xong 30 video anh trong tun ny (23._abc4c0</name>
+   <tag></tag>
+   <elementGuidId>baa25838-c790-4c4b-ac5e-a4c600fe95b6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>section.s7K43upMNnpWe4.qbwGmAROm5SJ2i.bJSvvWVlCRK0jf.Mve_gYUxIvH38T</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/section[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>section</value>
+      <webElementGuid>28b6b7c9-ffd0-490f-bdc4-2a3a419a321c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>s7K43upMNnpWe4 qbwGmAROm5SJ2i bJSvvWVlCRK0jf Mve_gYUxIvH38T</value>
+      <webElementGuid>de1ebfcc-38a7-4649-920b-b703f9b1ab86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>card-back-sticky-header</value>
+      <webElementGuid>97205f80-1f65-4851-b1ee-b8bb6e8d6e31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Xong 30 video anh trong tuần này (23.4.2025 - 27.4.2025)Add</value>
+      <webElementGuid>70c7d713-0f66-4ace-8988-5bb6232081fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layer-manager-card-back&quot;)/div[@class=&quot;NU3Yu9KTws207g YPtsgaEOeBFV2L&quot;]/div[@class=&quot;uIImyziS34erOZ&quot;]/div[2]/div[@class=&quot;mqI1p85XmC2MaW BvYMUSHQ3VZhSV gVKBv3Rn1WqlNF udR7hhdNKnONkc GEdu4Dn5rTEUDE&quot;]/div[@class=&quot;cMcSJ6d3jjVbP6&quot;]/div[@class=&quot;FntQZvNq2QvxQL&quot;]/div[@class=&quot;DGQMOEx8BBlPsz&quot;]/main[@class=&quot;OCBnVA6yk0XZsg z5cmpMyMY5EyBB&quot;]/section[@class=&quot;s7K43upMNnpWe4 qbwGmAROm5SJ2i bJSvvWVlCRK0jf Mve_gYUxIvH38T&quot;]</value>
+      <webElementGuid>e688b1c6-153a-460b-a9dc-f4e32eab1266</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/section[2]</value>
+      <webElementGuid>104b7b38-304f-44da-869e-5eba243877f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Xong 30 video anh trong tuần này (23.4.2025 - 27.4.2025)'])[3]/following::section[1]</value>
+      <webElementGuid>50961598-f700-4c4d-a29e-0bce846a6031</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Xong 30 video anh trong tuần này (23.4.2025 - 27.4.2025)'])[2]/following::section[1]</value>
+      <webElementGuid>0ae6e3be-c5ba-4fb4-b761-cda56b0b22d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Labels'])[1]/preceding::section[1]</value>
+      <webElementGuid>636d6b65-16bc-46de-a9e5-7e645cead8a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[2]</value>
+      <webElementGuid>1e7f5613-33ec-45cb-810b-2043ca294bfd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//section[(text() = 'Xong 30 video anh trong tuần này (23.4.2025 - 27.4.2025)Add' or . = 'Xong 30 video anh trong tuần này (23.4.2025 - 27.4.2025)Add')]</value>
+      <webElementGuid>34fc6f2b-5566-4d3f-bbab-e757085f841d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Voting_g4oicM70jgqP7r</name>
+   <tag></tag>
+   <elementGuidId>8c1575a5-3378-4a51-b176-be142e637dba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.g4oicM70jgqP7r</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='chrome-container']/div[4]/div[2]/div/div[2]/div/div/ul/li/button/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>29fbb889-ff6d-48e8-ad3a-43a39eb3cb4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>g4oicM70jgqP7r</value>
+      <webElementGuid>8079bb7a-5853-49c1-8f81-5f08279a67bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Edit Power-Up settings</value>
+      <webElementGuid>02497245-f01b-44f3-8511-64fefb743987</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;chrome-container&quot;)/div[@class=&quot;pop-over is-shown&quot;]/div[2]/div[@class=&quot;no-back&quot;]/div[@class=&quot;pop-over-content js-pop-over-content u-fancy-scrollbar js-tab-parent&quot;]/div[@class=&quot;js-react-root&quot;]/div[@class=&quot;UZFgTnUqKFdI6u&quot;]/ul[1]/li[1]/button[@class=&quot;LOhIKSjx1ImXEH&quot;]/span[@class=&quot;bH80RvHHmoWYhk&quot;]/span[@class=&quot;g4oicM70jgqP7r&quot;]</value>
+      <webElementGuid>bacc0178-3900-49a7-b691-63eedebc7d7c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='chrome-container']/div[4]/div[2]/div/div[2]/div/div/ul/li/button/span/span</value>
+      <webElementGuid>bf7da927-ab61-4670-b08f-92803fabb100</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Voting'])[2]/following::span[2]</value>
+      <webElementGuid>7f0bc804-26de-48ee-9087-76170fb15c29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch boards'])[1]/following::span[2]</value>
+      <webElementGuid>332155dc-6c58-4109-8bd9-a4e68fa2110c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Disable'])[1]/preceding::span[1]</value>
+      <webElementGuid>f2b57f8f-4b85-452d-bb62-39f528d34732</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Edit Power-Up settings']/parent::*</value>
+      <webElementGuid>cd1d1acb-c883-4707-beca-4a6710e036f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/button/span/span</value>
+      <webElementGuid>7d9bc6aa-6969-440b-99c1-735df95547ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Edit Power-Up settings' or . = 'Edit Power-Up settings')]</value>
+      <webElementGuid>66c4dae6-d039-44da-a4b2-5b60ce913d63</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

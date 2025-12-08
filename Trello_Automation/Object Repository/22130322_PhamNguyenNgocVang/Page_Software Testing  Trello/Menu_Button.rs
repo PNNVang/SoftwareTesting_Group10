@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Menu_Button</name>
+   <tag></tag>
+   <elementGuidId>44d81832-2792-4ba1-9c6e-2365411ac71b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.QCfb_k37Q8MX7C.PhzBALMp63PY_y.ybVBgfOiuWZJtD.Yt_v_LmarJM9ZS._St8_YSRMkLv07 > span.nch-icon.hChYpzFshATQo8.FQRfhpoLVAyxHI.r1ljm7etlgUs0w > span._1e0c1o8l._1o9zidpf._vyfuvuon._vwz4kb7n._1szv15vq._1tly15vq._rzyw1osq._17jb1osq._1ksvoz0e._3se1x1jp._re2rglyw._1veoyfq0._1kg81r31._jcxd1r8n._gq0g1onz._1trkwc43</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='trello-board-root']/div/div/div/div/div/span[2]/button[2]/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Show menu&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f60a2d20-6787-4b74-bea8-eb1a843b0db3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>OverflowMenuHorizontalIcon</value>
+      <webElementGuid>4423dcd7-2be6-4ba1-b5df-dd25d497497b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-vc</name>
+      <type>Main</type>
+      <value>icon-OverflowMenuHorizontalIcon</value>
+      <webElementGuid>7f1524fc-f6f2-477b-a08d-8dadd2d701b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>d31b593a-f990-44f2-b094-939d9cc2b983</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_1e0c1o8l _1o9zidpf _vyfuvuon _vwz4kb7n _1szv15vq _1tly15vq _rzyw1osq _17jb1osq _1ksvoz0e _3se1x1jp _re2rglyw _1veoyfq0 _1kg81r31 _jcxd1r8n _gq0g1onz _1trkwc43</value>
+      <webElementGuid>444e3b40-8e9b-4aea-8475-d96f97c98303</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;trello-board-root&quot;)/div[1]/div[@class=&quot;board-wrapper&quot;]/div[@class=&quot;board-main-content MGBVHMvOK1TD8j Xpq6bBra11ICMi ivZ_wF4VZB8iYB&quot;]/div[@class=&quot;board-header u-clearfix js-board-header board-header-redesign-blur&quot;]/div[@class=&quot;Tp0C38uQUEpYUw&quot;]/span[@class=&quot;z0eqWVVZWBQhjv&quot;]/button[@class=&quot;QCfb_k37Q8MX7C PhzBALMp63PY_y ybVBgfOiuWZJtD Yt_v_LmarJM9ZS _St8_YSRMkLv07&quot;]/span[@class=&quot;nch-icon hChYpzFshATQo8 FQRfhpoLVAyxHI r1ljm7etlgUs0w&quot;]/span[@class=&quot;_1e0c1o8l _1o9zidpf _vyfuvuon _vwz4kb7n _1szv15vq _1tly15vq _rzyw1osq _17jb1osq _1ksvoz0e _3se1x1jp _re2rglyw _1veoyfq0 _1kg81r31 _jcxd1r8n _gq0g1onz _1trkwc43&quot;]</value>
+      <webElementGuid>2189d391-2342-4d84-b5ed-04daa4df644e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='trello-board-root']/div/div/div/div/div/span[2]/button[2]/span/span</value>
+      <webElementGuid>dd257f05-d225-4aeb-b236-bd5176227511</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Share'])[1]/following::span[2]</value>
+      <webElementGuid>5577e720-0b29-4a67-994a-b9b9dd2fe983</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Power-Ups'])[1]/following::span[11]</value>
+      <webElementGuid>604f2af3-5d98-4b56-a638-cb6e07571725</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Testing'])[1]/preceding::span[1]</value>
+      <webElementGuid>5f11d8a8-3d28-45fa-b2e7-3e2f1962208f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Testing'])[2]/preceding::span[2]</value>
+      <webElementGuid>35aecb0b-af92-4dab-93da-7f02ae0c6313</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/span/span</value>
+      <webElementGuid>e5aa5847-026a-411f-af06-7dbc346d6bd9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>check_saphethan</name>
+   <tag></tag>
+   <elementGuidId>32f83b07-b88f-4d60-b8e1-077473d99487</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div/section/div/button/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.tK9hYNZCBCTS75._q3HmyAOFH9VYQ</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d43478fc-97f1-4095-8138-f2be2dedc9bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tK9hYNZCBCTS75 _q3HmyAOFH9VYQ</value>
+      <webElementGuid>73319aaa-dc7e-490d-b83d-586d77fd9ebd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sắp hết hạn</value>
+      <webElementGuid>c2216e98-163f-4129-b60c-ad5dc52cca41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layer-manager-card-back&quot;)/div[@class=&quot;NU3Yu9KTws207g YPtsgaEOeBFV2L&quot;]/div[@class=&quot;uIImyziS34erOZ&quot;]/div[2]/div[@class=&quot;mqI1p85XmC2MaW BvYMUSHQ3VZhSV gVKBv3Rn1WqlNF udR7hhdNKnONkc GEdu4Dn5rTEUDE&quot;]/div[@class=&quot;cMcSJ6d3jjVbP6&quot;]/div[@class=&quot;FntQZvNq2QvxQL&quot;]/div[@class=&quot;DGQMOEx8BBlPsz&quot;]/main[@class=&quot;OCBnVA6yk0XZsg z5cmpMyMY5EyBB&quot;]/div[@class=&quot;hzcmJzuca9EAAu&quot;]/div[@class=&quot;vvxJ5TzkAGa_Yk&quot;]/section[@class=&quot;BwWJgt9gxtnC2g&quot;]/div[@class=&quot;DRuW5uK5xdLGU9&quot;]/button[@class=&quot;lV5NMQIFcFa11m ybVBgfOiuWZJtD _St8_YSRMkLv07&quot;]/span[@class=&quot;tK9hYNZCBCTS75 _q3HmyAOFH9VYQ&quot;]</value>
+      <webElementGuid>f1cfde26-f61c-4b90-b961-8fbaa75a37cb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/div/section/div/button/span[2]</value>
+      <webElementGuid>6f57380c-c296-437e-9f56-dd5ce4f34002</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ngày hết hạn'])[1]/following::span[2]</value>
+      <webElementGuid>2bccb770-d009-4d71-a7f8-b1dc35f226b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Đính kèm'])[1]/following::span[2]</value>
+      <webElementGuid>ce340259-2531-44c4-88ff-bf991e6275da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mô tả'])[1]/preceding::span[5]</value>
+      <webElementGuid>e57bd7e1-cf82-48a6-8a94-91a6acdb30ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thêm mô tả chi tiết hơn...'])[1]/preceding::span[5]</value>
+      <webElementGuid>68d8b867-db4a-4f21-b1d9-0c4fb301ac3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sắp hết hạn']/parent::*</value>
+      <webElementGuid>1a5d649b-2b80-4ee5-a2bf-e4352dfdcecc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div/button/span[2]</value>
+      <webElementGuid>6d7a2399-eb73-449f-b2b0-3d7190f21a39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Sắp hết hạn' or . = 'Sắp hết hạn')]</value>
+      <webElementGuid>7a4b3267-3af6-443f-bbe4-40c334b0a9a9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

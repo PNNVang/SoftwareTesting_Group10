@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CARD_CHECKLIST_AddItem_04</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>96b15bd5-4aae-411f-9284-bbe95c1caa73</testCaseGuid>
+   <variable>
+      <defaultValue>'hana.voca@gmail.com'</defaultValue>
+      <description></description>
+      <id>eeddb683-d698-4ac9-a512-7b57cc28b0dd</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'tai2k10oke'</defaultValue>
+      <description></description>
+      <id>155e277e-7e61-4270-b5d9-5722ba9e962f</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'aF9kQ3wL7nS2bM8cT6yP1vR4hD0xJ5uZ7gE3mC9tK2pW8lN6sB1fV4jH0rY5dA7qG3oU9iX2eT8kM6cR1wF4nS0pJ5uZ7mL3tB9hQ2vD8yP6rC1xA4gN0sW5fK7lE3cT9pM2uR8jH6dY1oF4vQ0nS5bX7mL3tC9gP2wR8yN6hD1kF4sJ0uZ7aM3eB9qT2pV8lC6rW1xH5dY0oG7fK3mS9tJ2uP8bN6cA1vQ4rD0wL7yM3hE9kS2pC8tX6fB1nR4jV0uZ7gQ3oT9mL2sK8rA6bW1dF4yP0xN5cH7uJ3vE9iT2oG8mS6qD1lR4pC0wK7nF3yV9bL2tA8hQ6jN1xM4rS0eP7uC3vW9dB5gY2oT8kF6lR1pJ4sD0aM7cQ3tV9nH2yW8fP6rG1oC4uL0bK7mS3jE9xT2vD8hN5qR1wA4pB0yF7tM3kC9sJ2uG8lH6oN1dV4rX0cW7fQ3gP9mT2jS8aL5hE1yD4pK0bR7vN3oF9tJ2qG8mC6uY1xP4lH0dS7aM3eV9fB2wQ8rC6kT1nL4sW0pJ7uF3gY9oD2vR8mN5hA1cT4yK0wL7bE3pV9sF2rG8lC6tN1jD4oM0aY7uP3kH9qT2mS8xB5vR1'</defaultValue>
+      <description></description>
+      <id>594d03b3-eb21-43d5-8c29-26aba5b79c19</id>
+      <masked>false</masked>
+      <name>input</name>
+   </variable>
+</TestCaseEntity>

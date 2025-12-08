@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Kim th trello__1e0c1o8l _vchhusvi _1o9_84c05d</name>
+   <tag></tag>
+   <elementGuidId>8c36b333-6d17-4f4f-b980-d64e1ab13e31</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div:nth-of-type(3) > button.y_p650fpIPDwsU.ybVBgfOiuWZJtD.Yt_v_LmarJM9ZS._St8_YSRMkLv07 > span._1e0c1o8l._vchhusvi._1o9zidpf._vwz4kb7n._y4ti1igz._bozg1mb9._12va1onz._jcxd1r8n</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/header/div/div[2]/div[3]/button/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;card-back-actions-button&quot;]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4b6b183d-376e-406d-b4e1-9d8c6cb6efca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>e5d9f409-4d56-4042-9448-02e10b5ce76c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Actions</value>
+      <webElementGuid>ef669c4c-6fc4-46dd-9a16-8280aa34aad2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_1e0c1o8l _vchhusvi _1o9zidpf _vwz4kb7n _y4ti1igz _bozg1mb9 _12va1onz _jcxd1r8n</value>
+      <webElementGuid>0604096b-300b-4c50-8efa-546a8ac002b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layer-manager-card-back&quot;)/div[@class=&quot;NU3Yu9KTws207g YPtsgaEOeBFV2L&quot;]/div[@class=&quot;uIImyziS34erOZ&quot;]/div[2]/div[@class=&quot;mqI1p85XmC2MaW BvYMUSHQ3VZhSV gVKBv3Rn1WqlNF udR7hhdNKnONkc GEdu4Dn5rTEUDE&quot;]/div[@class=&quot;cMcSJ6d3jjVbP6&quot;]/div[@class=&quot;FntQZvNq2QvxQL&quot;]/header[@class=&quot;PEWk82dyDzpw9j&quot;]/div[@class=&quot;X1qOHR5u_FfWBE&quot;]/div[@class=&quot;J3GFjfezb6odfw&quot;]/div[3]/button[@class=&quot;y_p650fpIPDwsU ybVBgfOiuWZJtD Yt_v_LmarJM9ZS _St8_YSRMkLv07&quot;]/span[@class=&quot;_1e0c1o8l _vchhusvi _1o9zidpf _vwz4kb7n _y4ti1igz _bozg1mb9 _12va1onz _jcxd1r8n&quot;]</value>
+      <webElementGuid>a5b26700-bcba-4427-b718-61ca235d4e14</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/header/div/div[2]/div[3]/button/span</value>
+      <webElementGuid>4b742b5b-63b6-4e4b-aba9-e5ecb84f0283</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kiểm thử trello'])[3]/following::span[6]</value>
+      <webElementGuid>30756cc6-e927-40c4-967c-55599f15659b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Switch boards'])[1]/following::span[8]</value>
+      <webElementGuid>156fe30f-8269-4f6a-b546-285c8c82f92f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Actions'])[1]/preceding::span[1]</value>
+      <webElementGuid>98179c38-0182-4115-bf04-795a3f198d59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thêm thẻ mới'])[2]/preceding::span[6]</value>
+      <webElementGuid>42625fc2-01e9-4836-9a40-bce29b42b342</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]/button/span</value>
+      <webElementGuid>afe439a0-258d-4d0f-a914-f4303ebe6cde</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Show Attachments_v1h5yZNRnfe74l ybVB_1835f0</name>
+   <tag></tag>
+   <elementGuidId>899c8cc1-c317-4825-9050-13898adb803d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(3) > a.YWdqwf2ehexrXd > div.WxU8ZEBtsbi2pJ.NbWs9wGxzPMe3j.Xq4g2HJ1vIc6jV > div:nth-of-type(2) > button.v1h5yZNRnfe74l.ybVBgfOiuWZJtD.orotyyeYQx_tso._St8_YSRMkLv07</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[24]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>108fc843-de1e-4e3e-82d4-7f4e19023cef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>v1h5yZNRnfe74l ybVBgfOiuWZJtD orotyyeYQx_tso _St8_YSRMkLv07</value>
+      <webElementGuid>4eccfcc8-071d-4e38-bfd3-5679283501ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ce202773-c264-49e0-9c10-51fd9c8c04b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>pup-add-button</value>
+      <webElementGuid>27a3db82-f5e6-4ca3-992b-95baa67e6926</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add</value>
+      <webElementGuid>831e7359-76e2-4c76-bd63-4e359c5752af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;trello-board-root&quot;)/div[1]/div[@class=&quot;board-wrapper&quot;]/div[@class=&quot;board-main-content MGBVHMvOK1TD8j Xpq6bBra11ICMi ivZ_wF4VZB8iYB&quot;]/div[@class=&quot;board-canvas&quot;]/div[@class=&quot;u9fbqAqsZm2m8M&quot;]/div[@class=&quot;z4R6o22U1TiJyR&quot;]/div[@class=&quot;Xw8Tg1DihmxOH0&quot;]/div[@class=&quot;Da4wJ9a1YneHqC&quot;]/div[@class=&quot;UP4S2pNKYlF10X&quot;]/ul[@class=&quot;jMjRB5xsrNI8hl&quot;]/li[3]/a[@class=&quot;YWdqwf2ehexrXd&quot;]/div[@class=&quot;WxU8ZEBtsbi2pJ NbWs9wGxzPMe3j Xq4g2HJ1vIc6jV&quot;]/div[2]/button[@class=&quot;v1h5yZNRnfe74l ybVBgfOiuWZJtD orotyyeYQx_tso _St8_YSRMkLv07&quot;]</value>
+      <webElementGuid>e800fdf5-6107-4cf7-832d-fd74d0384810</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[24]</value>
+      <webElementGuid>40495317-ae81-41fd-adac-2ef6231e9c4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='trello-board-root']/div/div/div/div[2]/div/div[2]/div[2]/div[2]/div/ul/li[3]/a/div/div[2]/button</value>
+      <webElementGuid>751e156f-3971-4b3f-aef7-214fceb60bcc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show Attachments'])[1]/following::button[1]</value>
+      <webElementGuid>0583762f-c3a0-4331-86a1-f91f3f796752</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add bookmarks and folders to organize useful links on your board'])[1]/following::button[1]</value>
+      <webElementGuid>5ad78da7-bff4-48e7-a613-abfdc0bcdbf3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show attachments at the front of the card.'])[1]/preceding::button[1]</value>
+      <webElementGuid>8b8a8d38-9152-4e8c-92b5-e6c93b5657d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Archive Manager - Tiny Power-Ups Club'])[1]/preceding::button[1]</value>
+      <webElementGuid>77f55622-5d3a-4d09-9599-5c503b07271d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a/div/div[2]/button</value>
+      <webElementGuid>f69a4e39-3a17-4d55-bf4d-1bae0d60235f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Add' or . = 'Add')]</value>
+      <webElementGuid>93128a08-c744-4d48-b544-0b9d348bb7c9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

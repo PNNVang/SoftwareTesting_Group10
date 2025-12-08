@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Hello Youtube__1e0c1o8l _1o9zidpf _vyf_5cc61d</name>
+   <tag></tag>
+   <elementGuidId>267e2e9a-2740-406f-b691-cee7babd1aef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/section[3]/div[2]/div/ul/li/div/button/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.F_xnYqER7ZXVuY.ybVBgfOiuWZJtD._St8_YSRMkLv07 > span.nch-icon.hChYpzFshATQo8.GzZMAuibTh5l1i > span._1e0c1o8l._1o9zidpf._vyfuvuon._vwz4kb7n._1szv15vq._1tly15vq._rzyw1osq._17jb1osq._1ksvoz0e._3se1x1jp._re2rglyw._1veoyfq0._1kg81r31._jcxd1r8n._gq0g1onz._1trkwc43</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1b281825-254d-4d41-a6f0-455e86c9226d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>OverflowMenuHorizontalIcon</value>
+      <webElementGuid>e54b229f-7aab-4ffd-b596-b1706c19b8ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-vc</name>
+      <type>Main</type>
+      <value>icon-OverflowMenuHorizontalIcon</value>
+      <webElementGuid>24d6ac17-e75c-462c-88da-17ac149369a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>8c498ae0-d845-44f2-8249-7d864d37f523</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_1e0c1o8l _1o9zidpf _vyfuvuon _vwz4kb7n _1szv15vq _1tly15vq _rzyw1osq _17jb1osq _1ksvoz0e _3se1x1jp _re2rglyw _1veoyfq0 _1kg81r31 _jcxd1r8n _gq0g1onz _1trkwc43</value>
+      <webElementGuid>3ec91a75-ac3a-4779-8d33-7d3a9ff3afd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layer-manager-card-back&quot;)/div[@class=&quot;NU3Yu9KTws207g YPtsgaEOeBFV2L&quot;]/div[@class=&quot;uIImyziS34erOZ&quot;]/div[2]/div[@class=&quot;mqI1p85XmC2MaW BvYMUSHQ3VZhSV gVKBv3Rn1WqlNF udR7hhdNKnONkc GEdu4Dn5rTEUDE&quot;]/div[@class=&quot;cMcSJ6d3jjVbP6&quot;]/div[@class=&quot;FntQZvNq2QvxQL&quot;]/div[@class=&quot;DGQMOEx8BBlPsz&quot;]/main[@class=&quot;OCBnVA6yk0XZsg z5cmpMyMY5EyBB&quot;]/div[@class=&quot;hzcmJzuca9EAAu&quot;]/section[@class=&quot;s7K43upMNnpWe4&quot;]/div[@class=&quot;N_3ir40qWUR8gh&quot;]/div[1]/ul[@class=&quot;fxeUOvrTI5zlC6&quot;]/li[@class=&quot;_zMXGNz8nPGPij&quot;]/div[@class=&quot;zKkjQvjkiEsgmV&quot;]/button[@class=&quot;F_xnYqER7ZXVuY ybVBgfOiuWZJtD _St8_YSRMkLv07&quot;]/span[@class=&quot;nch-icon hChYpzFshATQo8 GzZMAuibTh5l1i&quot;]/span[@class=&quot;_1e0c1o8l _1o9zidpf _vyfuvuon _vwz4kb7n _1szv15vq _1tly15vq _rzyw1osq _17jb1osq _1ksvoz0e _3se1x1jp _re2rglyw _1veoyfq0 _1kg81r31 _jcxd1r8n _gq0g1onz _1trkwc43&quot;]</value>
+      <webElementGuid>c707ffc6-c114-4dd7-bb51-ce9a2bff5741</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/div[2]/main/div/section[3]/div[2]/div/ul/li/div/button/span/span</value>
+      <webElementGuid>11f199e6-9b60-4421-8ce4-56a74820f0e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hello Youtube'])[2]/following::span[2]</value>
+      <webElementGuid>f683a066-ab65-4ab2-9605-f9d4a2a1c4ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hello Youtube'])[1]/following::span[3]</value>
+      <webElementGuid>0d04134a-5711-41b0-b4f1-eefe1e99baf2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='YouTube'])[1]/preceding::span[1]</value>
+      <webElementGuid>3b63e8f5-c495-4ff9-9ec8-ec91e255f8e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='YouTube'])[2]/preceding::span[1]</value>
+      <webElementGuid>bc6e4b9a-86aa-459a-af2e-2578f991f8b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul/li/div/button/span/span</value>
+      <webElementGuid>cf889b12-2fad-48dc-a7e4-22b75f8aba28</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

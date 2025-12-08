@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Switch boards_C7M0AhErd3ZgGb yGLGbU_LXb98UW</name>
+   <tag></tag>
+   <elementGuidId>9e64e86a-f426-481b-b96b-e92c7bc92c8b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/header/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.C7M0AhErd3ZgGb.yGLGbU_LXb98UW</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a495c589-e05f-4ca3-80b8-0a824e05999c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>C7M0AhErd3ZgGb yGLGbU_LXb98UW</value>
+      <webElementGuid>3eaf2ee9-590f-4e6b-acad-caa48b7351e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>card-cover</value>
+      <webElementGuid>b39c810d-ea65-4bff-90a2-eddd7124aad1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b541faaf-15c0-4b8a-bbd5-d51db0f2953e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;layer-manager-card-back&quot;)/div[@class=&quot;NU3Yu9KTws207g YPtsgaEOeBFV2L&quot;]/div[@class=&quot;uIImyziS34erOZ&quot;]/div[2]/div[@class=&quot;mqI1p85XmC2MaW BvYMUSHQ3VZhSV gVKBv3Rn1WqlNF udR7hhdNKnONkc GEdu4Dn5rTEUDE&quot;]/div[@class=&quot;cMcSJ6d3jjVbP6&quot;]/div[@class=&quot;FntQZvNq2QvxQL&quot;]/header[@class=&quot;PEWk82dyDzpw9j&quot;]/div[@class=&quot;VYOxnDmISE16Mq PuhmTExJftcLrr&quot;]/div[@class=&quot;C7M0AhErd3ZgGb yGLGbU_LXb98UW&quot;]</value>
+      <webElementGuid>19c9a570-eb79-48bc-9da7-e50d84d5ca94</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='layer-manager-card-back']/div/div/div[2]/div/div/div/header/div/div</value>
+      <webElementGuid>6c027b92-d712-4058-8a76-0ebc8e5def32</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//header/div/div</value>
+      <webElementGuid>518176e1-a726-4414-96ac-55dd6dfd5870</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

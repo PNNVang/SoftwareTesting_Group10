@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Change to public_ybVBgfOiuWZJtD orot_ed26f4</name>
+   <tag></tag>
+   <elementGuidId>1bef80a5-3a19-4d1b-b23f-0fa33f2ae6aa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[normalize-space(text())='Yes, make board public']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.ybVBgfOiuWZJtD.orotyyeYQx_tso.Y8VSmRstKSzhJH._St8_YSRMkLv07</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c61828d1-16ed-4a23-9998-cde4415531bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ybVBgfOiuWZJtD orotyyeYQx_tso Y8VSmRstKSzhJH _St8_YSRMkLv07</value>
+      <webElementGuid>d11386d3-8261-48d2-b61b-36c1ac085de7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>38660202-51b2-4b43-b4eb-14c6644ebf83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Yes, make board public</value>
+      <webElementGuid>90387f88-048f-4845-bac9-1722a87e1992</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;feplat3731&quot;]/div[@class=&quot;atlaskit-portal-container&quot;]/div[@class=&quot;atlaskit-portal&quot;]/section[@class=&quot;Tu0XvZVffeyqqw js-react-root&quot;]/div[2]/div[1]/div[@class=&quot;aFGD9vtcIAqeiM BxnW01nt1ospt1 YzL7yRijWxDng8&quot;]/div[@class=&quot;WtpRrSeHtrpxQW&quot;]/button[@class=&quot;ybVBgfOiuWZJtD orotyyeYQx_tso Y8VSmRstKSzhJH _St8_YSRMkLv07&quot;]</value>
+      <webElementGuid>3ffcb138-8577-4394-8fa2-387195ef4aa4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[normalize-space(text())='Yes, make board public']</value>
+      <webElementGuid>8c316a84-6b2e-4fa2-875a-d03963c551f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//span[normalize-space(text())='Public']</value>
+      <webElementGuid>98bd92a2-9534-4084-9ae6-738c4edf2482</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Yes, make board public']/parent::*</value>
+      <webElementGuid>32ff5bf4-50e3-4304-97fd-f4f8e48e9242</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/div[2]/div/div/div/button</value>
+      <webElementGuid>8bfc6dd9-16c7-45cc-9d5b-1a0cbb92a2eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Yes, make board public' or . = 'Yes, make board public')]</value>
+      <webElementGuid>a058db2d-9504-4e0f-8064-77980ccf5308</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

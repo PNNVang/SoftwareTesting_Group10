@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CARD_CHECKLIST_AddItem_02</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b5749467-9be3-4236-bba2-f9a80bd5c7d3</testCaseGuid>
+   <variable>
+      <defaultValue>'$!@#%'</defaultValue>
+      <description></description>
+      <id>95d4fd39-a7a4-4e8d-9ac4-b0dfc2f25719</id>
+      <masked>false</masked>
+      <name>input</name>
+   </variable>
+   <variable>
+      <defaultValue>'hana.voca@gmail.com'</defaultValue>
+      <description></description>
+      <id>d1fe8921-13fb-4cd2-9739-095ae64312be</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'tai2k10oke'</defaultValue>
+      <description></description>
+      <id>9e01b92c-0f5f-4095-9f08-665ed812e9ea</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Start free trial_w68Pkbr8aRWmDF ybVB_99607a - Copy</name>
+   <tag></tag>
+   <elementGuidId>0c5ad71a-6f32-4482-8bbf-80f873cacc45</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@data-testid='create-board-submit-button']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.w68Pkbr8aRWmDF.ybVBgfOiuWZJtD.orotyyeYQx_tso._St8_YSRMkLv07</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4f9b40ab-7ebf-457e-bf4b-f081beb2a4f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w68Pkbr8aRWmDF ybVBgfOiuWZJtD orotyyeYQx_tso _St8_YSRMkLv07</value>
+      <webElementGuid>adb1174f-cebe-40c4-b5f1-63aae51e7003</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f2136672-30c1-4752-9f40-5e1b6638aab9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>create-board-submit-button</value>
+      <webElementGuid>8b8377b6-1269-4a9c-9823-7621e655de40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Create</value>
+      <webElementGuid>96f8517f-05b2-4683-b0cd-141ec5ee4f90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;feplat3731&quot;]/div[@class=&quot;atlaskit-portal-container&quot;]/div[@class=&quot;atlaskit-portal&quot;]/section[@class=&quot;Tu0XvZVffeyqqw js-react-root&quot;]/div[2]/div[1]/div[@class=&quot;aFGD9vtcIAqeiM YzL7yRijWxDng8&quot;]/form[1]/button[@class=&quot;w68Pkbr8aRWmDF ybVBgfOiuWZJtD orotyyeYQx_tso _St8_YSRMkLv07&quot;]</value>
+      <webElementGuid>2c6bd5a3-5917-4095-8637-386c8bd1bd3a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@data-testid='create-board-submit-button']</value>
+      <webElementGuid>4ad71be9-42e2-4e77-9f7d-cdca8fd81b29</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start free trial'])[1]/following::button[1]</value>
+      <webElementGuid>f218b9fe-9993-4431-994d-fd53d6ba5818</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Public'])[1]/following::button[2]</value>
+      <webElementGuid>95750cd6-f6ce-470b-aad6-1088caa7c9fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start with a template'])[1]/preceding::button[1]</value>
+      <webElementGuid>6c43dbbe-c57d-42b8-9612-018973528307</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/button</value>
+      <webElementGuid>91f54a99-9b96-42ce-ac69-5ef53e52201f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Create' or . = 'Create')]</value>
+      <webElementGuid>23a44077-c554-4677-b1e1-dd9b555f2839</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

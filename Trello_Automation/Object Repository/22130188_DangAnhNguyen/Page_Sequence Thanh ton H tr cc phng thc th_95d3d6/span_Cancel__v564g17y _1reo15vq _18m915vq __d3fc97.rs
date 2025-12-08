@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Cancel__v564g17y _1reo15vq _18m915vq __d3fc97</name>
+   <tag></tag>
+   <elementGuidId>4ededaf2-e37f-458d-bb63-88a9278e8157</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button._mizu194a._1ah3dkaa._ra3xnqa1._128mdkaa._1cvmnqa1._4davt94y._19itglyw._vchhusvi._r06hglyw._80omtlke._2rkofajl._11c82smr._v5649dqc._189eidpf._1rjc12x7._1e0c116y._1bsb1wug._p12f1osq._kqswh2mm._4cvr1q9y._1bah1h6o._gy1p1b66._1o9zidpf._4t3iviql._k48p1wq8._y4tiutpp._bozgutpp._y3gn1h6o._s7n4nkob._14mj1kw7._9v7aze3t._1tv3nqa1._39yqe4h9._11fnglyw._18postnw._bfhkomb0._syaz15cr._105315cr._f8pj15cr._30l315cr._9h8h15cr._irr31wqm._1di617hq._4bfu1r31._1hmsglyw._ajmmnqa1._1a3b1r31._4fprglyw._5goinqa1._9oik1r31._1bnxglyw._jf4cnqa1._1nrm1r31._c2waglyw._1iohnqa1 > span._v564g17y._1reo15vq._18m915vq._16jlkb7n._1o9zkb7n._1bto1l2s._o5721q9c</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9f898e5d-f3d9-4b83-aca3-3877b636885f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_v564g17y _1reo15vq _18m915vq _16jlkb7n _1o9zkb7n _1bto1l2s _o5721q9c</value>
+      <webElementGuid>3d6c487a-2f86-403c-a081-a6540e728d10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Insert</value>
+      <webElementGuid>f1dcb713-886a-43df-8815-7c2dd7a129fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;feplat3731 react-overlay-up&quot;]/div[@class=&quot;atlaskit-portal-container&quot;]/div[@class=&quot;atlaskit-portal&quot;]/section[@class=&quot;Tu0XvZVffeyqqw js-react-root&quot;]/div[2]/div[1]/div[@class=&quot;aFGD9vtcIAqeiM BxnW01nt1ospt1 YzL7yRijWxDng8 uS2wuOb6bRMSqo&quot;]/div[@class=&quot;xFrf4qgBLXHLcV&quot;]/div[1]/div[@class=&quot;_1bsb1ubl&quot;]/div[@class=&quot;Dc3ry_ZCyAVERR&quot;]/form[@class=&quot;_19bv164s _u5f31pah _ca0q1k79 _n3td1t3k _vchhusvi _1e0ctcjq&quot;]/footer[@class=&quot;_1e0c1txw _1bahesu3 _ca0qpxbi&quot;]/div[@class=&quot;css-1oy5iav&quot;]/button[@class=&quot;_mizu194a _1ah3dkaa _ra3xnqa1 _128mdkaa _1cvmnqa1 _4davt94y _19itglyw _vchhusvi _r06hglyw _80omtlke _2rkofajl _11c82smr _v5649dqc _189eidpf _1rjc12x7 _1e0c116y _1bsb1wug _p12f1osq _kqswh2mm _4cvr1q9y _1bah1h6o _gy1p1b66 _1o9zidpf _4t3iviql _k48p1wq8 _y4tiutpp _bozgutpp _y3gn1h6o _s7n4nkob _14mj1kw7 _9v7aze3t _1tv3nqa1 _39yqe4h9 _11fnglyw _18postnw _bfhkomb0 _syaz15cr _105315cr _f8pj15cr _30l315cr _9h8h15cr _irr31wqm _1di617hq _4bfu1r31 _1hmsglyw _ajmmnqa1 _1a3b1r31 _4fprglyw _5goinqa1 _9oik1r31 _1bnxglyw _jf4cnqa1 _1nrm1r31 _c2waglyw _1iohnqa1&quot;]/span[@class=&quot;_v564g17y _1reo15vq _18m915vq _16jlkb7n _1o9zkb7n _1bto1l2s _o5721q9c&quot;]</value>
+      <webElementGuid>5a07b0ce-3141-4e35-a5fd-4375df4a94f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::span[1]</value>
+      <webElementGuid>6d69f34b-c5de-4b8f-b4a2-c36745292321</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Insert']/parent::*</value>
+      <webElementGuid>72237339-3072-4af4-997d-163e9ad20114</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//footer/div/button[2]/span</value>
+      <webElementGuid>d0d7afef-cf47-414d-b035-17d5dba7538b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Insert' or . = 'Insert')]</value>
+      <webElementGuid>3722470e-8f9d-481b-a3a8-9423de771f91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Save']/parent::*</value>
+      <webElementGuid>442cf1f8-272d-4a17-8f2d-df0c05b7f4ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Save' or . = 'Save')]</value>
+      <webElementGuid>65fd518b-a2f5-4aa5-bc6b-c9a2884e61f5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Kim th trello_LBbj8Ff4qXPj8l</name>
+   <tag></tag>
+   <elementGuidId>eb080518-13ba-49aa-a43a-5f8ad08efd24</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ol[@id='board']/li[3]/div/ol/li/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>[data-testid=&quot;lists&quot;] div >> internal:has-text=&quot;Thêm thẻ mới aa&quot;i >> nth=3</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>625589f6-89cb-479d-aef9-bef056b82dd0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>LBbj8Ff4qXPj8l</value>
+      <webElementGuid>a8df6c9a-8a57-4205-9a0b-f553f7bdb3ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Thêm thẻ mới aa</value>
+      <webElementGuid>00e36b03-9760-4ba1-8687-95f3a55c5f0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;board&quot;)/li[@class=&quot;Iq1byT5o1KoAi6&quot;]/div[@class=&quot;cYogZfEaHc9LfO&quot;]/ol[@class=&quot;B27wN5INCjrQTV&quot;]/li[@class=&quot;csCxU7M5teCNNl&quot;]/div[@class=&quot;PPk42xVXm4ipq3&quot;]/div[@class=&quot;z1bjoUSvJd2OG5&quot;]/div[@class=&quot;LBbj8Ff4qXPj8l&quot;]</value>
+      <webElementGuid>4313c95d-50a6-4c45-811a-773fe25a233f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ol[@id='board']/li[3]/div/ol/li/div/div/div</value>
+      <webElementGuid>a3dfd9e5-f321-4d41-a052-93f4d4fadf86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kiểm thử trello'])[2]/following::div[8]</value>
+      <webElementGuid>ea8b698c-fbcd-433d-90c6-7c8732c61248</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kiểm thử trello'])[1]/following::div[8]</value>
+      <webElementGuid>23d50c40-1696-4c5f-b16c-1551b295e073</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add a card'])[3]/preceding::div[7]</value>
+      <webElementGuid>ea7c7f3e-8075-4006-9ff5-774e4622941a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/div/ol/li/div/div/div</value>
+      <webElementGuid>109561f3-8012-4d34-8d29-89138e51349c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Thêm thẻ mới aa' or . = 'Thêm thẻ mới aa')]</value>
+      <webElementGuid>81edaaad-06bf-4468-80c0-02a0eaa94f34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thêm thẻ mới'])[1]/preceding::div[13]</value>
+      <webElementGuid>b93944d9-c564-4600-ac78-79c8014854f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Đây là thẻ copy' or . = 'Đây là thẻ copy')]</value>
+      <webElementGuid>e7b0f47f-2208-42c5-85a2-0f81e7a7a2f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Thêm thẻ mới' or . = 'Thêm thẻ mới')]</value>
+      <webElementGuid>4c94ed11-90e3-4e93-828f-b24faa03375a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

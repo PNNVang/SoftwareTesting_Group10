@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Card aging_kw1BCJDqihjzNd ybVBgfOiuW_17287a</name>
+   <tag></tag>
+   <elementGuidId>ad57c5f6-30a5-450c-a2ed-cd96c62570da</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.kw1BCJDqihjzNd.ybVBgfOiuWZJtD._St8_YSRMkLv07</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[100]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>3cf1aa9c-7bfa-4047-ace4-2a5f03f60db7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>kw1BCJDqihjzNd ybVBgfOiuWZJtD _St8_YSRMkLv07</value>
+      <webElementGuid>c4b034e1-6cd0-437f-b4cb-439c83b3b894</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1828eb93-1d4f-4666-bf5f-cf1608f6de59</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>🌲EvergreenEvergreen cards won't age.</value>
+      <webElementGuid>57d1d709-953c-49b7-b93f-3a840e0d7a79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;chrome-container&quot;)/div[@class=&quot;pop-over is-shown&quot;]/div[2]/div[1]/div[@class=&quot;pop-over-content js-pop-over-content u-fancy-scrollbar js-tab-parent&quot;]/div[@class=&quot;js-react-root&quot;]/button[@class=&quot;kw1BCJDqihjzNd ybVBgfOiuWZJtD _St8_YSRMkLv07&quot;]</value>
+      <webElementGuid>a6afaaed-c49f-4428-a3b7-f50598536667</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[100]</value>
+      <webElementGuid>81883bf6-ecc8-4179-a87c-21f3cf69058e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='chrome-container']/div[4]/div[2]/div/div[2]/div/button</value>
+      <webElementGuid>f0217a74-23f5-4fc3-9f46-18aa1b8bbd12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Card aging'])[1]/following::button[1]</value>
+      <webElementGuid>21cddf3a-53d5-423a-b8a2-4c88bf1ff522</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comments'])[1]/following::button[3]</value>
+      <webElementGuid>e4c146ac-4ea2-4338-8268-a236382f808c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/button</value>
+      <webElementGuid>c43d052e-5ef5-4267-981e-41d0f03538a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = concat(&quot;🌲EvergreenEvergreen cards won&quot; , &quot;'&quot; , &quot;t age.&quot;) or . = concat(&quot;🌲EvergreenEvergreen cards won&quot; , &quot;'&quot; , &quot;t age.&quot;))]</value>
+      <webElementGuid>a76fa8b3-3707-4976-8392-b2ed9f1736c0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

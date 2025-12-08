@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Kim th Trello_q9fz97yMxWMJIX ybVBgfO_6c4fb7</name>
+   <tag></tag>
+   <elementGuidId>2211ac08-e42e-4ee0-a6f9-7189d408891c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[36]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Add a card in Kiểm thử Trello&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>139e673c-5731-4d0b-86fe-da489c3ae683</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>q9fz97yMxWMJIX ybVBgfOiuWZJtD mUpWqmjL4CZBvn Y8VSmRstKSzhJH _St8_YSRMkLv07</value>
+      <webElementGuid>aa155414-b960-446c-8e44-e0d25ed9d02e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>dcc912a9-8e7b-42f4-a0d4-fa6f5b797095</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>list-add-card-button</value>
+      <webElementGuid>d8088f06-fd70-4bb3-a307-b16cab382475</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Add a card in Kiểm thử Trello</value>
+      <webElementGuid>948a5396-9f64-443c-924f-1a5b628a584f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add a card</value>
+      <webElementGuid>7d129d2d-f77e-42ff-bd08-86bed4ff159d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;board&quot;)/li[@class=&quot;Iq1byT5o1KoAi6&quot;]/div[@class=&quot;cYogZfEaHc9LfO&quot;]/div[@class=&quot;ajc2ZCGn_g5KLY&quot;]/button[@class=&quot;q9fz97yMxWMJIX ybVBgfOiuWZJtD mUpWqmjL4CZBvn Y8VSmRstKSzhJH _St8_YSRMkLv07&quot;]</value>
+      <webElementGuid>059ef730-4254-4e14-8301-79cc51c6bea8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[36]</value>
+      <webElementGuid>42ebee43-4d69-4aa0-9160-90775583e84a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ol[@id='board']/li[2]/div/div[2]/button</value>
+      <webElementGuid>74a72dc6-16f2-4a98-a7e7-e36dd0f1d833</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kiểm thử Trello'])[2]/following::button[3]</value>
+      <webElementGuid>e73b6f2f-9b34-4632-8796-c2e255982547</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kiểm thử Trello'])[1]/following::button[3]</value>
+      <webElementGuid>d709d8b1-e26f-4ab8-8b23-231f0ac54924</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='This Week'])[1]/preceding::button[2]</value>
+      <webElementGuid>e5118bbe-e3fe-4b1e-a2d0-abb2549c1a50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='This Week'])[2]/preceding::button[3]</value>
+      <webElementGuid>26af7b47-b0ac-46f6-a619-23a3d6e8a68b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/div/div[2]/button</value>
+      <webElementGuid>900c0826-a634-4537-8b9f-e44c243a6fbc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Add a card' or . = 'Add a card')]</value>
+      <webElementGuid>4f4ca8d1-f9b6-484c-9b2e-78418c22f7cf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

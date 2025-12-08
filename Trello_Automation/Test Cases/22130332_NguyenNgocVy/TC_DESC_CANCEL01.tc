@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_DESC_CANCEL01</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>98cb0f0d-bd0b-4622-ae59-a48cb548fd45</testCaseGuid>
+</TestCaseEntity>

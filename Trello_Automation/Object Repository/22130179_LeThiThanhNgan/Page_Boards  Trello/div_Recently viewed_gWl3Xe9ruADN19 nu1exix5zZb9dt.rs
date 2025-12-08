@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Recently viewed_gWl3Xe9ruADN19 nu1exix5zZb9dt</name>
+   <tag></tag>
+   <elementGuidId>1d09b872-251c-4d30-98e8-bf8a3e1729a2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.gWl3Xe9ruADN19.nu1exix5zZb9dt</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div/div/div/main/div/div[2]/div/div[2]/div/a/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^Recently viewedMy Trello board$/ >> internal:label=&quot;My Trello board (recently active)&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>dfe1c66c-fab7-4979-9e01-9142b2d70b25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gWl3Xe9ruADN19 nu1exix5zZb9dt</value>
+      <webElementGuid>223ac4e2-a107-484c-ac45-afd2be4d60ff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;js-react-root&quot;]/div[@class=&quot;igs0P2yeiJmpkk&quot;]/div[@class=&quot;witf2lW81DY7WP&quot;]/main[@class=&quot;WE1g1M6mHeG8Zv&quot;]/div[@class=&quot;N5JLl1bG1SMtDO&quot;]/div[2]/div[@class=&quot;_0WILnE2Yki1zE3&quot;]/div[@class=&quot;JeWt7esCgw4_73&quot;]/div[@class=&quot;Dm9SyZvpL8MyK1&quot;]/a[1]/div[@class=&quot;DixFsoZpaUkdLa&quot;]/div[@class=&quot;Oyv4uPfpaB4_Yz&quot;]/div[@class=&quot;gWl3Xe9ruADN19 nu1exix5zZb9dt&quot;]</value>
+      <webElementGuid>09791af3-f43e-43a5-96ff-2d37f74c33cd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div/div/div/main/div/div[2]/div/div[2]/div/a/div/div/div</value>
+      <webElementGuid>c6ecd32f-127c-44eb-805d-25adad8465ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/a/div/div/div</value>
+      <webElementGuid>ee1e86e6-24f2-4aba-8d38-73be18797281</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div/div/div/main/div/div[3]/div/div[2]/div/a/div/div/div</value>
+      <webElementGuid>285b7b67-e6a4-4d2e-b972-0271b41e5471</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/div/a/div/div/div</value>
+      <webElementGuid>15cf529b-3cfc-4a91-ba95-58d6f5a8edae</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

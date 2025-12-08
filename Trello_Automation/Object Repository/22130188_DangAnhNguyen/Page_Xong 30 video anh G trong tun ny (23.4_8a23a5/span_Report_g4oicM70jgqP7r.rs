@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Report_g4oicM70jgqP7r</name>
+   <tag></tag>
+   <elementGuidId>3edbd1d1-2a48-4456-b73f-7118a21bae5f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(3) > button.LOhIKSjx1ImXEH > span.bH80RvHHmoWYhk > span.g4oicM70jgqP7r</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='chrome-container']/div[4]/div[2]/div/div/div/section/ul/li[3]/button/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>79860a51-dd3d-45b4-ac39-28dea532ea7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>g4oicM70jgqP7r</value>
+      <webElementGuid>91a126a0-f73c-44c0-a92b-2f207f1c4fb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add Power-Ups</value>
+      <webElementGuid>656d4611-2628-4da7-98db-c1c1c6ef895f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;chrome-container&quot;)/div[@class=&quot;pop-over is-shown&quot;]/div[2]/div[@class=&quot;no-back&quot;]/div[@class=&quot;pop-over-content js-pop-over-content u-fancy-scrollbar js-tab-parent&quot;]/div[@class=&quot;js-react-root&quot;]/section[@class=&quot;hdHcoC9PTZz6kB&quot;]/ul[@class=&quot;kQikrV4FulLnoB&quot;]/li[3]/button[@class=&quot;LOhIKSjx1ImXEH&quot;]/span[@class=&quot;bH80RvHHmoWYhk&quot;]/span[@class=&quot;g4oicM70jgqP7r&quot;]</value>
+      <webElementGuid>50a31bc5-9342-463a-bc60-01275580fd71</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='chrome-container']/div[4]/div[2]/div/div/div/section/ul/li[3]/button/span/span</value>
+      <webElementGuid>6d280143-7336-4ed2-8994-ced9e059b1c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Report'])[2]/following::span[2]</value>
+      <webElementGuid>9f11fb07-9d99-4acd-b9fe-154c1b14f2dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Box'])[1]/following::span[5]</value>
+      <webElementGuid>a06f974e-d29f-4ac0-9214-b2ed4f878b0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add Power-Ups']/parent::*</value>
+      <webElementGuid>02c56829-316a-46d3-978a-21f2abfcd3cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/button/span/span</value>
+      <webElementGuid>6e338d1f-21a3-4dac-91e3-515ecf79570f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Add Power-Ups' or . = 'Add Power-Ups')]</value>
+      <webElementGuid>a1f37a46-d00b-49d1-aab0-0f07b7ba6555</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

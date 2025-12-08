@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Change visibility_g4oicM70jgqP7r</name>
+   <tag></tag>
+   <elementGuidId>72582a7b-8055-4e4e-90c6-5e0d34e7627b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Change visibility'])[1]/following::span[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.g4oicM70jgqP7r</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>08eb1db2-56f2-4292-888d-d2853e6c5657</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>g4oicM70jgqP7r</value>
+      <webElementGuid>c39b564b-a42e-4a0f-9ce0-065417c33dcf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Private</value>
+      <webElementGuid>0c47a57a-a985-4e77-8b06-74035cdb4948</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;feplat3731&quot;]/div[@class=&quot;atlaskit-portal-container&quot;]/div[@class=&quot;atlaskit-portal&quot;]/section[@class=&quot;Tu0XvZVffeyqqw js-react-root&quot;]/div[2]/div[1]/div[@class=&quot;aFGD9vtcIAqeiM YzL7yRijWxDng8&quot;]/div[@class=&quot;UZFgTnUqKFdI6u&quot;]/ul[1]/li[1]/button[@class=&quot;LOhIKSjx1ImXEH&quot;]/span[@class=&quot;bH80RvHHmoWYhk wz7UJENPuf2pDX&quot;]/span[@class=&quot;g4oicM70jgqP7r&quot;]</value>
+      <webElementGuid>a2fe6ae1-7869-4bf2-8eb9-0facfeb74a5e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change visibility'])[1]/following::span[3]</value>
+      <webElementGuid>897c0d6b-6918-4026-a079-7ce1655f3d6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close board'])[1]/following::span[3]</value>
+      <webElementGuid>b448e82d-5a7a-4977-9198-da7ee0cf39f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Workspace'])[1]/preceding::span[5]</value>
+      <webElementGuid>7ee5714b-3226-4689-bc2f-fcd8ee8c4ef4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Private']/parent::*</value>
+      <webElementGuid>e37137e3-b4e1-42a1-8a88-9613a0a8767d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/ul/li/button/span/span</value>
+      <webElementGuid>dad99a27-df93-4373-80ba-a827cff90512</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Private' or . = 'Private')]</value>
+      <webElementGuid>4d428ad1-ef88-4af2-b332-282c842c3a83</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

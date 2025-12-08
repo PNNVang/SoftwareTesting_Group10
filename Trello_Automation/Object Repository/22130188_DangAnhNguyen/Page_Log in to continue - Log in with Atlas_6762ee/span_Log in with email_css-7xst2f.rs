@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Log in with email_css-7xst2f</name>
+   <tag></tag>
+   <elementGuidId>4d84bc1e-93a3-4cc7-acb3-38b1078579c2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#google-auth-button > span.css-7xst2f</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='google-auth-button']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>12627464-3ef4-4dda-96f7-7778acde78fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-7xst2f</value>
+      <webElementGuid>3fa522a0-b451-46af-9f4b-88b7794feabf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;google-auth-button&quot;)/span[@class=&quot;css-7xst2f&quot;]</value>
+      <webElementGuid>da9544a7-4fa9-4787-98c2-1b8e69b0198d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='google-auth-button']/span</value>
+      <webElementGuid>81327464-7f1f-4631-bf95-a418d84784fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in with email'])[1]/following::span[3]</value>
+      <webElementGuid>86c07fdc-17cb-4e8a-9d52-ce26aab3f85e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Continue'])[1]/following::span[6]</value>
+      <webElementGuid>3086dc61-9f66-462d-b1dd-4a6fe6c4c09a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Google'])[1]/preceding::span[1]</value>
+      <webElementGuid>8876c845-2d4c-49cd-89eb-339714920a92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Microsoft'])[1]/preceding::span[3]</value>
+      <webElementGuid>3ce2139b-71fa-4a7b-b6f6-d4008d86416b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/button/span</value>
+      <webElementGuid>c506ca47-6d77-4dbf-b123-beaedb2e2b2d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

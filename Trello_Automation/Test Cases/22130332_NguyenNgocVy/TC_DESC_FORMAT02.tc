@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_DESC_FORMAT02</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>228b1d2d-fdb2-4956-8361-2fc1b80e7102</testCaseGuid>
+</TestCaseEntity>

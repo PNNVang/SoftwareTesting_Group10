@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Analytics  reporting_WGY9hGsS5muj12 lfyh8_1b2992</name>
+   <tag></tag>
+   <elementGuidId>81b5611f-d861-4213-8a0d-c833c32cc0f6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(2) > a.WGY9hGsS5muj12.lfyh85m1qpLXvy</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='trello-board-root']/div/div/div/div[2]/div/div[2]/div[2]/div/ul[2]/li[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>a177a0c7-50b2-4457-81bf-edb2f00e7936</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/b/b4wgiQLd/nhc3b3m-cc3a0y-sic3aau-te1bb91c/power-ups/category/automation</value>
+      <webElementGuid>d238f9fe-736a-42fe-93ca-ba897e357d52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>WGY9hGsS5muj12 lfyh85m1qpLXvy</value>
+      <webElementGuid>085ff83d-6562-4dee-80f6-ed2f2bb43c0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Automation</value>
+      <webElementGuid>79dfc9e5-b563-478f-93b2-8ef0cf8e9706</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;trello-board-root&quot;)/div[1]/div[@class=&quot;board-wrapper&quot;]/div[@class=&quot;board-main-content MGBVHMvOK1TD8j Xpq6bBra11ICMi ivZ_wF4VZB8iYB&quot;]/div[@class=&quot;board-canvas&quot;]/div[@class=&quot;u9fbqAqsZm2m8M&quot;]/div[@class=&quot;z4R6o22U1TiJyR&quot;]/div[@class=&quot;Xw8Tg1DihmxOH0&quot;]/div[@class=&quot;aIZlg_Z9MmRARS&quot;]/ul[2]/li[2]/a[@class=&quot;WGY9hGsS5muj12 lfyh85m1qpLXvy&quot;]</value>
+      <webElementGuid>2a58f346-c85b-45af-a57b-f083b48e673c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='trello-board-root']/div/div/div/div[2]/div/div[2]/div[2]/div/ul[2]/li[2]/a</value>
+      <webElementGuid>5e91e6ee-16dc-47f6-84e0-d4d46445826f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Automation')]</value>
+      <webElementGuid>3737776f-0b7e-4873-8da7-3f6725cae23a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Analytics &amp; reporting'])[2]/following::a[1]</value>
+      <webElementGuid>cc6a107c-b712-42cc-b6c9-4b8a3abb1a37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Categories'])[1]/following::a[2]</value>
+      <webElementGuid>83114ea7-d954-44b9-83ff-22b342fab2d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Board utilities'])[1]/preceding::a[1]</value>
+      <webElementGuid>cf9866c0-6f1e-4055-a7c6-2c85c6e79f2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Communication &amp; collaboration'])[1]/preceding::a[2]</value>
+      <webElementGuid>40b1a563-e684-46ce-bba1-6cbae59dd1b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Automation']/parent::*</value>
+      <webElementGuid>c587ccb2-e8f1-499e-9c48-c7538e213c3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/b/b4wgiQLd/nhc3b3m-cc3a0y-sic3aau-te1bb91c/power-ups/category/automation')]</value>
+      <webElementGuid>9be4c767-922b-4876-9440-8ff3c8b65385</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul[2]/li[2]/a</value>
+      <webElementGuid>258776e4-3ebe-4a3d-b0bc-b34896a433cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/b/b4wgiQLd/nhc3b3m-cc3a0y-sic3aau-te1bb91c/power-ups/category/automation' and (text() = 'Automation' or . = 'Automation')]</value>
+      <webElementGuid>6ab345e7-9767-4ff0-877e-5e65ae8cbceb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

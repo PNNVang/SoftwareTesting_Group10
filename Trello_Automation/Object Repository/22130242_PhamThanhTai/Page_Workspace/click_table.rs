@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>click_table</name>
+   <tag></tag>
+   <elementGuidId>3a965121-a22d-4176-a7c7-ebe6e7283fa2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div/div/div/main/div/div[3]/div/div[2]/div/a/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.gWl3Xe9ruADN19.SzliHsDO_R43nR</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2157ead7-52bd-43ba-a9d5-d3e9275529a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gWl3Xe9ruADN19 SzliHsDO_R43nR</value>
+      <webElementGuid>c7d547a9-92f8-4d1f-897e-2f9abe0172b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;js-react-root&quot;]/div[@class=&quot;igs0P2yeiJmpkk&quot;]/div[@class=&quot;witf2lW81DY7WP&quot;]/main[@class=&quot;WE1g1M6mHeG8Zv&quot;]/div[@class=&quot;N5JLl1bG1SMtDO&quot;]/div[3]/div[@class=&quot;_0WILnE2Yki1zE3&quot;]/div[@class=&quot;JeWt7esCgw4_73&quot;]/div[@class=&quot;Dm9SyZvpL8MyK1&quot;]/a[1]/div[@class=&quot;DixFsoZpaUkdLa&quot;]/div[@class=&quot;Oyv4uPfpaB4_Yz&quot;]/div[@class=&quot;gWl3Xe9ruADN19 SzliHsDO_R43nR&quot;]</value>
+      <webElementGuid>c5b9b54e-46df-48b8-8dd7-b80c763ba560</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div/div/div/main/div/div[3]/div/div[2]/div/a/div/div/div</value>
+      <webElementGuid>21a90bbb-5628-4dd4-870b-19ba4d7d7db6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/a/div/div/div</value>
+      <webElementGuid>396bf928-82c2-4ec0-b7f0-6ae0978456ab</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CARD_DUEDATE_Add_07</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7329f041-a2ae-4838-a632-4defe11dae22</testCaseGuid>
+</TestCaseEntity>
