@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_LIST_ADD01</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>e8cf9be7-39fa-4d71-9209-a6f1f5141a6a</testCaseGuid>
-</TestCaseEntity>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_BOARDS_INVITE02</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>dcbd492f-18dc-43bf-bf97-12730a6b8b65</testCaseGuid>
-</TestCaseEntity>
