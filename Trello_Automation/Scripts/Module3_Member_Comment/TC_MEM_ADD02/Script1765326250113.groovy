@@ -22,19 +22,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://trello.com/')
 
-WebUI.click(findTestObject('Object Repository/22130179_LeThiThanhNgan/Page_Capture, organize, and tackle your to-_17a2f5/a_Log in'))
+WebUI.click(findTestObject('Object Repository/Module3_Member_Comment/Page_Capture, organize, and tackle your to-_17a2f5/a_Log in'))
 
-WebUI.setText(findTestObject('Object Repository/22130179_LeThiThanhNgan/Page_Log in to continue - Log in with Atlas_6762ee/input_Email_username-uid1'), 
+WebUI.setText(findTestObject('Object Repository/Module3_Member_Comment/Page_Log in to continue - Log in with Atlas_6762ee/input_Email_username-uid1'), 
     'ktv.thanhngan@gmail.com')
 
-WebUI.click(findTestObject('Object Repository/22130179_LeThiThanhNgan/Page_Log in to continue - Log in with Atlas_6762ee/span_Continue'))
+WebUI.click(findTestObject('Object Repository/Module3_Member_Comment/Page_Log in to continue - Log in with Atlas_6762ee/span_Continue'))
 
-WebUI.click(findTestObject('Object Repository/22130179_LeThiThanhNgan/Page_Log in to continue - Log in with Atlas_6762ee/span_Continue'))
+WebUI.click(findTestObject('Object Repository/Module3_Member_Comment/Page_Log in to continue - Log in with Atlas_6762ee/span_Continue'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/22130179_LeThiThanhNgan/Page_Log in to continue - Log in with Atlas_6762ee/input_Password_password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/Module3_Member_Comment/Page_Log in to continue - Log in with Atlas_6762ee/input_Password_password'), 
     'h3YAgS6cNwIolJvH95hWIQ==')
 
-WebUI.click(findTestObject('Object Repository/22130179_LeThiThanhNgan/Page_Log in to continue - Log in with Atlas_6762ee/span_Log in'))
+WebUI.click(findTestObject('Object Repository/Module3_Member_Comment/Page_Log in to continue - Log in with Atlas_6762ee/span_Log in'))
 
 WebUI.delay(2)
 

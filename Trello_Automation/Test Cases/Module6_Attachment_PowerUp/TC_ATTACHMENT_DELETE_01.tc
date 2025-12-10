@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_ATTACHMENT_DELETE_01</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5a8e8a29-bc4a-4d8e-872b-776ca78af14a</testCaseGuid>
+</TestCaseEntity>
