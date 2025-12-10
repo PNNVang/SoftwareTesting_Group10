@@ -21,7 +21,7 @@ import com.kms.katalon.core.testobject.ConditionType
 // Gọi test case login
 WebUI.callTestCase(findTestCase('Module4_Label_Checklist/TC_LOGIN'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(10)
 
 WebUI.click(findTestObject('Object Repository/Module4_Label_Checklist/Page_Boards  Trello/Test_Board'))
 
@@ -31,7 +31,7 @@ TestObject labelBtn = findTestObject('Object Repository/Module4_Label_Checklist/
 
 WebUI.waitForElementVisible(labelBtn, 10)
 
-WebUI.executeJavaScript( "arguments[0].scrollIntoView({block:'center'});", Arrays.asList(WebUI.findWebElement(labelBtn)))
+WebUI.executeJavaScript( "window.scrollTo(0, arguments[0].getBoundingClientRect().top + window.scrollY - 200);", Arrays.asList(WebUI.findWebElement(labelBtn)))
 
 WebUI.executeJavaScript( "arguments[0].click();", Arrays.asList(WebUI.findWebElement(labelBtn)))
 

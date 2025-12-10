@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://trello.com/')
 
+WebUI.delay(10)
+
 WebUI.click(findTestObject('Object Repository/Module4_Label_Checklist/Page_Ghi li, sp xp v gii quyt vic cn lm t b_870fc3/a_ng nhp'))
 
 WebUI.setText(findTestObject('Object Repository/Module4_Label_Checklist/Page_Log in to continue - Log in with Atlas_6762ee/input_Email_username-uid1'), '22130322@st.hcmuaf.edu.vn')

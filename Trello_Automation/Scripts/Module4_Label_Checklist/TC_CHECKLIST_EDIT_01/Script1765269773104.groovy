@@ -21,7 +21,7 @@ import com.kms.katalon.core.testobject.ConditionType
 // Gọi test case login
 WebUI.callTestCase(findTestCase('Module4_Label_Checklist/TC_LOGIN'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(10)
 
 // Mở board và card
 WebUI.click(findTestObject('Object Repository/Module4_Label_Checklist/Page_Boards  Trello/Test_Board'))
