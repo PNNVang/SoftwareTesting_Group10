@@ -97,13 +97,14 @@ WebUI.waitForElementClickable(visibilityPublic, 10)
 WebUI.click(visibilityPublic)
 WebUI.delay(0.5)
 
-TestObject selectVisibility = new TestObject("selectVisibility")
-selectVisibility.addProperty("xpath", ConditionType.EQUALS,
-    "//span[@data-testid='PrivateIcon' or @data-testid='PublicIcon']/ancestor::span[contains(@class,'g4oicM70jgqP7r')]")
+TestObject selectPrivate = new TestObject("selectPrivate")
+selectPrivate.addProperty("xpath", ConditionType.EQUALS,
+    "//span[contains(@class,'yPOAek9SNQvdwg') and normalize-space(text())='Private']")
 
-WebUI.waitForElementClickable(selectVisibility, 10)
-WebUI.click(selectVisibility)
-WebUI.delay(0.5)
+WebUI.waitForElementClickable(selectPrivate, 10)
+WebUI.click(selectPrivate)
+WebUI.delay(1)
+
 
 
 //9. Nhấn dòng "Change background" hiện form
