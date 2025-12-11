@@ -6,6 +6,12 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>5ecd3c64-8fa3-49d5-8a7d-86f27590f72c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b28dea2c-43ab-48f9-8b8e-8a7c829e9c1a</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'google.com'</defaultValue>
       <description></description>
