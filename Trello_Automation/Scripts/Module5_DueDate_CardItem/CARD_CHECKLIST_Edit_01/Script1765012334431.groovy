@@ -46,25 +46,20 @@ WebUI.click(findTestObject('Object Repository/22130242_PhamThanhTai/Page_Boards 
 
 WebUI.delay(5)
 
-// Mở card TC1
 TestObject cardTC1 = createDynamicObject('//a[@data-testid=\'card-name\' and contains(@href, \'c/0BHIJzSR/11-tc1\') and text()=\'tc1\']')
 WebUI.click(cardTC1)
 
 WebUI.delay(2)
 
-// Đếm số lượng items trước khi chỉnh sửa
 TestObject checklistItems = createDynamicObject('//li[@data-testid=\'check-item-container\']')
 int itemCountBefore = WebUI.findWebElements(checklistItems, 5).size()
 WebUI.comment("Số lượng items trước khi chỉnh sửa: " + itemCountBefore)
 
-// Lấy item đầu tiên trong checklist để chỉnh sửa
 TestObject firstItem = createDynamicObject('(//div[@data-testid=\'check-item-name\'])[1]')
 
-// Lấy text hiện tại của item trước khi chỉnh sửa
 String oldText = WebUI.getAttribute(firstItem, 'aria-label')
 WebUI.comment("Text cũ của item: " + oldText)
 
-// Click vào item để chỉnh sửa
 WebUI.click(firstItem)
 
 WebUI.delay(1)
@@ -89,49 +84,39 @@ WebUI.sendKeys(editTextarea, newText)
 
 WebUI.delay(1)
 
-// Click nút Save
 TestObject saveButton = createDynamicObject('//button[@data-testid=\'check-item-edit-save-button\' and @type=\'submit\']')
 WebUI.click(saveButton)
 
-WebUI.delay(2)
-
-// Đếm số lượng items sau khi chỉnh sửa
-int itemCountAfter = WebUI.findWebElements(checklistItems, 5).size()
+WebUI.delay(2)int itemCountAfter = WebUI.findWebElements(checklistItems, 5).size()
 WebUI.comment("Số lượng items sau khi chỉnh sửa: " + itemCountAfter)
 
-// Verify số lượng items không thay đổi
 if (itemCountBefore == itemCountAfter) {
-	WebUI.comment("✓ PASS: Số lượng items không thay đổi (Before: " + itemCountBefore + ", After: " + itemCountAfter + ")")
+	WebUI.comment("số lượng items không thay đổi (Before: " + itemCountBefore + ", After: " + itemCountAfter + ")")
 } else {
-	WebUI.comment("✗ FAIL: Số lượng items đã thay đổi (Before: " + itemCountBefore + ", After: " + itemCountAfter + ")")
+	WebUI.comment("số lượng items đã thay đổi (Before: " + itemCountBefore + ", After: " + itemCountAfter + ")")
 }
 
-// Verify text mới được hiển thị đúng
 TestObject updatedItem = createDynamicObject('//div[@data-testid=\'check-item-name\' and @aria-label=\'' + newText + '\']')
 
 try {
 	boolean isPresent = WebUI.verifyElementPresent(updatedItem, 5)
-	WebUI.comment("✓ PASS: Text mới '" + newText + "' đã được hiển thị đúng")
+	WebUI.comment("PASS: Text mới '" + newText + "' đã được hiển thị đúng")
 } catch (Exception e) {
-	WebUI.comment("✗ FAIL: Text mới '" + newText + "' không được hiển thị")
+	WebUI.comment("FAIL: Text mới '" + newText + "' không được hiển thị")
 }
-
-// Verify text cũ không còn tồn tại
 TestObject oldItemCheck = createDynamicObject('//div[@data-testid=\'check-item-name\' and @aria-label=\'' + oldText + '\']')
 
 try {
 	boolean isOldPresent = WebUI.verifyElementPresent(oldItemCheck, 3)
-	WebUI.comment("✗ FAIL: Text cũ '" + oldText + "' vẫn còn tồn tại")
+	WebUI.comment("FAIL: Text cũ '" + oldText + "' vẫn còn tồn tại")
 } catch (Exception e) {
-	WebUI.comment("✓ PASS: Text cũ '" + oldText + "' đã bị thay thế")
+	WebUI.comment("PASS: Text cũ '" + oldText + "' đã bị thay thế")
 }
 
 WebUI.delay(2)
 
-// Đóng trình duyệt
 WebUI.closeBrowser()
 
-// Hàm tạo dynamic object
 TestObject createDynamicObject(String xpath) {
 	TestObject to = new TestObject()
 	to.addProperty('xpath', ConditionType.EQUALS, xpath)
