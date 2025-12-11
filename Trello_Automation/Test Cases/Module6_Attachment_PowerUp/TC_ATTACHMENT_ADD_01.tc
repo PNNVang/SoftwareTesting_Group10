@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_ATTACHMENT_ADD_01</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b37d93e8-efed-4b51-8f52-8cc837392d05</testCaseGuid>
+</TestCaseEntity>

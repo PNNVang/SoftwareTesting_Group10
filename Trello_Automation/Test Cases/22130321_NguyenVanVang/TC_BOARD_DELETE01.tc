@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TC_BOARD_DELETE01</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>f6993d6e-da1f-4cda-ba12-b106228a87f7</testCaseGuid>
-</TestCaseEntity>

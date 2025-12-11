@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_POWERUP_SEARCH_04</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dd723df3-fa15-49cc-94b6-16dfcd115b04</testCaseGuid>
+</TestCaseEntity>
